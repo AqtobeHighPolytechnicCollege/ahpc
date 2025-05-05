@@ -1,0 +1,155 @@
+.reviewsContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin-top: 100px;
+}
+
+.reviewsHeader {
+
+}
+
+.reviewsHeader h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    color: #000E3B;
+}
+
+.cardsContent {
+    display: flex;
+    width: auto;
+}
+
+.carouselWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    gap: 50px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cardsSwitch {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgba(0, 14, 59, 0.3); /* пассивный */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.activeDot {
+    background-color: #000E3B; /* активный */
+}
+
+.cardsContent {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+@keyframes scrollCarousel {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+.cardsList {
+    margin-top: 52px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.cardsInfo {
+    border: 1px solid #000E3B;
+    border-radius: 15px;
+    width: 550px;
+    padding: 40px;
+}
+
+.cardsInfoUp {
+    display: flex;
+    align-items: center;
+}
+
+.avatarLogo {
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    background-color: #000E3B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: white;
+    overflow: hidden;
+}
+
+.avatarLogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.initials {
+    text-align: center;
+    line-height: 1;
+}
+
+.nameConteiner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.firstName h3 {
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.position h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: #000E3B;
+}
+
+.cardsInfoDown {
+    margin-top: 30px;
+    max-width: 460px;
+}
+
+.cardsInfoDown p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: #000E3B;
+}
+
+
+

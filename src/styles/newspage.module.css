@@ -1,0 +1,104 @@
+body{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headContent{
+align-content: center;
+    text-align: center;
+}
+.headContent h1{
+    font-size: 5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #1045af;
+}
+
+.newsContent{
+    display: flex;
+    margin-top: 50px;
+}
+
+.newsCardList {
+width: 100%;
+    max-width: 1800px;
+}
+
+.newsCard{
+    width: 90vw;
+    display: flex;
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
+
+.newsLeftInfo {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.newsImage {
+    max-width: 100%;
+
+}
+.newsImage img {
+    max-width: 500px;
+}
+
+.newsRightInfo {
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    width: 100%;
+}
+.newsRightInfoUP {
+
+}
+
+.newsDate {
+
+}
+
+.newsTitle {
+font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.newsSubtitle {
+font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.newsRightInfoDown {
+
+display: flex;
+justify-content: flex-end;
+}
+
+.newsButton {
+background-color: #1045af;
+    padding: 10px;
+    color: white;
+}
+
+.loadNews {
+display: flex;
+    align-items: center;
+}
+
+.loadNews h1 {
+    font-size: 72px;
+}
+.newsError {
+    display: flex;
+    align-items: center;
+}
+.newsError h1 {
+    font-size: 72px;
+}
+
+
+

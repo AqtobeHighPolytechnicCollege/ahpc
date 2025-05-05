@@ -1,0 +1,25 @@
+.infoCards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 170px;
+}
+
+.cardsItem {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+}
+
+.itemTitle {
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+    color: #00165D;
+}
+
+.itemSubtitle {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    color: #00165D;
+}
