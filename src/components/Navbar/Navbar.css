@@ -230,3 +230,151 @@ nav.scrolled .logo img {
     cursor: pointer;
 }
 
+/* ========================== */
+/* АДАПТИВНОСТЬ ДЛЯ ЭКРАНОВ */
+/* ========================== */
+/* Для экранов от 1200px до 1600px */
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+    nav {
+        padding: 40px 80px;
+    }
+
+    .fullscreen-menu .close-btn {
+        top: 40px;
+        left: 80px;
+        font-size: 42px;
+    }
+
+    .menu-section {
+        width: 1200px;
+    }
+
+    .menu-section h2 {
+        font-size: 48px;
+    }
+
+    .menu-section ul li a {
+        font-size: 28px;
+    }
+
+    .burger-lang-switch span {
+        font-size: 28px;
+    }
+
+    .menu-tabs {
+        gap: 50px;
+    }
+
+    .tab,
+    .tab-active {
+        font-size: 48px;
+    }
+}
+
+/* Для планшетов и средних экранов (768px – 1199px) */
+@media (max-width: 1199px) {
+
+    nav {
+        padding: 30px 40px;
+    }
+
+    .fullscreen-menu .close-btn {
+        top: 30px;
+        left: 40px;
+        font-size: 36px;
+    }
+
+    .menu-section {
+        width: 90%;
+    }
+
+    .menu-section h2 {
+        font-size: 42px;
+    }
+
+    .menu-section ul li a {
+        font-size: 24px;
+    }
+
+    .burger-lang-switch span {
+        font-size: 24px;
+    }
+
+    .menu-tabs {
+        gap: 40px;
+    }
+
+    .tab,
+    .tab-active {
+        font-size: 42px;
+    }
+}
+
+
+/* Для телефонов (до 767px) */
+@media (max-width: 767px) {
+
+    nav {
+        padding: 20px 20px;
+    }
+
+    .fullscreen-menu {
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .fullscreen-menu .close-btn {
+        top: 20px;
+        left: 20px;
+        font-size: 32px;
+    }
+
+    .menu-content {
+        margin-top: 60px;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .menu-section {
+        width: 100%;
+        padding: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .menu-section h2 {
+        font-size: 28px;
+    }
+
+    .menu-section ul {
+        flex-direction: column;
+        gap: 10px;
+        margin: 15px 0 25px;
+    }
+
+    .menu-section ul li a {
+        font-size: 20px;
+    }
+
+    .burger-lang-switch {
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .burger-lang-switch span {
+        font-size: 20px;
+    }
+
+    .menu-tabs {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tab,
+    .tab-active {
+        font-size: 28px;
+        -webkit-text-stroke: 1px white;
+    }
+}
+
+

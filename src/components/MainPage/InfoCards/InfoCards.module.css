@@ -1,25 +1,93 @@
 .infoCards {
     display: flex;
-    flex-direction: row;
-    margin-top: 80px;
-    gap: 170px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+    padding: 0 20px; /* небольшой отступ по бокам */
+    box-sizing: border-box;
 }
 
 .cardsItem {
+    flex: 1 1 250px; /* гибкая ширина от 250px и выше */
+    max-width: 300px;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
-    width: 270px;
+    align-items: center;
+    text-align: center;
 }
 
 .itemTitle {
-    font-size: 100px;
+    font-size: clamp(32px, 8vw, 100px);
     font-family: 'Inter', sans-serif;
     color: #00165D;
 }
 
 .itemSubtitle {
-    font-size: 30px;
+    font-size: clamp(16px, 3vw, 30px);
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     color: #00165D;
 }
+
+
+/* ======== АДАПТИВ  ======== */
+
+@media (max-width: 1340px) {
+    .infoCards {
+        gap: 70px;
+    }
+
+    .cardsItem {
+        max-width: 200px;
+    }
+
+    .itemTitle {
+        font-size: 75px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .infoCards {
+        gap: 40px;
+    }
+
+    .cardsItem {
+        max-width: 100px;
+    }
+
+    .itemTitle {
+        font-size: 36px;
+    }
+
+    .itemSubtitle {
+        font-size: 18px;
+    }
+
+}
+
+/* Для телефонов (до 767px) */
+@media (max-width: 767px) {
+    .headContent {
+        height: auto;
+        padding: 40px 15px;
+    }
+
+    .headContent h1 {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .headContentHashtag {
+        margin-top: 60px;
+    }
+
+    .headContentHashtag p {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+

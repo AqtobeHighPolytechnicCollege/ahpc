@@ -57,7 +57,7 @@ function HomePage() {
             {/* Новости */}
             <News />
             {/* Отзывы*/}
-            <Reviews />
+            {/*<Reviews />*/}
             {/* Партнёры */}
             <Partners />
 

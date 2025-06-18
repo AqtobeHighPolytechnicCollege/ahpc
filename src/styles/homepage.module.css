@@ -39,6 +39,8 @@
     white-space: pre;
 }
 
+
+
 .headContentHashtag {
     margin-top: 150px;
     width: 100%;
@@ -58,10 +60,20 @@
 
 /* ======== АДАПТИВ ======== */
 
+@media (max-width: 1340px) {
+    .headContentHashtag {
+        margin-top: 150px;
+    }
+
+    .headContent h1 {
+        font-size: 90px;
+    }
+}
+
 /* Для планшетов (768px – 1199px) */
 @media (max-width: 1199px) {
     .headContent h1 {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .headContentHashtag p {
@@ -70,7 +82,9 @@
 
     .headContent {
         padding: 30px 20px;
+        background-color: red;
     }
+
 }
 
 /* Для телефонов (до 767px) */

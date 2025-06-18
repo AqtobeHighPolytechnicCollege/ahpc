@@ -92,7 +92,7 @@
 .newsButton {
     text-align: center;
     padding: 10px;
-    width: 1850px;
+    width: auto;
     max-width: 1800px;
     background-color: #ffffff;
     border-radius: 60px;
@@ -136,4 +136,131 @@
     font-size: 48px;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
+}
+
+/* ======== АДАПТИВ ======== */
+
+/* Для экранов от 1200px до 1600px */
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .newsSection h1 {
+        font-size: 52px;
+    }
+
+    .newsCard {
+        width: 700px;
+    }
+
+    .newsImage {
+        width: 320px;
+        height: 240px;
+    }
+
+    .newsTitle {
+        font-size: 18px;
+        width: 320px;
+    }
+
+    .newsSubtitle {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    .newsTime {
+        font-size: 18px;
+    }
+}
+
+/* Для планшетов (768px – 1199px) */
+@media (max-width: 1199px) {
+    .newsSection h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .newsCard {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .newsSplit {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsImage {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .newsTitle {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .newsSubtitle {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .newsTime {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .newsButton {
+        max-width: 90%;
+    }
+}
+
+/* Для телефонов (до 767px) */
+@media (max-width: 767px) {
+    .newsSection h1 {
+        font-size: 32px;
+        padding: 0 10px;
+    }
+
+    .newsList {
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .newsCard {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .newsImage {
+        width: 100%;
+        height: 200px;
+    }
+
+    .newsTitle {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .newsSubtitle {
+        font-size: 13px;
+    }
+
+    .newsTime {
+        font-size: 14px;
+    }
+
+    .newsButton {
+        width: 100%;
+        border-radius: 30px;
+        margin: 20px 10px;
+    }
+
+    .loadNews h2,
+    .newsError h1,
+    .newsError h2 {
+        font-size: 28px;
+        text-align: center;
+    }
 }
