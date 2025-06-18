@@ -25,25 +25,24 @@ export default function News () {
 
     return (
 
-            <div className={styles.newsSection} id="news-section">
-                <h1>{t('news')}</h1>
-                <div className={styles.newsContent}>
-                    <div className={styles.newsList}>
-                        {newsList.slice(0,4).map((item) => {
+        <div className={styles.newsSection} id="news-section">
+            <h1>{t('news')}</h1>
+            <div className={styles.newsContent}>
+                <div className={styles.newsList}>
+                    {newsList.slice(0, 4).map((item) => {
 
-                            const { id} = item;
-                            const imageUrl = "http://95.182.15.62:1337" + item.Photo?.url
-                            const imageName = item.Photo?.name
-                            const article = item.Article
-                            const itemDate = item.Date
-                            const shortDescription = item.Short_description
-                            const title = item.Title
-                            const nid = item.documentId
+                        const {id} = item;
+                        const imageUrl = "http://95.182.15.62:1337" + item.Photo?.url
+                        const imageName = item.Photo?.name
+                        const article = item.Article
+                        const itemDate = item.Date
+                        const shortDescription = item.Short_description
+                        const title = item.Title
+                        const nid = item.documentId
 
 
-
-                            return <div className={styles.newsCard} key={id}>
-                                <Link to={`/news/${nid}`}>
+                        return <div className={styles.newsCard} key={id}>
+                            <Link to={`/news/${nid}`}>
                                 <div className={styles.newsSplit}>
                                     <div className={styles.newsInfo}>
                                         <div className={styles.newsTime}>{itemDate}</div>
@@ -58,18 +57,19 @@ export default function News () {
                                         <img src={imageUrl} alt={imageName}/>
                                     </div>
                                 </div>
-                                </Link>
-                            </div>
-                        })}
-                    </div>
-
-                    <div className={styles.newsFooter}>
-                        <div className={styles.newsButton}>
-                            <Link to={'/news/'}>{t('watchAll')}</Link>
+                            </Link>
                         </div>
-                    </div>
+                    })}
+                </div>
+
+
+            </div>
+            <div className={styles.newsFooter}>
+                <div className={styles.newsButton}>
+                    <Link to={'/news'}>{t('watchAll')}</Link>
                 </div>
             </div>
+        </div>
 
     );
 }

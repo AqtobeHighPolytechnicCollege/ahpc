@@ -1,18 +1,30 @@
-import style from './Reviews.module.css'
+import style from './Reviews.module.css';
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import { Carousel } from '@mantine/carousel';
+import '@mantine/carousel/styles.css';
 
-export default function Reviews() {
-    const { t, i18n } = useTranslation('reviews');
-    const currentLang = i18n.language;
-    const userAvatarUrl = 1?.avatar || null;
+export default function Reviews() {    const { t, i18n } = useTranslation('reviews');
 
-    const [currentSlide, setCurrentSlide] = useState(0);
-    const reviews = [...Array(5).fill(null)];
-
-    const handleDotClick = (index) => {
-        setCurrentSlide(index);
-    };
+    const reviews = [
+        {
+            name: 'Денисова Анна',
+            position: 'менеджер',
+            text: 'Хочу выразить благодарность Актюбинскому высшему политехническому колледжу за качественное образование и замечательные годы обучения...',
+            avatar: null,
+        },
+        {
+            name: 'Иванов Петр',
+            position: 'программист',
+            text: 'Колледж дал мне отличную базу для старта карьеры в IT. Очень благодарен преподавателям.',
+            avatar: null,
+        },
+        {
+            name: 'Смирнова Елена',
+            position: 'аналитик',
+            text: 'Образование помогло мне понять, чем я хочу заниматься. Спасибо за поддержку и знания!',
+            avatar: null,
+        },
+    ];
 
     return (
         <div className={style.reviewsContent}>
@@ -20,57 +32,69 @@ export default function Reviews() {
                 <h1>{t('Reviews')}</h1>
             </div>
 
-            <div className={style.carouselWrapper}>
-                <div
-                    className={style.carousel}
-                    style={{ transform: `translateX(-${currentSlide * 580}px)` }}
-                >
-                    {reviews.map((_, i) => (
-                        <div className={style.cardsContent} key={i}>
+            <Carousel
+                slideSize="100%"
+                height="auto"
+                slideGap="xs"
+                align="center"
+                loop
+                withIndicators
+                controlsOffset="xs"
+                controlSize={30}
+                styles={{
+                    indicator: {
+                        width: 20,
+                        height: 20,
+                        borderRadius: '50%',
+                        marginLeft: 11.5, // половина от 23px
+                        marginRight: 11.5,
+                        backgroundColor: '#ccc',
+                        transition: 'background-color 250ms ease',
+
+                        '&[data-active]': {
+                            backgroundColor: '#000E3B', // синий цвет
+                        },
+                    },
+                }}
+            >
+
+            {reviews.map((review, index) => (
+                    <Carousel.Slide key={index}>
+                        <div className={style.cardsContent}>
                             <div className={style.cardsList}>
                                 <div className={style.cardsInfo}>
                                     <div className={style.cardsInfoUp}>
                                         <div className={style.avatarLogo}>
-                                            {userAvatarUrl ? (
-                                                <img src={userAvatarUrl} alt="Avatar" />
+                                            {review.avatar ? (
+                                                <img src={review.avatar} alt="Avatar" />
                                             ) : (
-                                                <span className={style.initials}>ДА</span>
+                                                <span className={style.initials}>
+                          {review.name
+                              .split(' ')
+                              .map((n) => n[0])
+                              .join('')
+                              .toUpperCase()}
+                        </span>
                                             )}
                                         </div>
                                         <div className={style.nameConteiner}>
                                             <div className={style.firstName}>
-                                                <h3>Денисова Анна</h3>
+                                                <h3>{review.name}</h3>
                                             </div>
                                             <div className={style.position}>
-                                                <h4>менеджер</h4>
+                                                <h4>{review.position}</h4>
                                             </div>
                                         </div>
                                     </div>
                                     <div className={style.cardsInfoDown}>
-                                        <p>
-                                            Хочу выразить благодарность Актюбинскому высшему политехническому
-                                            колледжу за качественное образование и замечательные годы обучения.
-                                            За время учебы я получил не только прочные знания в своей специальности,
-                                            но и ценный практический опыт, который пригодился мне в профессиональной
-                                            деятельности.
-                                        </p>
+                                        <p>{review.text}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    ))}
-                </div>
-            </div>
-
-            <div className={style.cardsSwitch}>
-                {reviews.map((_, i) => (
-                    <span
-                        key={i}
-                        className={`${style.dot} ${currentSlide === i ? style.activeDot : ''}`}
-                        onClick={() => handleDotClick(i)}
-                    />
+                    </Carousel.Slide>
                 ))}
-            </div>
+            </Carousel>
         </div>
     );
 }

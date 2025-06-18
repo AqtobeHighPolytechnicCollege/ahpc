@@ -38,10 +38,10 @@ export default function Header() {
 
     const abiturientLinks = (
         <ul onClick={toggleMenu}>
-            <li><Link to="/contest-results">Результаты конкурса</Link></li>
+            <li><Link to="/contestResults/contestResults">Результаты конкурса</Link></li>
             <li><Link to="/admission-rules">Правила приема</Link></li>
             <li><Link to="/dormitory">Общежитие</Link></li>
-            <li><Link to="/specialties">Специальности</Link></li>
+            <li><Link to="/Specials/Specials">Специальности</Link></li>
             <li><Link to="/documents">Перечень документов</Link></li>
             <li><Link to="/requisites">Наши реквизиты</Link></li>
         </ul>
@@ -120,17 +120,18 @@ export default function Header() {
 
                         </div>
                         <ul onClick={toggleMenu}>
-                            <li><Link to="/leadership">Руководство колледжа</Link></li>
+                            <li><Link to="/CollegeManagement/CollegeManagement">Руководство колледжа</Link></li>
                             <li><Link to="/achievements">Достижения</Link></li>
                             <li><Link to="/company-reviews">Отзывы предприятий</Link></li>
                             <li><Link to="/symbols">Государственные символы</Link></li>
-                            <li><Link to="/contacts">Контакты</Link></li>
+                            <li><Link to="/Contacts/Contacts">Контакты</Link></li>
                             <li><Link to="/charter">Устав</Link></li>
                             <li><Link to="/history">История колледжа</Link></li>
                             <li><Link to="/anti-corruption">Борьба с коррупцией</Link></li>
                             <li><Link to="/graduates-reviews">Отзывы выпускников</Link></li>
                             <li><Link to="/media">СМИ о нас</Link></li>
                             <li><Link to="/orders">Приказы</Link></li>
+                            <li><Link to="/TeachingStaff/TeachingStaff">Педагогический сотав</Link></li>
                         </ul>
                     </div>
 
@@ -171,7 +172,6 @@ export default function Header() {
                             <li><Link to="/internship">Практика</Link></li>
                             <li><Link to="/graduates">Наши выпускники</Link></li>
                             <li><Link to="/alumni-association">Ассоциация выпускников</Link></li>
-                            <li><Link to='https://www.youtube.com/watch?v=AiRq-1bp3js'>Дима соси хуй</Link></li>
                         </ul>
                     </div>
                 </div>}

@@ -9,22 +9,28 @@ export default function  Partners() {
     return (
         <div className={styles.partnersContent}>
             <div className={styles.headContent}>
-                <h1>{t ('Partners')}</h1>
+                <h1>{t('Partners')}</h1>
             </div>
             <div className={styles.mainContent}>
-                <div className={styles.partnersCards}>
-                    <img className={styles.imgCards} src='#' alt='ImageLogo'/>
-                </div>
-                <div className={styles.partnersCards}>
-                    <img className={styles.imgCards} src='#' alt='ImageLogo'/>
-                </div>
-                <div className={styles.partnersCards}>
-                    <img className={styles.imgCards} src='#' alt='ImageLogo'/>
-                </div>
-                <div className={styles.partnersCards}>
-                    <img className={styles.imgCards} src='#' alt='ImageLogo'/>
-                </div>
+                {[
+                    'CD.png',
+                    'alina.png',
+                    'aqtobeHub.png',
+                    'aqtobeJeo.png',
+                    'ERG.png',
+                    'ICA.png',
+                    'astanaHub.png',
+                    'enegrosistema.png',
+                    'kegoc.png',
+                    'kuktas.png',
+                    'uzhpromsnab.png',
+                ].map((filename, index) => (
+                    <div key={index} className={styles.partnersCards}>
+                        <img className={styles.imgCards} src={`/src/img/logoPartners/${filename}`} alt='ImageLogo'/>
+                    </div>
+                ))}
             </div>
+
         </div>
     )
 }

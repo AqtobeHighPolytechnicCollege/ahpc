@@ -4,7 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы" />
+    <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/usePageTitile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Contact/ic_baseline-email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/departments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/footer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/footer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/footer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/CollegeManagement/CollegeManagement.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/CollegeManagement/CollegeManagement.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/NotFoundPage/NotFoundPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/NotFoundPage/NotFoundPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Specials/Specials.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Specials/Specials.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/TeachingStaff/TeachingStaff.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/TeachingStaff/TeachingStaff.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/contestResults/contestResults.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/contestResults/contestResults.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/News/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/News/News.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/News/News.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/News/News.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Reviews/Reviews.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Reviews/Reviews.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Reviews/Reviews.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Reviews/Reviews.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/partners/Partners.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/partners/Partners.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/partners/Partners.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/partners/Partners.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/i18n/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/i18n/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo.form.address.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo.form.simple.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo.store.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo.table.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/demo.tanstack-query.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/news/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/news/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/newsdetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/newsdetail.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/newspage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/newspage.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +82,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kirill/Desktop/ahpc-react/src/img/Contact&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -43,7 +95,13 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img\Contact" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img\IS" />
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img" />
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img\Contact" />
       <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\components\MainPage" />
     </key>
   </component>
@@ -76,7 +134,17 @@
       <workItem from="1745921043051" duration="9041000" />
       <workItem from="1746097742433" duration="901000" />
       <workItem from="1746159313588" duration="21178000" />
-      <workItem from="1746420661437" duration="6269000" />
+      <workItem from="1746420661437" duration="13397000" />
+      <workItem from="1747023645409" duration="10650000" />
+      <workItem from="1747890178424" duration="5064000" />
+      <workItem from="1748561819945" duration="595000" />
+      <workItem from="1748843620762" duration="17184000" />
+      <workItem from="1749011160573" duration="20341000" />
+      <workItem from="1749061035852" duration="21331000" />
+      <workItem from="1749420154875" duration="2545000" />
+      <workItem from="1749445642801" duration="1829000" />
+      <workItem from="1749719936867" duration="30436000" />
+      <workItem from="1750238255565" duration="4896000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />

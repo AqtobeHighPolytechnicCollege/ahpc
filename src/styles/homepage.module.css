@@ -56,16 +56,42 @@
     margin-bottom: 20px;
 }
 
-.hashtag {
+/* ======== АДАПТИВ ======== */
 
+/* Для планшетов (768px – 1199px) */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 80px;
+    }
+
+    .headContentHashtag p {
+        font-size: 24px;
+    }
+
+    .headContent {
+        padding: 30px 20px;
+    }
 }
 
-
-
-
-/* ======== RESPONSIVE ======== */
-@media (max-width: 800px) {
+/* Для телефонов (до 767px) */
+@media (max-width: 767px) {
     .headContent {
-        flex-direction: column;
+        height: auto;
+        padding: 40px 15px;
+    }
+
+    .headContent h1 {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .headContentHashtag {
+        margin-top: 60px;
+    }
+
+    .headContentHashtag p {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10px;
     }
 }

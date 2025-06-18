@@ -1,0 +1,71 @@
+.footer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000E3B;
+    background-image: url('/src/img/Specials/footer-bg 1.png');
+    background-repeat: no-repeat;
+    background-position: right bottom; /* Справа по центру */
+}
+
+.ftrContentIfo {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+    gap: 100px;
+}
+
+.ftrInfoBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.ftrInfoBlockTitle h3 {
+    font-size: 32px;
+    font-family: 'Inter var', sans-serif;
+    color: #f0f0f0;
+    font-weight: 500;
+}
+
+.ftrInfoBlockInfo {
+margin-top: 15px;
+}
+
+.ftrInfoBlockInfo ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.ftrInfoBlockInfo li {
+    color: #f0f0f0;
+    font-size: 19px;
+    font-family: 'Inter var', sans-serif;
+    font-weight: 400;
+}
+
+.ftrInfoBlockInfoContact {
+    margin-top: 15px;
+}
+
+.ftrInfoBlockInfoContact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ftrInfoBlockInfoContact li {
+    color: #f0f0f0;
+    font-size: 19px;
+    font-family: 'Inter var', sans-serif;
+    font-weight: 400;
+}
+
+.ftrContentSM {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    gap: 25px;
+    margin-bottom: 80px;
+}

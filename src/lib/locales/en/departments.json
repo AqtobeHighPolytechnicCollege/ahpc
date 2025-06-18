@@ -1,0 +1,1128 @@
+{
+  "pageTitle": "Specialties",
+  "tabs": [
+    "Information Systems Department",
+    "Automation and Control Department",
+    "Technical Specialties Department",
+    "General Education Disciplines Department",
+    "Humanities Department"
+  ],
+  "departments": [
+    {
+      "title": "Information Systems",
+      "subtitle": "Modern education in the field of information technology, programming, and systems analysis",
+      "image": "/src/img/IS/IS.JPG",
+      "imageAlt": "department photo",
+      "about": {
+        "title": "About Our Department",
+        "description": "The 'Information Systems' Department trains highly qualified specialists in the development, implementation, and maintenance of information systems. Our graduates are in demand in IT companies, banks, government institutions, and other organizations. We offer modern educational programs tailored to labor market requirements, utilizing the latest technologies and teaching methodologies."
+      },
+      "statistics": [
+        {
+          "icon": "lucide-users",
+          "iconPath": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path>",
+          "number": "150+",
+          "label": "Students"
+        },
+        {
+          "icon": "lucide-graduation-cap",
+          "iconPath": "<path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"></path><path d=\"M22 10v6\"></path><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"></path>",
+          "number": "95%",
+          "label": "Employment"
+        },
+        {
+          "icon": "lucide-award",
+          "iconPath": "<path d=\"m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526\"></path><circle cx=\"12\" cy=\"8\" r=\"6\"></circle>",
+          "number": "10+",
+          "label": "Years of Experience"
+        }
+      ],
+      "classrooms": {
+        "title": "Our Classrooms",
+        "list": [
+          {
+            "image": "/src/img/IS/110.JPG",
+            "alt": "classroom photo",
+            "title": "Computer Classroom 1"
+          },
+          {
+            "image": "/src/img/IS/108.JPG",
+            "alt": "classroom photo",
+            "title": "Computer Classroom 2"
+          },
+          {
+            "image": "/src/img/IS/112.JPG",
+            "alt": "classroom photo",
+            "title": "Computer Classroom 3"
+          },
+          {
+            "image": "/src/img/IS/208.JPG",
+            "alt": "classroom photo",
+            "title": "Computer Classroom 4"
+          }
+        ]
+      },
+      "head": {
+        "title": "Head of Department",
+        "image": "/src/img/IS/Ismagulova.png",
+        "education": {
+          "label": "Education",
+          "value": "Higher Education"
+        },
+        "graduation": {
+          "label": "Year of Graduation and Institution",
+          "value": "2012, Al-Farabi Kazakh National University"
+        },
+        "specialization": {
+          "label": "Specialization",
+          "value": "Information Systems"
+        },
+        "degree": {
+          "label": "Academic Degree",
+          "value": "Master of Technical Sciences"
+        },
+        "achievements": {
+          "title": "Achievements",
+          "list": [
+            "Winner of the 'Best College Teacher 2023' competition",
+            "Publication in the journal 'Innovations in Education'",
+            "Participation in an international IT technology conference"
+          ]
+        }
+      },
+      "teachers": {
+        "title": "Teaching Staff",
+        "list": [
+          {
+            "image": "/src/img/IS/Albergenova_Aruzhan.jpg",
+            "alt": "Teacher photo",
+            "name": "Albergenova Aruzhan Ruslanovna",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Internet of Things", "Big Data"]
+            },
+            "experience": "Work Experience: 1.5 years"
+          },
+          {
+            "image": "/src/img/IS/Aldongarova_Kimbat.jpg",
+            "alt": "Teacher photo",
+            "name": "Aldongarova Kymbat Kannazarovna",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Information Systems"]
+            },
+            "experience": "Work Experience: 6 years"
+          },
+          {
+            "image": "/src/img/IS/Bazarbaeva_Asem.jpg",
+            "alt": "Teacher photo",
+            "name": "Bazarbaeva Asem",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Physics"]
+            },
+            "experience": "Work Experience: 9 years"
+          },
+          {
+            "image": "/src/img/IS/Edilov_Bazargali.jpg",
+            "alt": "Teacher photo",
+            "name": "Edilov Bazargali Aibekuly",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Information Systems"]
+            },
+            "experience": "Work Experience: 1.5 years"
+          },
+          {
+            "image": "/src/img/IS/Zhamalov_Tamirlan.png",
+            "alt": "Teacher photo",
+            "name": "Zhamalov Tamirlan Zhenisovich",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Mathematical and Computer Modeling"]
+            },
+            "experience": "Work Experience: 2 years"
+          },
+          {
+            "image": "/src/img/IS/IBK.jpg",
+            "alt": "Teacher photo",
+            "name": "Itibaev Bataniaz Kuanshbekovich",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Mathematics", "Informatics"]
+            },
+            "experience": "Work Experience: 18 years"
+          },
+          {
+            "image": "/src/img/IS/Kobdabaeva_Shinar.png",
+            "alt": "Teacher photo",
+            "name": "Kobdabaeva Shynar Amangeldievna",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Physics", "Informatics"]
+            },
+            "experience": "Work Experience: 19 years"
+          },
+          {
+            "image": "/src/img/IS/Adlet.jpg",
+            "alt": "Teacher photo",
+            "name": "Kulbaev Adilet Bisengulovich",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Information Systems", "Robotics"]
+            },
+            "experience": "Work Experience: 2 years"
+          },
+          {
+            "image": "/src/img/IS/Koishigul_Araylim.jpg",
+            "alt": "Teacher photo",
+            "name": "Koishygul Arailym Erlankyzy",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Informatics"]
+            },
+            "experience": "Work Experience: 7 years"
+          },
+          {
+            "image": "/src/img/IS/Marat_Gauhar.jpg",
+            "alt": "Teacher photo",
+            "name": "Marat Gauhar Maratkyzy",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Informatics", "Information Systems"]
+            },
+            "experience": "Work Experience: 13 years"
+          },
+          {
+            "image": "/src/img/IS/Muhanova_Akmaral.jpg",
+            "alt": "Teacher photo",
+            "name": "Mukhanova Akmaral Sapargalievna",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Physics"]
+            },
+            "experience": "Work Experience: 3 years"
+          },
+          {
+            "image": "/src/img/IS/Nasirov_Jastilek.png",
+            "alt": "Teacher photo",
+            "name": "Nasyrov Zhastilek Zhannatuly",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Informatics"]
+            },
+            "experience": "Work Experience: 7 years"
+          },
+          {
+            "image": "/src/img/IS/Banu.jpg",
+            "alt": "Teacher photo",
+            "name": "Sagyndyk Banu Serikkalikyzy",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Informatics"]
+            },
+            "experience": "Work Experience: 1 year"
+          },
+          {
+            "image": "/src/img/IS/Erzhan_Sainov.png",
+            "alt": "Teacher photo",
+            "name": "Sainov Erzhan Erbatyrovich",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Computing Technology", "Software", "Information Systems"]
+            },
+            "experience": "Work Experience: 1 year"
+          },
+          {
+            "image": "/src/img/IS/Sakebaeva_Nursulu.png",
+            "alt": "Teacher photo",
+            "name": "Sakebaeva Nursulu Borebaevna",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Physics", "Informatics"]
+            },
+            "experience": "Work Experience: 36 years"
+          },
+          {
+            "image": "/src/img/IS/Sembaev_Murat.png",
+            "alt": "Teacher photo",
+            "name": "Sembaev Murat Tasbolatovich",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Software for Automated Computing Systems", "Information Systems"]
+            },
+            "experience": "Work Experience: 12 years"
+          },
+          {
+            "image": "/src/img/IS/Urinbasarova_Janargul.jpg",
+            "alt": "Teacher photo",
+            "name": "Urinbasarova Zhanargul Nauryzgalievna",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Computing Technology", "Software", "Information Systems"]
+            },
+            "experience": "Work Experience: 17 years"
+          },
+          {
+            "image": "/src/img/IS/Hibadulina_Elmira.jpg",
+            "alt": "Teacher photo",
+            "name": "Khibadullina Elmira Mukhanbetzhankyzy",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Information Systems"]
+            },
+            "experience": "Work Experience: 2 years"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Automation and Control",
+      "subtitle": "Training specialists in industrial automation and control systems",
+      "image": "/src/img/AS/AS.jpg",
+      "imageAlt": "automation department photo",
+      "about": {
+        "title": "About Our Department",
+        "description": "The 'Automation and Control' Department specializes in training qualified personnel for industrial enterprises. Our students study modern automated control systems, programmable logic controllers, and industrial networks."
+      },
+      "statistics": [
+        {
+          "icon": "lucide-users",
+          "iconPath": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path>",
+          "number": "120+",
+          "label": "Students"
+        },
+        {
+          "icon": "lucide-graduation-cap",
+          "iconPath": "<path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"></path><path d=\"M22 10v6\"></path><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"></path>",
+          "number": "92%",
+          "label": "Employment"
+        },
+        {
+          "icon": "lucide-award",
+          "iconPath": "<path d=\"m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526\"></path><circle cx=\"12\" cy=\"8\" r=\"6\"></circle>",
+          "number": "8+",
+          "label": "Years of Experience"
+        }
+      ],
+      "classrooms": {
+        "title": "Our Laboratories",
+        "list": [
+          {
+            "image": "/src/img/AU/lab1.JPG",
+            "alt": "laboratory photo",
+            "title": "Automation Laboratory"
+          },
+          {
+            "image": "/src/img/AU/lab2.JPG",
+            "alt": "laboratory photo",
+            "title": "PLC Laboratory"
+          }
+        ]
+      },
+      "head": {
+        "title": "Head of Department",
+        "image": "/src/img/AS/Darhan_Shanbaev.jpeg",
+        "education": {
+          "label": "Education",
+          "value": "Higher Education, Master's"
+        },
+        "graduation": {
+          "label": "Year of Graduation and Institution",
+          "value": "K. Zhubanov Aktobe Regional State University, 2014; Zhangir Khan West Kazakhstan Agrarian-Technical University, 2018"
+        },
+        "specialization": {
+          "label": "Specialization",
+          "value": "Physics, Electrical Engineering"
+        },
+        "degree": {
+          "label": "Academic Degree",
+          "value": "Master of Technical Sciences"
+        },
+        "achievements": {
+          "title": "Achievements",
+          "list": [
+            "Winner of the republican competition 'Best Teacher 2023' organized by ERG and the Alliance of Colleges",
+            "Winner of the 'Outstanding Educator 2023' competition organized by the Society of Educators of the Republic of Kazakhstan",
+            "Letter of Gratitude from the Minister of Education and Science of the Republic of Kazakhstan – 2018",
+            "Certificate of Honor from the Aktobe Region Education Department for achievements in education and dedicated creative work – 2017",
+            "Letter of Gratitude from the Aktobe Region Education Department for tireless creativity in education – 2020",
+            "Letter of Gratitude for organizing a regional online seminar on 'The Use of Modern Equipment in Education – A Requirement of the Times' – Aktobe, 2021",
+            "Letter of Gratitude for organizing the I Republican Pedagogical Scientific-Practical Conference – 2022",
+            "Laureate of the regional youth award 'Zhas Aktobe' in the Aktobe Region – 2018",
+            "Letter of Gratitude from the Ministry of Education of the Republic of Kazakhstan for contributions and achievements in education – 2018"
+          ]
+        }
+      },
+      "teachers": {
+        "title": "Teaching Staff",
+        "list": [
+          {
+            "image": "/src/img/AS/Suteeva_A.jpeg",
+            "alt": "Teacher photo",
+            "name": "Suteeva Aktenbek Ayankyzy",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Teacher-Moderator", "Bachelor of Technology"]
+            },
+            "experience": "Work Experience: 5 years"
+          },
+          {
+            "image": "/src/img/AS/Muhanbetova.jpg",
+            "alt": "Teacher photo",
+            "name": "Mukhanbetova Ryskul Zhaksylykkyzy",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Electrical Engineer", "Chair of CMB", "AMC"]
+            },
+            "experience": "Work Experience: 18 years"
+          },
+          {
+            "image": "/src/img/AS/Moldabaeva_Meruert.jpg",
+            "alt": "Teacher photo",
+            "name": "Moldabaeva Meruert Nabievna",
+            "position": "Teacher-Researcher, College Methodologist",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Methodologist", "Teacher"]
+            },
+            "experience": "Work Experience: 14 years"
+          },
+          {
+            "image": "/src/img/AS/Konsbaeva_Ainura.png",
+            "alt": "Teacher photo",
+            "name": "Konsbaeva Ainura Karimollaevna",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Engineer", "Teacher"]
+            },
+            "experience": "Work Experience: 7 years"
+          },
+          {
+            "image": "/src/img/AS/Aktilek.jpg",
+            "alt": "Teacher photo",
+            "name": "Kaldygarina Mirgul Sanatorna",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Engineer", "Teacher"]
+            },
+            "experience": "Work Experience: 12 years"
+          },
+          {
+            "image": "/src/img/AS/Alisher.png",
+            "alt": "Teacher photo",
+            "name": "Dilmagambetov Alisher Serikuly",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Engineer", "Teacher"]
+            },
+            "experience": "Work Experience: 12 years"
+          },
+          {
+            "image": "/src/img/AS/Dayilbaeva_Korkemai.jpg",
+            "alt": "Teacher photo",
+            "name": "Dauylbaeva Korkemai Serikbaikyzy",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Design and Repair", "Installation", "Mechanism Maintenance and Repair"]
+            },
+            "experience": "Work Experience: 6 years"
+          },
+          {
+            "image": "/src/img/AS/Abdualiev_Adil.jpeg",
+            "alt": "Teacher photo",
+            "name": "Abdualiev Adil Berikuly",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Design and Repair", "Installation", "Mechanism Maintenance and Repair"]
+            },
+            "experience": "Work Experience: 7 years"
+          },
+          {
+            "image": "/src/img/AS/Tomagambetova_Aimgul.jpeg",
+            "alt": "Teacher photo",
+            "name": "Toymagambetova Aimgul Myrzagalievna",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Teacher", "Installation", "Methodologist"]
+            },
+            "experience": "Work Experience: 13 years"
+          },
+          {
+            "image": "/src/img/AS/Aitkazieva_Gulshat.jpg",
+            "alt": "Teacher photo",
+            "name": "Aitkazieva Gulshat Sagyndykkyzy",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Teacher", "Educator", "Electrical Engineer"]
+            },
+            "experience": "Work Experience: 15 years"
+          },
+          {
+            "image": "/src/img/AS/Saukenov.png",
+            "alt": "Teacher photo",
+            "name": "Saukenov Saken Umirtaevich",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Teacher", "WSK Expert", "Electrical Engineer"]
+            },
+            "experience": "Work Experience: 32 years"
+          },
+          {
+            "image": "/src/img/AS/Izimov_G.png",
+            "alt": "Teacher photo",
+            "name": "Izimov Galymzhan Kuanshevich",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Teacher", "Electrical Supply", "Electrical Engineer"]
+            },
+            "experience": "Work Experience: 22 years"
+          },
+          {
+            "image": "/src/img/AS/Zhuldubaeva_Aigerim.jpg",
+            "alt": "Teacher photo",
+            "name": "Zhuldubaeva Aigerim Aidusovna",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Teacher", "WSK Expert", "Electrical Engineer"]
+            },
+            "experience": "Work Experience: 17 years"
+          },
+          {
+            "image": "/src/img/AS/Gabidulla_S.jpg",
+            "alt": "Teacher photo",
+            "name": "Gabidulla Sanzhar Gabidullauly",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Teacher", "WSK Expert", "Electrical Engineer"]
+            },
+            "experience": "Work Experience: 7 years"
+          },
+          {
+            "image": "/src/img/AS/Erkebulan_Amangolov.jpg",
+            "alt": "Teacher photo",
+            "name": "Amangolov Erkebulan Batikhanovich",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Teacher", "Automation and Control", "Electrical Engineer"]
+            },
+            "experience": "Work Experience: 5 years"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Technical Specialties",
+      "subtitle": "Technical education focused on practice and innovation",
+      "image": "/src/img/TM/TM.jpg",
+      "imageAlt": "technical department photo",
+      "about": {
+        "title": "About Our Department",
+        "description": "The 'Technical Specialties' Department trains qualified specialists in the field of equipment maintenance, operation, and engineering systems. Educational programs are oriented toward practical application of knowledge in real production and modern technical environments. Our graduates successfully work in industry, construction, energy, and transportation. The learning process utilizes modern laboratories, technologies, and internships at leading regional enterprises."
+      },
+      "statistics": [
+        {
+          "icon": "lucide-users",
+          "iconPath": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path>",
+          "number": "120+",
+          "label": "Students"
+        },
+        {
+          "icon": "lucide-graduation-cap",
+          "iconPath": "<path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"></path><path d=\"M22 10v6\"></path><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"></path>",
+          "number": "92%",
+          "label": "Employment"
+        },
+        {
+          "icon": "lucide-award",
+          "iconPath": "<path d=\"m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526\"></path><circle cx=\"12\" cy=\"8\" r=\"6\"></circle>",
+          "number": "8+",
+          "label": "Years of Experience"
+        }
+      ],
+      "classrooms": {
+        "title": "Our Laboratories",
+        "list": [
+          {
+            "image": "/src/img/AU/lab1.JPG",
+            "alt": "laboratory photo",
+            "title": "Automation Laboratory"
+          },
+          {
+            "image": "/src/img/AU/lab2.JPG",
+            "alt": "laboratory photo",
+            "title": "PLC Laboratory"
+          }
+        ]
+      },
+      "head": {
+        "title": "Head of Department",
+        "image": "/src/img/TM/Dabilova_Janat.jpg",
+        "education": {
+          "label": "Education",
+          "value": "Higher Education"
+        },
+        "graduation": {
+          "label": "Year of Graduation and Institution",
+          "value": "K. Zhubanov Aktobe Regional University, 2005"
+        },
+        "specialization": {
+          "label": "Specialization",
+          "value": "Chemical Technology of Organic Substances"
+        },
+        "degree": {
+          "label": "Academic Degree",
+          "value": "Teacher-Expert"
+        },
+        "achievements": {
+          "title": "Achievements",
+          "list": [
+            "Member of the Republican Commission for reviewing appeals in the discipline 'Chemistry and Technology of Oil and Gas'",
+            "Developer of tests for 'Petrochemical Synthesis Technology' and expert in 'Chemistry and Technology of Oil and Gas' at the National Testing Center",
+            "Developer of the Educational Passport for the specialty 'Oil and Gas Processing Technology'",
+            "Participant in the Republican Professional Skills Competition in the specialty 'Oil and Gas Processing Technology'"
+          ]
+        }
+      },
+      "teachers": {
+        "title": "Teaching Staff",
+        "list": [
+          {
+            "image": "/src/img/TM/Tokzhan_Shakenovna.png",
+            "alt": "Teacher photo",
+            "name": "Dauletiarova Tokzhan Shakirovna",
+            "position": "Teacher-Expert",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Business", "Oil and Gas Machinery Operation"]
+            },
+            "experience": "Work Experience: 12 years"
+          },
+          {
+            "image": "/src/img/TM/EMU.jpg",
+            "alt": "Teacher photo",
+            "name": "Erumbetova Maira Ubaidullaevna",
+            "position": "Teacher-Researcher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Processing", "Laboratory Technology"]
+            },
+            "experience": "Work Experience: 18 years"
+          },
+          {
+            "image": "/src/img/TM/Janna-Djanbaeva.jpg",
+            "alt": "Teacher photo",
+            "name": "Shatayakova Zhanna Dzhanbaevna",
+            "position": "Teacher-Researcher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Field Operations"]
+            },
+            "experience": "Work Experience: 14 years"
+          },
+          {
+            "image": "/src/img/TM/Syunova_Galim.jpg",
+            "alt": "Teacher photo",
+            "name": "Suyunova Galym Umargalievna",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Mechanical Engineering Technology"]
+            },
+            "experience": "Work Experience: 7 years"
+          },
+          {
+            "image": "/src/img/TM/Aksenova_Inna.jpg",
+            "alt": "Teacher photo",
+            "name": "Aksenova Inna Alekseevna",
+            "position": "Teacher-Expert",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Construction"]
+            },
+            "experience": "Work Experience: 12 years"
+          },
+          {
+            "image": "/src/img/TM/Jannat_Jolaeva.jpg",
+            "alt": "Teacher photo",
+            "name": "Zholaeva Zhannat Tuleushovna",
+            "position": "Teacher-Expert",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Field Operations"]
+            },
+            "experience": "Work Experience: 12 years"
+          },
+          {
+            "image": "/src/img/TM/Kaijanova_Gulmira.jpg",
+            "alt": "Teacher photo",
+            "name": "Kaizhanova Gulmira Ybyraymkyzy",
+            "position": "Special Disciplines Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Processing", "Laboratory Technology"]
+            },
+            "experience": "Work Experience: 6 years"
+          },
+          {
+            "image": "/src/img/TM/Tahanova_Ainur.jpg",
+            "alt": "Teacher photo",
+            "name": "Takhanova Ainur Abdilmazhitovna",
+            "position": "Teacher-Moderator",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Automotive Business"]
+            },
+            "experience": "Work Experience: 7 years"
+          },
+          {
+            "image": "/src/img/TM/Asanova_Janar.jpeg",
+            "alt": "Teacher photo",
+            "name": "Asanova Zhanar Smagulovna",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Laboratory Technology"]
+            },
+            "experience": "Work Experience: 13 years"
+          },
+          {
+            "image": "/src/img/TM/Baidisheva.jpeg",
+            "alt": "Teacher photo",
+            "name": "Baidisheva Alua Ersayynovna",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Processing", "Laboratory Technology"]
+            },
+            "experience": "Work Experience: 15 years"
+          },
+          {
+            "image": "/src/img/TM/Muratbaeva.jpeg",
+            "alt": "Teacher photo",
+            "name": "Muratbaeva Akerke Kairatkyzy",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Processing", "Laboratory Technology"]
+            },
+            "experience": "Work Experience: 32 years"
+          },
+          {
+            "image": "/src/img/TM/Akpanova_Lilia.png",
+            "alt": "Teacher photo",
+            "name": "Akpanova Lilia Birzhanovna",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Processing", "Laboratory Technology"]
+            },
+            "experience": "Work Experience: 22 years"
+          },
+          {
+            "image": "/src/img/TM/Musin_Nurbek.jpeg",
+            "alt": "Teacher photo",
+            "name": "Musin Nurbek",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Field Operations"]
+            },
+            "experience": "Work Experience: 17 years"
+          },
+          {
+            "image": "/src/img/TM/Dusengali_meruert.jpg",
+            "alt": "Teacher photo",
+            "name": "Duisengali Meruert Abaikyzy",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Mechanical Engineering Technology"]
+            },
+            "experience": "Work Experience: 7 years"
+          },
+          {
+            "image": "/src/img/TM/Jaksilikov.jpeg",
+            "alt": "Teacher photo",
+            "name": "Zhaksylykov Adilet Kairatuly",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Oil and Gas Processing", "Laboratory Technology"]
+            },
+            "experience": "Work Experience: 5 years"
+          },
+          {
+            "image": "/src/img/TM/Rahat_Bakitgul.jpg",
+            "alt": "Teacher photo",
+            "name": "Rakhat Bakytyul Temirlankyzy",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Automotive Business"]
+            },
+            "experience": "Work Experience: 5 years"
+          },
+          {
+            "image": "/src/img/TM/Aitkaliev_Azat.jpeg",
+            "alt": "Teacher photo",
+            "name": "Aitkaliev Azat Berikuly",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Automotive Business"]
+            },
+            "experience": "Work Experience: 5 years"
+          },
+          {
+            "image": "/src/img/TM/Esmukan.jpg",
+            "alt": "Teacher photo",
+            "name": "Esmukan Almat Syrymuly",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Automotive Business"]
+            },
+            "experience": "Work Experience: 5 years"
+          },
+          {
+            "image": "/src/img/TM/Iztileuov.jpeg",
+            "alt": "Teacher photo",
+            "name": "Iztileuov Bakhitbek Maksutuly",
+            "position": "Teacher-Moderator",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Automotive Business"]
+            },
+            "experience": "Work Experience: 5 years"
+          },
+          {
+            "image": "/src/img/TM/Saparov.jpeg",
+            "alt": "Teacher photo",
+            "name": "Saparov Dauren Zhambylovich",
+            "position": "Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Construction"]
+            },
+            "experience": "Work Experience: 5 years"
+          }
+        ]
+      }
+    },
+    {
+      "title": "General Education Disciplines",
+      "subtitle": "Basic education – the foundation of professional growth",
+      "image": "/src/img/OOD/OOD.JPG",
+      "imageAlt": "department photo",
+      "about": {
+        "title": "About Our Department",
+        "description": "The 'General Education Disciplines' Department provides foundational training for students in key subjects such as mathematics, physics, chemistry, language and literature, history, and others. The department's teachers help students develop critical thinking, literacy, logical, and analytical skills necessary for successfully mastering professional disciplines. We use modern educational methodologies and interactive teaching methods to promote the comprehensive development of students' personalities and academic success."
+      },
+      "statistics": [
+        {
+          "icon": "lucide-users",
+          "iconPath": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path>",
+          "number": "150+",
+          "label": "Students"
+        },
+        {
+          "icon": "lucide-graduation-cap",
+          "iconPath": "<path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"></path><path d=\"M22 10v6\"></path><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"></path>",
+          "number": "95%",
+          "label": "Employment"
+        },
+        {
+          "icon": "lucide-award",
+          "iconPath": "<path d=\"m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526\"></path><circle cx=\"12\" cy=\"8\" r=\"6\"></circle>",
+          "number": "10+",
+          "label": "Years of Experience"
+        }
+      ],
+      "classrooms": {
+        "title": "Our Classrooms",
+        "list": [
+          {
+            "image": "/src/img/IS/110.JPG",
+            "alt": "classroom photo",
+            "title": "Computer Classroom 1"
+          },
+          {
+            "image": "/src/img/IS/108.JPG",
+            "alt": "classroom photo",
+            "title": "Computer Classroom 2"
+          },
+          {
+            "image": "/src/img/IS/112.JPG",
+            "alt": "classroom photo",
+            "title": "Computer Classroom 3"
+          },
+          {
+            "image": "/src/img/IS/208.JPG",
+            "alt": "classroom photo",
+            "title": "Computer Classroom 4"
+          }
+        ]
+      },
+      "head": {
+        "title": "Head of Department",
+        "image": "/src/img/OOD/Arai_Bayadilova.jpg",
+        "education": {
+          "label": "Education",
+          "value": "Higher Education"
+        },
+        "graduation": {
+          "label": "Year of Graduation and Institution",
+          "value": "Kazakh Academy of Transport and Communications named after M. Tynyshpaev, 2003-2006; Kazakh University of Railways, 2006-2008"
+        },
+        "specialization": {
+          "label": "Specialization",
+          "value": "Transportation Organization and Management"
+        },
+        "degree": {
+          "label": "Academic Degree",
+          "value": "Master of Technical Sciences"
+        },
+        "achievements": {
+          "title": "",
+          "list": []
+        }
+      },
+      "teachers": {
+        "title": "Teaching Staff",
+        "list": [
+          {
+            "image": "/src/img/OOD/Ablaeva_Zhazira.jpg",
+            "alt": "Teacher photo",
+            "name": "Ablaeva Zhazira Bakhytkalikyzy",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Russian Language", "Literature"]
+            },
+            "experience": "Work Experience: 5 months"
+          },
+          {
+            "image": "/src/img/OOD/Abigaeva_Akmaral.jpg",
+            "alt": "Teacher photo",
+            "name": "Agibaeva Akmaral Nurpeisovna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Chemistry", "Economics"]
+            },
+            "experience": "Work Experience: 13 years"
+          },
+          {
+            "image": "/src/img/OOD/Adilkanova_Guldana.png",
+            "alt": "Teacher photo",
+            "name": "Adilkanova Guldana Bazarkozhaevna",
+            "position": "Teacher of the General Education Disciplines Department (on maternity leave until 31.03.2026)",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Kazakh Language", "Literature", "Pedagogy"]
+            },
+            "experience": "Work Experience: 23 years"
+          },
+          {
+            "image": "/src/img/OOD/Ahmetova_Kamshat.png",
+            "alt": "Teacher photo",
+            "name": "Akhmetova Kamshat Chapaevna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Philosophy", "Jurisprudence"]
+            },
+            "experience": "Work Experience: 21 years"
+          },
+          {
+            "image": "/src/img/OOD/Baizhanova_Rauza.jpg",
+            "alt": "Teacher photo",
+            "name": "Baizhanova Rauza Nabievna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Kazakh Language", "Literature"]
+            },
+            "experience": "Work Experience: 29 years"
+          },
+          {
+            "image": "/src/img/OOD/Dlimova_Botakuz.jpeg",
+            "alt": "Teacher photo",
+            "name": "Dlimova Botakuz Zhadigerovna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Kazakh Language", "Literature"]
+            },
+            "experience": "Work Experience: 21 years"
+          },
+          {
+            "image": "/src/img/OOD/Eltezarova_Gauhar.jpeg",
+            "alt": "Teacher photo",
+            "name": "Eltezerova Gauhar Suyndikovna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["History", "Geography"]
+            },
+            "experience": "Work Experience: 29 years"
+          },
+          {
+            "image": "/src/img/OOD/Ermukanov_Turlan.png",
+            "alt": "Teacher photo",
+            "name": "Ermukanov Turlan Nuradinovich",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["History"]
+            },
+            "experience": "Work Experience: 25 years"
+          },
+          {
+            "image": "/src/img/OOD/Zhanbiraeva_Zharkinai.jpeg",
+            "alt": "Teacher photo",
+            "name": "Zhanbirbaeva Zharkynai Nagimetyarovna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["History", "Geography"]
+            },
+            "experience": "Work Experience: 17 years"
+          },
+          {
+            "image": "/src/img/OOD/Zhumagazy_Gulderai.jpeg",
+            "alt": "Teacher photo",
+            "name": "Zhumagazy Gulderai Erbolatkyzy",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Economics", "Kazakh Language and Literature"]
+            },
+            "experience": "Work Experience: 2 years"
+          },
+          {
+            "image": "/src/img/OOD/Seitmaganbetova_Janna.jpeg",
+            "alt": "Teacher photo",
+            "name": "Seitmaganbetova Zhanna Amangosovna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Russian Language", "Literature"]
+            },
+            "experience": "Work Experience: 31 years"
+          },
+          {
+            "image": "/src/img/OOD/Kazkeeva_Gulzhanat.jpeg",
+            "alt": "Teacher photo",
+            "name": "Kazkeeva Gulzhanat Nagashybaevna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Chemistry", "Biology"]
+            },
+            "experience": "Work Experience: 37 years"
+          },
+          {
+            "image": "/src/img/OOD/Kosmambetova_Dinara.jpeg",
+            "alt": "Teacher photo",
+            "name": "Kosmambetova Dinara Esembaevna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Chemistry", "Biology"]
+            },
+            "experience": "Work Experience: 2 years"
+          },
+          {
+            "image": "/src/img/OOD/*",
+            "alt": "Teacher photo",
+            "name": "Kobenov Akhmet Kanatuly",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Labor", "Drafting"]
+            },
+            "experience": "Work Experience: 8 years"
+          },
+          {
+            "image": "/src/img/OOD/Kanatbai_Aidarhan.jpeg",
+            "alt": "Teacher photo",
+            "name": "Kanatbai Aidarkhan Akalmassuly",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Jurisprudence", "History"]
+            },
+            "experience": "Work Experience: 2 years"
+          },
+          {
+            "image": "/src/img/OOD/Mamirbaeva_Indira.jpeg",
+            "alt": "Teacher photo",
+            "name": "Mamyrbaeva Indira Malikona",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["History"]
+            },
+            "experience": "Work Experience: 1 year"
+          },
+          {
+            "image": "/src/img/OOD/Miranbekova_Gulsairan.jpeg",
+            "alt": "Teacher photo",
+            "name": "Miranbekova Gulsairan Askarovna",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["History", "Geography", "Jurisprudence"]
+            },
+            "experience": "Work Experience: 11 years"
+          },
+          {
+            "image": "/src/img/OOD/Nurudinova_Ardak.jpeg",
+            "alt": "Teacher photo",
+            "name": "Nurudinova Ardak Amanzholkyzy",
+            "position": "Teacher of the General Education Disciplines Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Fundamentals of Law", "Economics", "Philosophy of Science"]
+            },
+            "experience": "Work Experience: 27 years"
+          }
+        ]
+      }
+    }
+  ]
+}

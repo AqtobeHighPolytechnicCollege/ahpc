@@ -9,13 +9,25 @@ import InfoCards from '@/components/MainPage/InfoCards/InfoCards.tsx';
 import News from '@/components/MainPage/News/News.tsx'
 import Reviews from '@/components/MainPage/Reviews/Reviews.tsx'
 import Partners from "@/components/MainPage/partners/Partners.tsx";
-
+import Footer from "@/components/Footer/Footer.tsx";
+import {usePageTitle} from "@/components/usePageTitile.tsx";
+export class NotFoundError extends Error {
+    constructor(message?: string) {
+        super(message);
+        this.name = 'NotFoundError';
+        Object.setPrototypeOf(this, NotFoundError.prototype);
+    }
+}
 
 export const Route = createFileRoute('/')({
     component: HomePage,
+    notFoundComponent: () => {
+    return <p>This setting page doesn't exist!</p>
+},
 });
 
 function HomePage() {
+    usePageTitle('Главная')
     const { t, i18n } = useTranslation();
 
 
@@ -48,6 +60,7 @@ function HomePage() {
             <Reviews />
             {/* Партнёры */}
             <Partners />
+
         </>
     );
 }

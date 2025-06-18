@@ -14,11 +14,12 @@ import { Route as rootRoute } from './routes/__root'
 import { Route as IndexImport } from './routes/index'
 import { Route as NewsIndexImport } from './routes/news/index'
 import { Route as NewsNewsIdImport } from './routes/news/$newsId'
-import { Route as DemoTanstackQueryImport } from './routes/demo.tanstack-query'
-import { Route as DemoTableImport } from './routes/demo.table'
-import { Route as DemoStoreImport } from './routes/demo.store'
-import { Route as DemoFormSimpleImport } from './routes/demo.form.simple'
-import { Route as DemoFormAddressImport } from './routes/demo.form.address'
+import { Route as ContestResultsContestResultsImport } from './routes/contestResults/contestResults'
+import { Route as TeachingStaffTeachingStaffImport } from './routes/TeachingStaff/TeachingStaff'
+import { Route as SpecialsSpecialsImport } from './routes/Specials/Specials'
+import { Route as NotFoundPageNotFoundPageImport } from './routes/NotFoundPage/NotFoundPage'
+import { Route as ContactsContactsImport } from './routes/Contacts/Contacts'
+import { Route as CollegeManagementCollegeManagementImport } from './routes/CollegeManagement/CollegeManagement'
 
 // Create/Update Routes
 
@@ -40,35 +41,45 @@ const NewsNewsIdRoute = NewsNewsIdImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
-const DemoTanstackQueryRoute = DemoTanstackQueryImport.update({
-  id: '/demo/tanstack-query',
-  path: '/demo/tanstack-query',
+const ContestResultsContestResultsRoute =
+  ContestResultsContestResultsImport.update({
+    id: '/contestResults/contestResults',
+    path: '/contestResults/contestResults',
+    getParentRoute: () => rootRoute,
+  } as any)
+
+const TeachingStaffTeachingStaffRoute = TeachingStaffTeachingStaffImport.update(
+  {
+    id: '/TeachingStaff/TeachingStaff',
+    path: '/TeachingStaff/TeachingStaff',
+    getParentRoute: () => rootRoute,
+  } as any,
+)
+
+const SpecialsSpecialsRoute = SpecialsSpecialsImport.update({
+  id: '/Specials/Specials',
+  path: '/Specials/Specials',
   getParentRoute: () => rootRoute,
 } as any)
 
-const DemoTableRoute = DemoTableImport.update({
-  id: '/demo/table',
-  path: '/demo/table',
+const NotFoundPageNotFoundPageRoute = NotFoundPageNotFoundPageImport.update({
+  id: '/NotFoundPage/NotFoundPage',
+  path: '/NotFoundPage/NotFoundPage',
   getParentRoute: () => rootRoute,
 } as any)
 
-const DemoStoreRoute = DemoStoreImport.update({
-  id: '/demo/store',
-  path: '/demo/store',
+const ContactsContactsRoute = ContactsContactsImport.update({
+  id: '/Contacts/Contacts',
+  path: '/Contacts/Contacts',
   getParentRoute: () => rootRoute,
 } as any)
 
-const DemoFormSimpleRoute = DemoFormSimpleImport.update({
-  id: '/demo/form/simple',
-  path: '/demo/form/simple',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const DemoFormAddressRoute = DemoFormAddressImport.update({
-  id: '/demo/form/address',
-  path: '/demo/form/address',
-  getParentRoute: () => rootRoute,
-} as any)
+const CollegeManagementCollegeManagementRoute =
+  CollegeManagementCollegeManagementImport.update({
+    id: '/CollegeManagement/CollegeManagement',
+    path: '/CollegeManagement/CollegeManagement',
+    getParentRoute: () => rootRoute,
+  } as any)
 
 // Populate the FileRoutesByPath interface
 
@@ -81,25 +92,46 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/demo/store': {
-      id: '/demo/store'
-      path: '/demo/store'
-      fullPath: '/demo/store'
-      preLoaderRoute: typeof DemoStoreImport
+    '/CollegeManagement/CollegeManagement': {
+      id: '/CollegeManagement/CollegeManagement'
+      path: '/CollegeManagement/CollegeManagement'
+      fullPath: '/CollegeManagement/CollegeManagement'
+      preLoaderRoute: typeof CollegeManagementCollegeManagementImport
       parentRoute: typeof rootRoute
     }
-    '/demo/table': {
-      id: '/demo/table'
-      path: '/demo/table'
-      fullPath: '/demo/table'
-      preLoaderRoute: typeof DemoTableImport
+    '/Contacts/Contacts': {
+      id: '/Contacts/Contacts'
+      path: '/Contacts/Contacts'
+      fullPath: '/Contacts/Contacts'
+      preLoaderRoute: typeof ContactsContactsImport
       parentRoute: typeof rootRoute
     }
-    '/demo/tanstack-query': {
-      id: '/demo/tanstack-query'
-      path: '/demo/tanstack-query'
-      fullPath: '/demo/tanstack-query'
-      preLoaderRoute: typeof DemoTanstackQueryImport
+    '/NotFoundPage/NotFoundPage': {
+      id: '/NotFoundPage/NotFoundPage'
+      path: '/NotFoundPage/NotFoundPage'
+      fullPath: '/NotFoundPage/NotFoundPage'
+      preLoaderRoute: typeof NotFoundPageNotFoundPageImport
+      parentRoute: typeof rootRoute
+    }
+    '/Specials/Specials': {
+      id: '/Specials/Specials'
+      path: '/Specials/Specials'
+      fullPath: '/Specials/Specials'
+      preLoaderRoute: typeof SpecialsSpecialsImport
+      parentRoute: typeof rootRoute
+    }
+    '/TeachingStaff/TeachingStaff': {
+      id: '/TeachingStaff/TeachingStaff'
+      path: '/TeachingStaff/TeachingStaff'
+      fullPath: '/TeachingStaff/TeachingStaff'
+      preLoaderRoute: typeof TeachingStaffTeachingStaffImport
+      parentRoute: typeof rootRoute
+    }
+    '/contestResults/contestResults': {
+      id: '/contestResults/contestResults'
+      path: '/contestResults/contestResults'
+      fullPath: '/contestResults/contestResults'
+      preLoaderRoute: typeof ContestResultsContestResultsImport
       parentRoute: typeof rootRoute
     }
     '/news/$newsId': {
@@ -116,20 +148,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NewsIndexImport
       parentRoute: typeof rootRoute
     }
-    '/demo/form/address': {
-      id: '/demo/form/address'
-      path: '/demo/form/address'
-      fullPath: '/demo/form/address'
-      preLoaderRoute: typeof DemoFormAddressImport
-      parentRoute: typeof rootRoute
-    }
-    '/demo/form/simple': {
-      id: '/demo/form/simple'
-      path: '/demo/form/simple'
-      fullPath: '/demo/form/simple'
-      preLoaderRoute: typeof DemoFormSimpleImport
-      parentRoute: typeof rootRoute
-    }
   }
 }
 
@@ -137,92 +155,101 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/demo/store': typeof DemoStoreRoute
-  '/demo/table': typeof DemoTableRoute
-  '/demo/tanstack-query': typeof DemoTanstackQueryRoute
+  '/CollegeManagement/CollegeManagement': typeof CollegeManagementCollegeManagementRoute
+  '/Contacts/Contacts': typeof ContactsContactsRoute
+  '/NotFoundPage/NotFoundPage': typeof NotFoundPageNotFoundPageRoute
+  '/Specials/Specials': typeof SpecialsSpecialsRoute
+  '/TeachingStaff/TeachingStaff': typeof TeachingStaffTeachingStaffRoute
+  '/contestResults/contestResults': typeof ContestResultsContestResultsRoute
   '/news/$newsId': typeof NewsNewsIdRoute
   '/news': typeof NewsIndexRoute
-  '/demo/form/address': typeof DemoFormAddressRoute
-  '/demo/form/simple': typeof DemoFormSimpleRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/demo/store': typeof DemoStoreRoute
-  '/demo/table': typeof DemoTableRoute
-  '/demo/tanstack-query': typeof DemoTanstackQueryRoute
+  '/CollegeManagement/CollegeManagement': typeof CollegeManagementCollegeManagementRoute
+  '/Contacts/Contacts': typeof ContactsContactsRoute
+  '/NotFoundPage/NotFoundPage': typeof NotFoundPageNotFoundPageRoute
+  '/Specials/Specials': typeof SpecialsSpecialsRoute
+  '/TeachingStaff/TeachingStaff': typeof TeachingStaffTeachingStaffRoute
+  '/contestResults/contestResults': typeof ContestResultsContestResultsRoute
   '/news/$newsId': typeof NewsNewsIdRoute
   '/news': typeof NewsIndexRoute
-  '/demo/form/address': typeof DemoFormAddressRoute
-  '/demo/form/simple': typeof DemoFormSimpleRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/demo/store': typeof DemoStoreRoute
-  '/demo/table': typeof DemoTableRoute
-  '/demo/tanstack-query': typeof DemoTanstackQueryRoute
+  '/CollegeManagement/CollegeManagement': typeof CollegeManagementCollegeManagementRoute
+  '/Contacts/Contacts': typeof ContactsContactsRoute
+  '/NotFoundPage/NotFoundPage': typeof NotFoundPageNotFoundPageRoute
+  '/Specials/Specials': typeof SpecialsSpecialsRoute
+  '/TeachingStaff/TeachingStaff': typeof TeachingStaffTeachingStaffRoute
+  '/contestResults/contestResults': typeof ContestResultsContestResultsRoute
   '/news/$newsId': typeof NewsNewsIdRoute
   '/news/': typeof NewsIndexRoute
-  '/demo/form/address': typeof DemoFormAddressRoute
-  '/demo/form/simple': typeof DemoFormSimpleRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/demo/store'
-    | '/demo/table'
-    | '/demo/tanstack-query'
+    | '/CollegeManagement/CollegeManagement'
+    | '/Contacts/Contacts'
+    | '/NotFoundPage/NotFoundPage'
+    | '/Specials/Specials'
+    | '/TeachingStaff/TeachingStaff'
+    | '/contestResults/contestResults'
     | '/news/$newsId'
     | '/news'
-    | '/demo/form/address'
-    | '/demo/form/simple'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/demo/store'
-    | '/demo/table'
-    | '/demo/tanstack-query'
+    | '/CollegeManagement/CollegeManagement'
+    | '/Contacts/Contacts'
+    | '/NotFoundPage/NotFoundPage'
+    | '/Specials/Specials'
+    | '/TeachingStaff/TeachingStaff'
+    | '/contestResults/contestResults'
     | '/news/$newsId'
     | '/news'
-    | '/demo/form/address'
-    | '/demo/form/simple'
   id:
     | '__root__'
     | '/'
-    | '/demo/store'
-    | '/demo/table'
-    | '/demo/tanstack-query'
+    | '/CollegeManagement/CollegeManagement'
+    | '/Contacts/Contacts'
+    | '/NotFoundPage/NotFoundPage'
+    | '/Specials/Specials'
+    | '/TeachingStaff/TeachingStaff'
+    | '/contestResults/contestResults'
     | '/news/$newsId'
     | '/news/'
-    | '/demo/form/address'
-    | '/demo/form/simple'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  DemoStoreRoute: typeof DemoStoreRoute
-  DemoTableRoute: typeof DemoTableRoute
-  DemoTanstackQueryRoute: typeof DemoTanstackQueryRoute
+  CollegeManagementCollegeManagementRoute: typeof CollegeManagementCollegeManagementRoute
+  ContactsContactsRoute: typeof ContactsContactsRoute
+  NotFoundPageNotFoundPageRoute: typeof NotFoundPageNotFoundPageRoute
+  SpecialsSpecialsRoute: typeof SpecialsSpecialsRoute
+  TeachingStaffTeachingStaffRoute: typeof TeachingStaffTeachingStaffRoute
+  ContestResultsContestResultsRoute: typeof ContestResultsContestResultsRoute
   NewsNewsIdRoute: typeof NewsNewsIdRoute
   NewsIndexRoute: typeof NewsIndexRoute
-  DemoFormAddressRoute: typeof DemoFormAddressRoute
-  DemoFormSimpleRoute: typeof DemoFormSimpleRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  DemoStoreRoute: DemoStoreRoute,
-  DemoTableRoute: DemoTableRoute,
-  DemoTanstackQueryRoute: DemoTanstackQueryRoute,
+  CollegeManagementCollegeManagementRoute:
+    CollegeManagementCollegeManagementRoute,
+  ContactsContactsRoute: ContactsContactsRoute,
+  NotFoundPageNotFoundPageRoute: NotFoundPageNotFoundPageRoute,
+  SpecialsSpecialsRoute: SpecialsSpecialsRoute,
+  TeachingStaffTeachingStaffRoute: TeachingStaffTeachingStaffRoute,
+  ContestResultsContestResultsRoute: ContestResultsContestResultsRoute,
   NewsNewsIdRoute: NewsNewsIdRoute,
   NewsIndexRoute: NewsIndexRoute,
-  DemoFormAddressRoute: DemoFormAddressRoute,
-  DemoFormSimpleRoute: DemoFormSimpleRoute,
 }
 
 export const routeTree = rootRoute
@@ -236,38 +263,42 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/demo/store",
-        "/demo/table",
-        "/demo/tanstack-query",
+        "/CollegeManagement/CollegeManagement",
+        "/Contacts/Contacts",
+        "/NotFoundPage/NotFoundPage",
+        "/Specials/Specials",
+        "/TeachingStaff/TeachingStaff",
+        "/contestResults/contestResults",
         "/news/$newsId",
-        "/news/",
-        "/demo/form/address",
-        "/demo/form/simple"
+        "/news/"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
-    "/demo/store": {
-      "filePath": "demo.store.tsx"
+    "/CollegeManagement/CollegeManagement": {
+      "filePath": "CollegeManagement/CollegeManagement.tsx"
     },
-    "/demo/table": {
-      "filePath": "demo.table.tsx"
+    "/Contacts/Contacts": {
+      "filePath": "Contacts/Contacts.tsx"
     },
-    "/demo/tanstack-query": {
-      "filePath": "demo.tanstack-query.tsx"
+    "/NotFoundPage/NotFoundPage": {
+      "filePath": "NotFoundPage/NotFoundPage.tsx"
+    },
+    "/Specials/Specials": {
+      "filePath": "Specials/Specials.tsx"
+    },
+    "/TeachingStaff/TeachingStaff": {
+      "filePath": "TeachingStaff/TeachingStaff.tsx"
+    },
+    "/contestResults/contestResults": {
+      "filePath": "contestResults/contestResults.tsx"
     },
     "/news/$newsId": {
       "filePath": "news/$newsId.tsx"
     },
     "/news/": {
       "filePath": "news/index.tsx"
-    },
-    "/demo/form/address": {
-      "filePath": "demo.form.address.tsx"
-    },
-    "/demo/form/simple": {
-      "filePath": "demo.form.simple.tsx"
     }
   }
 }

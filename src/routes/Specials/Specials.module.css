@@ -1,0 +1,219 @@
+/* ===========================================================
+   Основной блок с фоновым изображением и центровкой контента
+   =========================================================== */
+.headContent {
+    /* Фоновое изображение + цвет-фолбэк в одной строке */
+    background: url('/src/img/bg_layout.jpg') center/cover no-repeat #f0f0f0;
+    /* Вместо height: 100vh лучше использовать min-height, 
+       чтобы растягивать блок минимум на высоту экрана, 
+       но позволять ему «расти» при большом контенте */
+    min-height: 100vh;
+    position: relative;
+
+    /* Флекс-контейнер для выравнивания по центру */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    text-align: center;
+
+    /* Бордюр снизу */
+    border-bottom: 1px solid #0025A1;
+}
+
+/* Заголовок внутри .headContent */
+.headContent h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 115px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+    color: #000E3B;
+    margin: 0; /* Убираем лишние отступы у h1 */
+}
+
+/* 
+   Если нужна переносная строка в заголовке, 
+   проще вставить <br> в HTML, чем использовать псевдоэлементы.
+   Поэтому следующие правила можно удалить, если перенос вы делаете через HTML:
+   
+.headContent h1 span {
+    display: block;
+}
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+*/
+
+/* Блок с «хэштегом» или подписью под заголовком */
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+    color: #05070F;
+    text-align: left; /* вместо start можно безопаснее использовать left */
+    margin: 0 0 20px 0;
+}
+
+/* ===========================================================
+   Универсальный контейнер для карточек или других элементов
+   =========================================================== */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10rem 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===========================================================
+   Карточка «спецпредложения» (тёмная версия)
+   =========================================================== */
+.specialsCard {
+    background-color: #000E3B;
+    color: #FFFFFF;
+    padding: 50px 38px;
+    max-width: 850px;
+    border-radius: 50px;
+    max-height: 520px;
+}
+
+/* Внутренняя шапка карточки */
+.headerCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Можно добавить отступы между элементами шапки */
+}
+
+/* Период, дата и т.п. */
+.period {
+    display: flex;
+    gap: 10px;
+}
+
+.periodText {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0; /* Сбросим отступы у абзаца, если он там */
+}
+
+/* Заголовок внутри карточки */
+.title {
+    font-size: 24px;
+    font-weight: 700; /* вместо bold можно числовое значение */
+    margin: 0;
+    line-height: 1.2;
+    max-height: 60px; /* Вместо height лучше ограничивать max-height, 
+                         чтобы текст не обрезался неожиданно */
+}
+
+/* Подзаголовок */
+.subTitle {
+    font-size: 36px;
+    font-weight: 700;
+    opacity: 0.8;
+    margin: 0;
+}
+
+/* Идентификатор карточки (ID) */
+.cardId {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000E3B;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Описание внутри карточки */
+.description {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+/* Индикаторы, характеристики и т.п. */
+.indicators {
+    margin-top: 16px;
+    display: flex;
+    gap: 22px;
+}
+
+/* Блок с дополнительной информацией и картинкой */
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* выровняем контент по центру по вертикали */
+}
+
+/* Изображение внутри info */
+.infoImg {
+    margin-left: 20px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* ===========================================================
+   Карточка «спецпредложения» (светлая версия)
+   =========================================================== */
+
+.indificators {
+    display: flex;
+    gap: 16px;
+}
+
+
+.whSpecialsCard {
+    color: #000E3B;
+    padding: 50px 38px;
+    max-width: 850px;
+    border-radius: 50px;
+    max-height: 520px;
+    border: 2px solid #000E3B;
+}
+
+
+.id {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000E3B;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+/* Внутренний ID для светлой карточки */
+.whId {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #000E3B;
+    border-radius: 20px;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}

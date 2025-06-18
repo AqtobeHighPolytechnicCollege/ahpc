@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
-
+import { MantineProvider } from '@mantine/core';
 import * as TanstackQuery from './integrations/tanstack-query/root-provider'
 
 // Import the generated route tree
@@ -37,7 +37,9 @@ if (rootElement && !rootElement.innerHTML) {
   root.render(
     <StrictMode>
       <TanstackQuery.Provider>
+        <MantineProvider withGlobalStyles withNormalizeCSS>
         <RouterProvider router={router} />
+        </MantineProvider>
       </TanstackQuery.Provider>
     </StrictMode>,
   )

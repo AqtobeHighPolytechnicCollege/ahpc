@@ -1,104 +1,268 @@
-body{
-    margin-top: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.headContent{
-align-content: center;
+/* Корневой контейнер заголовка и контента */
+.headContent {
+    max-width: 1200px;
+    margin: 10rem auto;
+    padding: 2rem 1rem;
     text-align: center;
 }
-.headContent h1{
-    font-size: 5rem;
-    font-family: 'Inter', sans-serif;
+
+.headContent h1 {
+    font-size: 4rem;
     font-weight: 600;
-    color: #1045af;
+    margin-bottom: 1.5rem;
+    color: #000E3B;
 }
 
-.newsContent{
+/* Общий контейнер для ленты */
+.newsContent {
     display: flex;
-    margin-top: 50px;
+    justify-content: center;
 }
 
+/* Обёртка строки поиска */
+.searchWrapper {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Обёртка для строки поиска */
+.searchWrapper {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Контейнер вокруг input + иконки */
+.searchInputWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+}
+
+/* Само поле ввода */
+.searchInput {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 1rem; /* слева 1rem, справа 2.5rem, чтобы освободить место для иконки */
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Состояние фокуса поля */
+.searchInput:focus {
+    border-color: #007acc;
+    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
+}
+
+/* Иконка-лупа в правом крае */
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    right: 0.75rem; /* отступ от правого края input */
+    transform: translateY(-50%);
+    width: 1rem;   /* 16px */
+    height: 1rem;  /* 16px */
+    pointer-events: none; /* чтобы клики попадали в input */
+    fill: #888;
+    transition: fill 0.2s ease;
+}
+
+/* Изменение цвета иконки при фокусе рядом с input */
+.searchInput:focus + .searchIcon {
+    fill: #007acc;
+}
+
+/* Адаптив для мобильных устройств */
+@media (max-width: 480px) {
+    .searchInput {
+        padding: 0.5rem 2rem 0.5rem 0.75rem;
+        font-size: 0.95rem;
+    }
+    .searchIcon {
+        right: 0.5rem;
+        width: 0.875rem;  /* 14px примерно */
+        height: 0.875rem;
+    }
+}
+
+
+/* Само поле ввода */
+.searchInput {
+    width: 100%;
+    max-width: 480px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.searchInput:focus {
+    border-color: #007acc;
+    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
+}
+
+/* Адаптив */
+@media (max-width: 480px) {
+    .searchInput {
+        max-width: 90%;
+        font-size: 0.95rem;
+    }
+}
+
+
+/* Список карточек */
 .newsCardList {
-width: 100%;
-    max-width: 1800px;
-}
-
-.newsCard{
-    width: 90vw;
-    display: flex;
-    margin: 20px;
-    border-bottom: 1px solid black;
-}
-
-.newsLeftInfo {
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-.newsImage {
-    max-width: 100%;
-
-}
-.newsImage img {
-    max-width: 500px;
-}
-
-.newsRightInfo {
-display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
     width: 100%;
 }
-.newsRightInfoUP {
 
+/* Одиночная карточка */
+.newsCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.newsCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Левая часть: изображение */
+.newsLeftInfo {
+    width: 100%;
+    overflow: hidden;
+}
+
+.newsImage {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* соотношение 16:9 */
+    position: relative;
+}
+
+.newsImage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Правая часть: текстовая информация */
+.newsRightInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex: 1;
+}
+
+.newsRightInfoUp {
+    flex: 1;
 }
 
 .newsDate {
-
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 0.5rem;
 }
 
 .newsTitle {
-font-size: 32px;
-    font-family: 'Inter', sans-serif;
+    font-size: 1.15rem;
     font-weight: 600;
+    color: #222;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
 }
 
 .newsSubtitle {
-font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.4;
+    max-height: 3.6em; /* три строки */
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
+/* Нижняя часть карточки: кнопка */
 .newsRightInfoDown {
-
-display: flex;
-justify-content: flex-end;
-}
-
-.newsButton {
-background-color: #1045af;
-    padding: 10px;
-    color: white;
-}
-
-.loadNews {
-display: flex;
-    align-items: center;
-}
-
-.loadNews h1 {
-    font-size: 72px;
-}
-.newsError {
+    margin-top: 1rem;
     display: flex;
+    justify-content: flex-end;
+}
+
+.newsButton a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #000E3B;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+}
+
+.newsButton a:hover {
+    background-color: #005fa3;
+}
+
+/* Стили для состояния загрузки/ошибки */
+.newsError,
+.loadNews {
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-.newsError h1 {
-    font-size: 72px;
+    height: 50vh;
 }
 
+.newsError h1,
+.loadNews h1 {
+    font-size: 1.5rem;
+    color: #555;
+}
 
+/* Адаптивные правки */
+@media (max-width: 768px) {
+    .headContent h1 {
+        font-size: 1.75rem;
+    }
 
+    .newsCardList {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .headContent {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .headContent h1 {
+        font-size: 1.5rem;
+    }
+
+    .newsCardList {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .newsButton a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+    }
+}
