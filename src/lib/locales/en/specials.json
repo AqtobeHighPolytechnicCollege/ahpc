@@ -1,0 +1,115 @@
+{
+  "specials": "Specialties",
+  "onBase9": "based on 9th grade",
+  "onBase11": "based on 11th grade",
+
+  "specialty1": {
+    "title": "Translation Studies",
+    "qualification": "Translator",
+    "codeSpecialty": "02310100",
+    "codeQualification": "4S02310101",
+    "base9Duration": "2 years 10 months",
+    "base11Duration": "1 year 10 months",
+    "description": "This specialty trains professional translators capable of performing written and oral translation in various fields — business, tourism, science, education, and international relations."
+  },
+
+  "specialty2": {
+    "title": "Accounting and Auditing",
+    "qualification": "Accountant",
+    "codeSpecialty": "04110100",
+    "codeQualification": "4S04110102",
+    "base9Duration": "2 years 10 months",
+    "base11Duration": "1 year 10 months",
+    "description": "This specialty prepares professionals in accounting and auditing, able to manage financial and tax accounting in different areas — business, production, finance, education, and public administration."
+  },
+
+  "specialty3": {
+    "title": "Software Engineering",
+    "qualification": "Information Systems Technician",
+    "codeSpecialty": "06130100",
+    "codeQualification": "4S06130105",
+    "base9Duration": "3 years 10 months",
+    "base11Duration": "2 years 10 months",
+    "description": "This specialty trains professional developers capable of creating and maintaining software in various fields — business, education, manufacturing, healthcare, and the IT industry."
+  },
+
+  "specialty4": {
+    "title": "Laboratory Technology",
+    "qualification": "Laboratory Technician",
+    "codeSpecialty": "07110400",
+    "codeQualification": "4S07110404",
+    "base9Duration": "3 years 10 months",
+    "base11Duration": "2 years 10 months",
+    "description": "This specialty trains qualified laboratory technicians capable of conducting analyses and research in various fields — medicine, ecology, food industry, education, and scientific activities."
+  },
+
+  "specialty5": {
+    "title": "Oil and Gas Processing Technology",
+    "qualification": "Process Technician",
+    "codeSpecialty": "07110500",
+    "codeQualification": "4S07110502",
+    "base9Duration": "3 years 10 months",
+    "base11Duration": "2 years 10 months",
+    "description": "This specialty trains professionals capable of processing oil and gas in various fields — industry, energy, chemical and petrochemical industries, as well as environmental monitoring."
+  },
+
+  "specialty6": {
+    "title": "Power Supply",
+    "qualification": "Electrical Technician",
+    "codeSpecialty": "07130200",
+    "codeQualification": "4S07130202",
+    "base9Duration": "3 years 10 months",
+    "base11Duration": "2 years 10 months",
+    "description": "This specialty trains qualified specialists capable of designing, operating, and maintaining power supply systems in various fields — industry, construction, transport, energy, and utilities."
+  },
+
+  "specialty7": {
+    "title": "Maintenance, Repair and Operation of Electromechanical Equipment",
+    "qualification": "Electromechanical Technician",
+    "codeSpecialty": "07130700",
+    "codeQualification": "4S07130704",
+    "base9Duration": "3 years 10 months",
+    "base11Duration": "2 years 10 months",
+    "description": "This specialty prepares professionals capable of performing maintenance, repair, and operation of electromechanical equipment in various fields — industry, transport, energy, construction, and agriculture."
+  },
+
+  "specialty8": {
+    "title": "Automation and Control of Technological Processes",
+    "qualification": "Electromechanical Technician",
+    "codeSpecialty": "07140100",
+    "codeQualification": "4S07140102",
+    "base9Duration": "3 years 10 months",
+    "base11Duration": "2 years 10 months",
+    "description": "This specialty trains specialists capable of developing, implementing, and maintaining automation systems in various fields — industry, energy, transport, manufacturing, and construction."
+  },
+
+  "specialty9": {
+    "title": "Mechanical Engineering Technology",
+    "qualification": "Mechanical Technician",
+    "codeSpecialty": "07150100",
+    "codeQualification": "4S07150106",
+    "base9Duration": "3 years 6 months",
+    "base11Duration": "2 years 6 months",
+    "description": "This specialty trains qualified specialists capable of developing and implementing material processing technologies in various fields — mechanical engineering, metallurgy, manufacturing, construction, and energy."
+  },
+
+  "specialty10": {
+    "title": "Maintenance, Repair and Operation of Motor Vehicles",
+    "qualification": "Mechanical Technician",
+    "codeSpecialty": "07161300",
+    "codeQualification": "4S07161304",
+    "base9Duration": "3 years 10 months",
+    "base11Duration": "2 years 10 months",
+    "description": "This specialty prepares professionals capable of performing maintenance, repair, and operation of motor vehicles in various fields — auto service, transportation, manufacturing, logistics, and road infrastructure."
+  },
+
+  "specialty11": {
+    "title": "Operation of Oil and Gas Fields",
+    "qualification": "Process Technician",
+    "codeSpecialty": "07240900",
+    "codeQualification": "4S07240902",
+    "base9Duration": "3 years 10 months",
+    "base11Duration": "2 years 10 months",
+    "description": "This specialty trains specialists capable of ensuring efficient development and operation of oil and gas fields in various areas — extraction, processing, transportation, ecology, and energy."
+  }
+}

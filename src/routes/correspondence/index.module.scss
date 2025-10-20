@@ -1,0 +1,49 @@
+.container {
+
+}
+
+.head {
+  h1 {
+    span {
+      &:nth-child(1)::after {
+        content: " ";
+      }
+    }
+  }
+
+  .hashtag {
+    p {
+
+    }
+  }
+
+
+}
+
+.whoIs {
+  .text {
+    .title {
+
+    }
+    .subtitle
+  }
+}
+
+.willGetSection {
+  .title {
+
+  }
+
+  .block {
+    .item {
+      .info {
+        .title {
+
+        }
+        .subtitle {
+
+        }
+      }
+    }
+  }
+}

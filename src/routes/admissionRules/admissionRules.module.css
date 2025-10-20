@@ -1,0 +1,573 @@
+body {
+    background-color: #F0EBFF;
+}
+
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    text-align: center;
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10rem 5rem;
+    flex-wrap: wrap;
+}
+
+.titleBlock {
+    display: flex;
+    gap: 80px;
+}
+
+.titleBlock__Text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.titleBlock__Tittle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #000E3B;
+}
+
+.titleBlock__Paragraph {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.titleBlock__ParagraphBold {
+    font-size: 24px;
+    font-weight: 900;
+    color: #000E3B;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+
+.infoSection__Title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000E3B;
+}
+
+.infoBlock {
+    display: flex;
+    gap: 10px;
+}
+
+.infoBlock__BlockAdress {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    background-image: url("/img/admissionRules/priemComisia.png");
+}
+
+.infoBlock__BlockAdress__Title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000E3B;
+}
+
+.infoBlock__BlockAdress__Adress {
+    font-size: 27px;
+    font-weight: 600;
+    color: #F61F1F;
+}
+
+.infoBlock__BlockAdress__City {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.infoBlock__Info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.infoBlock__Data {
+    display: flex;
+    gap: 10px;
+}
+
+.infoBlock__Data__FT {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.infoBLock__Data__FT__Titile {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.infoBLock__Data__FT__Data {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F6821F;
+}
+
+.infoBLock__Data__FT__subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000E3B;
+}
+
+.infoBlock__Data__Corr {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.infoBlock__Data__Corr__Data {
+    font-size: 36px;
+    font-weight: 600;
+    color: #F6821F;
+}
+
+.infoBlock__Data__Corr__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.infoBlock__Docs {
+    display: flex;
+    gap: 10px;
+}
+
+.infoBlock__Docs__DocsList {
+    display: flex;
+    padding: 30px;
+    background-color: #8D8FFF;
+    border-radius: 20px;
+    align-items: flex-end;
+}
+
+.infoBlock__Docs__DocsList__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBlock__Docs__DocsList__Title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.infoBlock__Docs__DocsList__List {
+    width: 400px;
+}
+
+.infoBLock__Docs__DocsList__ListItem {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.infoBlock__Docs__Portal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #000E3B;
+    border-radius: 20px;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.infoBLock__Docs__Portal__Title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.PS {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.PSBold {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000E3B;
+}
+
+.requisitesSelection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.requisitesTitle {
+    font-size: 40px;
+    font-weight: 500;
+    color: #000E3B;
+}
+
+.requisites {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.requisitesInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.requisitesInfo__SMM {
+    display: flex;
+}
+
+.requisitesInfo__SMM__Social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.requisitesInfo__SMM__Social__Mesenger {
+    display: flex;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 20px 0 0 20px;
+    align-items: center;
+}
+
+.requisitesInfo__SMM__Social__Title__Mesenger {
+    font-size: 36px;
+    font-weight: 300;
+    color: #000E3B;
+}
+
+.requisitesInfo__SMM__Number {
+    background-color: #000E3B;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.requisitesInfo__SMM__Number__Title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.requisitesInfo__SMM__Number__Block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.requisitesInfo__SMM__Number__Block__Number {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.requisitesInfo__BIN {
+    display: flex;
+}
+
+.requisitesInfo__BIN__Info {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+}
+
+.requisitesInfo__BIN__Info__Detail {
+    display: flex;
+    align-items: center;
+}
+
+.requisitesInfo__BIN__Title {
+    font-size: 36px;
+    font-weight: 300;
+    color: #000E3B;
+}
+
+.requisitesInfo__BIN__Adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000E3B;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.requisitesInfo__BIN__Adress__Subtitle {
+    font-size: 16px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+.requisitesInfo__BIN__Adress__Title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.tableContainer {
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+
+    .titleBlock__Paragraph {
+        font-size: 16px;
+    }
+
+    .titleBlock__ParagraphBold {
+        font-size: 16px;
+    }
+
+    .titleBlock img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .requisites {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .requisitesInfo__SMM__Social__Title__Mesenger {
+        font-size: 20px;
+    }
+
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+    .titleBlock {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .infoBlock {
+        flex-direction: column;
+    }
+
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .container{
+        margin: 5rem 1rem;
+        justify-content: center;
+    }
+
+    .headContent h1 {
+        font-size: 54px;
+    }
+
+    .requisitesInfo__BIN__Title {
+        font-size: 16px;
+    }
+
+    .requisitesInfo__BIN__Adress__Title {
+        font-size: 24px;
+    }
+
+    .requisitesInfo__BIN__Adress__Subtitle {
+        font-size: 11px;
+    }
+
+    .requisitesInfo__BIN__Info__Detail {
+        gap: 20px;
+    }
+
+    .requisitesInfo__SMM__Number__Block__Number {
+        font-size: 16px;
+    }
+
+    .photographia  {
+        display: none;
+    }
+
+    .requisitesInfo__SMM__Number__Title {
+        font-size: 20px;
+    }
+
+    .requisitesInfo__SMM__Social__Mesenger img {
+        width: 30px;
+    }
+
+    .PS {
+        font-size: 16px;
+    }
+    .infoSection__Title {
+        font-size: 30px;
+    }
+
+    .infoBlock__Data {
+        flex-direction: column;
+    }
+
+    .infoBlock__Docs  {
+        flex-direction: column;
+    }
+
+    .infoBlock__Docs__DocsList {
+        flex-direction: column;
+    }
+
+    .titleBlock__Tittle {
+        font-size: 30px;
+    }
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+    .container {
+        margin: 5rem 1rem;
+    }
+
+    .infoSection__Title {
+        font-size: 20px;
+    }
+
+    .infoBlock__Docs__DocsList {
+        align-items: start;
+    }
+
+    .infoBlock__Docs__DocsList__List {
+        width: 300px;
+    }
+
+    .infoBlock__Docs__DocsList__Title {
+        font-size: 24px;
+    }
+
+    .infoBLock__Docs__DocsList__ListItem {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .infoBlock__BlockAdress__Title {
+        font-size: 24px;
+    }
+
+    .infoBlock__Data__Corr__Data {
+        font-size: 24px;
+    }
+
+    .requisitesInfo__SMM {
+        flex-direction: column;
+    }
+
+    .requisitesInfo__SMM__Social__Mesenger {
+        border-radius: 20px;
+    }
+
+    .requisitesInfo__BIN {
+        flex-direction: column;
+    }
+
+    .requisitesInfo__BIN__Info {
+        border-radius: 20px;
+    }
+
+
+}
+
+
+
+
+

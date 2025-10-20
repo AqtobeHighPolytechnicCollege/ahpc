@@ -1,0 +1,171 @@
+{
+  "collegeManagement": "College Management",
+  "moreDetails": "More Details",
+  "achievements": "Achievements",
+  "appointmentOrder": "Appointment Order",
+  "education": "Education",
+  "graduationYear": "Year of graduation and name of educational institution",
+  "specialty": "Specialty",
+  "qualification": "Qualification",
+  "qualificationBySpecialty": "Qualification by specialty",
+  "academicDegree": "Academic degree, academic title",
+
+  "team": {
+    "0": {
+      "name": "Mukhambeptaizova Zheniskul Sagidollaevna",
+      "position": "College Director",
+      "education": "Almaty Institute of Railway Transport Engineers",
+      "graduationYear": "Almaty Institute of Railway Transport Engineers",
+      "qualification": "Railway transport engineer in transportation process management",
+      "degree": "Candidate of Technical Sciences",
+      "achievements": [
+        "Letter of Gratitude from the President of the Republic of Kazakhstan",
+        "Certificate from the Minister of Transport and Communications",
+        "Certificate of Merit from the Minister of Education and Science",
+        "Certificate and Letter of Gratitude from the Akim of Aktobe Region",
+        "Letter of Gratitude from the Akim of Aktobe City",
+        "Certificate of Honor from the Aktobe Regional Education Department",
+        "Member of the Nur Otan Party",
+        "Deputy of the Regional Maslikhat",
+        "Member of the Public Council for Anti-Corruption",
+        "Y.Altynsarin Badge",
+        "Order of Kurmet",
+        "Kos Shynar Badge",
+        "Medal for the 20th Anniversary of the Maslikhat of the Republic of Kazakhstan"
+      ]
+    },
+    "1": {
+      "name": "Khairullaev Rinat Askerovich",
+      "position": "Deputy Director for Information Technology",
+      "education": "Higher education",
+      "graduationYear": "Aktobe Regional State University named after K. Zhubanov, 2015",
+      "specialty": "5B011100 - Computer Science",
+      "qualification": "Bachelor of Education",
+      "degree": "Aktobe Regional State University named after K. Zhubanov, 2017, 6M060200 - Computer Science, Master of Natural Sciences",
+      "achievements": [
+        "Grand Prix Diploma in Robotics Championship at regional level - 2018",
+        "1st degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2018 in Graphic Design competency",
+        "3rd degree diploma for preparing a student in the National Championship WorldSkills Kazakhstan-2018 in Graphic Design competency",
+        "3rd degree diploma for participation in the business project 'Innovative Teacher' - 2018"
+      ]
+    },
+    "2": {
+      "name": "Uteuliev Yerzhan Baktybayevich",
+      "position": "Deputy Director for Academic Affairs",
+      "education": "Higher education",
+      "graduationYear": [
+        "Karaganda State University named after E.A. Buketov, 2011",
+        "Aktobe University named after S. Baishev, 2013",
+        "Aktobe University named after S. Baishev, 2017"
+      ],
+      "specialty": [
+        "050901 - Organization of transportation, traffic and operation of transport",
+        "6M051000 - State and local government",
+        "Automation and control"
+      ],
+      "qualification": [
+        "Bachelor in Services",
+        "Master of Economic Sciences",
+        "Bachelor of Engineering and Technology"
+      ],
+      "degree": "Economics of scientific and pedagogical direction, Master of Economic Sciences",
+      "achievements": [
+        "Winner of the republican level competition 'Best Teacher' - 2017, holder of the 'Best Teacher' title certificate - 2017 of the Republic of Kazakhstan",
+        "Medal for outstanding merits in the field of technical and vocational education of the Republic of Kazakhstan, 2016",
+        "2017 Fifth Republican Competition of Teachers 'Önegeli ustaz'. 1st place",
+        "2019 Medal 'For Excellence in Education'",
+        "2019 Winner of the Y. Altynsarin competition",
+        "2021 Winner of the republican competition 'Білім беру саласының үздіктері'",
+        "2021 Regional competition of projects '3D modeling - engineering of the future' - 1st place",
+        "2021 Gratitude from the Ministry of Education and Science of the Republic of Kazakhstan",
+        "Letter of Gratitude from NAO Talap, 2022",
+        "Badge 'Білім беру ісінің құрметті қызметкері', 2024"
+      ]
+    },
+    "3": {
+      "name": "Mukhtarov Abzal Tanzharbaevich",
+      "position": "Deputy Director for Educational and Production Work",
+      "education": "Higher education",
+      "graduationYear": [
+        "West Kazakhstan Agrarian University, 1999",
+        "Aktobe State University named after K. Zhubanov, 2006"
+      ],
+      "specialty": [
+        "Mechanization of agricultural production",
+        "Jurisprudence"
+      ],
+      "qualification": [
+        "Mechanical engineer with higher professional education",
+        "Lawyer with higher professional education"
+      ],
+      "achievements": [
+        "Letter of Gratitude from the Minister of Education and Science of the Republic of Kazakhstan, 2014",
+        "Has 30 scientific works and 1 innovation patent for invention of the Republic of Kazakhstan",
+        "Certificate of Honor from the Aktobe Regional Organization of the Kazakhstan Industry Professional Union of Education Workers, 2019"
+      ]
+    },
+    "4": {
+      "name": "Karashev Asylbek Amantaevich",
+      "position": "Deputy Director for Professional Training",
+      "education": "Higher education",
+      "graduationYear": "Kazakh Academy of Transport and Communications named after M. Tynyshpaev, 2009",
+      "specialty": "Radio engineering, electronics and telecommunications",
+      "qualification": "Bachelor of Radio Engineering, Electronics and Telecommunications",
+      "achievements": [
+        "2nd degree diploma for participation in the regional olympiad on 'Theoretical Foundations of Electrical Engineering' and 'Theory of Electrical Circuits'",
+        "3rd degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2021 in Information Cabling Systems competency",
+        "2nd degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2023 in Information Cabling Systems competency",
+        "Gratitude for participation in the III International Scientific and Practical Conference 'Youth. Science. Transport'",
+        "1st degree diploma for participation in the competition of republican scientific projects 'Rukhani zhangyru - eldiktin tiregi'"
+      ]
+    },
+    "5": {
+      "name": "Mukanov Seitkali Umbetyazovich",
+      "position": "Deputy Director for Economic Affairs",
+      "education": "Higher education",
+      "graduationYear": "Aktobe Polytechnic College, 2005",
+      "specialty": "Electrical supply",
+      "qualification": "Electrical technician",
+      "achievements": []
+    },
+    "6": {
+      "name": "Kylyshbaeva Kuralay Muratkyzy",
+      "position": "Deputy Director for Educational and Methodological Work",
+      "education": "Higher education",
+      "graduationYear": [
+        "West Kazakhstan Agrarian University, 1996",
+        "West Kazakhstan Engineering and Humanitarian University, 2013"
+      ],
+      "specialty": [
+        "Economics and management in the agricultural sector",
+        "6M050600 - Economics"
+      ],
+      "qualification": [
+        "Economist-manager of agricultural enterprises",
+        "Master of Economic Sciences"
+      ],
+      "achievements": []
+    },
+    "7": {
+      "name": "Abieva Zhainagul Shakenovna",
+      "position": "Deputy Director for Educational Work",
+      "education": "Higher education",
+      "graduationYear": [
+        "Central Asian University, 2009",
+        "Aktobe Regional State University named after K. Zhubanov, 2014"
+      ],
+      "specialty": [
+        "Operation of oil and gas fields",
+        "Bachelor of Oil and Gas Engineering",
+        "5B010300 - Pedagogy and Psychology"
+      ],
+      "qualification": [
+        "Technician-technologist",
+        "Bachelor of Oil and Gas Engineering",
+        "Bachelor of Education"
+      ],
+      "degree": "Master of Pedagogy and Psychology",
+      "achievements": []
+    }
+  }
+}

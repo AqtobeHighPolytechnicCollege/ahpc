@@ -1,0 +1,54 @@
+{
+  "scholarship": "Scholarships and Payments",
+  "grantEducation": {
+    "title": "Grant-Based Education",
+    "paragraph1": "In our college, education is provided through a state grant for graduates of the 9th and 11th grades. This means that students receive quality education free of charge through government funding.",
+    "paragraph2": "The state grant covers all educational expenses, including classroom lessons, laboratory work, practical classes, and access to learning resources.",
+    "stateGrant": "through a state grant"
+  },
+  "typesOfScholarships": {
+    "title": "Types of Scholarships",
+    "academic": {
+      "title": "State Academic Scholarship",
+      "description": "All students enrolled under a grant receive a state academic scholarship. This is a basic scholarship provided to all students who study with good and excellent grades.",
+      "receive": "receive a state academic scholarship"
+    },
+    "increased": {
+      "title": "Increased Scholarship",
+      "description": "If a student has straight A’s (all grades “5”), they receive an increased scholarship. The amount of the increased scholarship is significantly higher than the basic academic scholarship.",
+      "grades": "straight A’s (all grades “5”)",
+      "increased": "increased scholarship"
+    }
+  },
+  "lossOfScholarship": {
+    "title": "Grounds for Loss of Scholarship",
+    "warning": {
+      "important": "Important to know:",
+      "description": "If a student receives even one grade of “3”, they lose the right to a scholarship until the next successful assessment.",
+      "oneGrade": "one grade of “3”",
+      "loses": "loses the right to a scholarship"
+    },
+    "recovery": "To regain the right to receive a scholarship, the student must improve all unsatisfactory and satisfactory grades to good and excellent ones."
+  },
+  "payments": {
+    "title": "Payment Transfers",
+    "schedule": {
+      "title": "Payment Schedule",
+      "description": "Scholarship payments are made monthly, usually at the beginning of the month. Exact dates may vary depending on banking procedures and holidays.",
+      "monthly": "monthly"
+    },
+    "bankCards": {
+      "title": "Bank Cards",
+      "description1": "The college itself opens a card at Halyk Bank for scholarship payments. Students do not need to open accounts or cards on their own.",
+      "description2": "The card will be issued in the student’s name and handed over after all banking procedures are completed. All card service fees are covered by the college.",
+      "collegeOpens": "The college itself opens a card at Halyk Bank"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "curator": "For all questions related to scholarships and payments, please contact your group curator.",
+    "accounting": "You can also get a consultation at the college’s accounting office regarding payment dates and amounts.",
+    "curatorBold": "your group curator",
+    "accountingBold": "the college’s accounting office"
+  }
+}

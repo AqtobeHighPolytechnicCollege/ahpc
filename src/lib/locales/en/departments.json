@@ -11,7 +11,7 @@
     {
       "title": "Information Systems",
       "subtitle": "Modern education in the field of information technology, programming, and systems analysis",
-      "image": "/src/img/IS/IS.JPG",
+      "image": "/img/IS/IS.JPG",
       "imageAlt": "department photo",
       "about": {
         "title": "About Our Department",
@@ -41,22 +41,22 @@
         "title": "Our Classrooms",
         "list": [
           {
-            "image": "/src/img/IS/110.JPG",
+            "image": "/img/IS/110.JPG",
             "alt": "classroom photo",
             "title": "Computer Classroom 1"
           },
           {
-            "image": "/src/img/IS/108.JPG",
+            "image": "/img/IS/108.JPG",
             "alt": "classroom photo",
             "title": "Computer Classroom 2"
           },
           {
-            "image": "/src/img/IS/112.JPG",
+            "image": "/img/IS/112.JPG",
             "alt": "classroom photo",
             "title": "Computer Classroom 3"
           },
           {
-            "image": "/src/img/IS/208.JPG",
+            "image": "/img/IS/208.JPG",
             "alt": "classroom photo",
             "title": "Computer Classroom 4"
           }
@@ -64,7 +64,7 @@
       },
       "head": {
         "title": "Head of Department",
-        "image": "/src/img/IS/Ismagulova.png",
+        "image": "/img/IS/Ismagulova.png",
         "education": {
           "label": "Education",
           "value": "Higher Education"
@@ -94,7 +94,7 @@
         "title": "Teaching Staff",
         "list": [
           {
-            "image": "/src/img/IS/Albergenova_Aruzhan.jpg",
+            "image": "/img/IS/Albergenova_Aruzhan.jpg",
             "alt": "Teacher photo",
             "name": "Albergenova Aruzhan Ruslanovna",
             "position": "Programming Teacher",
@@ -105,7 +105,7 @@
             "experience": "Work Experience: 1.5 years"
           },
           {
-            "image": "/src/img/IS/Aldongarova_Kimbat.jpg",
+            "image": "/img/IS/Aldongarova_Kimbat.jpg",
             "alt": "Teacher photo",
             "name": "Aldongarova Kymbat Kannazarovna",
             "position": "Programming Teacher",
@@ -116,7 +116,7 @@
             "experience": "Work Experience: 6 years"
           },
           {
-            "image": "/src/img/IS/Bazarbaeva_Asem.jpg",
+            "image": "/img/IS/Bazarbaeva_Asem.jpg",
             "alt": "Teacher photo",
             "name": "Bazarbaeva Asem",
             "position": "Programming Teacher",
@@ -127,7 +127,7 @@
             "experience": "Work Experience: 9 years"
           },
           {
-            "image": "/src/img/IS/Edilov_Bazargali.jpg",
+            "image": "/img/IS/Edilov_Bazargali.jpg",
             "alt": "Teacher photo",
             "name": "Edilov Bazargali Aibekuly",
             "position": "Programming Teacher",
@@ -138,7 +138,7 @@
             "experience": "Work Experience: 1.5 years"
           },
           {
-            "image": "/src/img/IS/Zhamalov_Tamirlan.png",
+            "image": "/img/IS/Zhamalov_Tamirlan.png",
             "alt": "Teacher photo",
             "name": "Zhamalov Tamirlan Zhenisovich",
             "position": "Programming Teacher",
@@ -149,7 +149,7 @@
             "experience": "Work Experience: 2 years"
           },
           {
-            "image": "/src/img/IS/IBK.jpg",
+            "image": "/img/IS/IBK.jpg",
             "alt": "Teacher photo",
             "name": "Itibaev Bataniaz Kuanshbekovich",
             "position": "Programming Teacher",
@@ -160,7 +160,7 @@
             "experience": "Work Experience: 18 years"
           },
           {
-            "image": "/src/img/IS/Kobdabaeva_Shinar.png",
+            "image": "/img/IS/Kobdabaeva_Shinar.png",
             "alt": "Teacher photo",
             "name": "Kobdabaeva Shynar Amangeldievna",
             "position": "Programming Teacher",
@@ -171,7 +171,7 @@
             "experience": "Work Experience: 19 years"
           },
           {
-            "image": "/src/img/IS/Adlet.jpg",
+            "image": "/img/IS/Adlet.jpg",
             "alt": "Teacher photo",
             "name": "Kulbaev Adilet Bisengulovich",
             "position": "Programming Teacher",
@@ -182,7 +182,7 @@
             "experience": "Work Experience: 2 years"
           },
           {
-            "image": "/src/img/IS/Koishigul_Araylim.jpg",
+            "image": "/img/IS/Koishigul_Araylim.jpg",
             "alt": "Teacher photo",
             "name": "Koishygul Arailym Erlankyzy",
             "position": "Programming Teacher",
@@ -193,7 +193,7 @@
             "experience": "Work Experience: 7 years"
           },
           {
-            "image": "/src/img/IS/Marat_Gauhar.jpg",
+            "image": "/img/IS/Marat_Gauhar.jpg",
             "alt": "Teacher photo",
             "name": "Marat Gauhar Maratkyzy",
             "position": "Programming Teacher",
@@ -204,7 +204,7 @@
             "experience": "Work Experience: 13 years"
           },
           {
-            "image": "/src/img/IS/Muhanova_Akmaral.jpg",
+            "image": "/img/IS/Muhanova_Akmaral.jpg",
             "alt": "Teacher photo",
             "name": "Mukhanova Akmaral Sapargalievna",
             "position": "Programming Teacher",
@@ -215,7 +215,7 @@
             "experience": "Work Experience: 3 years"
           },
           {
-            "image": "/src/img/IS/Nasirov_Jastilek.png",
+            "image": "/img/IS/Nasirov_Jastilek.png",
             "alt": "Teacher photo",
             "name": "Nasyrov Zhastilek Zhannatuly",
             "position": "Programming Teacher",
@@ -226,7 +226,7 @@
             "experience": "Work Experience: 7 years"
           },
           {
-            "image": "/src/img/IS/Banu.jpg",
+            "image": "/img/IS/Banu.jpg",
             "alt": "Teacher photo",
             "name": "Sagyndyk Banu Serikkalikyzy",
             "position": "Programming Teacher",
@@ -237,7 +237,7 @@
             "experience": "Work Experience: 1 year"
           },
           {
-            "image": "/src/img/IS/Erzhan_Sainov.png",
+            "image": "/img/IS/Erzhan_Sainov.png",
             "alt": "Teacher photo",
             "name": "Sainov Erzhan Erbatyrovich",
             "position": "Programming Teacher",
@@ -248,7 +248,7 @@
             "experience": "Work Experience: 1 year"
           },
           {
-            "image": "/src/img/IS/Sakebaeva_Nursulu.png",
+            "image": "/img/IS/Sakebaeva_Nursulu.png",
             "alt": "Teacher photo",
             "name": "Sakebaeva Nursulu Borebaevna",
             "position": "Programming Teacher",
@@ -259,7 +259,7 @@
             "experience": "Work Experience: 36 years"
           },
           {
-            "image": "/src/img/IS/Sembaev_Murat.png",
+            "image": "/img/IS/Sembaev_Murat.png",
             "alt": "Teacher photo",
             "name": "Sembaev Murat Tasbolatovich",
             "position": "Programming Teacher",
@@ -270,7 +270,7 @@
             "experience": "Work Experience: 12 years"
           },
           {
-            "image": "/src/img/IS/Urinbasarova_Janargul.jpg",
+            "image": "/img/IS/Urinbasarova_Janargul.jpg",
             "alt": "Teacher photo",
             "name": "Urinbasarova Zhanargul Nauryzgalievna",
             "position": "Programming Teacher",
@@ -281,7 +281,7 @@
             "experience": "Work Experience: 17 years"
           },
           {
-            "image": "/src/img/IS/Hibadulina_Elmira.jpg",
+            "image": "/img/IS/Hibadulina_Elmira.jpg",
             "alt": "Teacher photo",
             "name": "Khibadullina Elmira Mukhanbetzhankyzy",
             "position": "Programming Teacher",
@@ -297,7 +297,7 @@
     {
       "title": "Automation and Control",
       "subtitle": "Training specialists in industrial automation and control systems",
-      "image": "/src/img/AS/AS.jpg",
+      "image": "/img/AS/AS.jpg",
       "imageAlt": "automation department photo",
       "about": {
         "title": "About Our Department",
@@ -327,12 +327,12 @@
         "title": "Our Laboratories",
         "list": [
           {
-            "image": "/src/img/AU/lab1.JPG",
+            "image": "/img/AU/lab1.JPG",
             "alt": "laboratory photo",
             "title": "Automation Laboratory"
           },
           {
-            "image": "/src/img/AU/lab2.JPG",
+            "image": "/img/AU/lab2.JPG",
             "alt": "laboratory photo",
             "title": "PLC Laboratory"
           }
@@ -340,7 +340,7 @@
       },
       "head": {
         "title": "Head of Department",
-        "image": "/src/img/AS/Darhan_Shanbaev.jpeg",
+        "image": "/img/AS/Darhan_Shanbaev.jpeg",
         "education": {
           "label": "Education",
           "value": "Higher Education, Master's"
@@ -376,7 +376,7 @@
         "title": "Teaching Staff",
         "list": [
           {
-            "image": "/src/img/AS/Suteeva_A.jpeg",
+            "image": "/img/AS/Suteeva_A.jpeg",
             "alt": "Teacher photo",
             "name": "Suteeva Aktenbek Ayankyzy",
             "position": "Teacher",
@@ -387,7 +387,7 @@
             "experience": "Work Experience: 5 years"
           },
           {
-            "image": "/src/img/AS/Muhanbetova.jpg",
+            "image": "/img/AS/Muhanbetova.jpg",
             "alt": "Teacher photo",
             "name": "Mukhanbetova Ryskul Zhaksylykkyzy",
             "position": "Teacher",
@@ -398,7 +398,7 @@
             "experience": "Work Experience: 18 years"
           },
           {
-            "image": "/src/img/AS/Moldabaeva_Meruert.jpg",
+            "image": "/img/AS/Moldabaeva_Meruert.jpg",
             "alt": "Teacher photo",
             "name": "Moldabaeva Meruert Nabievna",
             "position": "Teacher-Researcher, College Methodologist",
@@ -409,7 +409,7 @@
             "experience": "Work Experience: 14 years"
           },
           {
-            "image": "/src/img/AS/Konsbaeva_Ainura.png",
+            "image": "/img/AS/Konsbaeva_Ainura.png",
             "alt": "Teacher photo",
             "name": "Konsbaeva Ainura Karimollaevna",
             "position": "Teacher",
@@ -420,7 +420,7 @@
             "experience": "Work Experience: 7 years"
           },
           {
-            "image": "/src/img/AS/Aktilek.jpg",
+            "image": "/img/AS/Aktilek.jpg",
             "alt": "Teacher photo",
             "name": "Kaldygarina Mirgul Sanatorna",
             "position": "Teacher",
@@ -431,7 +431,7 @@
             "experience": "Work Experience: 12 years"
           },
           {
-            "image": "/src/img/AS/Alisher.png",
+            "image": "/img/AS/Alisher.png",
             "alt": "Teacher photo",
             "name": "Dilmagambetov Alisher Serikuly",
             "position": "Teacher",
@@ -442,7 +442,7 @@
             "experience": "Work Experience: 12 years"
           },
           {
-            "image": "/src/img/AS/Dayilbaeva_Korkemai.jpg",
+            "image": "/img/AS/Dayilbaeva_Korkemai.jpg",
             "alt": "Teacher photo",
             "name": "Dauylbaeva Korkemai Serikbaikyzy",
             "position": "Teacher",
@@ -453,7 +453,7 @@
             "experience": "Work Experience: 6 years"
           },
           {
-            "image": "/src/img/AS/Abdualiev_Adil.jpeg",
+            "image": "/img/AS/Abdualiev_Adil.jpeg",
             "alt": "Teacher photo",
             "name": "Abdualiev Adil Berikuly",
             "position": "Teacher",
@@ -464,7 +464,7 @@
             "experience": "Work Experience: 7 years"
           },
           {
-            "image": "/src/img/AS/Tomagambetova_Aimgul.jpeg",
+            "image": "/img/AS/Tomagambetova_Aimgul.jpeg",
             "alt": "Teacher photo",
             "name": "Toymagambetova Aimgul Myrzagalievna",
             "position": "Teacher",
@@ -475,7 +475,7 @@
             "experience": "Work Experience: 13 years"
           },
           {
-            "image": "/src/img/AS/Aitkazieva_Gulshat.jpg",
+            "image": "/img/AS/Aitkazieva_Gulshat.jpg",
             "alt": "Teacher photo",
             "name": "Aitkazieva Gulshat Sagyndykkyzy",
             "position": "Teacher",
@@ -486,7 +486,7 @@
             "experience": "Work Experience: 15 years"
           },
           {
-            "image": "/src/img/AS/Saukenov.png",
+            "image": "/img/AS/Saukenov.png",
             "alt": "Teacher photo",
             "name": "Saukenov Saken Umirtaevich",
             "position": "Teacher",
@@ -497,7 +497,7 @@
             "experience": "Work Experience: 32 years"
           },
           {
-            "image": "/src/img/AS/Izimov_G.png",
+            "image": "/img/AS/Izimov_G.png",
             "alt": "Teacher photo",
             "name": "Izimov Galymzhan Kuanshevich",
             "position": "Teacher",
@@ -508,7 +508,7 @@
             "experience": "Work Experience: 22 years"
           },
           {
-            "image": "/src/img/AS/Zhuldubaeva_Aigerim.jpg",
+            "image": "/img/AS/Zhuldubaeva_Aigerim.jpg",
             "alt": "Teacher photo",
             "name": "Zhuldubaeva Aigerim Aidusovna",
             "position": "Teacher",
@@ -519,7 +519,7 @@
             "experience": "Work Experience: 17 years"
           },
           {
-            "image": "/src/img/AS/Gabidulla_S.jpg",
+            "image": "/img/AS/Gabidulla_S.jpg",
             "alt": "Teacher photo",
             "name": "Gabidulla Sanzhar Gabidullauly",
             "position": "Teacher",
@@ -530,7 +530,7 @@
             "experience": "Work Experience: 7 years"
           },
           {
-            "image": "/src/img/AS/Erkebulan_Amangolov.jpg",
+            "image": "/img/AS/Erkebulan_Amangolov.jpg",
             "alt": "Teacher photo",
             "name": "Amangolov Erkebulan Batikhanovich",
             "position": "Teacher",
@@ -546,7 +546,7 @@
     {
       "title": "Technical Specialties",
       "subtitle": "Technical education focused on practice and innovation",
-      "image": "/src/img/TM/TM.jpg",
+      "image": "/img/TM/TM.jpg",
       "imageAlt": "technical department photo",
       "about": {
         "title": "About Our Department",
@@ -576,12 +576,12 @@
         "title": "Our Laboratories",
         "list": [
           {
-            "image": "/src/img/AU/lab1.JPG",
+            "image": "/img/AU/lab1.JPG",
             "alt": "laboratory photo",
             "title": "Automation Laboratory"
           },
           {
-            "image": "/src/img/AU/lab2.JPG",
+            "image": "/img/AU/lab2.JPG",
             "alt": "laboratory photo",
             "title": "PLC Laboratory"
           }
@@ -589,7 +589,7 @@
       },
       "head": {
         "title": "Head of Department",
-        "image": "/src/img/TM/Dabilova_Janat.jpg",
+        "image": "/img/TM/Dabilova_Janat.jpg",
         "education": {
           "label": "Education",
           "value": "Higher Education"
@@ -620,7 +620,7 @@
         "title": "Teaching Staff",
         "list": [
           {
-            "image": "/src/img/TM/Tokzhan_Shakenovna.png",
+            "image": "/img/TM/Tokzhan_Shakenovna.png",
             "alt": "Teacher photo",
             "name": "Dauletiarova Tokzhan Shakirovna",
             "position": "Teacher-Expert",
@@ -631,7 +631,7 @@
             "experience": "Work Experience: 12 years"
           },
           {
-            "image": "/src/img/TM/EMU.jpg",
+            "image": "/img/TM/EMU.jpg",
             "alt": "Teacher photo",
             "name": "Erumbetova Maira Ubaidullaevna",
             "position": "Teacher-Researcher",
@@ -642,7 +642,7 @@
             "experience": "Work Experience: 18 years"
           },
           {
-            "image": "/src/img/TM/Janna-Djanbaeva.jpg",
+            "image": "/img/TM/Janna-Djanbaeva.jpg",
             "alt": "Teacher photo",
             "name": "Shatayakova Zhanna Dzhanbaevna",
             "position": "Teacher-Researcher",
@@ -653,7 +653,7 @@
             "experience": "Work Experience: 14 years"
           },
           {
-            "image": "/src/img/TM/Syunova_Galim.jpg",
+            "image": "/img/TM/Syunova_Galim.jpg",
             "alt": "Teacher photo",
             "name": "Suyunova Galym Umargalievna",
             "position": "Teacher",
@@ -664,7 +664,7 @@
             "experience": "Work Experience: 7 years"
           },
           {
-            "image": "/src/img/TM/Aksenova_Inna.jpg",
+            "image": "/img/TM/Aksenova_Inna.jpg",
             "alt": "Teacher photo",
             "name": "Aksenova Inna Alekseevna",
             "position": "Teacher-Expert",
@@ -675,7 +675,7 @@
             "experience": "Work Experience: 12 years"
           },
           {
-            "image": "/src/img/TM/Jannat_Jolaeva.jpg",
+            "image": "/img/TM/Jannat_Jolaeva.jpg",
             "alt": "Teacher photo",
             "name": "Zholaeva Zhannat Tuleushovna",
             "position": "Teacher-Expert",
@@ -686,7 +686,7 @@
             "experience": "Work Experience: 12 years"
           },
           {
-            "image": "/src/img/TM/Kaijanova_Gulmira.jpg",
+            "image": "/img/TM/Kaijanova_Gulmira.jpg",
             "alt": "Teacher photo",
             "name": "Kaizhanova Gulmira Ybyraymkyzy",
             "position": "Special Disciplines Teacher",
@@ -697,7 +697,7 @@
             "experience": "Work Experience: 6 years"
           },
           {
-            "image": "/src/img/TM/Tahanova_Ainur.jpg",
+            "image": "/img/TM/Tahanova_Ainur.jpg",
             "alt": "Teacher photo",
             "name": "Takhanova Ainur Abdilmazhitovna",
             "position": "Teacher-Moderator",
@@ -708,7 +708,7 @@
             "experience": "Work Experience: 7 years"
           },
           {
-            "image": "/src/img/TM/Asanova_Janar.jpeg",
+            "image": "/img/TM/Asanova_Janar.jpeg",
             "alt": "Teacher photo",
             "name": "Asanova Zhanar Smagulovna",
             "position": "Teacher",
@@ -719,7 +719,7 @@
             "experience": "Work Experience: 13 years"
           },
           {
-            "image": "/src/img/TM/Baidisheva.jpeg",
+            "image": "/img/TM/Baidisheva.jpeg",
             "alt": "Teacher photo",
             "name": "Baidisheva Alua Ersayynovna",
             "position": "Teacher",
@@ -730,7 +730,7 @@
             "experience": "Work Experience: 15 years"
           },
           {
-            "image": "/src/img/TM/Muratbaeva.jpeg",
+            "image": "/img/TM/Muratbaeva.jpeg",
             "alt": "Teacher photo",
             "name": "Muratbaeva Akerke Kairatkyzy",
             "position": "Teacher",
@@ -741,7 +741,7 @@
             "experience": "Work Experience: 32 years"
           },
           {
-            "image": "/src/img/TM/Akpanova_Lilia.png",
+            "image": "/img/TM/Akpanova_Lilia.png",
             "alt": "Teacher photo",
             "name": "Akpanova Lilia Birzhanovna",
             "position": "Teacher",
@@ -752,7 +752,7 @@
             "experience": "Work Experience: 22 years"
           },
           {
-            "image": "/src/img/TM/Musin_Nurbek.jpeg",
+            "image": "/img/TM/Musin_Nurbek.jpeg",
             "alt": "Teacher photo",
             "name": "Musin Nurbek",
             "position": "Teacher",
@@ -763,7 +763,7 @@
             "experience": "Work Experience: 17 years"
           },
           {
-            "image": "/src/img/TM/Dusengali_meruert.jpg",
+            "image": "/img/TM/Dusengali_meruert.jpg",
             "alt": "Teacher photo",
             "name": "Duisengali Meruert Abaikyzy",
             "position": "Teacher",
@@ -774,7 +774,7 @@
             "experience": "Work Experience: 7 years"
           },
           {
-            "image": "/src/img/TM/Jaksilikov.jpeg",
+            "image": "/img/TM/Jaksilikov.jpeg",
             "alt": "Teacher photo",
             "name": "Zhaksylykov Adilet Kairatuly",
             "position": "Teacher",
@@ -785,7 +785,7 @@
             "experience": "Work Experience: 5 years"
           },
           {
-            "image": "/src/img/TM/Rahat_Bakitgul.jpg",
+            "image": "/img/TM/Rahat_Bakitgul.jpg",
             "alt": "Teacher photo",
             "name": "Rakhat Bakytyul Temirlankyzy",
             "position": "Teacher",
@@ -796,7 +796,7 @@
             "experience": "Work Experience: 5 years"
           },
           {
-            "image": "/src/img/TM/Aitkaliev_Azat.jpeg",
+            "image": "/img/TM/Aitkaliev_Azat.jpeg",
             "alt": "Teacher photo",
             "name": "Aitkaliev Azat Berikuly",
             "position": "Teacher",
@@ -807,7 +807,7 @@
             "experience": "Work Experience: 5 years"
           },
           {
-            "image": "/src/img/TM/Esmukan.jpg",
+            "image": "/img/TM/Esmukan.jpg",
             "alt": "Teacher photo",
             "name": "Esmukan Almat Syrymuly",
             "position": "Teacher",
@@ -818,7 +818,7 @@
             "experience": "Work Experience: 5 years"
           },
           {
-            "image": "/src/img/TM/Iztileuov.jpeg",
+            "image": "/img/TM/Iztileuov.jpeg",
             "alt": "Teacher photo",
             "name": "Iztileuov Bakhitbek Maksutuly",
             "position": "Teacher-Moderator",
@@ -829,7 +829,7 @@
             "experience": "Work Experience: 5 years"
           },
           {
-            "image": "/src/img/TM/Saparov.jpeg",
+            "image": "/img/TM/Saparov.jpeg",
             "alt": "Teacher photo",
             "name": "Saparov Dauren Zhambylovich",
             "position": "Teacher",
@@ -845,7 +845,7 @@
     {
       "title": "General Education Disciplines",
       "subtitle": "Basic education – the foundation of professional growth",
-      "image": "/src/img/OOD/OOD.JPG",
+      "image": "/img/OOD/OOD.JPG",
       "imageAlt": "department photo",
       "about": {
         "title": "About Our Department",
@@ -875,22 +875,22 @@
         "title": "Our Classrooms",
         "list": [
           {
-            "image": "/src/img/IS/110.JPG",
+            "image": "/img/IS/110.JPG",
             "alt": "classroom photo",
             "title": "Computer Classroom 1"
           },
           {
-            "image": "/src/img/IS/108.JPG",
+            "image": "/img/IS/108.JPG",
             "alt": "classroom photo",
             "title": "Computer Classroom 2"
           },
           {
-            "image": "/src/img/IS/112.JPG",
+            "image": "/img/IS/112.JPG",
             "alt": "classroom photo",
             "title": "Computer Classroom 3"
           },
           {
-            "image": "/src/img/IS/208.JPG",
+            "image": "/img/IS/208.JPG",
             "alt": "classroom photo",
             "title": "Computer Classroom 4"
           }
@@ -898,7 +898,7 @@
       },
       "head": {
         "title": "Head of Department",
-        "image": "/src/img/OOD/Arai_Bayadilova.jpg",
+        "image": "/img/OOD/Arai_Bayadilova.jpg",
         "education": {
           "label": "Education",
           "value": "Higher Education"
@@ -924,7 +924,7 @@
         "title": "Teaching Staff",
         "list": [
           {
-            "image": "/src/img/OOD/Ablaeva_Zhazira.jpg",
+            "image": "/img/OOD/Ablaeva_Zhazira.jpg",
             "alt": "Teacher photo",
             "name": "Ablaeva Zhazira Bakhytkalikyzy",
             "position": "Teacher of the General Education Disciplines Department",
@@ -935,7 +935,7 @@
             "experience": "Work Experience: 5 months"
           },
           {
-            "image": "/src/img/OOD/Abigaeva_Akmaral.jpg",
+            "image": "/img/OOD/Abigaeva_Akmaral.jpg",
             "alt": "Teacher photo",
             "name": "Agibaeva Akmaral Nurpeisovna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -946,7 +946,7 @@
             "experience": "Work Experience: 13 years"
           },
           {
-            "image": "/src/img/OOD/Adilkanova_Guldana.png",
+            "image": "/img/OOD/Adilkanova_Guldana.png",
             "alt": "Teacher photo",
             "name": "Adilkanova Guldana Bazarkozhaevna",
             "position": "Teacher of the General Education Disciplines Department (on maternity leave until 31.03.2026)",
@@ -957,7 +957,7 @@
             "experience": "Work Experience: 23 years"
           },
           {
-            "image": "/src/img/OOD/Ahmetova_Kamshat.png",
+            "image": "/img/OOD/Ahmetova_Kamshat.png",
             "alt": "Teacher photo",
             "name": "Akhmetova Kamshat Chapaevna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -968,7 +968,7 @@
             "experience": "Work Experience: 21 years"
           },
           {
-            "image": "/src/img/OOD/Baizhanova_Rauza.jpg",
+            "image": "/img/OOD/Baizhanova_Rauza.jpg",
             "alt": "Teacher photo",
             "name": "Baizhanova Rauza Nabievna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -979,7 +979,7 @@
             "experience": "Work Experience: 29 years"
           },
           {
-            "image": "/src/img/OOD/Dlimova_Botakuz.jpeg",
+            "image": "/img/OOD/Dlimova_Botakuz.jpeg",
             "alt": "Teacher photo",
             "name": "Dlimova Botakuz Zhadigerovna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -990,7 +990,7 @@
             "experience": "Work Experience: 21 years"
           },
           {
-            "image": "/src/img/OOD/Eltezarova_Gauhar.jpeg",
+            "image": "/img/OOD/Eltezarova_Gauhar.jpeg",
             "alt": "Teacher photo",
             "name": "Eltezerova Gauhar Suyndikovna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1001,7 +1001,7 @@
             "experience": "Work Experience: 29 years"
           },
           {
-            "image": "/src/img/OOD/Ermukanov_Turlan.png",
+            "image": "/img/OOD/Ermukanov_Turlan.png",
             "alt": "Teacher photo",
             "name": "Ermukanov Turlan Nuradinovich",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1012,7 +1012,7 @@
             "experience": "Work Experience: 25 years"
           },
           {
-            "image": "/src/img/OOD/Zhanbiraeva_Zharkinai.jpeg",
+            "image": "/img/OOD/Zhanbiraeva_Zharkinai.jpeg",
             "alt": "Teacher photo",
             "name": "Zhanbirbaeva Zharkynai Nagimetyarovna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1023,7 +1023,7 @@
             "experience": "Work Experience: 17 years"
           },
           {
-            "image": "/src/img/OOD/Zhumagazy_Gulderai.jpeg",
+            "image": "/img/OOD/Zhumagazy_Gulderai.jpeg",
             "alt": "Teacher photo",
             "name": "Zhumagazy Gulderai Erbolatkyzy",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1034,7 +1034,7 @@
             "experience": "Work Experience: 2 years"
           },
           {
-            "image": "/src/img/OOD/Seitmaganbetova_Janna.jpeg",
+            "image": "/img/OOD/Seitmaganbetova_Janna.jpeg",
             "alt": "Teacher photo",
             "name": "Seitmaganbetova Zhanna Amangosovna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1045,7 +1045,7 @@
             "experience": "Work Experience: 31 years"
           },
           {
-            "image": "/src/img/OOD/Kazkeeva_Gulzhanat.jpeg",
+            "image": "/img/OOD/Kazkeeva_Gulzhanat.jpeg",
             "alt": "Teacher photo",
             "name": "Kazkeeva Gulzhanat Nagashybaevna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1056,7 +1056,7 @@
             "experience": "Work Experience: 37 years"
           },
           {
-            "image": "/src/img/OOD/Kosmambetova_Dinara.jpeg",
+            "image": "/img/OOD/Kosmambetova_Dinara.jpeg",
             "alt": "Teacher photo",
             "name": "Kosmambetova Dinara Esembaevna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1067,7 +1067,7 @@
             "experience": "Work Experience: 2 years"
           },
           {
-            "image": "/src/img/OOD/*",
+            "image": "/img/OOD/*",
             "alt": "Teacher photo",
             "name": "Kobenov Akhmet Kanatuly",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1078,7 +1078,7 @@
             "experience": "Work Experience: 8 years"
           },
           {
-            "image": "/src/img/OOD/Kanatbai_Aidarhan.jpeg",
+            "image": "/img/OOD/Kanatbai_Aidarhan.jpeg",
             "alt": "Teacher photo",
             "name": "Kanatbai Aidarkhan Akalmassuly",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1089,7 +1089,7 @@
             "experience": "Work Experience: 2 years"
           },
           {
-            "image": "/src/img/OOD/Mamirbaeva_Indira.jpeg",
+            "image": "/img/OOD/Mamirbaeva_Indira.jpeg",
             "alt": "Teacher photo",
             "name": "Mamyrbaeva Indira Malikona",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1100,7 +1100,7 @@
             "experience": "Work Experience: 1 year"
           },
           {
-            "image": "/src/img/OOD/Miranbekova_Gulsairan.jpeg",
+            "image": "/img/OOD/Miranbekova_Gulsairan.jpeg",
             "alt": "Teacher photo",
             "name": "Miranbekova Gulsairan Askarovna",
             "position": "Teacher of the General Education Disciplines Department",
@@ -1111,7 +1111,7 @@
             "experience": "Work Experience: 11 years"
           },
           {
-            "image": "/src/img/OOD/Nurudinova_Ardak.jpeg",
+            "image": "/img/OOD/Nurudinova_Ardak.jpeg",
             "alt": "Teacher photo",
             "name": "Nurudinova Ardak Amanzholkyzy",
             "position": "Teacher of the General Education Disciplines Department",

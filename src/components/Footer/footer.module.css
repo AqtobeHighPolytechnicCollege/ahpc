@@ -1,9 +1,8 @@
 .footer {
-    margin-top: 200px;
     display: flex;
     flex-direction: column;
     background-color: #000E3B;
-    background-image: url('/src/img/Specials/footer-bg 1.png');
+    background-image: url('/img/Specials/footer-bg 1.png');
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 40px 20px;

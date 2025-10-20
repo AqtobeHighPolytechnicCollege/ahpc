@@ -11,7 +11,7 @@
     {
       "title": "Информационные системы",
       "subtitle": "Современное образование в области информационных технологий, программирования и системного анализа",
-      "image": "/src/img/IS/IS.JPG",
+      "image": "/img/IS/IS.JPG",
       "imageAlt": "фото отделения",
       "about": {
         "title": "О нашем отделении",
@@ -41,22 +41,22 @@
         "title": "Наши кабинеты",
         "list": [
           {
-            "image": "/src/img/IS/110.JPG",
+            "image": "/img/IS/110.JPG",
             "alt": "фото кабинета",
             "title": "Компьютерный класс 1"
           },
           {
-            "image": "/src/img/IS/108.JPG",
+            "image": "/img/IS/108.JPG",
             "alt": "фото кабинета",
             "title": "Компьютерный класс 2"
           },
           {
-            "image": "/src/img/IS/112.JPG",
+            "image": "/img/IS/112.JPG",
             "alt": "фото кабинета",
             "title": "Компьютерный класс 3"
           },
           {
-            "image": "/src/img/IS/208.JPG",
+            "image": "/img/IS/208.JPG",
             "alt": "фото кабинета",
             "title": "Компьютерный класс 4"
           }
@@ -64,7 +64,7 @@
       },
       "head": {
         "title": "Заведующий отделением",
-        "image": "/src/img/IS/Ismagulova.png",
+        "image": "/img/IS/Ismagulova.png",
         "education": {
           "label": "Образование",
           "value": "Высшее"
@@ -94,7 +94,7 @@
         "title": "Преподавательский состав",
         "list": [
           {
-            "image": "/src/img/IS/Albergenova_Aruzhan.jpg",
+            "image": "/img/IS/Albergenova_Aruzhan.jpg",
             "alt": "Фото преподавателя",
             "name": "Албергенова Аружан Руслановна",
             "position": "Преподаватель программирования",
@@ -105,7 +105,7 @@
             "experience": "Опыт работы: 1.5 лет"
           },
           {
-            "image": "/src/img/IS/Aldongarova_Kimbat.jpg",
+            "image": "/img/IS/Aldongarova_Kimbat.jpg",
             "alt": "Фото преподавателя",
             "name": "Алдонгарова Кымбат Канназаровна",
             "position": "Преподаватель программирования",
@@ -116,7 +116,7 @@
             "experience": "Опыт работы: 6 лет"
           },
           {
-            "image": "/src/img/IS/Bazarbaeva_Asem.jpg",
+            "image": "/img/IS/Bazarbaeva_Asem.jpg",
             "alt": "Фото преподавателя",
             "name": "Алдонгарова Кымбат Канназаровна",
             "position": "Преподаватель программирования",
@@ -127,7 +127,7 @@
             "experience": "Опыт работы: 9 лет"
           },
           {
-            "image": "/src/img/IS/Edilov_Bazargali.jpg",
+            "image": "/img/IS/Edilov_Bazargali.jpg",
             "alt": "Фото преподавателя",
             "name": "Еділов Базарғали Айбекұлы",
             "position": "Преподаватель программирования",
@@ -138,7 +138,7 @@
             "experience": "Опыт работы: 1.5 лет"
           },
           {
-            "image": "/src/img/IS/Zhamalov_Tamirlan.png",
+            "image": "/img/IS/Zhamalov_Tamirlan.png",
             "alt": "Фото преподавателя",
             "name": "Жамалов Тамирлан Женисович",
             "position": "Преподаватель программирования",
@@ -149,7 +149,7 @@
             "experience": "Опыт работы: 2 года"
           },
           {
-            "image": "/src/img/IS/IBK.jpg",
+            "image": "/img/IS/IBK.jpg",
             "alt": "Фото преподавателя",
             "name": "Итибаев Батанияз Куанышбекович",
             "position": "Преподаватель программирования",
@@ -160,7 +160,7 @@
             "experience": "Опыт работы: 18 лет"
           },
           {
-            "image": "/src/img/IS/Kobdabaeva_Shinar.png",
+            "image": "/img/IS/Kobdabaeva_Shinar.png",
             "alt": "Фото преподавателя",
             "name": "Кобдабаева Шынар  Амангелдиевна",
             "position": "Преподаватель программирования",
@@ -171,7 +171,7 @@
             "experience": "Опыт работы: 19 лет"
           },
           {
-            "image": "/src/img/IS/Adlet.jpg",
+            "image": "/img/IS/Adlet.jpg",
             "alt": "Фото преподавателя",
             "name": "Кульбаев Адилет Бисенгулович",
             "position": "Преподаватель программирования",
@@ -182,7 +182,7 @@
             "experience": "Опыт работы: 2 года"
           },
           {
-            "image": "/src/img/IS/Koishigul_Araylim.jpg",
+            "image": "/img/IS/Koishigul_Araylim.jpg",
             "alt": "Фото преподавателя",
             "name": "Қойшығұл Арайлым Ерланқызы",
             "position": "Преподаватель программирования",
@@ -193,7 +193,7 @@
             "experience": "Опыт работы: 7 лет"
           },
           {
-            "image": "/src/img/IS/Marat_Gauhar.jpg",
+            "image": "/img/IS/Marat_Gauhar.jpg",
             "alt": "Фото преподавателя",
             "name": "Марат Гаухар Маратқызы",
             "position": "Преподаватель программирования",
@@ -204,7 +204,7 @@
             "experience": "Опыт работы: 13 лет"
           },
           {
-            "image": "/src/img/IS/Muhanova_Akmaral.jpg",
+            "image": "/img/IS/Muhanova_Akmaral.jpg",
             "alt": "Фото преподавателя",
             "name": "Муханова Акмарал Сапаргалыевна",
             "position": "Преподаватель программирования",
@@ -215,7 +215,7 @@
             "experience": "Опыт работы: 3 года"
           },
           {
-            "image": "/src/img/IS/Nasirov_Jastilek.png",
+            "image": "/img/IS/Nasirov_Jastilek.png",
             "alt": "Фото преподавателя",
             "name": "Насыров Жастілек Жаннатұлы",
             "position": "Преподаватель программирования",
@@ -226,7 +226,7 @@
             "experience": "Опыт работы: 7 лет"
           },
           {
-            "image": "/src/img/IS/Banu.jpg",
+            "image": "/img/IS/Banu.jpg",
             "alt": "Фото преподавателя",
             "name": "Сағындық Бану Серікқалиқызы",
             "position": "Преподаватель программирования",
@@ -237,7 +237,7 @@
             "experience": "Опыт работы: 1 год"
           },
           {
-            "image": "/src/img/IS/Erzhan_Sainov.png",
+            "image": "/img/IS/Erzhan_Sainov.png",
             "alt": "Фото преподавателя",
             "name": "Сайынов Ержан Ербатырұлы",
             "position": "Преподаватель программирования",
@@ -248,7 +248,7 @@
             "experience": "Опыт работы: 1 год"
           },
           {
-            "image": "/src/img/IS/Sakebaeva_Nursulu.png",
+            "image": "/img/IS/Sakebaeva_Nursulu.png",
             "alt": "Фото преподавателя",
             "name": "Сакебаева Нурсулу Боребаевна",
             "position": "Преподаватель программирования",
@@ -259,7 +259,7 @@
             "experience": "Опыт работы: 36 лет"
           },
           {
-            "image": "/src/img/IS/Sembaev_Murat.png",
+            "image": "/img/IS/Sembaev_Murat.png",
             "alt": "Фото преподавателя",
             "name": "Сембаев Мурат Тасболатович",
             "position": "Преподаватель программирования",
@@ -270,7 +270,7 @@
             "experience": "Опыт работы: 12 лет"
           },
           {
-            "image": "/src/img/IS/Urinbasarova_Janargul.jpg",
+            "image": "/img/IS/Urinbasarova_Janargul.jpg",
             "alt": "Фото преподавателя",
             "name": "Уринбасарова Жанаргуль Наурызгалиевна",
             "position": "Преподаватель программирования",
@@ -281,7 +281,7 @@
             "experience": "Опыт работы: 17 лет"
           },
           {
-            "image": "/src/img/IS/Hibadulina_Elmira.jpg",
+            "image": "/img/IS/Hibadulina_Elmira.jpg",
             "alt": "Фото преподавателя",
             "name": "Хибадуллина Эльмира Мұханбетжанқызы",
             "position": "Преподаватель программирования",
@@ -298,7 +298,7 @@
     {
       "title": "Автоматизация и управление",
       "subtitle": "Подготовка специалистов в области промышленной автоматизации и систем управления",
-      "image": "/src/img/AS/AS.jpg",
+      "image": "/img/AS/AS.jpg",
       "imageAlt": "фото отделения автоматизации",
       "about": {
         "title": "О нашем отделении",
@@ -328,12 +328,12 @@
         "title": "Наши лаборатории",
         "list": [
           {
-            "image": "/src/img/AU/lab1.JPG",
+            "image": "/img/AU/lab1.JPG",
             "alt": "фото лаборатории",
             "title": "Лаборатория автоматики"
           },
           {
-            "image": "/src/img/AU/lab2.JPG",
+            "image": "/img/AU/lab2.JPG",
             "alt": "фото лаборатории",
             "title": "Лаборатория ПЛК"
           }
@@ -341,7 +341,7 @@
       },
       "head": {
         "title": "Заведующий отделением",
-        "image": "/src/img/AS/Darhan_Shanbaev.jpeg",
+        "image": "/img/AS/Darhan_Shanbaev.jpeg",
         "education": {
           "label": "Образование",
           "value": "Высшее, Магистр"
@@ -378,7 +378,7 @@
         "title": "Преподавательский состав",
         "list": [
           {
-            "image": "/src/img/AS/Suteeva_A.jpeg",
+            "image": "/img/AS/Suteeva_A.jpeg",
             "alt": "Фото преподавателя",
             "name": "СУТЕЕВА АҚТЕНТЕК АЯНҚЫЗЫ",
             "position": "Преподаватель ",
@@ -389,7 +389,7 @@
             "experience": "Опыт работы: 5 лет"
           },
           {
-            "image": "/src/img/AS/Muhanbetova.jpg",
+            "image": "/img/AS/Muhanbetova.jpg",
             "alt": "Фото преподавателя",
             "name": "Мұханбетова Рысқұл Жақсылыққызы",
             "position": "Преподаватель ",
@@ -400,7 +400,7 @@
             "experience": "Опыт работы: 18 лет"
           },
           {
-            "image": "/src/img/AS/Moldabaeva_Meruert.jpg",
+            "image": "/img/AS/Moldabaeva_Meruert.jpg",
             "alt": "Фото преподавателя",
             "name": "Молдабаева Меруерт Набиевна",
             "position": "Преподаватель-исследователь, методист колледжа ",
@@ -411,7 +411,7 @@
             "experience": "Опыт работы: 14 лет"
           },
           {
-            "image": "/src/img/AS/Konsbaeva_Ainura.png",
+            "image": "/img/AS/Konsbaeva_Ainura.png",
             "alt": "Фото преподавателя",
             "name": "Консбаева Айнура Каримоллаевна",
             "position": "Преподаватель",
@@ -422,7 +422,7 @@
             "experience": "Опыт работы: 7 лет"
           },
           {
-            "image": "/src/img/AS/Aktilek.jpg",
+            "image": "/img/AS/Aktilek.jpg",
             "alt": "Фото преподавателя",
             "name": "Калдыгарина Миргуль Санатовна",
             "position": "Преподаватель",
@@ -433,7 +433,7 @@
             "experience": "Опыт работы: 12 лет"
           },
           {
-            "image": "/src/img/AS/Alisher.png",
+            "image": "/img/AS/Alisher.png",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Ділмағамбетов Әлішер Серікұлы",
@@ -444,7 +444,7 @@
             "experience": "Опыт работы: 12 лет"
           },
           {
-            "image": "/src/img/AS/Dayilbaeva_Korkemai.jpg",
+            "image": "/img/AS/Dayilbaeva_Korkemai.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Дауылбаева Көркемай Серікбайқызы",
@@ -455,7 +455,7 @@
             "experience": "Опыт работы: 6 лет"
           },
           {
-            "image": "/src/img/AS/Abdualiev_Adil.jpeg",
+            "image": "/img/AS/Abdualiev_Adil.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Адиль Берикұлы Абдуалиев",
@@ -466,7 +466,7 @@
             "experience": "Опыт работы: 7 лет"
           },
           {
-            "image": "/src/img/AS/Tomagambetova_Aimgul.jpeg",
+            "image": "/img/AS/Tomagambetova_Aimgul.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Тоймагамбетова Айымгуль Мырзагалиевна",
@@ -477,7 +477,7 @@
             "experience": "Опыт работы: 13 лет"
           },
           {
-            "image": "/src/img/AS/Aitkazieva_Gulshat.jpg",
+            "image": "/img/AS/Aitkazieva_Gulshat.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Айтказиева Гульшат Сагындыккызы",
@@ -488,7 +488,7 @@
             "experience": "Опыт работы: 15 лет"
           },
           {
-            "image": "/src/img/AS/Saukenov.png",
+            "image": "/img/AS/Saukenov.png",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Сукенов Сакен Умиртаевич",
@@ -499,7 +499,7 @@
             "experience": "Опыт работы: 32 года"
           },
           {
-            "image": "/src/img/AS/Izimov_G.png",
+            "image": "/img/AS/Izimov_G.png",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Изимов Галымжан Куанышевич",
@@ -510,7 +510,7 @@
             "experience": "Опыт работы: 22 года"
           },
           {
-            "image": "/src/img/AS/Zhuldubaeva_Aigerim.jpg",
+            "image": "/img/AS/Zhuldubaeva_Aigerim.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Жулдубаева Айгерим Айдусовна",
@@ -521,7 +521,7 @@
             "experience": "Опыт работы: 17 лет"
           },
           {
-            "image": "/src/img/AS/Gabidulla_S.jpg",
+            "image": "/img/AS/Gabidulla_S.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Габидулла Санжар Габидуллаулы",
@@ -532,7 +532,7 @@
             "experience": "Опыт работы: 7 лет"
           },
           {
-            "image": "/src/img/AS/Erkebulan_Amangolov.jpg",
+            "image": "/img/AS/Erkebulan_Amangolov.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Аманжолов Еркебулан Батиханович",
@@ -548,7 +548,7 @@
     {
       "title": "Технические специальности",
       "subtitle": "Техническое образование, ориентированное на практику и инновации",
-      "image": "/src/img/TM/TM.jpg",
+      "image": "/img/TM/TM.jpg",
       "imageAlt": "фото отделения автоматизации",
       "about": {
         "title": "О нашем отделении",
@@ -578,12 +578,12 @@
         "title": "Наши лаборатории",
         "list": [
           {
-            "image": "/src/img/AU/lab1.JPG",
+            "image": "/img/AU/lab1.JPG",
             "alt": "фото лаборатории",
             "title": "Лаборатория автоматики"
           },
           {
-            "image": "/src/img/AU/lab2.JPG",
+            "image": "/img/AU/lab2.JPG",
             "alt": "фото лаборатории",
             "title": "Лаборатория ПЛК"
           }
@@ -591,7 +591,7 @@
       },
       "head": {
         "title": "Заведующий отделением",
-        "image": "/src/img/TM/Dabilova_Janat.jpg",
+        "image": "/img/TM/Dabilova_Janat.jpg",
         "education": {
           "label": "Образование",
           "value": "Высшее"
@@ -623,7 +623,7 @@
         "title": "Преподавательский состав",
         "list": [
           {
-            "image": "/src/img/TM/Tokzhan_Shakenovna.png",
+            "image": "/img/TM/Tokzhan_Shakenovna.png",
             "alt": "Фото преподавателя",
             "name": "Даулетьярова Токжан Шакировна",
             "position": "Педагог-эксперт",
@@ -634,7 +634,7 @@
             "experience": "Опыт работы: 12 лет"
           },
           {
-            "image": "/src/img/TM/EMU.jpg",
+            "image": "/img/TM/EMU.jpg",
             "alt": "Фото преподавателя",
             "name": "Еримбетова Майра Убайдуллаевна",
             "position": "Преподаватель-исследователь ",
@@ -645,7 +645,7 @@
             "experience": "Опыт работы: 18 лет"
           },
           {
-            "image": "/src/img/TM/Janna-Djanbaeva.jpg",
+            "image": "/img/TM/Janna-Djanbaeva.jpg",
             "alt": "Фото преподавателя",
             "name": "Шатаякова Жанна Джанбаевна",
             "position": "Преподаватель-исследователь",
@@ -656,7 +656,7 @@
             "experience": "Опыт работы: 14 лет"
           },
           {
-            "image": "/src/img/TM/Syunova_Galim.jpg",
+            "image": "/img/TM/Syunova_Galim.jpg",
             "alt": "Фото преподавателя",
             "name": "Суюнова Галым Умаргалиевна",
             "position": "Преподаватель",
@@ -667,7 +667,7 @@
             "experience": "Опыт работы: 7 лет"
           },
           {
-            "image": "/src/img/TM/Aksenova_Inna.jpg",
+            "image": "/img/TM/Aksenova_Inna.jpg",
             "alt": "Фото преподавателя",
             "name": "Аксенова Инна Алексеевна",
             "position": "Педагог - эксперт",
@@ -678,7 +678,7 @@
             "experience": "Опыт работы: 12 лет"
           },
           {
-            "image": "/src/img/TM/Jannat_Jolaeva.jpg",
+            "image": "/img/TM/Jannat_Jolaeva.jpg",
             "alt": "Фото преподавателя",
             "position": "Педагог - эксперт",
             "name": "Жолаева Жаннат Тулеушовна",
@@ -689,7 +689,7 @@
             "experience": "Опыт работы: 12 лет"
           },
           {
-            "image": "/src/img/TM/Kaijanova_Gulmira.jpg",
+            "image": "/img/TM/Kaijanova_Gulmira.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель специальных дисциплин",
             "name": "Қайжанова Гүлмира Ыбыраймкызы",
@@ -700,7 +700,7 @@
             "experience": "Опыт работы: 6 лет"
           },
           {
-            "image": "/src/img/TM/Tahanova_Ainur.jpg",
+            "image": "/img/TM/Tahanova_Ainur.jpg",
             "alt": "Фото преподавателя",
             "position": "Педагог - модератор",
             "name": "Таханова Айнур Абдилмажитовна",
@@ -711,7 +711,7 @@
             "experience": "Опыт работы: 7 лет"
           },
           {
-            "image": "/src/img/TM/Asanova_Janar.jpeg",
+            "image": "/img/TM/Asanova_Janar.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Асанова Жанар Смагуловна",
@@ -722,7 +722,7 @@
             "experience": "Опыт работы: 13 лет"
           },
           {
-            "image": "/src/img/TM/Baidisheva.jpeg",
+            "image": "/img/TM/Baidisheva.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Байдышева Алуа Ерсайыновна",
@@ -733,7 +733,7 @@
             "experience": "Опыт работы: 15 лет"
           },
           {
-            "image": "/src/img/TM/Muratbaeva.jpeg",
+            "image": "/img/TM/Muratbaeva.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Муратбаева Акерке Қайратқызы ",
@@ -744,7 +744,7 @@
             "experience": "Опыт работы: 32 года"
           },
           {
-            "image": "/src/img/TM/Akpanova_Lilia.png",
+            "image": "/img/TM/Akpanova_Lilia.png",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Акпанова Лилия Биржановна",
@@ -755,7 +755,7 @@
             "experience": "Опыт работы: 22 года"
           },
           {
-            "image": "/src/img/TM/Musin_Nurbek.jpeg",
+            "image": "/img/TM/Musin_Nurbek.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Мусин Нұрбек ",
@@ -766,7 +766,7 @@
             "experience": "Опыт работы: 17 лет"
           },
           {
-            "image": "/src/img/TM/Dusengali_meruert.jpg",
+            "image": "/img/TM/Dusengali_meruert.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Дүйсенғали Меруерт Абайқызы",
@@ -777,7 +777,7 @@
             "experience": "Опыт работы: 7 лет"
           },
           {
-            "image": "/src/img/TM/Jaksilikov.jpeg",
+            "image": "/img/TM/Jaksilikov.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Жақсылықов Әділет Қайратұлы",
@@ -788,7 +788,7 @@
             "experience": "Опыт работы: 5 лет"
           },
           {
-            "image": "/src/img/TM/Rahat_Bakitgul.jpg",
+            "image": "/img/TM/Rahat_Bakitgul.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Рахат Бақытгүл Темірланқызы",
@@ -799,7 +799,7 @@
             "experience": "Опыт работы: 5 лет"
           },
           {
-            "image": "/src/img/TM/Aitkaliev_Azat.jpeg",
+            "image": "/img/TM/Aitkaliev_Azat.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Айтқалиев Азат Берікұлы",
@@ -810,7 +810,7 @@
             "experience": "Опыт работы: 5 лет"
           },
           {
-            "image": "/src/img/TM/Esmukan.jpg",
+            "image": "/img/TM/Esmukan.jpg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Есмұқан Алмат Сырымұлы",
@@ -821,7 +821,7 @@
             "experience": "Опыт работы: 5 лет"
           },
           {
-            "image": "/src/img/TM/Iztileuov.jpeg",
+            "image": "/img/TM/Iztileuov.jpeg",
             "alt": "Фото преподавателя",
             "position": "Педагог - модератор",
             "name": "Изтилелеуов Бахитбек Максутулы",
@@ -832,7 +832,7 @@
             "experience": "Опыт работы: 5 лет"
           },
           {
-            "image": "/src/img/TM/Saparov.jpeg",
+            "image": "/img/TM/Saparov.jpeg",
             "alt": "Фото преподавателя",
             "position": "Преподаватель",
             "name": "Сапаров Даурен Жамбылович",
@@ -848,7 +848,7 @@
     {
       "title": "Отделение Общеоброзовательные дисциплины",
       "subtitle": "Базовое образование – основа профессионального роста",
-      "image": "/src/img/OOD/OOD.JPG",
+      "image": "/img/OOD/OOD.JPG",
       "imageAlt": "фото отделения",
       "about": {
         "title": "О нашем отделении",
@@ -878,22 +878,22 @@
         "title": "Наши кабинеты",
         "list": [
           {
-            "image": "/src/img/IS/110.JPG",
+            "image": "/img/IS/110.JPG",
             "alt": "фото кабинета",
             "title": "Компьютерный класс 1"
           },
           {
-            "image": "/src/img/IS/108.JPG",
+            "image": "/img/IS/108.JPG",
             "alt": "фото кабинета",
             "title": "Компьютерный класс 2"
           },
           {
-            "image": "/src/img/IS/112.JPG",
+            "image": "/img/IS/112.JPG",
             "alt": "фото кабинета",
             "title": "Компьютерный класс 3"
           },
           {
-            "image": "/src/img/IS/208.JPG",
+            "image": "/img/IS/208.JPG",
             "alt": "фото кабинета",
             "title": "Компьютерный класс 4"
           }
@@ -901,7 +901,7 @@
       },
       "head": {
         "title": "Заведующий отделением",
-        "image": "/src/img/OOD/Arai_Bayadilova.jpg",
+        "image": "/img/OOD/Arai_Bayadilova.jpg",
         "education": {
           "label": "Образование",
           "value": "Высшее"
@@ -928,7 +928,7 @@
         "title": "Преподавательский состав",
         "list": [
           {
-            "image": "/src/img/OOD/Ablaeva_Zhazira.jpg",
+            "image": "/img/OOD/Ablaeva_Zhazira.jpg",
             "alt": "Фото преподавателя",
             "name": "Аблаева Жазира Бақытқалиқызы",
             "position": "Преподаватель отделения «ООД»",
@@ -939,7 +939,7 @@
             "experience": "Опыт работы: 5 месяцев"
           },
           {
-            "image": "/src/img/OOD/Abigaeva_Akmaral.jpg",
+            "image": "/img/OOD/Abigaeva_Akmaral.jpg",
             "alt": "Фото преподавателя",
             "name": "Агыбаева Акмарал Нурпеисовна",
             "position": "Преподаватель отделения «ООД»",
@@ -950,7 +950,7 @@
             "experience": "Опыт работы: 13 лет"
           },
           {
-            "image": "/src/img/OOD/Adilkanova_Guldana.png",
+            "image": "/img/OOD/Adilkanova_Guldana.png",
             "alt": "Фото преподавателя",
             "name": "Адилканова Гулдана Базаркожаевна",
             "position": "Преподаватель отделения «ООД» (в декретном отпуске до 31.03.2026)",
@@ -961,7 +961,7 @@
             "experience": "Опыт работы: 23 лет"
           },
           {
-            "image": "/src/img/OOD/Ahmetova_Kamshat.png",
+            "image": "/img/OOD/Ahmetova_Kamshat.png",
             "alt": "Фото преподавателя",
             "name": "Ахметова Камшат Чапаевна",
             "position": "Преподаватель отделения «ООД»",
@@ -972,7 +972,7 @@
             "experience": "Опыт работы: 21 лет"
           },
           {
-            "image": "/src/img/OOD/Baizhanova_Rauza.jpg",
+            "image": "/img/OOD/Baizhanova_Rauza.jpg",
             "alt": "Фото преподавателя",
             "name": "Байжанова Рауза Набиевна",
             "position": "Преподаватель отделения «ООД»",
@@ -983,7 +983,7 @@
             "experience": "Опыт работы: 29 лет"
           },
           {
-            "image": "/src/img/OOD/Dlimova_Botakuz.jpeg",
+            "image": "/img/OOD/Dlimova_Botakuz.jpeg",
             "alt": "Фото преподавателя",
             "name": "Длимова Ботакуз Жадигеровна",
             "position": "Преподаватель отделения «ООД»",
@@ -994,7 +994,7 @@
             "experience": "Опыт работы: 21 лет"
           },
           {
-            "image": "/src/img/OOD/Eltezarova_Gauhar.jpeg",
+            "image": "/img/OOD/Eltezarova_Gauhar.jpeg",
             "alt": "Фото преподавателя",
             "name": "Елтезерова Гаухар Суйндиковна",
             "position": "Преподаватель отделения «ООД»",
@@ -1005,7 +1005,7 @@
             "experience": "Опыт работы: 29 лет"
           },
           {
-            "image": "/src/img/OOD/Ermukanov_Turlan.png",
+            "image": "/img/OOD/Ermukanov_Turlan.png",
             "alt": "Фото преподавателя",
             "name": "Ермуканов Турлан Нурадинович",
             "position": "Преподаватель отделения «ООД»",
@@ -1016,7 +1016,7 @@
             "experience": "Опыт работы: 25 лет"
           },
           {
-            "image": "/src/img/OOD/Zhanbiraeva_Zharkinai.jpeg",
+            "image": "/img/OOD/Zhanbiraeva_Zharkinai.jpeg",
             "alt": "Фото преподавателя",
             "name": "Жанбырбаева Жаркынай Нагиметяровна",
             "position": "Преподаватель отделения «ООД»",
@@ -1027,7 +1027,7 @@
             "experience": "Опыт работы: 17 лет"
           },
           {
-            "image": "/src/img/OOD/Zhumagazy_Gulderai.jpeg",
+            "image": "/img/OOD/Zhumagazy_Gulderai.jpeg",
             "alt": "Фото преподавателя",
             "name": "Жұмағазы Гүлдерай Ерболатқызы",
             "position": "Преподаватель отделения «ООД»",
@@ -1038,7 +1038,7 @@
             "experience": "Опыт работы: 2 года"
           },
           {
-            "image": "/src/img/OOD/Seitmaganbetova_Janna.jpeg",
+            "image": "/img/OOD/Seitmaganbetova_Janna.jpeg",
             "alt": "Фото преподавателя",
             "name": "Сейтмаганбетова Жанна Амангосовна",
             "position": "Преподаватель отделения «ООД»",
@@ -1049,7 +1049,7 @@
             "experience": "Опыт работы: 31 года"
           },
           {
-            "image": "/src/img/OOD/Kazkeeva_Gulzhanat.jpeg",
+            "image": "/img/OOD/Kazkeeva_Gulzhanat.jpeg",
             "alt": "Фото преподавателя",
             "name": "Казкеева Гульжанат Нагашыбаевна",
             "position": "Преподаватель отделения «ООД»",
@@ -1060,7 +1060,7 @@
             "experience": "Опыт работы: 37 лет"
           },
           {
-            "image": "/src/img/OOD/Kosmambetova_Dinara.jpeg",
+            "image": "/img/OOD/Kosmambetova_Dinara.jpeg",
             "alt": "Фото преподавателя",
             "name": "Космамбетова Динара Есембаевна",
             "position": "Преподаватель отделения «ООД»",
@@ -1071,7 +1071,7 @@
             "experience": "Опыт работы: 2 года"
           },
           {
-            "image": "/src/img/OOD/*",
+            "image": "/img/OOD/*",
             "alt": "Фото преподавателя",
             "name": "Көбенов Ахмет Қанатұлы",
             "position": "Преподаватель отделения «ООД»",
@@ -1082,7 +1082,7 @@
             "experience": "Опыт работы: 8 лет"
           },
           {
-            "image": "/src/img/OOD/Kanatbai_Aidarhan.jpeg",
+            "image": "/img/OOD/Kanatbai_Aidarhan.jpeg",
             "alt": "Фото преподавателя",
             "name": "Қанатбай Айдархан Ақалмасұлы ",
             "position": "Преподаватель отделения «ООД»",
@@ -1093,7 +1093,7 @@
             "experience": "Опыт работы: 2 года"
           },
           {
-            "image": "/src/img/OOD/Mamirbaeva_Indira.jpeg",
+            "image": "/img/OOD/Mamirbaeva_Indira.jpeg",
             "alt": "Фото преподавателя",
             "name": "Мамырбаева Индира Маликовна",
             "position": "Преподаватель отделения «ООД»",
@@ -1104,7 +1104,7 @@
             "experience": "Опыт работы: 1 год"
           },
           {
-            "image": "/src/img/OOD/Miranbekova_Gulsairan.jpeg",
+            "image": "/img/OOD/Miranbekova_Gulsairan.jpeg",
             "alt": "Фото преподавателя",
             "name": "Миранбекова Гульсайран Аскаровна",
             "position": "Преподаватель отделения «ООД»",
@@ -1115,7 +1115,7 @@
             "experience": "Опыт работы: 11 лет"
           },
           {
-            "image": "/src/img/OOD/Nurudinova_Ardak.jpeg",
+            "image": "/img/OOD/Nurudinova_Ardak.jpeg",
             "alt": "Фото преподавателя",
             "name": "Нурудинова Ардақ Аманжолкызы",
             "position": "Преподаватель отделения «ООД»",

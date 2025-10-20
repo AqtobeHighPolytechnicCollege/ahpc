@@ -1,0 +1,1147 @@
+body {
+    background-color: #F0EBFF;
+}
+
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    text-align: center;
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10rem 5rem;
+    flex-wrap: wrap;
+}
+/* Contact Section */
+.contactSection {
+    background: #ffffff;
+    border: 2px solid #dc2626;
+    border-radius: 4px;
+    padding: 4rem;
+    margin-bottom: 3rem;
+}
+
+.contactHeader {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #dc2626;
+}
+
+.contactIcon {
+    width: 60px;
+    height: 60px;
+    background: #dc2626;
+    border-radius: 4px;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.contactTitle {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #000E3B;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.contactSubtitle {
+    font-size: 1.1rem;
+    color: #374151;
+    line-height: 1.6;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.contactGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contactCard {
+    background: #f8fafc;
+    border-radius: 4px;
+    padding: 2rem;
+    border: 1px solid #d1d5db;
+    text-align: center;
+}
+
+.contactCard:hover {
+    border-color: #dc2626;
+}
+
+.contactCardIcon {
+    width: 50px;
+    height: 50px;
+    background: #dc2626;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.contactCardTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000E3B;
+    margin: 0 0 1rem 0;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.contactCardText {
+    color: #374151;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.warningBox {
+    background: #fef3c7;
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+        /* Hero Section */
+    .heroSection {
+    background: #ffffff;
+    border: 2px solid #000E3B;
+    border-radius: 8px;
+    padding: 4rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 12px rgba(0, 14, 59, 0.1);
+    text-align: center;
+}
+
+    .heroContent {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .heroIcon {
+        width: 60px;
+        height: 60px;
+        background: #000E3B;
+        border-radius: 4px;
+        margin: 0 auto 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .heroTitle {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #000E3B;
+        margin-bottom: 2rem;
+        line-height: 1.3;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .heroText {
+        font-size: 1.1rem;
+        color: #374151;
+        line-height: 1.6;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    /* Achievements Section */
+    .achievementsSection {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .achievementCard {
+        background: #ffffff;
+        border: 1px solid #000E3B;
+        border-radius: 4px;
+        padding: 2.5rem;
+        transition: border-color 0.3s ease;
+    }
+
+    .achievementCard:hover {
+        border-color: #1e40af;
+        box-shadow: 0 2px 8px rgba(0, 14, 59, 0.15);
+    }
+
+    .cardHeader {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .cardIcon {
+        width: 40px;
+        height: 40px;
+        background: #000E3B;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        border-radius: 4px;
+        flex-shrink: 0;
+        font-size: 1.2rem;
+    }
+
+    .cardTitle {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #000E3B;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        line-height: 1.4;
+    }
+
+    .cardText {
+        color: #374151;
+        line-height: 1.6;
+        font-size: 1rem;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    /* Project Section */
+    .projectSection {
+        background: #f8fafc;
+        border: 2px solid #000E3B;
+        border-radius: 4px;
+        padding: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .projectHeader {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #000E3B;
+    }
+
+    .sectionTitle {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #000E3B;
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .sectionSubtitle {
+        font-size: 1.1rem;
+        color: #374151;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    .projectContent {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 4rem;
+        align-items: start;
+    }
+
+    @media (max-width: 768px) {
+
+        .headContent h1 {
+            font-size: 100px;
+        }
+
+        .projectContent {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .projectList {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .projectItem {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.5rem;
+        border: 1px solid #d1d5db;
+        border-radius: 4px;
+        background: white;
+    }
+
+    .projectBullet {
+        width: 8px;
+        height: 8px;
+        background: #000E3B;
+        margin-top: 8px;
+        flex-shrink: 0;
+    }
+
+    .projectItemTitle {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #000E3B;
+        margin: 0 0 0.5rem 0;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .projectItemText {
+        color: #374151;
+        line-height: 1.6;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    .goalCard {
+        background: #000E3B;
+        border-radius: 4px;
+        padding: 2.5rem;
+        color: white;
+        border: 2px solid #000E3B;
+    }
+
+    .goalTitle {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin: 0 0 1rem 0;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .goalText {
+        line-height: 1.6;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    /* Campaign Section */
+    .campaignSection {
+        background: #ffffff;
+        border: 1px solid #000E3B;
+        border-radius: 4px;
+        padding: 4rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .campaignContent {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .campaignIcon {
+        width: 60px;
+        height: 60px;
+        background: #000E3B;
+        border-radius: 4px;
+        margin: 0 auto 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .campaignTitle {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #000E3B;
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .campaignText {
+        font-size: 1.1rem;
+        color: #374151;
+        line-height: 1.6;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    /* Legal Section */
+    .legalSection {
+        background: #f8fafc;
+        border: 2px solid #000E3B;
+        border-radius: 4px;
+        padding: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .legalSection .sectionTitle {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #000E3B;
+    }
+
+    .legalContent {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 3rem;
+    }
+
+    .legalCard {
+        background: white;
+        padding: 2.5rem;
+        border: 1px solid #d1d5db;
+        border-radius: 4px;
+    }
+
+    .legalCardTitle {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #000E3B;
+        margin-bottom: 1.5rem;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .legalCardText {
+        color: #374151;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    .legalNote {
+        background: #f3f4f6;
+        border-radius: 4px;
+        padding: 1.5rem;
+        border: 1px solid #d1d5db;
+        border-left: 4px solid #000E3B;
+    }
+
+    .legalNote p {
+        color: #374151;
+        font-weight: 500;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    .legalQuote {
+        background: #f3f4f6;
+        border-radius: 4px;
+        padding: 1.5rem;
+        border: 1px solid #d1d5db;
+        border-left: 4px solid #000E3B;
+    }
+
+    .legalQuote p {
+        color: #374151;
+        line-height: 1.6;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+        font-style: italic;
+    }
+
+    /* National Section */
+    .nationalSection {
+        background: #000E3B;
+        border: 2px solid #000E3B;
+        border-radius: 4px;
+        padding: 4rem;
+        margin-bottom: 3rem;
+        color: white;
+    }
+
+    .nationalContent {
+        text-align: center;
+    }
+
+    .nationalTitle {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        line-height: 1.3;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .nationalText {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 3rem;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+
+    .nationalGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+
+    .nationalCard {
+        background: white;
+        color: #000E3B;
+        border-radius: 4px;
+        padding: 2rem;
+        border: 1px solid #d1d5db;
+        text-align: left;
+    }
+
+    .nationalCardTitle {
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 0.5rem;
+    }
+
+    .nationalCardText {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* Activities Section */
+    .activitiesSection {
+        background: #ffffff;
+        border: 2px solid #000E3B;
+        border-radius: 4px;
+        padding: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .activitiesSection .sectionTitle {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #000E3B;
+    }
+
+    .activitiesList {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .activityItem {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.5rem;
+        border: 1px solid #d1d5db;
+        border-radius: 4px;
+        background: #f8fafc;
+    }
+
+    .activityBullet {
+        width: 8px;
+        height: 8px;
+        background: #000E3B;
+        margin-top: 8px;
+        flex-shrink: 0;
+    }
+
+    .activityText {
+        color: #374151;
+        line-height: 1.6;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+    /* Contact Section */
+    .contactSection {
+        background: #ffffff;
+        border: 2px solid #dc2626;
+        border-radius: 4px;
+        padding: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .contactHeader {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #dc2626;
+    }
+
+    .contactIcon {
+        width: 60px;
+        height: 60px;
+        background: #dc2626;
+        border-radius: 4px;
+        margin: 0 auto 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .contactTitle {
+        font-size: 2.2rem;
+        font-weight: 700;
+        color: #000E3B;
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .contactSubtitle {
+        font-size: 1.1rem;
+        color: #374151;
+        line-height: 1.6;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .contactGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .contactCard {
+        background: #f8fafc;
+        border-radius: 4px;
+        padding: 2rem;
+        border: 1px solid #d1d5db;
+        text-align: center;
+    }
+
+    .contactCard:hover {
+        border-color: #dc2626;
+    }
+
+    .contactCardIcon {
+        width: 50px;
+        height: 50px;
+        background: #dc2626;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1rem;
+        border-radius: 4px;
+        font-size: 1.5rem;
+    }
+
+    .contactCardTitle {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #000E3B;
+        margin: 0 0 1rem 0;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .contactCardText {
+        color: #374151;
+        font-size: 1rem;
+        margin: 0.5rem 0;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+    .warningBox {
+        background: #fef3c7;
+        border-radius: 4px;
+        padding: 2rem;
+        border: 1px solid #d97706;
+        border-left: 4px solid #dc2626;
+    }
+
+    .warningText {
+        color: #92400e;
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+    /* Conclusion Section */
+    .conclusionSection {
+        background: #000E3B;
+        border: 2px solid #000E3B;
+        border-radius: 4px;
+        padding: 4rem;
+        color: white;
+        text-align: center;
+    }
+
+    .conclusionContent {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .conclusionTitle {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        line-height: 1.3;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-bottom: 2px solid white;
+        padding-bottom: 1.5rem;
+        display: inline-block;
+    }
+
+    .conclusionText {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        text-align: justify;
+    }
+
+/* =============================
+LARGE DEVICES — max-width: 1199px (ноутбуки)
+============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+
+
+
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+    .projectContent {
+        grid-template-columns: 1.2fr;
+    }
+    
+    .heroTitle,
+    .nationalTitle,
+    .sectionTitle,
+    .contactTitle,
+    .conclusionTitle,
+    .campaignTitle {
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+
+    .headContentHashtag {
+        margin-top: 80px;
+    }
+
+    .headContentHashtag p {
+        font-size: 20px;
+    }
+
+    .container {
+        margin: 3rem 1rem;
+    }
+
+    .heroSection,
+    .contactSection,
+    .projectSection,
+    .campaignSection,
+    .legalSection,
+    .nationalSection,
+    .activitiesSection,
+    .conclusionSection {
+        padding: 2rem 1.5rem;
+    }
+
+    .heroTitle,
+    .nationalTitle,
+    .sectionTitle,
+    .contactTitle,
+    .conclusionTitle,
+    .campaignTitle {
+        font-size: 1.3rem;
+    }
+
+    .heroText,
+    .campaignText,
+    .nationalText,
+    .conclusionText,
+    .contactSubtitle,
+    .sectionSubtitle {
+        font-size: 0.95rem;
+    }
+
+    .heroIcon,
+    .contactIcon,
+    .campaignIcon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .achievementsSection {
+        grid-template-columns: 1fr;
+    }
+
+    .achievementCard {
+        padding: 1.5rem;
+    }
+
+    .cardTitle {
+        font-size: 1.1rem;
+    }
+
+    .cardText {
+        font-size: 0.95rem;
+    }
+
+    .projectContent {
+        gap: 2rem;
+    }
+
+    .projectItem {
+        padding: 1rem;
+    }
+
+    .projectItemTitle {
+        font-size: 1rem;
+    }
+
+    .projectItemText {
+        font-size: 0.95rem;
+    }
+
+    .goalCard {
+        padding: 1.5rem;
+    }
+
+    .goalTitle {
+        font-size: 1.2rem;
+    }
+
+    .contactGrid,
+    .nationalGrid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .contactCard,
+    .nationalCard {
+        padding: 1.5rem;
+    }
+
+    .contactCardIcon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .contactCardTitle,
+    .nationalCardTitle {
+        font-size: 1.1rem;
+    }
+
+    .legalContent {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .legalCard {
+        padding: 1.5rem;
+    }
+
+    .legalCardTitle {
+        font-size: 1.2rem;
+    }
+
+    .legalCardText {
+        font-size: 0.95rem;
+    }
+
+    .activityItem {
+        padding: 1rem;
+    }
+
+    .activityText {
+        font-size: 0.95rem;
+    }
+
+    .warningBox {
+        padding: 1.5rem;
+    }
+
+    .warningText {
+        font-size: 0.95rem;
+    }
+
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+
+    .headContentHashtag {
+        margin-top: 80px;
+    }
+
+    .headContentHashtag p {
+        font-size: 20px;
+    }
+
+    .container {
+        margin: 3rem 1rem;
+    }
+
+    .heroSection,
+    .contactSection,
+    .projectSection,
+    .campaignSection,
+    .legalSection,
+    .nationalSection,
+    .activitiesSection,
+    .conclusionSection {
+        padding: 2rem 1.5rem;
+    }
+
+    .heroTitle,
+    .nationalTitle,
+    .sectionTitle,
+    .contactTitle,
+    .conclusionTitle,
+    .campaignTitle {
+        font-size: 1.3rem;
+    }
+
+    .heroText,
+    .campaignText,
+    .nationalText,
+    .conclusionText,
+    .contactSubtitle,
+    .sectionSubtitle {
+        font-size: 0.95rem;
+    }
+
+    .heroIcon,
+    .contactIcon,
+    .campaignIcon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .achievementsSection {
+        grid-template-columns: 1fr;
+    }
+
+    .achievementCard {
+        padding: 1.5rem;
+    }
+
+    .cardTitle {
+        font-size: 1.1rem;
+    }
+
+    .cardText {
+        font-size: 0.95rem;
+    }
+
+    .projectContent {
+        gap: 2rem;
+    }
+
+    .projectItem {
+        padding: 1rem;
+    }
+
+    .projectItemTitle {
+        font-size: 1rem;
+    }
+
+    .projectItemText {
+        font-size: 0.95rem;
+    }
+
+    .goalCard {
+        padding: 1.5rem;
+    }
+
+    .goalTitle {
+        font-size: 1.2rem;
+    }
+
+    .contactGrid,
+    .nationalGrid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .contactCard,
+    .nationalCard {
+        padding: 1.5rem;
+    }
+
+    .contactCardIcon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .contactCardTitle,
+    .nationalCardTitle {
+        font-size: 1.1rem;
+    }
+
+    .legalContent {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .legalCard {
+        padding: 1.5rem;
+    }
+
+    .legalCardTitle {
+        font-size: 1.2rem;
+    }
+
+    .legalCardText {
+        font-size: 0.95rem;
+    }
+
+    .activityItem {
+        padding: 1rem;
+    }
+
+    .activityText {
+        font-size: 0.95rem;
+    }
+
+    .warningBox {
+        padding: 1.5rem;
+    }
+
+    .warningText {
+        font-size: 0.95rem;
+    }
+}

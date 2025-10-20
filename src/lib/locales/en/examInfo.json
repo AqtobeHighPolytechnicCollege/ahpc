@@ -1,0 +1,21 @@
+{
+  "examInfo": "Exam Information",
+  "whyTakeExam": "Why are exams taken?",
+  "passingExam": "Taking exams, coursework, and other final assignments is mandatory for every student. This is necessary to confirm their qualifications and to consolidate the knowledge gained in practice.",
+  "checkExams": "Check exam availability",
+  "courseWork": "Coursework",
+  "courseWorkDesc": "Coursework is an individual assignment for each student, during which they demonstrate their professional skills, ability to work with information, and apply the knowledge gained during their studies in practice.",
+  "purposeOfTheCourseWork": "Purpose of coursework",
+  "purposeOfTheCourseWorkDesc": "The purpose of coursework is to give the student the opportunity to independently complete a task in their specialty and prepare a course project for defense.",
+  "protectionOfCourseWork": "Coursework defense",
+  "diplomaWork": "Diploma Project",
+  "diplomaWorkDesc": "The diploma project is the final qualification work of a student, carried out at the final stage of studies. It represents a comprehensive study or development in the chosen specialty, reflecting the graduate’s level of professional training.",
+  "purposeDiplomaWork": "Purpose of the diploma project",
+  "purposeDiplomaWorkDesc": "The purpose of the diploma project is to summarize and reinforce the knowledge and skills acquired during studies, and to demonstrate the ability to apply them to solve practical or research tasks in the professional field.",
+  "protectionDiplomaWork": "Diploma defense",
+  "protectionDiplomaWorkDesc": "The diploma defense takes place before the State Attestation Commission (SAC). The student presents their project, answers the commission members’ questions, and justifies their decisions. Based on the results, the commission awards the qualification and issues the final grade.",
+  "examGraph": "Exam and Assessment Schedule",
+  "examGraphDesc": "This section contains up-to-date files with schedules of consultations, exam dates, coursework submissions, and diploma defenses for each group. Files are available for download in PDF format.",
+  "notFound": "Nothing found"
+}
+

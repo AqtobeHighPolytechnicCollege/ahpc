@@ -1,0 +1,767 @@
+body {
+    background: linear-gradient(135deg, #F0EBFF 0%, #E0F2FE 50%, #F0EBFF 100%);
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+            radial-gradient(circle at 20% 80%, rgba(0, 14, 59, 0.05) 0%, transparent 50%),
+            radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+            radial-gradient(circle at 40% 40%, rgba(99, 102, 241, 0.03) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+    overflow: hidden;
+}
+
+.headContent::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(0, 14, 59, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
+    z-index: 1;
+}
+
+.headContent h1 {
+    text-align: center;
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+    position: relative;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 24px !important;
+    color: #6366f1 !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    margin-top: 20px !important;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Плавающие элементы */
+.floatingElements {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.float1, .float2, .float3, .float4 {
+    position: absolute;
+    font-size: 30px;
+    opacity: 0.3;
+    animation: float 6s ease-in-out infinite;
+}
+
+.float1 {
+    top: 20%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.float2 {
+    top: 30%;
+    right: 15%;
+    animation-delay: 1s;
+}
+
+.float3 {
+    bottom: 30%;
+    left: 20%;
+    animation-delay: 2s;
+}
+
+.float4 {
+    bottom: 20%;
+    right: 10%;
+    animation-delay: 3s;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(180deg); }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 10rem 5rem;
+    flex-wrap: wrap;
+}
+
+/* Статистика */
+.statsSection {
+    margin-bottom: -20px;
+}
+
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.statCard {
+    text-align: center;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 14, 59, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.statCard:hover {
+    transform: translateY(-10px);
+}
+
+.statIcon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.statNumber {
+    font-size: 36px;
+    font-weight: 800;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 8px;
+}
+
+.statLabel {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Секции */
+.section {
+    width: 100%;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sectionHeader h2 {
+    font-size: 48px;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, #000E3B 0%, #1e40af 50%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.underline {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #000E3B, #3b82f6, #6366f1);
+    margin: 0 auto 24px auto;
+    border-radius: 2px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; transform: scaleX(1); }
+    50% { opacity: 0.8; transform: scaleX(1.1); }
+}
+
+.sectionHeader p {
+    font-size: 18px;
+    color: #666;
+    font-family: 'Inter', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Сетки карточек */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 30px;
+}
+
+.techGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.sportsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+/* Карточки */
+.card, .sportCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    border-radius: 24px;
+    padding: 35px;
+    box-shadow: 0 12px 40px rgba(0, 14, 59, 0.08);
+    border: none;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before, .sportCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #000E3B, #4338ca, #6366f1);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.card:hover::before, .sportCard:hover::before {
+    opacity: 1;
+}
+
+.card:hover, .sportCard:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0, 14, 59, 0.15);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.cardIcon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #000E3B, #1e40af, #3b82f6);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    box-shadow: 0 6px 20px rgba(0, 14, 59, 0.3);
+    transition: all 0.3s ease;
+}
+
+.card:hover .cardIcon, .sportCard:hover .cardIcon {
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 10px 30px rgba(0, 14, 59, 0.4);
+}
+
+.cardHeader h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 8px 0;
+    line-height: 1.3;
+}
+
+.cardStats {
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+    color: #3b82f6;
+    font-weight: 500;
+}
+
+.cardStats span {
+    background: #f0f9ff;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.card p, .sportCard p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.joinButton {
+    background: linear-gradient(135deg, #000E3B, #3b82f6);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.joinButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 14, 59, 0.3);
+}
+
+.sportLevel {
+    font-size: 12px;
+    color: #3b82f6;
+    font-weight: 600;
+    background: #f0f9ff;
+    padding: 4px 10px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.sportSchedule {
+    font-size: 13px;
+    color: #666;
+    background: #f8fafc;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Цитата */
+.quoteSection {
+    text-align: center;
+    padding: 80px 0;
+    background: linear-gradient(135deg, rgba(0, 14, 59, 0.03) 0%, rgba(59, 130, 246, 0.03) 100%);
+    border-radius: 30px;
+    margin: 40px 0;
+}
+
+.quoteContent {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.quoteIcon {
+    font-size: 120px;
+    color: #3b82f6;
+    opacity: 0.3;
+    font-family: serif;
+    line-height: 1;
+    margin-bottom: -50px;
+}
+
+.quoteContent p {
+    font-size: 28px;
+    color: #000E3B;
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/* Технические карточки */
+.techCard {
+    background: linear-gradient(135deg, #000E3B 0%, #1e40af 50%, #3b82f6 100%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    padding: 35px;
+    transition: all 0.4s ease;
+}
+
+.techCard::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: shimmer 4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+}
+
+.techCard:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0, 14, 59, 0.3);
+}
+
+.techCardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.techCard .cardIcon {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.techCard:hover .cardIcon {
+    background: rgba(255, 255, 255, 0.35);
+    transform: rotate(-5deg) scale(1.15);
+}
+
+.techCard h3 {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.techCard p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.techHighlight {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 2;
+}
+
+.techStack {
+    position: relative;
+    z-index: 2;
+}
+
+.techStack small {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+
+
+
+/* Call to Action */
+.ctaSection {
+    margin-top: 40px;
+}
+
+.ctaContent {
+    background: linear-gradient(135deg, #000E3B 0%, #1e40af 30%, #3b82f6 70%, #6366f1 100%);
+    border-radius: 40px;
+    padding: 80px 60px;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.ctaContent::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+    animation: slideLight 4s ease-in-out infinite;
+}
+
+@keyframes slideLight {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+.ctaContent h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.ctaContent p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.ctaButtons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.ctaButton {
+    background: white;
+    color: #000E3B;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ctaButtonSecondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 16px 38px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.ctaButton:hover {
+    background: #f8fafc;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.ctaButtonSecondary:hover {
+    background: white;
+    color: #000E3B;
+    transform: translateY(-4px);
+}
+
+.ctaContact {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    z-index: 2;
+}
+
+/* Адаптивность */
+@media (max-width: 1200px) {
+    .container {
+        margin: 8rem 4rem;
+        gap: 80px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        margin: 6rem 3rem;
+        gap: 60px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 40px;
+    }
+
+    .headContent h1 {
+        font-size: 80px;
+    }
+
+    .ctaButtons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ctaButton, .ctaButtonSecondary {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 4rem 2rem;
+        gap: 50px;
+    }
+
+    .grid, .techGrid, .sportsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .statsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sectionHeader h2 {
+        font-size: 32px;
+    }
+
+    .headContent h1 {
+        font-size: 60px;
+    }
+
+    .card, .techCard, .sportCard {
+        padding: 25px;
+    }
+
+    .ctaContent {
+        padding: 60px 40px;
+    }
+
+    .ctaContent h2 {
+        font-size: 36px;
+    }
+
+    .ctaContent p {
+        font-size: 18px;
+    }
+
+    .quoteContent p {
+        font-size: 22px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 3rem 1rem;
+        gap: 40px;
+    }
+
+    .headContent h1 {
+        font-size: 48px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 28px;
+    }
+
+    .ctaContent {
+        padding: 40px 25px;
+    }
+
+    .ctaContent h2 {
+        font-size: 28px;
+    }
+
+    .statsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .cardHeader {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cardIcon {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+
+}

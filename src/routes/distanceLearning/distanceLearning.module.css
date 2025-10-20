@@ -1,0 +1,339 @@
+body {
+    background-color: #F0EBFF;
+}
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    text-align: center;
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0 15rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whoIs {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.whoIs__Text {
+    width: 45%;
+}
+
+.whoIs__Text__Title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.whoIs__Text__Subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.whoIs__Text__Link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000E3B;
+    text-decoration: #000E3B;
+    text-decoration-line: underline;
+}
+
+.whoIs__Logo {
+    background-color: #000E3B;
+    padding: 150px 20px;
+    border-radius: 0 0 20px 20px;
+    -webkit-box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+    -moz-box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+    box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+}
+
+.forWhat {
+    background-color: #000E3B;
+    border-radius: 0 20px 20px 0;
+    padding: 20px 180px;
+    margin-top: 200px;
+    width: 50%;
+    -webkit-box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+    -moz-box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+    box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+}
+
+.forWhat__Title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.forWhat__Subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.howWork {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 150px;
+    padding: 20px;
+    gap: 150px;
+    align-items: center;
+    -webkit-box-shadow: 15px 12px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 15px 12px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 15px 12px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.howWork__Text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.howWork__Text__Title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.howWork__Text__List {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 20px;
+}
+
+.howWork__Text__List__Item {
+    display: flex;
+    gap: 10px;
+}
+
+.howWork__Text__List__Item__Stroke {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+
+    .whoIs__Text__Title {
+        font-size: 36px;
+    }
+
+    .whoIs__Text__Subtitle {
+        font-size: 16px;
+    }
+
+    .whoIs__Text__Link {
+        font-size: 20px;
+    }
+
+    .container {
+        margin: 0 5rem 10rem 5rem;
+    }
+
+    .whoIs__Logo {
+        padding: 100px 20px;
+        width: 40%;
+    }
+
+    .forWhat__Title {
+        font-size: 30px;
+    }
+
+    .forWhat__Subtitle {
+        font-size: 16px;
+    }
+
+    .forWhat {
+        padding: 15px 60px;
+        width: 40%;
+    }
+
+    .howWork__Text__Title {
+        font-size: 40px;
+    }
+
+    .howWork__Text__List__Item__Stroke {
+        font-size: 16px;
+    }
+
+    .howWork__Image {
+        width: 35%;
+    }
+
+
+
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+    .forWhat {
+        width:  50%;
+    }
+
+
+
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .container{
+        margin: 0 1rem 4rem 1rem;
+        justify-content: center;
+    }
+
+    .headContent h1 {
+        font-size: 54px;
+    }
+
+    .whoIs {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
+    .whoIs__Text {
+        width: auto;
+    }
+
+    .forWhat {
+        width:  85%;
+    }
+
+    .howWork {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+    .container {
+        margin: 0 1rem 4rem 1rem;
+    }
+
+    .whoIs__Logo {
+        width: auto;
+    }
+
+    .whoIs__Text__Title {
+        font-size: 30px;
+    }
+
+    .forWhat__Title {
+        font-size: 30px;
+    }
+
+    .forWhat__Subtitle {
+        font-size: 16px;
+    }
+
+    .forWhat {
+        width: auto;
+        border-radius: 0;
+        padding: 15px 20px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .howWork__Text__Title {
+        font-size: 30px;
+    }
+
+    .howWork__Image {
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+
+

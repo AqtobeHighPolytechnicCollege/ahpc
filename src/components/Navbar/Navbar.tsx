@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import './Navbar.css';
-import '../../img/logo.png';
+import '/img/logo.png';
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from 'react';
 
@@ -12,6 +12,7 @@ const langs = {
 
 export default function Header() {
     const { i18n: i18 } = useTranslation();
+    const { t, i18n } = useTranslation('navbar');
     const currentLang = i18.language;
     const [scrolled, setScrolled] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
@@ -38,23 +39,19 @@ export default function Header() {
 
     const abiturientLinks = (
         <ul onClick={toggleMenu}>
-            <li><Link to="/contestResults/contestResults">Результаты конкурса</Link></li>
-            <li><Link to="/admission-rules">Правила приема</Link></li>
-            <li><Link to="/dormitory">Общежитие</Link></li>
-            <li><Link to="/Specials/Specials">Специальности</Link></li>
-            <li><Link to="/documents">Перечень документов</Link></li>
-            <li><Link to="/requisites">Наши реквизиты</Link></li>
+            <li><Link to="/contestResults">{t('contestResult')}</Link></li>
+            <li><Link to="/admissionRules">{t('admissionRules')}</Link></li>
+            <li><Link to="/Dormitory">{t('dormitory')}</Link></li>
+            <li><Link to="/Specials">{t('specials')}</Link></li>
         </ul>
     );
 
     const studentLinks = (
         <ul onClick={toggleMenu}>
-            <li><Link to="/schedule">Расписание занятий</Link></li>
-            <li><Link to="/exam-info">Информация по экзаменам</Link></li>
-            <li><Link to="/library">Электронная библиотека</Link></li>
-            <li><Link to="/practice">Производственная практика</Link></li>
-            <li><Link to="/scholarship">Стипендии и выплаты</Link></li>
-            <li><Link to="/student-life">Студенческая жизнь</Link></li>
+            <li><Link to="/schedule">{t('schedule')}</Link></li>
+            <li><Link to="/examInfo">{t('examInfo')}</Link></li>
+            <li><Link to="/scholarship">{t('sholarship')}</Link></li>
+            <li><Link to="/studentLive">{t('studentLive')}</Link></li>
         </ul>
     );
 
@@ -83,7 +80,7 @@ export default function Header() {
 
                 <div className="logo">
                     <Link className="logo" to={`/`}>
-                        <img src="/src/img/logo.png" alt="Logoh"/>
+                        <img src="/img/logo.png" alt="Logoh"/>
                     </Link>
                 </div>
 
@@ -120,18 +117,17 @@ export default function Header() {
 
                         </div>
                         <ul onClick={toggleMenu}>
-                            <li><Link to="/CollegeManagement/CollegeManagement">Руководство колледжа</Link></li>
-                            <li><Link to="/achievements">Достижения</Link></li>
-                            <li><Link to="/company-reviews">Отзывы предприятий</Link></li>
-                            <li><Link to="/symbols">Государственные символы</Link></li>
-                            <li><Link to="/Contacts/Contacts">Контакты</Link></li>
-                            <li><Link to="/charter">Устав</Link></li>
-                            <li><Link to="/history">История колледжа</Link></li>
-                            <li><Link to="/anti-corruption">Борьба с коррупцией</Link></li>
-                            <li><Link to="/graduates-reviews">Отзывы выпускников</Link></li>
-                            <li><Link to="/media">СМИ о нас</Link></li>
-                            <li><Link to="/orders">Приказы</Link></li>
-                            <li><Link to="/TeachingStaff/TeachingStaff">Педагогический сотав</Link></li>
+                            <li><Link to="/CollegeManagement">{t('collegeManagement')}</Link></li>
+                            <li><Link to="/companyReviews">{t('companyReviews')}</Link></li>
+                            <li><Link to="/Symbols">{t('symbols')}</Link></li>
+                            <li><Link to="/Contacts">{t('contacts')}</Link></li>
+                            <li><Link to="/charter">{t('charter')}</Link></li>
+                            <li><Link to="/collegeHistory">{t('collegeHistory')}</Link></li>
+                            <li><Link to="/counteringCorruption">{t('counteringCorruption')}</Link></li>
+                            <li><Link to="/graduatesReviews">{t('graduatesReviews')}</Link></li>
+                            <li><Link to="/media">{t('media')}</Link></li>
+                            <li><Link to="/orders">{t('orders')}</Link></li>
+                            <li><Link to="/TeachingStaff">{t('teachingStaff')}</Link></li>
                         </ul>
                     </div>
 
@@ -156,22 +152,21 @@ export default function Header() {
                     <div className="menu-section">
                         <h2>Обучение</h2>
                         <ul onClick={toggleMenu}>
-                            <li><Link to="/distance-learning">Дистанционное обучение</Link></li>
-                            <li><Link to="/dual-education">Дуальное обучение</Link></li>
-                            <li><Link to="/correspondence">Заочное обучение</Link></li>
-                            <li><Link to="/licenses">Лицензии и аккредитации</Link></li>
-                            <li><Link to="/awards">Грамоты</Link></li>
+                            <li><Link to="/distanceLearning">{t('distanceLearning')}</Link></li>
+                            <li><Link to="/dualEducation">{t('dualEducation')}</Link></li>
+                            <li><Link to="/correspondence">{t('correspodence')}</Link></li>
+                            <li><Link to="/license">{t('license')}</Link></li>
                         </ul>
                     </div>
 
                     <div className="menu-section">
                         <h2>Трудоустройство</h2>
                         <ul onClick={toggleMenu}>
-                            <li><Link to="/worldskills">WorldSkills</Link></li>
-                            <li><Link to="/employment">Трудоустройство</Link></li>
-                            <li><Link to="/internship">Практика</Link></li>
-                            <li><Link to="/graduates">Наши выпускники</Link></li>
-                            <li><Link to="/alumni-association">Ассоциация выпускников</Link></li>
+                            <li><Link to="/WorldSkills">{t('worldSkills')}</Link></li>
+                            <li><Link to="/employment">{t('employment')}</Link></li>
+                            <li><Link to="/practice">{t('practice')}</Link></li>
+                            <li><Link to="/ourGraduates">{t('ourGraduates')}</Link></li>
+                            <li><Link to="/alumniAssociation">{t('alumniAssoctiation')}</Link></li>
                         </ul>
                     </div>
                 </div>}

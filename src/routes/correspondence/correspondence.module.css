@@ -1,0 +1,645 @@
+body {
+    background-color: #F0EBFF;
+}
+
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    text-align: center;
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10rem 5rem;
+    flex-wrap: wrap;
+}
+
+.whoIs {
+    display: flex;
+    gap: 150px;
+}
+
+.whoIs__Text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.whoIs__Text__Title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000E3B;
+}
+
+.whoIs__Text__Subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.questionBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tableQuestion {
+    width: 50%;
+
+}
+
+.tableQuestion__Column {
+    display: flex;
+    border: 1px solid #585858;
+}
+
+.tableQuestion__RowsQuestion {
+    padding: 30px;
+    background-color: #FFFFFF;
+    flex: 1;
+    color: #000E3B;
+    text-align: center;
+}
+
+.tableQuestion__RowsAnswer {
+    padding: 30px;
+    background-color: #000E3B;
+    color: #FFFFFF;
+    flex: 1;
+    text-align: center;
+}
+
+.whyUsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.whyUs__Title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.whyUs__Container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 50px;
+    gap: 50px;
+    align-items: center;
+}
+
+.whyUs__Block {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.whyUs__Block__Item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.whyUs__Block__Item__Title {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000E3B;
+}
+
+.willGetSection {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.willGet__Title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.willGetBlock {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.willGetBlock__Item {
+    display: flex;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.willGetBlock__Item:hover {
+    transform: translateY(-4px);
+}
+
+
+.willGetBlock__Item__Info {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 50px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.willGetBlock__Item__Info__Title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.willGetBlock__Item__Info__Subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.willGetBlock__Item__Emoji {
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -70px; /* поднимаем вверх */
+    left: 90%; /* центрируем по горизонтали */
+    transform: translateX(-50%); /* выравниваем */
+    -webkit-box-shadow: -17px 13px 6px -6px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -17px 13px 6px -6px rgba(34, 60, 80, 0.2);
+    box-shadow: -17px 13px 6px -6px rgba(34, 60, 80, 0.2);
+}
+
+.learningSection {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.learningTitle {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.learning {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.learningBlock {
+    display: flex;
+
+    gap: 50px;
+}
+
+.learningBlock__Item {
+    display: flex;
+    gap: 30px;
+}
+
+.learningBLock__Item__Info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.learningBlock__Item__Info__Title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.learningBlock__Item__Info__Subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.learningBlock__Item__Info__Data {
+    font-size: 10px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.learningBlock__Item img {
+    width: 400px;
+}
+
+.learningSpecialsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.learningSpecials__Title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000E3B;
+    margin-top: 100px;
+}
+
+.learningSpecials__Subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+    width: 54%;
+}
+
+.learningSpecials__Bold {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.docsSection {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.docs__Title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.docsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.docsBlock__Item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.docsBlock__Item__Title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+
+
+.directionsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.directionCard {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #F3F4F6;
+}
+
+.directionCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.cardIcon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: rgba(139, 92, 246, 0.1);
+}
+
+.directionCard:nth-child(2) .cardIcon {
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.directionCard:nth-child(3) .cardIcon {
+    background: rgba(16, 185, 129, 0.1);
+}
+
+.directionCard:nth-child(4) .cardIcon {
+    background: rgba(245, 158, 11, 0.1);
+}
+
+.directionCard:nth-child(5) .cardIcon {
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.cardTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F2937;
+    margin: 0;
+    line-height: 1.4;
+    flex: 1;
+}
+
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+
+    .willGetBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .learningBlock {
+        flex-direction: column;
+    }
+    
+    .whoIs__Text__Title {
+        font-size: 24px;
+    }
+    
+    .whoIs__Text__Subtitle {
+        font-size: 16px;
+    }
+
+    .whoIs img {
+        width: 25%;
+    }
+
+    .tableQuestion__RowsAnswer,
+    .tableQuestion__RowsQuestion {
+        padding: 10px;
+    }
+
+    .directionCard {
+        padding: 10px 20px;
+    }
+
+    .whyUs__Title {
+        font-size: 48px;
+    }
+
+    .whyUs__Block__Item__Title {
+        font-size: 12px
+    }
+
+
+    .learningTitle {
+        font-size: 30px;
+    }
+
+    .learningBlock__Item__Info__Title {
+        font-size: 20px;
+    }
+
+    .learningBlock__Item img {
+        width: auto;
+    }
+
+    .learningSpecials__Title,
+    .docs__Title {
+        font-size: 24px;
+    }
+
+    .learningSpecials__Subtitle,
+    .learningSpecials__Bold {
+        font-size: 16px;
+    }
+
+    .willGetBlock__Item__Info {
+        width: 350px;
+        height: 350px;
+    }
+
+    .willGetBlock__Item__Emoji {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .willGetBlock__Item__Emoji img {
+        max-width: 50%;
+    }
+
+    .docsBlock__Item__Title {
+        font-size: 20px;
+    }
+
+    .docsBlock img {
+        width: 4%;
+    }
+
+
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+    .whoIs__Text__Subtitle {
+        font-size: 14px;
+    }
+
+    .whoIs__Text__Title {
+        font-size: 16px;
+    }
+
+    .cardTitle {
+        font-size: 14px;
+    }
+
+    .whyUs__Block__Item img {
+        width: 100px
+    }
+
+
+    .willGetBlock__Item__Info__Title {
+        font-size: 24px;
+    }
+
+    .willGetBlock__Item__Info__Subtitle {
+        font-size: 16px;
+    }
+
+    .willGetBlock__Item__Info {
+        width: 300px;
+        height: 300px;
+    }
+
+    .willGetBlock__Item__Emoji {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        top: -30px;
+    }
+
+    .willGetBlock {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .learningSpecials__Subtitle {
+        width: auto;
+    }
+
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .container{
+        margin: 5rem 1rem;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .headContent h1 {
+        font-size: 54px;
+    }
+
+    .directionsGrid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .tableQuestion {
+        width: auto;
+    }
+
+    .whoIs img {
+        display: none;
+    }
+
+    .whyUs__Block {
+        flex-direction: column;
+    }
+
+    .whyUs__block__item img {
+        width: 70%;
+    }
+
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+    .container {
+        margin: 5rem 1rem;
+    }
+
+    .directionsGrid {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .tableQuestion {
+        padding: 5px;
+    }
+
+    .learningBlock__Item {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

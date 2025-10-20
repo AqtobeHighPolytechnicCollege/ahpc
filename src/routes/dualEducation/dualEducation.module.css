@@ -1,0 +1,366 @@
+body {
+    background-color: #F0EBFF;
+}
+
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    text-align: center;
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10rem 5rem;
+    flex-wrap: wrap;
+}
+
+.dualInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dualInfo__Title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.dualInfo__Subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000E3B;
+}
+
+.dualInfo__List {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: disc;
+    padding: 0 50px;
+}
+
+.dualInfo__List__Item {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000E3B;
+}
+
+.dualInfo__Text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.dualStatistic {
+    margin-top: 60px;
+    padding: 50px 0;
+}
+
+.dualStatistic__Title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000E3B;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.statisticCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.statisticCard {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 14, 59, 0.08);
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.statisticCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #785DC8, #0D99FF);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.statisticCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(0, 14, 59, 0.15);
+}
+
+.statisticCard:hover::before {
+    transform: scaleX(1);
+}
+
+.statisticCard__highlight {
+    background: linear-gradient(135deg, #785DC8 0%, #5a4396 100%);
+    color: white;
+    border: 2px solid #785DC8;
+}
+
+.statisticCard__highlight .statisticCard__Year,
+.statisticCard__highlight .statisticCard__Number,
+.statisticCard__highlight .statisticCard__Label {
+    color: white;
+}
+
+.statisticCard__Year {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000E3B;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.statisticCard__Number {
+    font-size: 56px;
+    font-weight: 800;
+    color: #000E3B;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.statisticCard__Label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.statisticCard__Badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dualEducation {
+    background-color: #FFFFFF;
+    border-radius: 60px 60px 0  0;
+    padding: 50px;
+}
+
+.dualEducation__Blocks {
+    display: flex;
+    gap: 100px;
+}
+
+.dualEducation__Block {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.dualEducation__Block__TextTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dualEducation__Block__Title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.dualEducation__Block__Subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000E3B;
+    height: 100px;
+    width: 400px;
+}
+
+.dualEducation__Block__List {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.dualEducation__Block__List__Item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.dualEducation__Block__List__Item__Text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000E3B;
+    width: 50%;
+}
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+    
+    .dualInfo__Title,
+    .dualEducation__Block__Title {
+        font-size: 30px;
+    }
+    
+    .dualInfo__Subtitle,
+    .dualInfo__List__Item,
+    .dualInfo__Text {
+        font-size: 20px;
+    }
+    
+    .dualEducation__Block__List__Item__Text {
+        font-size: 14px;
+    }
+    .dualEducation__Block__List__Item svg {
+        width: 40px;
+    }
+
+
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+
+
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .container{
+        margin: 5rem 1rem;
+        justify-content: center;
+    }
+
+    .headContent h1 {
+        font-size: 54px;
+    }
+
+    .dualEducation__Blocks {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .dualEducation__Block__Subtitle {
+        height: 60px;
+    }
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+    .container {
+        margin: 5rem 1rem;
+    }
+
+    .dualEducation {
+        border-radius: 40px 40px 0  0;
+    }
+    
+    .dualEducation__Block__Title {
+        font-size: 24px;
+    }
+
+    .dualStatistic__Title {
+        font-size: 24px;
+    }
+
+    .dualEducation__Block__Subtitle {
+        width: auto;
+        font-size: 12px;
+    }
+
+    .dualInfo__Subtitle,
+    .dualInfo__List__Item,
+    .dualInfo__Text {
+        font-size: 14px;
+    }
+
+}

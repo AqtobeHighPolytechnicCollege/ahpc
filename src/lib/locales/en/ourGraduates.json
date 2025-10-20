@@ -1,0 +1,82 @@
+{
+  "ourGraduates": "Our Graduates",
+  "introTitle": "We Are Proud of Our Graduates",
+  "introDescription1": "Our college produces highly qualified specialists who successfully find employment in leading IT companies in Russia and around the world. More than 95% of our graduates find jobs in their field within the first three months after graduation.",
+  "introDescription2": "We maintain close ties with the industry and constantly adapt our programs to meet the needs of the modern labor market. Our students gain not only theoretical knowledge but also practical skills in working with cutting-edge technologies.",
+  "statEmployment": "employment",
+  "statPartners": "partner companies",
+  "statGraduates": "graduates",
+  "graduatesCountTitle": "Number of Graduates 1997–2025",
+  "badgeTop": "TOP",
+  "badgeNew": "NEW",
+  "totalGraduatesLabel": "graduates over 29 years",
+  "yearRange": "1997 — 2025",
+  "successfulGraduatesTitle": "Successful Graduates",
+  "successfulGraduatesSubtitle": "Our graduates work in leading IT companies and hold key positions in the industry",
+  "graduationYear": "Graduation Year",
+  "ctaTitle": "Join our community of successful graduates!",
+  "ctaDescription": "Get a quality education and become part of a large family of professionals. We will help you achieve your career goals.",
+  "ctaButton": "Apply Now",
+  "graduates": [
+    {
+      "name": "Yeleseun Sagindykov",
+      "position": "Deputy of the Senate of the Parliament of the Republic of Kazakhstan. Specialty: Agricultural Mechanization"
+    },
+    {
+      "name": "Yelubaev Serik",
+      "position": "Master at 'AktobeEnergoNeft'"
+    },
+    {
+      "name": "Boranbaev Adil",
+      "position": "Duty staff, Electrician at 'AktobeEnergoNeft'"
+    },
+    {
+      "name": "Bisenov Timur",
+      "position": "Deputy Head of ETL, LLP 'Yuzhpromsnab'"
+    },
+    {
+      "name": "Amantaev Alibek",
+      "position": "Head of ETL, LLP 'SredAzEnergoMontazh'"
+    },
+    {
+      "name": "Mamirova Aigerim",
+      "position": "Pop singer in the national show business"
+    },
+    {
+      "name": "Bolatbek Uzakbaiuly",
+      "position": "Director of the Aktobe.LETS Center. Specialty: Software and Hardware"
+    },
+    {
+      "name": "Aiman-Ayana",
+      "position": "TV Show Host, Television and Radio Presenter, MULT Senior Lecturer"
+    },
+    {
+      "name": "Seilkhan Azat",
+      "position": "Head of the Electrical Repair Section, Aktobe Ferroalloy Plant"
+    },
+    {
+      "name": "Kurmanseitov Nurzhan",
+      "position": "Deputy of the Senate, Master of Electrical Equipment, GTES-45"
+    },
+    {
+      "name": "Kuralai Anarbekov",
+      "position": "Actress, Producer. Specialty: Software and Hardware"
+    },
+    {
+      "name": "Izimov Galymzhan",
+      "position": "Lecturer of Specialized Disciplines, Aktobe Higher Polytechnic College"
+    },
+    {
+      "name": "Uaisbaev Nurtas",
+      "position": "Head of the SRZ Substation 220/110/35/10 kV Akzhar, JSC 'KEGOC'"
+    },
+    {
+      "name": "Mushalin Aibolat",
+      "position": "Master of Line Protection and Automation, Aktobe Ferroalloy Plant, JSC 'TNK Kazchrome'"
+    },
+    {
+      "name": "Kudaibergen Azamat",
+      "position": "Relay Protection and Automation Engineer, JSC 'TNK Kazchrome'"
+    }
+  ]
+}

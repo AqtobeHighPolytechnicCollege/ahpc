@@ -5,11 +5,311 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
+      <change afterPath="$PROJECT_DIR$/public/documents/schedule/schedule_1_course.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/documents/schedule/schedule_2_course.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/documents/schedule/schedule_3_course.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/documents/schedule/schedule_4_course.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/documents/АЖПК ЛИЦЕНЗИЯ И ПРИЛОЖЕНИЯ_25005254_kz.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/documents/ЛИЦЕНЗИИ АВПК 25005254_ru.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/AnniversarySection/AnniversarySection.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/AnniversarySection/AnniversarySection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/admissionRules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/alumniAssoctiation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/charter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/collegeHistory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/collegeManagement.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/companyReviews.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/contacts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/contestResult.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/correspondence.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/counteringCorruption.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/distancelLearning.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/dormitory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/dualEducation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/employemnt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/examInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/graduateReviews.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/license.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/media.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/navbar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/ourGraduates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/practice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/schedule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/scholarship.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/specials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/studentLive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/sybmols.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/worldSkills.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/admissionRules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/alumniAssoctiation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/charter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/collegeHistory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/collegeManagement.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/companyReviews.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/contacts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/contestResult.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/correspondence.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/counteringCorruption.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/distancelLearning.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/dormitory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/dualEducation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/employemnt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/examInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/graduateReviews.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/license.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/media.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/navbar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/ourGraduates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/practice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/schedule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/scholarship.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/specials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/studentLive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/sybmols.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/worldSkills.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/admissionRules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/alumniAssoctiation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/charter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/collegeHistory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/collegeManagement.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/companyReviews.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/contacts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/contestResult.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/correspondence.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/counteringCorruption.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/distancelLearning.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/dormitory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/dualEducation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/employemnt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/examInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/graduateReviews.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/license.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/media.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/navbar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/ourGraduates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/practice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/schedule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/scholarship.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/specials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/studentLive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/sybmols.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/worldSkills.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/CollegeManagement/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Contacts/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Dormitory/Dormitory.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Dormitory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Specials/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Symbols/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Symbols/symbols.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/admissionRules/admissionRules.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/admissionRules/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/alumniAssociation/alumniAssociation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/alumniAssociation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/charter/charter.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/charter/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/collegeHistory/collegeHIstory.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/collegeHistory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/companyReviews/companyReview.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/companyReviews/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/contestResults/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/correspondence/correspondence.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/correspondence/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/correspondence/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/counteringCorruption/counteringCorruption.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/counteringCorruption/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/distanceLearning/distanceLearning.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/distanceLearning/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dualEducation/dualEducation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dualEducation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/employment/employment.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/employment/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/examInfo/examInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/examInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/graduatesReviews/graduatesReviews.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/graduatesReviews/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/license/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/license/license.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/media/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/media/media.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/orders/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/orders/orders.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/ourGraduates/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/ourGraduates/ourGraduates.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/practice/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/practice/practice.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/schedule/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/schedule/schedule.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/scholarship/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/scholarship/scholarship.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/studentLive/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/studentLive/studentLive.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/worldSkills/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/worldSkills/worldSkills.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage/InfoCards/InfoCards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/InfoCards/InfoCards.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage/News/News.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/News/News.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/News/News.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/News/News.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/partners/Partners.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/partners/Partners.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/partners/Partners.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/partners/Partners.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/AS.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Abdualiev_Adil.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Aitkazieva_Gulshat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Alisher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Almazagi_Talgat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Darhan_Shanbaev.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Dayilbaeva_Korkemai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Erkebulan_Amangolov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Gabidulla_S.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Izimov_G.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Konsbaeva_Ainura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Moldabaeva_Meruert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Muhanbetova.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Saukenov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Suteeva_A.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Tomagambetova_Aimgul.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/AS/Zhuldubaeva_Aigerim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/Adres.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/Mask group-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/Mask group-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/Mask group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/Mask group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/Phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/ic_baseline-email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/logos_facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/logos_facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/logos_telegram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/logos_telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/skill-icons_instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Contact/skill-icons_instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/108.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/110.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/112.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/208.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Adlet.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Albergenova_Aruzhan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Aldongarova_Kimbat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Banu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Bazarbaeva_Asem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Edilov_Bazargali.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Erzhan_Sainov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Hibadulina_Elmira.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/IBK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/IS.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Ismagulova.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Kobdabaeva_Shinar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Koishigul_Araylim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Marat_Gauhar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Muhanova_Akmaral.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Nasirov_Jastilek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Nurina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Sakebaeva_Nursulu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Sembaev_Murat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Urinbasarova_Janargul.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/IS/Zhamalov_Tamirlan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Abigaeva_Akmaral.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Ablaeva_Zhazira.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Adilkanova_Guldana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Ahmetova_Kamshat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Arai_Bayadilova.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Baizhanova_Rauza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Dlimova_Botakuz.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Eltezarova_Gauhar.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Ermukanov_Turlan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Kanatbai_Aidarhan.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Kazkeeva_Gulzhanat.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Kobdabaeva_Botakuz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Kosmambetova_Dinara.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Mamirbaeva_Indira.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Miranbekova_Gulsairan.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Nurudinova_Ardak.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/OOD.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Seitmaganbetova_Janna.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Zhanbiraeva_Zharkinai.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/OOD/Zhumagazy_Gulderai.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/Group 339.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/Translate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/fa6-solid_oil-well.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/footer-bg 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/game-icons_oil-pump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/grommet-icons_money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/hugeicons_developer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/hugeicons_electric-tower-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/material-symbols_car-repair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/mdi_car-repair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/medical-icon_laboratory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Specials/streamline-ultimate_customer-relationship-management-lead-management-1-bold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Aitkaliev_Azat.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Akpanova_Lilia.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Aksenova_Inna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Asanova_Janar.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Baidisheva.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Dabilova_Janat.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Dusengali_Meruert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/EMU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Esmukan.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Iztileuov.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Jaksilikov.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Janna-Djanbaeva.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Jannat_Jolaeva.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Kaijanova_Gulmira.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Muratbaeva.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Musin_Nurbek.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Rahat_Bakitgul.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Saparov.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Syunova_Galim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/TM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Tahanova_Ainur.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TM/Tokzhan_Shakenovna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg_layout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg_layout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/collegeManagement/Dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/collegeManagement/Erzhan-Utitliev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/collegeManagement/Karazhev-Asilbek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/collegeManagement/Muhtarov-Abzal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/collegeManagement/Rinat-Askerovich.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/collegeManagement/Seetkali.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/collegeManagement/асылбек-агай-фото-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/hamburger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/ic_baseline-email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icoSM/inst.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icoSM/mailsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icoSM/whatsappsvg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/CD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/ERG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/ICA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/alina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/aqtobeHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/aqtobeJeo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/astanaHub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/enegrosistema.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/kegoc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/kuktas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logoPartners/uzhpromsnab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/i18n/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/i18n/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/departments.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/CollegeManagement/CollegeManagement.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/CollegeManagement/CollegeManagement.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/CollegeManagement/CollegeManagement.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Contacts/Contacts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Specials/Specials.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Specials/Specials.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Specials/Specials.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/TeachingStaff/TeachingStaff.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/TeachingStaff/TeachingStaff.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/TeachingStaff/TeachingStaff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/TeachingStaff/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contestResults/contestResults.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contestResults/contestResults.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contestResults/contestResults.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/homepage.module.css" afterDir="false" />
     </list>
@@ -56,10 +356,11 @@
       <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img\Contact" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img\IS" />
-      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img" />
-      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img\Contact" />
-      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\components\MainPage" />
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\lib\locales\ru" />
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\public\img\media" />
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\public\video\companyReviews" />
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\public\documents\schedule" />
+      <recent name="C:\Users\Kirill\Desktop\ahpc-react\public\documents" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,6 +381,12 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="$name$.tsx" created="1759258767516" uuid="db4b32bb-b2a1-36a8-a896-0d91c20dad28" text="$name$.tsx" recursive="true" caseInsensitive="false" type="TypeScript" dialect="TypeScript JSX" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="name" within="" contains="" />
+    </searchConfiguration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="" />
@@ -102,7 +409,39 @@
       <workItem from="1749445642801" duration="1829000" />
       <workItem from="1749719936867" duration="30436000" />
       <workItem from="1750238255565" duration="6813000" />
-      <workItem from="1750258378567" duration="5330000" />
+      <workItem from="1750258378567" duration="12031000" />
+      <workItem from="1750374283678" duration="671000" />
+      <workItem from="1754456317261" duration="757000" />
+      <workItem from="1754543518558" duration="26633000" />
+      <workItem from="1755516116086" duration="267000" />
+      <workItem from="1755670501977" duration="1729000" />
+      <workItem from="1756096551508" duration="20524000" />
+      <workItem from="1756269409491" duration="11898000" />
+      <workItem from="1756356886405" duration="1030000" />
+      <workItem from="1756633322134" duration="16329000" />
+      <workItem from="1756704791360" duration="4711000" />
+      <workItem from="1756789023489" duration="6097000" />
+      <workItem from="1757305480880" duration="4226000" />
+      <workItem from="1757393809201" duration="4601000" />
+      <workItem from="1757571470871" duration="2555000" />
+      <workItem from="1758170396782" duration="21051000" />
+      <workItem from="1758254981662" duration="20332000" />
+      <workItem from="1758622457395" duration="3138000" />
+      <workItem from="1758689711376" duration="25261000" />
+      <workItem from="1758881011843" duration="1118000" />
+      <workItem from="1759119112263" duration="14197000" />
+      <workItem from="1759205650070" duration="43544000" />
+      <workItem from="1759341979395" duration="24969000" />
+      <workItem from="1759468799022" duration="8527000" />
+      <workItem from="1759508520806" duration="10000" />
+      <workItem from="1759711651452" duration="2234000" />
+      <workItem from="1759715922024" duration="2505000" />
+      <workItem from="1759727562693" duration="2223000" />
+      <workItem from="1759810158652" duration="12500000" />
+      <workItem from="1759900003720" duration="7517000" />
+      <workItem from="1760261869663" duration="6158000" />
+      <workItem from="1760305140187" duration="2866000" />
+      <workItem from="1760813674051" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />

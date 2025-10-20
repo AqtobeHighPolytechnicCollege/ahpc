@@ -11,7 +11,7 @@
       {
         "title": "Ақпараттық жүйелер",
         "subtitle": "Ақпараттық технологиялар, бағдарламалау және жүйелік талдау саласындағы заманауи білім",
-        "image": "/src/img/IS/IS.JPG",
+        "image": "/img/IS/IS.JPG",
         "imageAlt": "бөлімше суреті",
         "about": {
           "title": "Біздің бөлімше туралы",
@@ -41,22 +41,22 @@
           "title": "Біздің кабинеттер",
           "list": [
             {
-              "image": "/src/img/IS/110.JPG",
+              "image": "/img/IS/110.JPG",
               "alt": "кабинет суреті",
               "title": "Компьютерлік сынып 1"
             },
             {
-              "image": "/src/img/IS/108.JPG",
+              "image": "/img/IS/108.JPG",
               "alt": "кабинет суреті",
               "title": "Компьютерлік сынып 2"
             },
             {
-              "image": "/src/img/IS/112.JPG",
+              "image": "/img/IS/112.JPG",
               "alt": "кабинет суреті",
               "title": "Компьютерлік сынып 3"
             },
             {
-              "image": "/src/img/IS/208.JPG",
+              "image": "/img/IS/208.JPG",
               "alt": "кабинет суреті",
               "title": "Компьютерлік сынып 4"
             }
@@ -64,7 +64,7 @@
         },
         "head": {
           "title": "Бөлімше меңгерушісі",
-          "image": "/src/img/IS/Ismagulova.png",
+          "image": "/img/IS/Ismagulova.png",
           "education": {
             "label": "Білімі",
             "value": "Жоғары"
@@ -94,7 +94,7 @@
           "title": "Оқытушылар құрамы",
           "list": [
             {
-              "image": "/src/img/IS/Albergenova_Aruzhan.jpg",
+              "image": "/img/IS/Albergenova_Aruzhan.jpg",
               "alt": "Оқытушы суреті",
               "name": "Албергенова Аружан Русланқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -108,7 +108,7 @@
               "experience": "Жұмыс тәжірибесі: 1,5 жыл"
             },
             {
-              "image": "/src/img/IS/Aldongarova_Kimbat.jpg",
+              "image": "/img/IS/Aldongarova_Kimbat.jpg",
               "alt": "Оқытушы суреті",
               "name": "Алдонгарова Кымбат Канназарқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -121,7 +121,7 @@
               "experience": "Жұмыс тәжірибесі: 6 жыл"
             },
             {
-              "image": "/src/img/IS/Bazarbaeva_Asem.jpg",
+              "image": "/img/IS/Bazarbaeva_Asem.jpg",
               "alt": "Оқытушы суреті",
               "name": "Алдонгарова Кымбат Канназарқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -134,7 +134,7 @@
               "experience": "Жұмыс тәжірибесі: 9 жыл"
             },
             {
-              "image": "/src/img/IS/Edilov_Bazargali.jpg",
+              "image": "/img/IS/Edilov_Bazargali.jpg",
               "alt": "Оқытушы суреті",
               "name": "Еділов Базарғали Айбекұлы",
               "position": "Бағдарламалау оқытушысы",
@@ -147,7 +147,7 @@
               "experience": "Жұмыс тәжірибесі: 1,5 жыл"
             },
             {
-              "image": "/src/img/IS/Zhamalov_Tamirlan.png",
+              "image": "/img/IS/Zhamalov_Tamirlan.png",
               "alt": "Оқытушы суреті",
               "name": "Жамалов Тамирлан Женисұлы",
               "position": "Бағдарламалау оқытушысы",
@@ -160,7 +160,7 @@
               "experience": "Жұмыс тәжірибесі: 2 жыл"
             },
             {
-              "image": "/src/img/IS/IBK.jpg",
+              "image": "/img/IS/IBK.jpg",
               "alt": "Оқытушы суреті",
               "name": "Итибаев Батанияз Куанышбекұлы",
               "position": "Бағдарламалау оқытушысы",
@@ -174,7 +174,7 @@
               "experience": "Жұмыс тәжірибесі: 18 жыл"
             },
             {
-              "image": "/src/img/IS/Kobdabaeva_Shinar.png",
+              "image": "/img/IS/Kobdabaeva_Shinar.png",
               "alt": "Оқытушы суреті",
               "name": "Кобдабаева Шынар Амангелдіқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -188,7 +188,7 @@
               "experience": "Жұмыс тәжірибесі: 19 жыл"
             },
             {
-              "image": "/src/img/IS/Adlet.jpg",
+              "image": "/img/IS/Adlet.jpg",
               "alt": "Оқытушы суреті",
               "name": "Кульбаев Адилет Бисенғұлұлы",
               "position": "Бағдарламалау оқытушысы",
@@ -202,7 +202,7 @@
               "experience": "Жұмыс тәжірибесі: 2 жыл"
             },
             {
-              "image": "/src/img/IS/Koishigul_Araylim.jpg",
+              "image": "/img/IS/Koishigul_Araylim.jpg",
               "alt": "Оқытушы суреті",
               "name": "Қойшығұл Арайлым Ерланқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -215,7 +215,7 @@
               "experience": "Жұмыс тәжірибесі: 7 жыл"
             },
             {
-              "image": "/src/img/IS/Marat_Gauhar.jpg",
+              "image": "/img/IS/Marat_Gauhar.jpg",
               "alt": "Оқытушы суреті",
               "name": "Марат Гаухар Маратқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -229,7 +229,7 @@
               "experience": "Жұмыс тәжірибесі: 13 жыл"
             },
             {
-              "image": "/src/img/IS/Muhanova_Akmaral.jpg",
+              "image": "/img/IS/Muhanova_Akmaral.jpg",
               "alt": "Оқытушы суреті",
               "name": "Муханова Акмарал Сапарғалиқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -242,7 +242,7 @@
               "experience": "Жұмыс тәжірибесі: 3 жыл"
             },
             {
-              "image": "/src/img/IS/Nasirov_Jastilek.png",
+              "image": "/img/IS/Nasirov_Jastilek.png",
               "alt": "Оқытушы суреті",
               "name": "Насыров Жастілек Жаннатұлы",
               "position": "Бағдарламалау оқытушысы",
@@ -255,7 +255,7 @@
               "experience": "Жұмыс тәжірибесі: 7 жыл"
             },
             {
-              "image": "/src/img/IS/Banu.jpg",
+              "image": "/img/IS/Banu.jpg",
               "alt": "Оқытушы суреті",
               "name": "Сағындық Бану Серікқалиқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -268,7 +268,7 @@
               "experience": "Жұмыс тәжірибесі: 1 жыл"
             },
             {
-              "image": "/src/img/IS/Erzhan_Sainov.png",
+              "image": "/img/IS/Erzhan_Sainov.png",
               "alt": "Оқытушы суреті",
               "name": "Сайынов Ержан Ербатырұлы",
               "position": "Бағдарламалау оқытушысы",
@@ -283,7 +283,7 @@
               "experience": "Жұмыс тәжірибесі: 1 жыл"
             },
             {
-              "image": "/src/img/IS/Sakebaeva_Nursulu.png",
+              "image": "/img/IS/Sakebaeva_Nursulu.png",
               "alt": "Оқытушы суреті",
               "name": "Сакебаева Нурсулу Боребаевна",
               "position": "Бағдарламалау оқытушысы",
@@ -297,7 +297,7 @@
               "experience": "Жұмыс тәжірибесі: 36 жыл"
             },
             {
-              "image": "/src/img/IS/Sembaev_Murat.png",
+              "image": "/img/IS/Sembaev_Murat.png",
               "alt": "Оқытушы суреті",
               "name": "Сембаев Мурат Тасболатұлы",
               "position": "Бағдарламалау оқытушысы",
@@ -311,7 +311,7 @@
               "experience": "Жұмыс тәжірибесі: 12 жыл"
             },
             {
-              "image": "/src/img/IS/Urinbasarova_Janargul.jpg",
+              "image": "/img/IS/Urinbasarova_Janargul.jpg",
               "alt": "Оқытушы суреті",
               "name": "Уринбасарова Жанаргуль Наурызгалиевна",
               "position": "Бағдарламалау оқытушысы",
@@ -326,7 +326,7 @@
               "experience": "Жұмыс тәжірибесі: 17 жыл"
             },
             {
-              "image": "/src/img/IS/Hibadulina_Elmira.jpg",
+              "image": "/img/IS/Hibadulina_Elmira.jpg",
               "alt": "Оқытушы суреті",
               "name": "Хибадуллина Эльмира Мұханбетжанқызы",
               "position": "Бағдарламалау оқытушысы",
@@ -344,7 +344,7 @@
       {
         "title": "Автоматтандыру және басқару",
         "subtitle": "Өнеркәсіптік автоматтандыру және басқару жүйелері саласында мамандар даярлау",
-        "image": "/src/img/AS/AS.jpg",
+        "image": "/img/AS/AS.jpg",
         "imageAlt": "автоматтандыру бөлімшесінің суреті",
         "about": {
           "title": "Біздің бөлімше туралы",
@@ -374,12 +374,12 @@
           "title": "Біздің зертханалар",
           "list": [
             {
-              "image": "/src/img/AU/lab1.JPG",
+              "image": "/img/AU/lab1.JPG",
               "alt": "зертхана суреті",
               "title": "Автоматика зертханасы"
             },
             {
-              "image": "/src/img/AU/lab2.JPG",
+              "image": "/img/AU/lab2.JPG",
               "alt": "зертхана суреті",
               "title": "ПЛК зертханасы"
             }
@@ -387,7 +387,7 @@
         },
         "head": {
           "title": "Бөлімше меңгерушісі",
-          "image": "/src/img/AS/Darhan_Shanbaev.jpeg",
+          "image": "/img/AS/Darhan_Shanbaev.jpeg",
           "education": {
             "label": "Білімі",
             "value": "Жоғары, Магистр"
@@ -423,7 +423,7 @@
           "title": "Оқытушылар құрамы",
           "list": [
             {
-              "image": "/src/img/AS/Suteeva_A.jpeg",
+              "image": "/img/AS/Suteeva_A.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Сутеева Ақтентек Аянқызы",
               "position": "Оқытушы",
@@ -437,7 +437,7 @@
               "experience": "Жұмыс тәжірибесі: 5 жыл"
             },
             {
-              "image": "/src/img/AS/Muhanbetova.jpg",
+              "image": "/img/AS/Muhanbetova.jpg",
               "alt": "Оқытушы суреті",
               "name": "Мұханбетова Рысқұл Жақсылыққызы",
               "position": "Оқытушы",
@@ -452,7 +452,7 @@
               "experience": "Жұмыс тәжірибесі: 18 жыл"
             },
             {
-              "image": "/src/img/AS/Moldabaeva_Meruert.jpg",
+              "image": "/img/AS/Moldabaeva_Meruert.jpg",
               "alt": "Оқытушы суреті",
               "name": "Молдабаева Меруерт Набиевна",
               "position": "Оқытушы-зерттеуші, колледж методисі",
@@ -466,7 +466,7 @@
               "experience": "Жұмыс тәжірибесі: 14 жыл"
             },
             {
-              "image": "/src/img/AS/Konsbaeva_Ainura.png",
+              "image": "/img/AS/Konsbaeva_Ainura.png",
               "alt": "Оқытушы суреті",
               "name": "Консбаева Айнура Каримоллаевна",
               "position": "Оқытушы",
@@ -480,7 +480,7 @@
               "experience": "Жұмыс тәжірибесі: 7 жыл"
             },
             {
-              "image": "/src/img/AS/Aktilek.jpg",
+              "image": "/img/AS/Aktilek.jpg",
               "alt": "Оқытушы суреті",
               "name": "Калдыгарина Миргуль Санатовна",
               "position": "Оқытушы",
@@ -494,7 +494,7 @@
               "experience": "Жұмыс тәжірибесі: 12 жыл"
             },
             {
-              "image": "/src/img/AS/Alisher.png",
+              "image": "/img/AS/Alisher.png",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Ділмағамбетов Әлішер Серікұлы",
@@ -508,7 +508,7 @@
               "experience": "Жұмыс тәжірибесі: 12 жыл"
             },
             {
-              "image": "/src/img/AS/Dayilbaeva_Korkemai.jpg",
+              "image": "/img/AS/Dayilbaeva_Korkemai.jpg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Дауылбаева Көркемай Серікбайқызы",
@@ -523,7 +523,7 @@
               "experience": "Жұмыс тәжірибесі: 6 жыл"
             },
             {
-              "image": "/src/img/AS/Abdualiev_Adil.jpeg",
+              "image": "/img/AS/Abdualiev_Adil.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Адиль Берикұлы Абдуалиев",
@@ -538,7 +538,7 @@
               "experience": "Жұмыс тәжірибесі: 7 жыл"
             },
             {
-              "image": "/src/img/AS/Tomagambetova_Aimgul.jpeg",
+              "image": "/img/AS/Tomagambetova_Aimgul.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Тоймагамбетова Айымгуль Мырзагалиевна",
@@ -553,7 +553,7 @@
               "experience": "Жұмыс тәжірибесі: 13 жыл"
             },
             {
-              "image": "/src/img/AS/Aitkazieva_Gulshat.jpg",
+              "image": "/img/AS/Aitkazieva_Gulshat.jpg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Айтказиева Гульшат Сагындыккызы",
@@ -568,7 +568,7 @@
               "experience": "Жұмыс тәжірибесі: 15 жыл"
             },
             {
-              "image": "/src/img/AS/Saukenov.png",
+              "image": "/img/AS/Saukenov.png",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Сукенов Сакен Умиртаевич",
@@ -583,7 +583,7 @@
               "experience": "Жұмыс тәжірибесі: 32 жыл"
             },
             {
-              "image": "/src/img/AS/Izimov_G.png",
+              "image": "/img/AS/Izimov_G.png",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Изимов Галымжан Куанышевич",
@@ -598,7 +598,7 @@
               "experience": "Жұмыс тәжірибесі: 22 жыл"
             },
             {
-              "image": "/src/img/AS/Zhuldubaeva_Aigerim.jpg",
+              "image": "/img/AS/Zhuldubaeva_Aigerim.jpg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Жулдубаева Айгерим Айдусовна",
@@ -613,7 +613,7 @@
               "experience": "Жұмыс тәжірибесі: 17 жыл"
             },
             {
-              "image": "/src/img/AS/Gabidulla_S.jpg",
+              "image": "/img/AS/Gabidulla_S.jpg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Габидулла Санжар Габидуллаулы",
@@ -628,7 +628,7 @@
               "experience": "Жұмыс тәжірибесі: 7 жыл"
             },
             {
-              "image": "/src/img/AS/Erkebulan_Amangolov.jpg",
+              "image": "/img/AS/Erkebulan_Amangolov.jpg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Аманжолов Еркебулан Батиханович",
@@ -648,7 +648,7 @@
       {
         "title": "Техникалық мамандықтар",
         "subtitle": "Практикаға және инновацияларға бағытталған техникалық білім",
-        "image": "/src/img/TM/TM.jpg",
+        "image": "/img/TM/TM.jpg",
         "imageAlt": "автоматтандыру бөлімшесінің суреті",
         "about": {
           "title": "Біздің бөлімше туралы",
@@ -678,12 +678,12 @@
           "title": "Біздің зертханалар",
           "list": [
             {
-              "image": "/src/img/AU/lab1.JPG",
+              "image": "/img/AU/lab1.JPG",
               "alt": "зертхана суреті",
               "title": "Автоматика зертханасы"
             },
             {
-              "image": "/src/img/AU/lab2.JPG",
+              "image": "/img/AU/lab2.JPG",
               "alt": "зертхана суреті",
               "title": "ПЛК зертханасы"
             }
@@ -691,7 +691,7 @@
         },
         "head": {
           "title": "Бөлімше меңгерушісі",
-          "image": "/src/img/TM/Dabilova_Janat.jpg",
+          "image": "/img/TM/Dabilova_Janat.jpg",
           "education": {
             "label": "Білімі",
             "value": "Жоғары"
@@ -722,7 +722,7 @@
           "title": "Оқытушылар құрамы",
           "list": [
             {
-              "image": "/src/img/TM/Tokzhan_Shakenovna.png",
+              "image": "/img/TM/Tokzhan_Shakenovna.png",
               "alt": "Оқытушы суреті",
               "name": "Даулетьярова Токжан Шакировна",
               "position": "Педагог-эксперт",
@@ -736,7 +736,7 @@
               "experience": "Жұмыс тәжірибесі: 12 жыл"
             },
             {
-              "image": "/src/img/TM/EMU.jpg",
+              "image": "/img/TM/EMU.jpg",
               "alt": "Оқытушы суреті",
               "name": "Еримбетова Майра Убайдуллаевна",
               "position": "Оқытушы-зерттеуші",
@@ -750,7 +750,7 @@
               "experience": "Жұмыс тәжірибесі: 18 жыл"
             },
             {
-              "image": "/src/img/TM/Janna-Djanbaeva.jpg",
+              "image": "/img/TM/Janna-Djanbaeva.jpg",
               "alt": "Оқытушы суреті",
               "name": "Шатаякова Жанна Джанбаевна",
               "position": "Оқытушы-зерттеуші",
@@ -763,7 +763,7 @@
               "experience": "Жұмыс тәжірибесі: 14 жыл"
             },
             {
-              "image": "/src/img/TM/Syunova_Galim.jpg",
+              "image": "/img/TM/Syunova_Galim.jpg",
               "alt": "Оқытушы суреті",
               "name": "Суюнова Галым Умаргалиевна",
               "position": "Оқытушы",
@@ -776,7 +776,7 @@
               "experience": "Жұмыс тәжірибесі: 7 жыл"
             },
             {
-              "image": "/src/img/TM/Aksenova_Inna.jpg",
+              "image": "/img/TM/Aksenova_Inna.jpg",
               "alt": "Оқытушы суреті",
               "name": "Аксенова Инна Алексеевна",
               "position": "Педагог-эксперт",
@@ -789,7 +789,7 @@
               "experience": "Жұмыс тәжірибесі: 12 жыл"
             },
             {
-              "image": "/src/img/TM/Jannat_Jolaeva.jpg",
+              "image": "/img/TM/Jannat_Jolaeva.jpg",
               "alt": "Оқытушы суреті",
               "position": "Педагог-эксперт",
               "name": "Жолаева Жаннат Тулеушовна",
@@ -802,7 +802,7 @@
               "experience": "Жұмыс тәжірибесі: 12 жыл"
             },
             {
-              "image": "/src/img/TM/Kaijanova_Gulmira.jpg",
+              "image": "/img/TM/Kaijanova_Gulmira.jpg",
               "alt": "Оқытушы суреті",
               "position": "Арнайы пәндер оқытушысы",
               "name": "Қайжанова Гүлмира Ыбыраймқызы",
@@ -816,7 +816,7 @@
               "experience": "Жұмыс тәжірибесі: 6 жыл"
             },
             {
-              "image": "/src/img/TM/Tahanova_Ainur.jpg",
+              "image": "/img/TM/Tahanova_Ainur.jpg",
               "alt": "Оқытушы суреті",
               "position": "Педагог-модератор",
               "name": "Таханова Айнур Абдилмажитовна",
@@ -829,7 +829,7 @@
               "experience": "Жұмыс тәжірибесі: 7 жыл"
             },
             {
-              "image": "/src/img/TM/Asanova_Janar.jpeg",
+              "image": "/img/TM/Asanova_Janar.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Асанова Жанар Смагуловна",
@@ -842,7 +842,7 @@
               "experience": "Жұмыс тәжірибесі: 13 жыл"
             },
             {
-              "image": "/src/img/TM/Baidisheva.jpeg",
+              "image": "/img/TM/Baidisheva.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Байдышева Алуа Ерсайыновна",
@@ -856,7 +856,7 @@
               "experience": "Жұмыс тәжірибесі: 15 жыл"
             },
             {
-              "image": "/src/img/TM/Muratbaeva.jpeg",
+              "image": "/img/TM/Muratbaeva.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Муратбаева Акерке Қайратқызы",
@@ -870,7 +870,7 @@
               "experience": "Жұмыс тәжірибесі: 32 жыл"
             },
             {
-              "image": "/src/img/TM/Akpanova_Lilia.png",
+              "image": "/img/TM/Akpanova_Lilia.png",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Акпанова Лилия Биржановна",
@@ -884,7 +884,7 @@
               "experience": "Жұмыс тәжірибесі: 22 жыл"
             },
             {
-              "image": "/src/img/TM/Musin_Nurbek.jpeg",
+              "image": "/img/TM/Musin_Nurbek.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Мусин Нұрбек",
@@ -897,7 +897,7 @@
               "experience": "Жұмыс тәжірибесі: 17 жыл"
             },
             {
-              "image": "/src/img/TM/Dusengali_meruert.jpg",
+              "image": "/img/TM/Dusengali_meruert.jpg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Дүйсенғали Меруерт Абайқызы",
@@ -910,7 +910,7 @@
               "experience": "Жұмыс тәжірибесі: 7 жыл"
             },
             {
-              "image": "/src/img/TM/Jaksilikov.jpeg",
+              "image": "/img/TM/Jaksilikov.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Жақсылықов Әділет Қайратұлы",
@@ -924,7 +924,7 @@
               "experience": "Жұмыс тәжірибесі: 5 жыл"
             },
             {
-              "image": "/src/img/TM/Rahat_Bakitgul.jpg",
+              "image": "/img/TM/Rahat_Bakitgul.jpg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Рахат Бақытгүл Темірланқызы",
@@ -937,7 +937,7 @@
               "experience": "Жұмыс тәжірибесі: 5 жыл"
             },
             {
-              "image": "/src/img/TM/Aitkaliev_Azat.jpeg",
+              "image": "/img/TM/Aitkaliev_Azat.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Айтқалиев Азат Берікұлы",
@@ -950,7 +950,7 @@
               "experience": "Жұмыс тәжірибесі: 5 жыл"
             },
             {
-              "image": "/src/img/TM/Esmukan.jpg",
+              "image": "/img/TM/Esmukan.jpg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Есмұқан Алмат Сырымұлы",
@@ -963,7 +963,7 @@
               "experience": "Жұмыс тәжірибесі: 5 жыл"
             },
             {
-              "image": "/src/img/TM/Iztileuov.jpeg",
+              "image": "/img/TM/Iztileuov.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Педагог-модератор",
               "name": "Изтилелеуов Бахитбек Максутулы",
@@ -976,7 +976,7 @@
               "experience": "Жұмыс тәжірибесі: 5 жыл"
             },
             {
-              "image": "/src/img/TM/Saparov.jpeg",
+              "image": "/img/TM/Saparov.jpeg",
               "alt": "Оқытушы суреті",
               "position": "Оқытушы",
               "name": "Сапаров Даурен Жамбылович",
@@ -994,7 +994,7 @@
       {
         "title": "Жалпы білім беру пәндері бөлімшесі",
         "subtitle": "Негізгі білім – кәсіби өсудің негізі",
-        "image": "/src/img/OOD/OOD.JPG",
+        "image": "/img/OOD/OOD.JPG",
         "imageAlt": "бөлімше суреті",
         "about": {
           "title": "Біздің бөлімше туралы",
@@ -1024,22 +1024,22 @@
           "title": "Біздің кабинеттер",
           "list": [
             {
-              "image": "/src/img/IS/110.JPG",
+              "image": "/img/IS/110.JPG",
               "alt": "кабинет суреті",
               "title": "Компьютерлік сынып 1"
             },
             {
-              "image": "/src/img/IS/108.JPG",
+              "image": "/img/IS/108.JPG",
               "alt": "кабинет суреті",
               "title": "Компьютерлік сынып 2"
             },
             {
-              "image": "/src/img/IS/112.JPG",
+              "image": "/img/IS/112.JPG",
               "alt": "кабинет суреті",
               "title": "Компьютерлік сынып 3"
             },
             {
-              "image": "/src/img/IS/208.JPG",
+              "image": "/img/IS/208.JPG",
               "alt": "кабинет суреті",
               "title": "Компьютерлік сынып 4"
             }
@@ -1047,7 +1047,7 @@
         },
         "head": {
           "title": "Бөлімше меңгерушісі",
-          "image": "/src/img/OOD/Arai_Bayadilova.jpg",
+          "image": "/img/OOD/Arai_Bayadilova.jpg",
           "education": {
             "label": "Білімі",
             "value": "Жоғары"
@@ -1073,7 +1073,7 @@
           "title": "Оқытушылар құрамы",
           "list": [
             {
-              "image": "/src/img/OOD/Ablaeva_Zhazira.jpg",
+              "image": "/img/OOD/Ablaeva_Zhazira.jpg",
               "alt": "Оқытушы суреті",
               "name": "Аблаева Жазира Бақытқалиқызы",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1087,7 +1087,7 @@
               "experience": "Жұмыс тәжірибесі: 5 ай"
             },
             {
-              "image": "/src/img/OOD/Abigaeva_Akmaral.jpg",
+              "image": "/img/OOD/Abigaeva_Akmaral.jpg",
               "alt": "Оқытушы суреті",
               "name": "Агыбаева Акмарал Нурпеисовна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1101,7 +1101,7 @@
               "experience": "Жұмыс тәжірибесі: 13 жыл"
             },
             {
-              "image": "/src/img/OOD/Adilkanova_Guldana.png",
+              "image": "/img/OOD/Adilkanova_Guldana.png",
               "alt": "Оқытушы суреті",
               "name": "Адилканова Гулдана Базаркожаевна",
               "position": "«ЖБП» бөлімшесінің оқытушысы (2026 жылдың 31 наурызына дейін декреттік демалыста)",
@@ -1116,7 +1116,7 @@
               "experience": "Жұмыс тәжірибесі: 23 жыл"
             },
             {
-              "image": "/src/img/OOD/Ahmetova_Kamshat.png",
+              "image": "/img/OOD/Ahmetova_Kamshat.png",
               "alt": "Оқытушы суреті",
               "name": "Ахметова Камшат Чапаевна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1130,7 +1130,7 @@
               "experience": "Жұмыс тәжірибесі: 21 жыл"
             },
             {
-              "image": "/src/img/OOD/Baizhanova_Rauza.jpg",
+              "image": "/img/OOD/Baizhanova_Rauza.jpg",
               "alt": "Оқытушы суреті",
               "name": "Байжанова Рауза Набиевна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1144,7 +1144,7 @@
               "experience": "Жұмыс тәжірибесі: 29 жыл"
             },
             {
-              "image": "/src/img/OOD/Dlimova_Botakuz.jpeg",
+              "image": "/img/OOD/Dlimova_Botakuz.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Длимова Ботакуз Жадигеровна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1158,7 +1158,7 @@
               "experience": "Жұмыс тәжірибесі: 21 жыл"
             },
             {
-              "image": "/src/img/OOD/Eltezarova_Gauhar.jpeg",
+              "image": "/img/OOD/Eltezarova_Gauhar.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Елтезерова Гаухар Суйндиковна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1172,7 +1172,7 @@
               "experience": "Жұмыс тәжірибесі: 29 жыл"
             },
             {
-              "image": "/src/img/OOD/Ermukanov_Turlan.png",
+              "image": "/img/OOD/Ermukanov_Turlan.png",
               "alt": "Оқытушы суреті",
               "name": "Ермуканов Турлан Нурадинович",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1185,7 +1185,7 @@
               "experience": "Жұмыс тәжірибесі: 25 жыл"
             },
             {
-              "image": "/src/img/OOD/Zhanbiraeva_Zharkinai.jpeg",
+              "image": "/img/OOD/Zhanbiraeva_Zharkinai.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Жанбырбаева Жаркынай Нагиметяровна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1199,7 +1199,7 @@
               "experience": "Жұмыс тәжірибесі: 17 жыл"
             },
             {
-              "image": "/src/img/OOD/Zhumagazy_Gulderai.jpeg",
+              "image": "/img/OOD/Zhumagazy_Gulderai.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Жұмағазы Гүлдерай Ерболатқызы",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1213,7 +1213,7 @@
               "experience": "Жұмыс тәжірибесі: 2 жыл"
             },
             {
-              "image": "/src/img/OOD/Seitmaganbetova_Janna.jpeg",
+              "image": "/img/OOD/Seitmaganbetova_Janna.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Сейтмаганбетова Жанна Амангосовна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1227,7 +1227,7 @@
               "experience": "Жұмыс тәжірибесі: 31 жыл"
             },
             {
-              "image": "/src/img/OOD/Kazkeeva_Gulzhanat.jpeg",
+              "image": "/img/OOD/Kazkeeva_Gulzhanat.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Казкеева Гульжанат Нагашыбаевна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1241,7 +1241,7 @@
               "experience": "Жұмыс тәжірибесі: 37 жыл"
             },
             {
-              "image": "/src/img/OOD/Kosmambetova_Dinara.jpeg",
+              "image": "/img/OOD/Kosmambetova_Dinara.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Космамбетова Динара Есембаевна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1255,7 +1255,7 @@
               "experience": "Жұмыс тәжірибесі: 2 жыл"
             },
             {
-              "image": "/src/img/OOD/*",
+              "image": "/img/OOD/*",
               "alt": "Оқытушы суреті",
               "name": "Көбенов Ахмет Қанатұлы",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1269,7 +1269,7 @@
               "experience": "Жұмыс тәжірибесі: 8 жыл"
             },
             {
-              "image": "/src/img/OOD/Kanatbai_Aidarhan.jpeg",
+              "image": "/img/OOD/Kanatbai_Aidarhan.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Қанатбай Айдархан Ақалмасұлы",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1283,7 +1283,7 @@
               "experience": "Жұмыс тәжірибесі: 2 жыл"
             },
             {
-              "image": "/src/img/OOD/Mamirbaeva_Indira.jpeg",
+              "image": "/img/OOD/Mamirbaeva_Indira.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Мамырбаева Индира Маликовна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1296,7 +1296,7 @@
               "experience": "Жұмыс тәжірибесі: 1 жыл"
             },
             {
-              "image": "/src/img/OOD/Miranbekova_Gulsairan.jpeg",
+              "image": "/img/OOD/Miranbekova_Gulsairan.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Миранбекова Гульсайран Аскаровна",
               "position": "«ЖБП» бөлімшесінің оқытушысы",
@@ -1311,7 +1311,7 @@
               "experience": "Жұмыс тәжірибесі: 11 жыл"
             },
             {
-              "image": "/src/img/OOD/Nurudinova_Ardak.jpeg",
+              "image": "/img/OOD/Nurudinova_Ardak.jpeg",
               "alt": "Оқытушы суреті",
               "name": "Нурудинова Ардақ Аманжолкызы",
               "position": "«ЖБП» бөлімшесінің оқытушысы",

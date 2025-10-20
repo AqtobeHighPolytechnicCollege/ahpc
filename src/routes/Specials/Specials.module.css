@@ -3,7 +3,7 @@
    =========================================================== */
 .headContent {
     /* Фоновое изображение + цвет-фолбэк в одной строке */
-    background: url('/src/img/bg_layout.jpg') center/cover no-repeat #f0f0f0;
+    background: url('/img/bg_layout.jpg') center/cover no-repeat #f0f0f0;
     /* Вместо height: 100vh лучше использовать min-height, 
        чтобы растягивать блок минимум на высоту экрана, 
        но позволять ему «расти» при большом контенте */
@@ -217,3 +217,95 @@
     display: inline-block;
     margin-top: 10px;
 }
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+
+    .infoImg {
+        max-width: 120px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .id {
+        font-size: 20px;
+    }
+
+
+
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .container{
+        margin: 5rem 1rem;
+        justify-content: center;
+    }
+
+    .headContent h1 {
+        font-size: 54px;
+    }
+
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+    .container {
+        margin: 5rem 1rem;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .specialsCard,
+    .whSpecialsCard {
+        max-height: 100%;
+    }
+
+    .subTitle {
+        font-size: 20px;
+    }
+
+    .indificators {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .id {
+        text-align: center;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    }
+

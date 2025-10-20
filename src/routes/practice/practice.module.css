@@ -1,0 +1,290 @@
+body {
+    background-color: #F0EBFF;
+}
+
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    text-align: center;
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10rem 5rem;
+    flex-wrap: wrap;
+}
+
+.educationalPractice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.educationalPractice__Info {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.educationalPractice__Info__Text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.educationalPractice__Info__Text__Title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #000E3B;
+}
+
+.educationalPractice__Info__Text__Description {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.educationalPractice__ImageBLocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.educationalPractice__ImageBlock {
+    display: flex;
+    gap: 15px;
+}
+
+.educationalPractice__Word {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.educationalPractice__Word__Text {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.pregraduatePractice {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pregraduatePractice__Title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #000E3B;
+}
+
+.pregraduatePractice__Description {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.pregraduatePractice__Image {
+    display: flex;
+    gap: 50px;
+}
+
+.pregraduatePractice__Image__Item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.pregraduatePractice__Image__Item img {
+    max-width: 756px;
+    max-height: 495px;
+}
+
+.pregraduatePractice__Image__Subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000E3B;
+    max-width: 756px;
+}
+
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+
+    .educationalPractice__ImageBlock img {
+        width: 340px;
+    }
+
+    .pregraduatePractice__Image__Item img {
+        height: 300px;
+    }
+    
+    
+    .educationalPractice__Info__Text__Title,
+    .pregraduatePractice__Title {
+        font-size: 40px;
+    }
+
+    .educationalPractice__Info__Text__Description,
+    .educationalPractice__Word__Text,
+    .pregraduatePractice__Description {
+        font-size: 18px;
+    }
+
+
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+    .educationalPractice__ImageBlock img {
+        width: 270px;
+    }
+
+    .pregraduatePractice__Image__Item img {
+        height: 250px;
+    }
+
+    .educationalPractice__Info img {
+        max-width: 250px;
+    }
+
+    .educationalPractice__Info__Text__Title,
+    .pregraduatePractice__Title {
+        font-size: 34px;
+    }
+
+    .educationalPractice__Info__Text__Description,
+    .educationalPractice__Word__Text,
+    .pregraduatePractice__Description {
+        font-size: 14px;
+    }
+
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .container{
+        margin: 5rem 1rem;
+        justify-content: center;
+    }
+
+    .headContent h1 {
+        font-size: 54px;
+    }
+
+    .educationalPractice {
+        gap: 50px;
+    }
+
+    .educationalPractice__ImageBlock_ {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .educationalPractice__Info img {
+        display: none;
+    }
+
+    .pregraduatePractice__Image {
+        flex-direction: column;
+    }
+
+    .educationalPractice__ImageBlock {
+        flex-direction: column;
+    }
+
+    .pregraduatePractice__Image__Item {
+        height: auto;
+    }
+
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+    .container {
+        margin: 5rem 1rem;
+    }
+
+    .pregraduatePractice__Image__Item img {
+        height: 200px;
+    }
+
+
+}

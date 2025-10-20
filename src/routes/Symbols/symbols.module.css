@@ -1,0 +1,215 @@
+/* =============================
+   Базовые стили — DESKTOP
+   ============================= */
+.backGround {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url('/img/Symbols/flag.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.backGround::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin: 10rem 5rem;
+}
+
+.infoBlock {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.infoBlockR {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.border {
+    width: 1px;
+    background-color: #ccc;
+    height: 200px;
+}
+
+.infoText {
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    gap: 15px;
+}
+
+.title {
+    font-size: 24px;
+    color: #f0f0f0;
+    font-weight: 200;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #f0f0f0;
+    font-weight: 100;
+}
+
+.autor {
+    font-size: 18px;
+    color: #f0f0f0;
+    font-weight: 400;
+}
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+
+
+
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle,
+    .autor {
+        font-size: 15px;
+    }
+
+    .infoBlock img ,
+    .infoBlockR img {
+        max-width: 400px;
+    }
+
+
+
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .container{
+        margin: 5rem 1rem;
+        justify-content: center;
+    }
+
+    .headContent h1 {
+        font-size: 40px;
+    }
+
+    .infoBlock,
+    .infoBlockR {
+        flex-direction: column;
+    }
+
+    .border {
+        width: 90%;
+        height: 1px;
+    }
+
+    .infoText {
+        width: auto;
+    }
+
+    .infoBlock img ,
+    .infoBlockR img {
+        max-width: 60%;
+    }
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+    .container {
+        margin: 5rem 1rem;
+    }
+
+}

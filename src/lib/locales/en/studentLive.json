@@ -1,0 +1,143 @@
+{
+  "studentLive": "Student Life",
+  "subtitle": "A place where future leaders are born",
+  "stats": {
+    "competitions": "Competition Wins",
+    "participants": "Active Participants",
+    "directions": "Activity Directions",
+    "events": "Events Held"
+  },
+  "clubsSection": {
+    "title": "Clubs and Societies",
+    "description": "Join the vibrant student life and find like-minded people. We have a place for every talent!",
+    "members": "members",
+    "eventsPerYear": "events",
+    "joinButton": "Join"
+  },
+  "clubs": [
+    {
+      "name": "AHPC Music club",
+      "description": "Create music, perform at concerts, and develop your creative talents among like-minded peers"
+    },
+    {
+      "name": "KVN",
+      "description": "Joke, improvise, and perform on stage. The city’s best teams started here!"
+    },
+    {
+      "name": "AHPC Sport club",
+      "description": "Organizing sports events, tournaments, and active leisure for all students"
+    },
+    {
+      "name": "Step-up Dance Group",
+      "description": "Dance battles, choreography, performances. Level up your dance skills!"
+    },
+    {
+      "name": "Zhasyl El",
+      "description": "Environmental projects, campus greening, and caring for nature"
+    },
+    {
+      "name": "Zhas Sarbaz",
+      "description": "Military-patriotic education, drill training, history studies"
+    },
+    {
+      "name": "Zhas Kyran",
+      "description": "Leadership, organizational skills, social projects for community development"
+    },
+    {
+      "name": "LD Debates",
+      "description": "The art of persuasion, critical thinking, participation in national tournaments"
+    },
+    {
+      "name": "Zheti Óner",
+      "description": "The Seven Arts: painting, music, literature, theater, and much more under one roof"
+    }
+  ],
+  "quote": {
+    "text": "Student years are a time of discovery, friendship, and self-development. Here, everyone finds their own path to success."
+  },
+  "techSection": {
+    "title": "Technical Directions",
+    "description": "Dive into the world of modern technologies and innovations. Create the future with your own hands!",
+    "technologies": "Technologies:"
+  },
+  "techClubs": [
+    {
+      "name": "ROBOTICS",
+      "description": "Building robots, competing, studying AI and automation",
+      "highlight": "RoboCup Kazakhstan 2024 Champions",
+      "tech": "Arduino, Raspberry Pi, Python"
+    },
+    {
+      "name": "MotionDesign",
+      "description": "Animation, video editing, creating commercials and visual effects",
+      "highlight": "Students’ works on TV channels",
+      "tech": "After Effects, Cinema 4D, Blender"
+    },
+    {
+      "name": "3D MODELING",
+      "description": "3D design, architectural visualization, creating game models",
+      "highlight": "Projects for real companies",
+      "tech": "3ds Max, Maya, ZBrush"
+    },
+    {
+      "name": "MAKERSPACE",
+      "description": "A workshop to bring ideas to life: 3D printers, laser cutting, electronics",
+      "highlight": "24/7 student access",
+      "tech": "3D printing, Arduino, CAD systems"
+    }
+  ],
+  "sportsSection": {
+    "title": "Sports Sections",
+    "description": "Stay fit and build team spirit. Sports mean health, discipline, and character!",
+    "schedule": "Training: Mon, Wed, Fri"
+  },
+  "sports": [
+    {
+      "name": "Basketball",
+      "level": "Pro",
+      "description": "Men’s and women’s teams, participation in the city championship"
+    },
+    {
+      "name": "Volleyball",
+      "level": "Amateurs",
+      "description": "Weekly training and friendly matches"
+    },
+    {
+      "name": "Football",
+      "level": "Pro",
+      "description": "Own field, professional coach, university league"
+    },
+    {
+      "name": "Kettlebell Sport",
+      "level": "Pro",
+      "description": "Olympic standards, competition preparation"
+    },
+    {
+      "name": "Togyzkumalak",
+      "level": "Tradition",
+      "description": "National game, tournaments, preserving culture"
+    },
+    {
+      "name": "Chess",
+      "level": "Intellect",
+      "description": "Chess club, online tournaments, master classes"
+    },
+    {
+      "name": "Armwrestling",
+      "level": "Strength",
+      "description": "Strength training, regional competitions"
+    },
+    {
+      "name": "Table Tennis",
+      "level": "Activity",
+      "description": "Fast-paced play, reaction and coordination training"
+    }
+  ],
+  "cta": {
+    "title": "Ready to change your life?",
+    "description": "Don’t miss the chance to become part of an amazing community of talented and ambitious students. Your future starts here and now!",
+    "applyButton": "Apply Now",
+    "learnMoreButton": "Learn More",
+    "contact": "📞 +7 (777) 123-45-67 | 📧 student.life@ahpc.kz"
+  }
+}

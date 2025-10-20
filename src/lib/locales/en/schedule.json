@@ -1,0 +1,19 @@
+{
+  "schedule": "Class Schedule",
+  "course_1": "1st year",
+  "course_2": "2nd year",
+  "course_3": "3rd year",
+  "course_4": "4th year",
+  "class_pair": "class period",
+  "info_title": "Schedule Information",
+  "info_description": "The class schedule is prepared for each semester and contains complete information about the timing of lectures, seminars, and practical classes for all years. The schedule is regularly updated and available for download in Excel format.",
+  "class_times_title": "Class Times",
+  "download_title": "Download Schedule by Year",
+  "download_description": "Select the required year to download the current schedule:",
+  "download_button": "Download Schedule",
+  "important_info_title": "Important Information",
+  "important_info_1": "The schedule may change during the semester",
+  "important_info_2": "Students are notified in advance about any changes",
+  "important_info_3": "Current information is always available at the dean's office",
+  "important_info_4": "Exam schedules are published separately"
+}
