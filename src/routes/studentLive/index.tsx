@@ -242,23 +242,6 @@ function RouteComponent() {
                     ))}
                 </div>
             </section>
-
-
-
-            {/* Call to Action */}
-            <section className={styles.ctaSection}>
-                <div className={styles.ctaContent}>
-                    <h2>{t('cta.title')}</h2>
-                    <p>{t('cta.description')}</p>
-                    <div className={styles.ctaButtons}>
-                        <button className={styles.ctaButton}>{t('cta.applyButton')}</button>
-                        <button className={styles.ctaButtonSecondary}>{t('cta.learnMoreButton')}</button>
-                    </div>
-                    <div className={styles.ctaContact}>
-                        {t('cta.contact')}
-                    </div>
-                </div>
-            </section>
         </div>
     </>
 }

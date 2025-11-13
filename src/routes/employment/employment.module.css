@@ -401,12 +401,12 @@ body {
 
 @media (max-width: 480px) {
     .headContent {
-        height: 50vh;
+        height: 100vh;
         min-height: 350px;
     }
 
     .headContent h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .statNumbers {

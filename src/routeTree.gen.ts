@@ -8,468 +8,202 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-// Import Routes
+import { Route as rootRouteImport } from './routes/__root'
+import { Route as IndexRouteImport } from './routes/index'
+import { Route as WorldSkillsIndexRouteImport } from './routes/worldSkills/index'
+import { Route as StudentLiveIndexRouteImport } from './routes/studentLive/index'
+import { Route as ScholarshipIndexRouteImport } from './routes/scholarship/index'
+import { Route as ScheduleIndexRouteImport } from './routes/schedule/index'
+import { Route as PracticeIndexRouteImport } from './routes/practice/index'
+import { Route as OurGraduatesIndexRouteImport } from './routes/ourGraduates/index'
+import { Route as OrdersIndexRouteImport } from './routes/orders/index'
+import { Route as NewsIndexRouteImport } from './routes/news/index'
+import { Route as MediaIndexRouteImport } from './routes/media/index'
+import { Route as LicenseIndexRouteImport } from './routes/license/index'
+import { Route as GraduatesReviewsIndexRouteImport } from './routes/graduatesReviews/index'
+import { Route as ExamInfoIndexRouteImport } from './routes/examInfo/index'
+import { Route as EmploymentIndexRouteImport } from './routes/employment/index'
+import { Route as DualEducationIndexRouteImport } from './routes/dualEducation/index'
+import { Route as DistanceLearningIndexRouteImport } from './routes/distanceLearning/index'
+import { Route as CounteringCorruptionIndexRouteImport } from './routes/counteringCorruption/index'
+import { Route as CorrespondenceIndexRouteImport } from './routes/correspondence/index'
+import { Route as ContestResultsIndexRouteImport } from './routes/contestResults/index'
+import { Route as CompanyReviewsIndexRouteImport } from './routes/companyReviews/index'
+import { Route as CollegeHistoryIndexRouteImport } from './routes/collegeHistory/index'
+import { Route as CharterIndexRouteImport } from './routes/charter/index'
+import { Route as AlumniAssociationIndexRouteImport } from './routes/alumniAssociation/index'
+import { Route as AdmissionRulesIndexRouteImport } from './routes/admissionRules/index'
+import { Route as TeachingStaffIndexRouteImport } from './routes/TeachingStaff/index'
+import { Route as SymbolsIndexRouteImport } from './routes/Symbols/index'
+import { Route as SpecialsIndexRouteImport } from './routes/Specials/index'
+import { Route as DormitoryIndexRouteImport } from './routes/Dormitory/index'
+import { Route as ContactsIndexRouteImport } from './routes/Contacts/index'
+import { Route as CollegeManagementIndexRouteImport } from './routes/CollegeManagement/index'
+import { Route as NewsNewsIdRouteImport } from './routes/news/$newsId'
+import { Route as NotFoundPageNotFoundPageRouteImport } from './routes/NotFoundPage/NotFoundPage'
 
-import { Route as rootRoute } from './routes/__root'
-import { Route as IndexImport } from './routes/index'
-import { Route as WorldSkillsIndexImport } from './routes/worldSkills/index'
-import { Route as StudentLiveIndexImport } from './routes/studentLive/index'
-import { Route as ScholarshipIndexImport } from './routes/scholarship/index'
-import { Route as ScheduleIndexImport } from './routes/schedule/index'
-import { Route as PracticeIndexImport } from './routes/practice/index'
-import { Route as OurGraduatesIndexImport } from './routes/ourGraduates/index'
-import { Route as OrdersIndexImport } from './routes/orders/index'
-import { Route as NewsIndexImport } from './routes/news/index'
-import { Route as MediaIndexImport } from './routes/media/index'
-import { Route as LicenseIndexImport } from './routes/license/index'
-import { Route as GraduatesReviewsIndexImport } from './routes/graduatesReviews/index'
-import { Route as ExamInfoIndexImport } from './routes/examInfo/index'
-import { Route as EmploymentIndexImport } from './routes/employment/index'
-import { Route as DualEducationIndexImport } from './routes/dualEducation/index'
-import { Route as DistanceLearningIndexImport } from './routes/distanceLearning/index'
-import { Route as CounteringCorruptionIndexImport } from './routes/counteringCorruption/index'
-import { Route as CorrespondenceIndexImport } from './routes/correspondence/index'
-import { Route as ContestResultsIndexImport } from './routes/contestResults/index'
-import { Route as CompanyReviewsIndexImport } from './routes/companyReviews/index'
-import { Route as CollegeHistoryIndexImport } from './routes/collegeHistory/index'
-import { Route as CharterIndexImport } from './routes/charter/index'
-import { Route as AlumniAssociationIndexImport } from './routes/alumniAssociation/index'
-import { Route as AdmissionRulesIndexImport } from './routes/admissionRules/index'
-import { Route as TeachingStaffIndexImport } from './routes/TeachingStaff/index'
-import { Route as SymbolsIndexImport } from './routes/Symbols/index'
-import { Route as SpecialsIndexImport } from './routes/Specials/index'
-import { Route as DormitoryIndexImport } from './routes/Dormitory/index'
-import { Route as ContactsIndexImport } from './routes/Contacts/index'
-import { Route as CollegeManagementIndexImport } from './routes/CollegeManagement/index'
-import { Route as NewsNewsIdImport } from './routes/news/$newsId'
-import { Route as NotFoundPageNotFoundPageImport } from './routes/NotFoundPage/NotFoundPage'
-
-// Create/Update Routes
-
-const IndexRoute = IndexImport.update({
+const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const WorldSkillsIndexRoute = WorldSkillsIndexImport.update({
+const WorldSkillsIndexRoute = WorldSkillsIndexRouteImport.update({
   id: '/worldSkills/',
   path: '/worldSkills/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const StudentLiveIndexRoute = StudentLiveIndexImport.update({
+const StudentLiveIndexRoute = StudentLiveIndexRouteImport.update({
   id: '/studentLive/',
   path: '/studentLive/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const ScholarshipIndexRoute = ScholarshipIndexImport.update({
+const ScholarshipIndexRoute = ScholarshipIndexRouteImport.update({
   id: '/scholarship/',
   path: '/scholarship/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const ScheduleIndexRoute = ScheduleIndexImport.update({
+const ScheduleIndexRoute = ScheduleIndexRouteImport.update({
   id: '/schedule/',
   path: '/schedule/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const PracticeIndexRoute = PracticeIndexImport.update({
+const PracticeIndexRoute = PracticeIndexRouteImport.update({
   id: '/practice/',
   path: '/practice/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const OurGraduatesIndexRoute = OurGraduatesIndexImport.update({
+const OurGraduatesIndexRoute = OurGraduatesIndexRouteImport.update({
   id: '/ourGraduates/',
   path: '/ourGraduates/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const OrdersIndexRoute = OrdersIndexImport.update({
+const OrdersIndexRoute = OrdersIndexRouteImport.update({
   id: '/orders/',
   path: '/orders/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const NewsIndexRoute = NewsIndexImport.update({
+const NewsIndexRoute = NewsIndexRouteImport.update({
   id: '/news/',
   path: '/news/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const MediaIndexRoute = MediaIndexImport.update({
+const MediaIndexRoute = MediaIndexRouteImport.update({
   id: '/media/',
   path: '/media/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const LicenseIndexRoute = LicenseIndexImport.update({
+const LicenseIndexRoute = LicenseIndexRouteImport.update({
   id: '/license/',
   path: '/license/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const GraduatesReviewsIndexRoute = GraduatesReviewsIndexImport.update({
+const GraduatesReviewsIndexRoute = GraduatesReviewsIndexRouteImport.update({
   id: '/graduatesReviews/',
   path: '/graduatesReviews/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const ExamInfoIndexRoute = ExamInfoIndexImport.update({
+const ExamInfoIndexRoute = ExamInfoIndexRouteImport.update({
   id: '/examInfo/',
   path: '/examInfo/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const EmploymentIndexRoute = EmploymentIndexImport.update({
+const EmploymentIndexRoute = EmploymentIndexRouteImport.update({
   id: '/employment/',
   path: '/employment/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const DualEducationIndexRoute = DualEducationIndexImport.update({
+const DualEducationIndexRoute = DualEducationIndexRouteImport.update({
   id: '/dualEducation/',
   path: '/dualEducation/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const DistanceLearningIndexRoute = DistanceLearningIndexImport.update({
+const DistanceLearningIndexRoute = DistanceLearningIndexRouteImport.update({
   id: '/distanceLearning/',
   path: '/distanceLearning/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const CounteringCorruptionIndexRoute = CounteringCorruptionIndexImport.update({
-  id: '/counteringCorruption/',
-  path: '/counteringCorruption/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const CorrespondenceIndexRoute = CorrespondenceIndexImport.update({
+const CounteringCorruptionIndexRoute =
+  CounteringCorruptionIndexRouteImport.update({
+    id: '/counteringCorruption/',
+    path: '/counteringCorruption/',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CorrespondenceIndexRoute = CorrespondenceIndexRouteImport.update({
   id: '/correspondence/',
   path: '/correspondence/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const ContestResultsIndexRoute = ContestResultsIndexImport.update({
+const ContestResultsIndexRoute = ContestResultsIndexRouteImport.update({
   id: '/contestResults/',
   path: '/contestResults/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const CompanyReviewsIndexRoute = CompanyReviewsIndexImport.update({
+const CompanyReviewsIndexRoute = CompanyReviewsIndexRouteImport.update({
   id: '/companyReviews/',
   path: '/companyReviews/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const CollegeHistoryIndexRoute = CollegeHistoryIndexImport.update({
+const CollegeHistoryIndexRoute = CollegeHistoryIndexRouteImport.update({
   id: '/collegeHistory/',
   path: '/collegeHistory/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const CharterIndexRoute = CharterIndexImport.update({
+const CharterIndexRoute = CharterIndexRouteImport.update({
   id: '/charter/',
   path: '/charter/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const AlumniAssociationIndexRoute = AlumniAssociationIndexImport.update({
+const AlumniAssociationIndexRoute = AlumniAssociationIndexRouteImport.update({
   id: '/alumniAssociation/',
   path: '/alumniAssociation/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const AdmissionRulesIndexRoute = AdmissionRulesIndexImport.update({
+const AdmissionRulesIndexRoute = AdmissionRulesIndexRouteImport.update({
   id: '/admissionRules/',
   path: '/admissionRules/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const TeachingStaffIndexRoute = TeachingStaffIndexImport.update({
+const TeachingStaffIndexRoute = TeachingStaffIndexRouteImport.update({
   id: '/TeachingStaff/',
   path: '/TeachingStaff/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const SymbolsIndexRoute = SymbolsIndexImport.update({
+const SymbolsIndexRoute = SymbolsIndexRouteImport.update({
   id: '/Symbols/',
   path: '/Symbols/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const SpecialsIndexRoute = SpecialsIndexImport.update({
+const SpecialsIndexRoute = SpecialsIndexRouteImport.update({
   id: '/Specials/',
   path: '/Specials/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const DormitoryIndexRoute = DormitoryIndexImport.update({
+const DormitoryIndexRoute = DormitoryIndexRouteImport.update({
   id: '/Dormitory/',
   path: '/Dormitory/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const ContactsIndexRoute = ContactsIndexImport.update({
+const ContactsIndexRoute = ContactsIndexRouteImport.update({
   id: '/Contacts/',
   path: '/Contacts/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const CollegeManagementIndexRoute = CollegeManagementIndexImport.update({
+const CollegeManagementIndexRoute = CollegeManagementIndexRouteImport.update({
   id: '/CollegeManagement/',
   path: '/CollegeManagement/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const NewsNewsIdRoute = NewsNewsIdImport.update({
+const NewsNewsIdRoute = NewsNewsIdRouteImport.update({
   id: '/news/$newsId',
   path: '/news/$newsId',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const NotFoundPageNotFoundPageRoute = NotFoundPageNotFoundPageImport.update({
-  id: '/NotFoundPage/NotFoundPage',
-  path: '/NotFoundPage/NotFoundPage',
-  getParentRoute: () => rootRoute,
-} as any)
-
-// Populate the FileRoutesByPath interface
-
-declare module '@tanstack/react-router' {
-  interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/NotFoundPage/NotFoundPage': {
-      id: '/NotFoundPage/NotFoundPage'
-      path: '/NotFoundPage/NotFoundPage'
-      fullPath: '/NotFoundPage/NotFoundPage'
-      preLoaderRoute: typeof NotFoundPageNotFoundPageImport
-      parentRoute: typeof rootRoute
-    }
-    '/news/$newsId': {
-      id: '/news/$newsId'
-      path: '/news/$newsId'
-      fullPath: '/news/$newsId'
-      preLoaderRoute: typeof NewsNewsIdImport
-      parentRoute: typeof rootRoute
-    }
-    '/CollegeManagement/': {
-      id: '/CollegeManagement/'
-      path: '/CollegeManagement'
-      fullPath: '/CollegeManagement'
-      preLoaderRoute: typeof CollegeManagementIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/Contacts/': {
-      id: '/Contacts/'
-      path: '/Contacts'
-      fullPath: '/Contacts'
-      preLoaderRoute: typeof ContactsIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/Dormitory/': {
-      id: '/Dormitory/'
-      path: '/Dormitory'
-      fullPath: '/Dormitory'
-      preLoaderRoute: typeof DormitoryIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/Specials/': {
-      id: '/Specials/'
-      path: '/Specials'
-      fullPath: '/Specials'
-      preLoaderRoute: typeof SpecialsIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/Symbols/': {
-      id: '/Symbols/'
-      path: '/Symbols'
-      fullPath: '/Symbols'
-      preLoaderRoute: typeof SymbolsIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/TeachingStaff/': {
-      id: '/TeachingStaff/'
-      path: '/TeachingStaff'
-      fullPath: '/TeachingStaff'
-      preLoaderRoute: typeof TeachingStaffIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/admissionRules/': {
-      id: '/admissionRules/'
-      path: '/admissionRules'
-      fullPath: '/admissionRules'
-      preLoaderRoute: typeof AdmissionRulesIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/alumniAssociation/': {
-      id: '/alumniAssociation/'
-      path: '/alumniAssociation'
-      fullPath: '/alumniAssociation'
-      preLoaderRoute: typeof AlumniAssociationIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/charter/': {
-      id: '/charter/'
-      path: '/charter'
-      fullPath: '/charter'
-      preLoaderRoute: typeof CharterIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/collegeHistory/': {
-      id: '/collegeHistory/'
-      path: '/collegeHistory'
-      fullPath: '/collegeHistory'
-      preLoaderRoute: typeof CollegeHistoryIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/companyReviews/': {
-      id: '/companyReviews/'
-      path: '/companyReviews'
-      fullPath: '/companyReviews'
-      preLoaderRoute: typeof CompanyReviewsIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/contestResults/': {
-      id: '/contestResults/'
-      path: '/contestResults'
-      fullPath: '/contestResults'
-      preLoaderRoute: typeof ContestResultsIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/correspondence/': {
-      id: '/correspondence/'
-      path: '/correspondence'
-      fullPath: '/correspondence'
-      preLoaderRoute: typeof CorrespondenceIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/counteringCorruption/': {
-      id: '/counteringCorruption/'
-      path: '/counteringCorruption'
-      fullPath: '/counteringCorruption'
-      preLoaderRoute: typeof CounteringCorruptionIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/distanceLearning/': {
-      id: '/distanceLearning/'
-      path: '/distanceLearning'
-      fullPath: '/distanceLearning'
-      preLoaderRoute: typeof DistanceLearningIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/dualEducation/': {
-      id: '/dualEducation/'
-      path: '/dualEducation'
-      fullPath: '/dualEducation'
-      preLoaderRoute: typeof DualEducationIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/employment/': {
-      id: '/employment/'
-      path: '/employment'
-      fullPath: '/employment'
-      preLoaderRoute: typeof EmploymentIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/examInfo/': {
-      id: '/examInfo/'
-      path: '/examInfo'
-      fullPath: '/examInfo'
-      preLoaderRoute: typeof ExamInfoIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/graduatesReviews/': {
-      id: '/graduatesReviews/'
-      path: '/graduatesReviews'
-      fullPath: '/graduatesReviews'
-      preLoaderRoute: typeof GraduatesReviewsIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/license/': {
-      id: '/license/'
-      path: '/license'
-      fullPath: '/license'
-      preLoaderRoute: typeof LicenseIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/media/': {
-      id: '/media/'
-      path: '/media'
-      fullPath: '/media'
-      preLoaderRoute: typeof MediaIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/news/': {
-      id: '/news/'
-      path: '/news'
-      fullPath: '/news'
-      preLoaderRoute: typeof NewsIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/orders/': {
-      id: '/orders/'
-      path: '/orders'
-      fullPath: '/orders'
-      preLoaderRoute: typeof OrdersIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/ourGraduates/': {
-      id: '/ourGraduates/'
-      path: '/ourGraduates'
-      fullPath: '/ourGraduates'
-      preLoaderRoute: typeof OurGraduatesIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/practice/': {
-      id: '/practice/'
-      path: '/practice'
-      fullPath: '/practice'
-      preLoaderRoute: typeof PracticeIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/schedule/': {
-      id: '/schedule/'
-      path: '/schedule'
-      fullPath: '/schedule'
-      preLoaderRoute: typeof ScheduleIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/scholarship/': {
-      id: '/scholarship/'
-      path: '/scholarship'
-      fullPath: '/scholarship'
-      preLoaderRoute: typeof ScholarshipIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/studentLive/': {
-      id: '/studentLive/'
-      path: '/studentLive'
-      fullPath: '/studentLive'
-      preLoaderRoute: typeof StudentLiveIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/worldSkills/': {
-      id: '/worldSkills/'
-      path: '/worldSkills'
-      fullPath: '/worldSkills'
-      preLoaderRoute: typeof WorldSkillsIndexImport
-      parentRoute: typeof rootRoute
-    }
-  }
-}
-
-// Create and export the route tree
+const NotFoundPageNotFoundPageRoute =
+  NotFoundPageNotFoundPageRouteImport.update({
+    id: '/NotFoundPage/NotFoundPage',
+    path: '/NotFoundPage/NotFoundPage',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -505,7 +239,6 @@ export interface FileRoutesByFullPath {
   '/studentLive': typeof StudentLiveIndexRoute
   '/worldSkills': typeof WorldSkillsIndexRoute
 }
-
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/NotFoundPage/NotFoundPage': typeof NotFoundPageNotFoundPageRoute
@@ -540,9 +273,8 @@ export interface FileRoutesByTo {
   '/studentLive': typeof StudentLiveIndexRoute
   '/worldSkills': typeof WorldSkillsIndexRoute
 }
-
 export interface FileRoutesById {
-  __root__: typeof rootRoute
+  __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/NotFoundPage/NotFoundPage': typeof NotFoundPageNotFoundPageRoute
   '/news/$newsId': typeof NewsNewsIdRoute
@@ -576,7 +308,6 @@ export interface FileRoutesById {
   '/studentLive/': typeof StudentLiveIndexRoute
   '/worldSkills/': typeof WorldSkillsIndexRoute
 }
-
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
@@ -682,7 +413,6 @@ export interface FileRouteTypes {
     | '/worldSkills/'
   fileRoutesById: FileRoutesById
 }
-
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   NotFoundPageNotFoundPageRoute: typeof NotFoundPageNotFoundPageRoute
@@ -716,6 +446,235 @@ export interface RootRouteChildren {
   ScholarshipIndexRoute: typeof ScholarshipIndexRoute
   StudentLiveIndexRoute: typeof StudentLiveIndexRoute
   WorldSkillsIndexRoute: typeof WorldSkillsIndexRoute
+}
+
+declare module '@tanstack/react-router' {
+  interface FileRoutesByPath {
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/worldSkills/': {
+      id: '/worldSkills/'
+      path: '/worldSkills'
+      fullPath: '/worldSkills'
+      preLoaderRoute: typeof WorldSkillsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/studentLive/': {
+      id: '/studentLive/'
+      path: '/studentLive'
+      fullPath: '/studentLive'
+      preLoaderRoute: typeof StudentLiveIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/scholarship/': {
+      id: '/scholarship/'
+      path: '/scholarship'
+      fullPath: '/scholarship'
+      preLoaderRoute: typeof ScholarshipIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/schedule/': {
+      id: '/schedule/'
+      path: '/schedule'
+      fullPath: '/schedule'
+      preLoaderRoute: typeof ScheduleIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/practice/': {
+      id: '/practice/'
+      path: '/practice'
+      fullPath: '/practice'
+      preLoaderRoute: typeof PracticeIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ourGraduates/': {
+      id: '/ourGraduates/'
+      path: '/ourGraduates'
+      fullPath: '/ourGraduates'
+      preLoaderRoute: typeof OurGraduatesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/orders/': {
+      id: '/orders/'
+      path: '/orders'
+      fullPath: '/orders'
+      preLoaderRoute: typeof OrdersIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/news/': {
+      id: '/news/'
+      path: '/news'
+      fullPath: '/news'
+      preLoaderRoute: typeof NewsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/media/': {
+      id: '/media/'
+      path: '/media'
+      fullPath: '/media'
+      preLoaderRoute: typeof MediaIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/license/': {
+      id: '/license/'
+      path: '/license'
+      fullPath: '/license'
+      preLoaderRoute: typeof LicenseIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/graduatesReviews/': {
+      id: '/graduatesReviews/'
+      path: '/graduatesReviews'
+      fullPath: '/graduatesReviews'
+      preLoaderRoute: typeof GraduatesReviewsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/examInfo/': {
+      id: '/examInfo/'
+      path: '/examInfo'
+      fullPath: '/examInfo'
+      preLoaderRoute: typeof ExamInfoIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/employment/': {
+      id: '/employment/'
+      path: '/employment'
+      fullPath: '/employment'
+      preLoaderRoute: typeof EmploymentIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dualEducation/': {
+      id: '/dualEducation/'
+      path: '/dualEducation'
+      fullPath: '/dualEducation'
+      preLoaderRoute: typeof DualEducationIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/distanceLearning/': {
+      id: '/distanceLearning/'
+      path: '/distanceLearning'
+      fullPath: '/distanceLearning'
+      preLoaderRoute: typeof DistanceLearningIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/counteringCorruption/': {
+      id: '/counteringCorruption/'
+      path: '/counteringCorruption'
+      fullPath: '/counteringCorruption'
+      preLoaderRoute: typeof CounteringCorruptionIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/correspondence/': {
+      id: '/correspondence/'
+      path: '/correspondence'
+      fullPath: '/correspondence'
+      preLoaderRoute: typeof CorrespondenceIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contestResults/': {
+      id: '/contestResults/'
+      path: '/contestResults'
+      fullPath: '/contestResults'
+      preLoaderRoute: typeof ContestResultsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/companyReviews/': {
+      id: '/companyReviews/'
+      path: '/companyReviews'
+      fullPath: '/companyReviews'
+      preLoaderRoute: typeof CompanyReviewsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/collegeHistory/': {
+      id: '/collegeHistory/'
+      path: '/collegeHistory'
+      fullPath: '/collegeHistory'
+      preLoaderRoute: typeof CollegeHistoryIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/charter/': {
+      id: '/charter/'
+      path: '/charter'
+      fullPath: '/charter'
+      preLoaderRoute: typeof CharterIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/alumniAssociation/': {
+      id: '/alumniAssociation/'
+      path: '/alumniAssociation'
+      fullPath: '/alumniAssociation'
+      preLoaderRoute: typeof AlumniAssociationIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admissionRules/': {
+      id: '/admissionRules/'
+      path: '/admissionRules'
+      fullPath: '/admissionRules'
+      preLoaderRoute: typeof AdmissionRulesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/TeachingStaff/': {
+      id: '/TeachingStaff/'
+      path: '/TeachingStaff'
+      fullPath: '/TeachingStaff'
+      preLoaderRoute: typeof TeachingStaffIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/Symbols/': {
+      id: '/Symbols/'
+      path: '/Symbols'
+      fullPath: '/Symbols'
+      preLoaderRoute: typeof SymbolsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/Specials/': {
+      id: '/Specials/'
+      path: '/Specials'
+      fullPath: '/Specials'
+      preLoaderRoute: typeof SpecialsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/Dormitory/': {
+      id: '/Dormitory/'
+      path: '/Dormitory'
+      fullPath: '/Dormitory'
+      preLoaderRoute: typeof DormitoryIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/Contacts/': {
+      id: '/Contacts/'
+      path: '/Contacts'
+      fullPath: '/Contacts'
+      preLoaderRoute: typeof ContactsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/CollegeManagement/': {
+      id: '/CollegeManagement/'
+      path: '/CollegeManagement'
+      fullPath: '/CollegeManagement'
+      preLoaderRoute: typeof CollegeManagementIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/news/$newsId': {
+      id: '/news/$newsId'
+      path: '/news/$newsId'
+      fullPath: '/news/$newsId'
+      preLoaderRoute: typeof NewsNewsIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/NotFoundPage/NotFoundPage': {
+      id: '/NotFoundPage/NotFoundPage'
+      path: '/NotFoundPage/NotFoundPage'
+      fullPath: '/NotFoundPage/NotFoundPage'
+      preLoaderRoute: typeof NotFoundPageNotFoundPageRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+  }
 }
 
 const rootRouteChildren: RootRouteChildren = {
@@ -752,147 +711,6 @@ const rootRouteChildren: RootRouteChildren = {
   StudentLiveIndexRoute: StudentLiveIndexRoute,
   WorldSkillsIndexRoute: WorldSkillsIndexRoute,
 }
-
-export const routeTree = rootRoute
+export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-/* ROUTE_MANIFEST_START
-{
-  "routes": {
-    "__root__": {
-      "filePath": "__root.tsx",
-      "children": [
-        "/",
-        "/NotFoundPage/NotFoundPage",
-        "/news/$newsId",
-        "/CollegeManagement/",
-        "/Contacts/",
-        "/Dormitory/",
-        "/Specials/",
-        "/Symbols/",
-        "/TeachingStaff/",
-        "/admissionRules/",
-        "/alumniAssociation/",
-        "/charter/",
-        "/collegeHistory/",
-        "/companyReviews/",
-        "/contestResults/",
-        "/correspondence/",
-        "/counteringCorruption/",
-        "/distanceLearning/",
-        "/dualEducation/",
-        "/employment/",
-        "/examInfo/",
-        "/graduatesReviews/",
-        "/license/",
-        "/media/",
-        "/news/",
-        "/orders/",
-        "/ourGraduates/",
-        "/practice/",
-        "/schedule/",
-        "/scholarship/",
-        "/studentLive/",
-        "/worldSkills/"
-      ]
-    },
-    "/": {
-      "filePath": "index.tsx"
-    },
-    "/NotFoundPage/NotFoundPage": {
-      "filePath": "NotFoundPage/NotFoundPage.tsx"
-    },
-    "/news/$newsId": {
-      "filePath": "news/$newsId.tsx"
-    },
-    "/CollegeManagement/": {
-      "filePath": "CollegeManagement/index.tsx"
-    },
-    "/Contacts/": {
-      "filePath": "Contacts/index.tsx"
-    },
-    "/Dormitory/": {
-      "filePath": "Dormitory/index.tsx"
-    },
-    "/Specials/": {
-      "filePath": "Specials/index.tsx"
-    },
-    "/Symbols/": {
-      "filePath": "Symbols/index.tsx"
-    },
-    "/TeachingStaff/": {
-      "filePath": "TeachingStaff/index.tsx"
-    },
-    "/admissionRules/": {
-      "filePath": "admissionRules/index.tsx"
-    },
-    "/alumniAssociation/": {
-      "filePath": "alumniAssociation/index.tsx"
-    },
-    "/charter/": {
-      "filePath": "charter/index.tsx"
-    },
-    "/collegeHistory/": {
-      "filePath": "collegeHistory/index.tsx"
-    },
-    "/companyReviews/": {
-      "filePath": "companyReviews/index.tsx"
-    },
-    "/contestResults/": {
-      "filePath": "contestResults/index.tsx"
-    },
-    "/correspondence/": {
-      "filePath": "correspondence/index.tsx"
-    },
-    "/counteringCorruption/": {
-      "filePath": "counteringCorruption/index.tsx"
-    },
-    "/distanceLearning/": {
-      "filePath": "distanceLearning/index.tsx"
-    },
-    "/dualEducation/": {
-      "filePath": "dualEducation/index.tsx"
-    },
-    "/employment/": {
-      "filePath": "employment/index.tsx"
-    },
-    "/examInfo/": {
-      "filePath": "examInfo/index.tsx"
-    },
-    "/graduatesReviews/": {
-      "filePath": "graduatesReviews/index.tsx"
-    },
-    "/license/": {
-      "filePath": "license/index.tsx"
-    },
-    "/media/": {
-      "filePath": "media/index.tsx"
-    },
-    "/news/": {
-      "filePath": "news/index.tsx"
-    },
-    "/orders/": {
-      "filePath": "orders/index.tsx"
-    },
-    "/ourGraduates/": {
-      "filePath": "ourGraduates/index.tsx"
-    },
-    "/practice/": {
-      "filePath": "practice/index.tsx"
-    },
-    "/schedule/": {
-      "filePath": "schedule/index.tsx"
-    },
-    "/scholarship/": {
-      "filePath": "scholarship/index.tsx"
-    },
-    "/studentLive/": {
-      "filePath": "studentLive/index.tsx"
-    },
-    "/worldSkills/": {
-      "filePath": "worldSkills/index.tsx"
-    }
-  }
-}
-ROUTE_MANIFEST_END */

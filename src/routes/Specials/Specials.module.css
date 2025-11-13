@@ -263,7 +263,33 @@
     }
 
     .headContent h1 {
-        font-size: 54px;
+        font-size: 48px;
+    }
+    
+    .title {
+        font-size: 14px;
+    }
+    
+    .subTitle {
+        font-size: 24px;
+    }
+
+    .specialsCard,
+    .whSpecialsCard {
+        padding: 25px 24px;
+    }
+
+    .id,
+    .whId {
+        font-size: 16px;
+    }
+    
+    .headerCard {
+        gap: 5px;
+    }
+
+    .description {
+        font-size: 14px;
     }
 
 

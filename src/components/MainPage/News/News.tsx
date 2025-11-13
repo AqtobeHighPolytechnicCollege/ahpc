@@ -44,12 +44,12 @@ export default function News () {
                         {newsList.slice(0, 4).map((item) => {
 
                             const {id} = item;
-                            const imageUrl = "http://95.182.15.62:1337" + item.Photo?.url
+                            const imageUrl = "http://95.182.15.53:1337" + item.Photo?.url
                             const imageName = item.Photo?.name
                             const article = item.Article
                             const itemDate = item.Date
                             const shortDescription = item.Short_description
-                            const title = item.Title
+                            const title = item.title
                             const nid = item.documentId
 
 

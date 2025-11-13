@@ -435,6 +435,10 @@ body {
     .infoBlock {
         flex-direction: column;
     }
+    
+    .requisitesInfo__BIN__Title {
+        font-size: 24px;
+    }
 
 }
 
@@ -442,9 +446,37 @@ body {
    SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
    ============================= */
 @media (max-width: 575px) {
-    .container{
+    .container {
         margin: 5rem 1rem;
-        justify-content: center;
+    }
+
+    .infoSection__Title {
+        font-size: 20px;
+    }
+
+    .infoBlock__Docs__DocsList {
+        align-items: start;
+    }
+
+    .infoBlock__Docs__DocsList__List {
+        width: 300px;
+    }
+
+    .infoBlock__Docs__DocsList__Title {
+        font-size: 24px;
+    }
+
+    .infoBLock__Docs__DocsList__ListItem {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .infoBlock__BlockAdress__Title {
+        font-size: 24px;
+    }
+
+    .infoBlock__Data__Corr__Data {
+        font-size: 24px;
     }
 
     .headContent h1 {
@@ -471,6 +503,11 @@ body {
         font-size: 16px;
     }
 
+    .requisitesInfo__SMM {
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .photographia  {
         display: none;
     }
@@ -481,6 +518,10 @@ body {
 
     .requisitesInfo__SMM__Social__Mesenger img {
         width: 30px;
+    }
+
+    .requisitesInfo__SMM__Social__Mesenger {
+        border-radius: 15px;
     }
 
     .PS {

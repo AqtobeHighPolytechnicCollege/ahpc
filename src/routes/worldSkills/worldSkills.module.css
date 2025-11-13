@@ -545,6 +545,10 @@ body {
     .headContent h1 {
         font-size: 54px;
     }
+    
+    .wskInfoSection {
+        gap: 100px;
+    }
 
     .wskInfo2014 {
         flex-direction: column;
@@ -555,6 +559,10 @@ body {
     }
 
     .wskChronology__2015__Info__Block {
+        flex-direction: column;
+    }
+
+    .wskChronology__2017__Diplomas {
         flex-direction: column;
     }
 
@@ -580,6 +588,10 @@ body {
 
     .wskGoal__Text__Info {
         font-size: 16px;
+    }
+
+    .wskQuote {
+        width: 80%;
     }
 
     .wskQuote__Title {
@@ -627,6 +639,10 @@ body {
 
     .wskChronology__2018__Info__Subtitle {
         font-size: 16px;
+    }
+
+    .wskChronology__2021__PlaceBlock {
+        flex-direction: column;
     }
 
     .wskChronology__2021__Subtitle {

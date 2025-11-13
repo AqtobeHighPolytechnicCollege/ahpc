@@ -185,17 +185,6 @@ function RouteComponent() {
                     ))}
                 </div>
             </section>
-
-            {/* Призыв к действию */}
-            <section className={styles.ctaSection}>
-                <div className={styles.ctaContent}>
-                    <h2>{t('ctaTitle')}</h2>
-                    <p>
-                        {t('ctaDescription')}
-                    </p>
-                    <button className={styles.ctaButton}>{t('ctaButton')}</button>
-                </div>
-            </section>
         </div>
     </>
 }

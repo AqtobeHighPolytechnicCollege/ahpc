@@ -218,39 +218,6 @@ body {
     height: 700px;
 }
 
-/* Адаптивность для мобильных устройств */
-@media (max-width: 768px) {
-    .boardMembers {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .boardTitle {
-        font-size: 36px;
-    }
-
-    .memberCard {
-        padding: 20px;
-    }
-
-    .memberPhoto {
-        width: 120px;
-        height: 120px;
-    }
-
-    .memberName {
-        font-size: 20px;
-    }
-
-    .memberPosition {
-        font-size: 16px;
-    }
-
-    .memberInfo {
-        font-size: 14px;
-    }
-}
-
 /* =============================
    LARGE DEVICES — max-width: 1199px (ноутбуки)
    ============================= */
@@ -258,53 +225,22 @@ body {
     .headContent h1 {
         font-size: 100px;
     }
-
+    
     .associationInfo__Block img {
-        max-width: 500px;
+        max-width: 50%;
     }
-
-    .associationInfo__Block__Text {
-        font-size: 20px;
-    }
-
-    .boldClass {
-        font-size: 20px;
-    }
-
-    .alumniAssociation__Block__item__title {
-        font-size: 14px;
-    }
-
-    .alumniAssociation__Block {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .boardTitle {
-        font-size: 36px;
-    }
-
-    .memberName {
+    
+    .alumniAssociation__Block__Item__Title {
         font-size: 16px;
     }
 
-    .memberInfo {
-        font-size: 14px;
-    }
-
-    .memberPhoto {
-        width: 100px;
-        height: 100px;
-    }
-
     .boardMembers {
-        gap: 20px;
+        max-width: 100%;
     }
 
     .videoCard {
         width: 100%;
     }
-
 
 }
 
@@ -315,58 +251,53 @@ body {
     .headContent h1 {
         font-size: 86px;
     }
-
-    .boardMembers {
-        max-width: none;
+    
+    .associationInfo__Block__Text,
+    .boldClass {
+        font-size: 20px;
+    }
+    
+    .boardTitle {
+        font-size: 36px;
     }
 
-    .associationInfo__Block {
-        flex-direction: column-reverse;
+    .memberPhoto {
+        width: 100px;
+        height: 100px;
     }
 
     .videoCard {
-        padding: 0 ;
-        height: 600px;
+        padding: 0;
     }
-
-    .boardSection {
-        max-height: 2000px;
-    }
-
-
 }
 
 /* =============================
    SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
    ============================= */
 @media (max-width: 575px) {
-    .container{
+    .container {
         margin: 5rem 1rem;
-        justify-content: center;
     }
 
     .headContent h1 {
         font-size: 54px;
     }
 
-    .associationInfo__Block__Text,
-    .boldClass {
-        font-size: 16px;
-    }
-
     .alumniAssociation__Block {
         flex-direction: column;
     }
 
-    .alumniAssociation__Block__Item {
-        flex: 1;
+    .associationInfo__Block {
+        flex-direction: column-reverse;
     }
 
-    .alumniAssociation__Block__Item__Title {
-        font-size: 14px;
+    .associationInfo__Block img {
+        max-width: 70%;
     }
 
-
+    .videoCard {
+        height: 400px;
+    }
 
 }
 
@@ -381,17 +312,6 @@ body {
         margin: 5rem 1rem;
     }
 
-    .associationInfo__Block img {
-        max-width: 300px;
-    }
 
-    .boardTitle {
-        font-size: 28px;
-    }
-
-    .memberPhoto {
-        width: 50px;
-        height: 50px;
-    }
 
 }

@@ -85,7 +85,7 @@ function NewsPage() {
                     {filteredList.map((item: any) => {
                         const {id} = item;
                         const imageUrl =
-                            'http://95.182.15.62:1337' + item.Photo?.url;
+                            'http://95.182.15.53:1337' + item.Photo?.url;
                         const imageName = item.Photo?.name;
                         const article = item.Article;
                         const itemDate = item.Date;

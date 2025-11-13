@@ -1,7 +1,7 @@
 /* Цветовая палитра */
 :root {
     --primary-color: #2c3e50;
-    --secondary-color: #2980b9;
+    --secondary-color: #000E3B;
     --accent-color: #e67e22;
     --light-bg: #f9f9f9;
     --card-bg: #ffffff;
@@ -9,19 +9,28 @@
     --muted-text: #666666;
     --border-radius: 8px;
     --transition-speed: 0.3s;
+    --spacing-xs: 8px;
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
 }
 
+/* ========================
+   HEADER SECTION
+======================== */
 .headContent {
     height: 100vh;
+    min-height: 400px;
     background-image: url('/img/bg_layout.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
-    padding: 20px;
+    padding: var(--spacing-lg);
     background-color: #f0f0f0;
     text-align: center;
     flex-direction: column;
@@ -30,407 +39,524 @@
 
 .headContent h1 {
     text-align: center;
-    font-size: clamp(32px, 8vw, 115px);
-    line-height: 1.1;
+    font-size: clamp(28px, 6vw, 115px);
+    line-height: 1.2;
     color: #000E3B;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     letter-spacing: 0.1px;
+    margin: 0;
+    padding: 0 var(--spacing-md);
 }
 
 .headContent h1 span {
     display: block;
 }
 
-.headContent h1 span:nth-child(1)::after {
-    content: " ";
-}
-
-.headContent h1 span:nth-child(2)::after {
-    content: "\A";
-    white-space: pre;
-}
-
 .headContentHashtag {
-    margin-top: clamp(30px, 15vh, 150px);
+    margin-top: clamp(20px, 10vh, 150px);
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 0 15px;
+    padding: 0 var(--spacing-md);
 }
 
 .headContentHashtag p {
-    font-size: clamp(18px, 3vw, 32px);
+    font-size: clamp(16px, 2.5vw, 32px);
     color: #05070F;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: italic;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: var(--spacing-lg);
+    max-width: 800px;
 }
 
-/* Consolidated container */
+/* ========================
+   CONTAINER & LAYOUT
+======================== */
 .container {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: clamp(15px, 3vw, 20px);
+    gap: clamp(24px, 4vw, 40px);
+    padding: clamp(16px, 3vw, 100px);
     background-color: var(--light-bg);
     color: var(--text-color);
     font-family: 'Inter', sans-serif;
-    margin: clamp(1rem, 5vw, 5rem);
+    margin: clamp(1rem, 3vw, 5rem) auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-/* Override for specific sections needing row layout */
-.container--row {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-/* Tabs */
+/* ========================
+   TABS SYSTEM (Кнопки отделений)
+======================== */
 .tabsWrapper {
-    display: flex;
-    position: relative;
-    border-bottom: 2px solid #e0e0e0;
-    margin-bottom: 20px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+    gap: clamp(12px, 2vw, 16px);
+    margin-bottom: clamp(24px, 4vw, 32px);
+    padding: 0;
 }
 
 .tabItem {
-    padding: 12px 20px;
+    position: relative;
+    padding: clamp(14px, 2.5vw, 18px) clamp(20px, 3vw, 28px);
     cursor: pointer;
-    font-size: clamp(0.875rem, 2vw, 1rem);
+    font-size: clamp(0.9rem, 1.6vw, 1.05rem);
     color: var(--text-color);
-    transition: color var(--transition-speed);
-    white-space: nowrap;
-    flex-shrink: 0;
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    text-align: center;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
 }
 
-.tabItem:hover {
-    color: var(--secondary-color);
+.tabItem::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, var(--secondary-color));
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    z-index: 0;
+}
+
+.tabItem span {
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.tabItem:hover:not(.active) {
+    border-color: var(--secondary-color);
+    box-shadow: 0 4px 12px rgba(41, 128, 185, 0.15);
+    transform: translateY(-2px);
+}
+
+.tabItem:hover:not(.active)::before {
+    opacity: 0.05;
+}
+
+.tabItem:active:not(.active) {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(41, 128, 185, 0.1);
 }
 
 .tabItem.active {
-    color: var(--secondary-color);
-    font-weight: 600;
+    color: #ffffff;
+    border-color: var(--secondary-color);
+    background: linear-gradient(135deg, var(--secondary-color));
+    box-shadow: 0 6px 16px rgba(41, 128, 185, 0.3);
+    transform: translateY(-1px);
 }
 
+.tabItem.active::before {
+    opacity: 0;
+}
+
+.tabItem.active:hover {
+    box-shadow: 0 8px 20px rgba(41, 128, 185, 0.4);
+    transform: translateY(-2px);
+}
+
+.tabItem:focus-visible {
+    outline: 3px solid rgba(41, 128, 185, 0.3);
+    outline-offset: 2px;
+}
+
+/* Скрываем старый индикатор */
 .tabIndicator {
-    position: absolute;
-    bottom: -2px;
-    height: 2px;
-    background-color: var(--secondary-color);
-    transition: left var(--transition-speed), width var(--transition-speed);
+    display: none;
 }
 
-/* Department Header */
+/* ========================
+   DEPARTMENT HEADER
+======================== */
 .departmentHeader {
     text-align: center;
-    margin-bottom: 20px;
-    padding: 0 15px;
+    margin-bottom: var(--spacing-lg);
+    padding: 0 var(--spacing-md);
 }
 
 .departmentTitle {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
     color: var(--primary-color);
-    margin: 0;
+    margin: 0 0 var(--spacing-sm) 0;
+    font-weight: 700;
 }
 
 .departmentSubtitle {
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    font-size: clamp(0.95rem, 2vw, 1.25rem);
     color: var(--muted-text);
-    margin-top: 8px;
+    margin: 0;
+    font-weight: 400;
 }
 
-/* Department Info Card */
+/* ========================
+   DEPARTMENT INFO CARD
+======================== */
 .departmentInfoCard {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: stretch;
+    gap: var(--spacing-lg);
     background-color: var(--card-bg);
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     overflow: hidden;
     flex-wrap: wrap;
 }
 
 .infoTextSection {
-    flex: 1 1 300px;
-    padding: clamp(20px, 4vw, 30px);
+    flex: 1 1 320px;
+    padding: clamp(20px, 4vw, 32px);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
 }
 
 .sectionTitle {
-    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-size: clamp(1.25rem, 2.8vw, 1.75rem);
     color: var(--secondary-color);
-    margin-bottom: 12px;
+    margin: 0 0 var(--spacing-sm) 0;
+    font-weight: 600;
 }
 
 .sectionDescription {
-    font-size: clamp(0.875rem, 2vw, 1rem);
+    font-size: clamp(0.9rem, 1.8vw, 1rem);
     color: var(--text-color);
-    line-height: 1.6;
-    margin-bottom: 24px;
+    line-height: 1.7;
+    margin: 0;
 }
 
 .statisticsWrapper {
-    display: flex;
-    gap: clamp(10px, 2vw, 20px);
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: clamp(12px, 2vw, 16px);
+    margin-top: var(--spacing-md);
 }
 
 .statCard {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: var(--light-bg);
     border-radius: var(--border-radius);
-    padding: clamp(12px, 3vw, 20px);
-    flex: 1 1 100px;
-    min-width: 90px;
+    padding: clamp(14px, 3vw, 20px);
     text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.statCard img {
-    width: clamp(32px, 6vw, 40px);
-    height: clamp(32px, 6vw, 40px);
-    margin-bottom: 8px;
+.statCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.statCard svg {
+    width: clamp(28px, 5vw, 36px);
+    height: clamp(28px, 5vw, 36px);
+    margin-bottom: var(--spacing-xs);
+    color: var(--secondary-color);
 }
 
 .statNumber {
-    font-size: clamp(1.125rem, 3vw, 1.5rem);
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
     color: var(--primary-color);
-    margin: 0;
+    margin: var(--spacing-xs) 0 4px 0;
+    font-weight: 700;
 }
 
 .statLabel {
-    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+    font-size: clamp(0.75rem, 1.4vw, 0.875rem);
     color: var(--muted-text);
-    margin-top: 4px;
+    margin: 0;
+    line-height: 1.3;
 }
 
 .departmentImage {
     flex: 0 0 auto;
     width: 100%;
-    max-width: 900px;
+    max-width: 600px;
     height: auto;
+    min-height: 280px;
     object-fit: cover;
+    object-position: center;
 }
 
-/* Classrooms Section */
+/* ========================
+   CLASSROOMS SECTION
+======================== */
 .classroomsSection {
     background-color: var(--card-bg);
-    padding: clamp(20px, 4vw, 30px);
+    padding: clamp(20px, 4vw, 32px);
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .classroomsSection .sectionTitle {
-    margin-bottom: 20px;
+    margin-bottom: var(--spacing-lg);
 }
 
 .classroomsList {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
-    gap: clamp(15px, 3vw, 20px);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+    gap: clamp(16px, 3vw, 24px);
 }
 
 .classroomCard {
     background-color: var(--light-bg);
     border-radius: var(--border-radius);
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: all var(--transition-speed) ease;
     cursor: pointer;
 }
 
 .classroomCard:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.classroomCard:active {
+    transform: translateY(-2px);
 }
 
 .classroomImage {
     width: 100%;
-    height: clamp(200px, 40vw, 400px);
+    height: clamp(180px, 35vw, 280px);
     object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 .classroomTitle {
-    font-size: clamp(1rem, 2vw, 1.125rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.125rem);
     color: var(--primary-color);
-    padding: 12px 16px;
+    padding: clamp(12px, 2vw, 16px);
     margin: 0;
+    font-weight: 600;
+    line-height: 1.4;
 }
 
-/* Head of Department Section */
+/* ========================
+   HEAD OF DEPARTMENT
+======================== */
 .headOfDepartmentSection {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: var(--spacing-lg);
 }
 
 .headOfDepartmentSection .sectionTitle {
     text-align: center;
+    margin-bottom: 0;
 }
 
 .headCard {
     background-color: var(--card-bg);
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    padding: clamp(15px, 3vw, 20px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: clamp(20px, 4vw, 32px);
 }
 
 .headCardContent {
     display: flex;
-    align-items: center;
-    gap: 20px;
+    align-items: flex-start;
+    gap: clamp(20px, 4vw, 32px);
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .headImage {
     flex: 0 0 auto;
-    width: clamp(100px, 20vw, 150px);
-    height: clamp(100px, 20vw, 150px);
+    width: clamp(120px, 18vw, 160px);
+    height: clamp(120px, 18vw, 160px);
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid var(--secondary-color);
+    border: 4px solid var(--secondary-color);
+    box-shadow: 0 4px 12px rgba(41, 128, 185, 0.2);
 }
 
 .headInfo {
-    flex: 1 1 250px;
-    font-size: clamp(0.875rem, 2vw, 1rem);
+    flex: 1 1 280px;
+    font-size: clamp(0.9rem, 1.8vw, 1rem);
     color: var(--text-color);
-    line-height: 1.5;
+    line-height: 1.7;
+}
+
+.headInfo h3 {
+    margin: 0 0 var(--spacing-md) 0;
+    font-size: clamp(1.1rem, 2.2vw, 1.3rem);
+    color: var(--primary-color);
 }
 
 .headInfo p {
-    margin: 6px 0;
+    margin: var(--spacing-sm) 0;
 }
 
 .headInfo strong {
     color: var(--primary-color);
+    font-weight: 600;
+}
+
+.headName {
+    font-size: clamp(1.1rem, 2.2vw, 1.3rem);
+    color: var(--primary-color);
+    margin: 0 0 var(--spacing-md) 0;
 }
 
 .headAchievements {
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid #e0e0e0;
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
+    border-top: 2px solid #e8e8e8;
 }
 
 .headAchievements h2 {
-    font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+    font-size: clamp(1.15rem, 2.4vw, 1.5rem);
     color: var(--secondary-color);
-    margin-bottom: 12px;
+    margin: 0 0 var(--spacing-md) 0;
+    font-weight: 600;
 }
 
 .headAchievements ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .headAchievements li {
-    margin-bottom: 8px;
+    margin-bottom: var(--spacing-sm);
     color: var(--text-color);
-    font-size: clamp(0.875rem, 1.8vw, 1rem);
+    font-size: clamp(0.9rem, 1.7vw, 1rem);
+    line-height: 1.6;
+    padding-left: 24px;
+    position: relative;
 }
 
-/* Teachers Section */
+.headAchievements li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* ========================
+   TEACHERS SECTION
+======================== */
 .teachersTitle {
     font-size: clamp(1.5rem, 3.5vw, 2rem);
     color: var(--primary-color);
     text-align: center;
-    margin: 40px 0 20px;
+    margin: clamp(32px, 5vw, 48px) 0 var(--spacing-lg) 0;
+    font-weight: 700;
 }
 
 .teachersList {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
-    gap: clamp(15px, 3vw, 20px);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+    gap: clamp(16px, 3vw, 24px);
 }
 
 .teacherCard {
-    height: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: var(--card-bg);
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: all var(--transition-speed) ease;
+    overflow: hidden;
 }
 
 .teacherCard:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
 }
 
 .teacherHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: clamp(15px, 3vw, 20px);
+    padding: clamp(16px, 3vw, 24px);
+    gap: var(--spacing-sm);
 }
 
 .teacherImage {
-    width: clamp(80px, 15vw, 120px);
-    height: clamp(80px, 15vw, 120px);
+    width: clamp(90px, 14vw, 120px);
+    height: clamp(90px, 14vw, 120px);
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid var(--secondary-color);
-    margin-bottom: 12px;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 2px 8px rgba(41, 128, 185, 0.15);
 }
 
 .teacherName {
-    font-size: clamp(1rem, 2.2vw, 1.25rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
     color: var(--primary-color);
     margin: 0;
     text-align: center;
+    font-weight: 600;
+    line-height: 1.3;
 }
 
 .teacherPost {
-    font-size: clamp(0.875rem, 1.8vw, 1rem);
+    font-size: clamp(0.85rem, 1.6vw, 0.95rem);
     color: var(--muted-text);
-    margin-top: 4px;
+    margin: 0;
     text-align: center;
+    font-weight: 500;
 }
 
 .teacherDetails {
-    margin-top: 16px;
+    margin-top: var(--spacing-sm);
     width: 100%;
 }
 
 .teacherSubjectsLabel {
-    font-weight: bold;
+    font-weight: 600;
     color: var(--secondary-color);
-    margin-bottom: 6px;
-    font-size: clamp(0.875rem, 1.8vw, 1rem);
+    margin: 0 0 var(--spacing-xs) 0;
+    font-size: clamp(0.85rem, 1.6vw, 0.95rem);
 }
 
 .teacherSubjects {
     display: flex;
-    gap: 8px;
+    gap: var(--spacing-xs);
     flex-wrap: wrap;
-    margin-bottom: 12px;
+    margin-bottom: var(--spacing-sm);
 }
 
 .subjectItem {
     background-color: var(--light-bg);
-    border-radius: var(--border-radius);
-    padding: 6px 10px;
-    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: clamp(0.75rem, 1.4vw, 0.85rem);
     color: var(--text-color);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    line-height: 1.4;
 }
 
 .teacherExperience {
-    font-size: clamp(0.75rem, 1.6vw, 0.875rem);
+    font-size: clamp(0.8rem, 1.5vw, 0.9rem);
     color: var(--text-color);
+    margin: 0;
+    line-height: 1.5;
 }
 
-/* Links and Paragraphs */
+/* ========================
+   GENERAL ELEMENTS
+======================== */
 a {
     color: var(--secondary-color);
     text-decoration: none;
@@ -442,58 +568,25 @@ a:hover {
 }
 
 p {
-    margin: 0 0 12px 0;
+    margin: 0 0 var(--spacing-sm) 0;
 }
 
-/* Responsive Adjustments */
+/* ========================
+   RESPONSIVE BREAKPOINTS
+======================== */
+
+/* Large Tablets & Small Desktops (900px - 1200px) */
 @media (max-width: 1200px) {
     .container {
-        margin: 2rem 2rem;
+        margin: 0;
+    }
+
+    .departmentInfoCard {
+        gap: var(--spacing-md);
     }
 
     .classroomsList {
-        grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
-    }
-}
-
-@media (max-width: 900px) {
-    .departmentInfoCard {
-        flex-direction: column;
-    }
-
-    .departmentImage {
-        max-width: 100%;
-        height: 300px;
-    }
-
-    .container {
-        margin: 1.5rem 1rem;
-        gap: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    .headContent {
-        min-height: 400px;
-        padding: 15px;
-    }
-
-    .statisticsWrapper {
-        justify-content: space-around;
-    }
-
-    .statCard {
-        flex: 1 1 calc(50% - 10px);
-        max-width: 150px;
-    }
-
-    .headCardContent {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .headInfo {
-        text-align: center;
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
     }
 
     .teachersList {
@@ -501,73 +594,369 @@ p {
     }
 }
 
-@media (max-width: 480px) {
+/* Tablets (768px - 900px) */
+@media (max-width: 900px) {
     .headContent {
-        height: auto;
-        min-height: 300px;
-        padding: 20px 10px;
-    }
-
-    .headContentHashtag p {
-        text-align: center;
+        background-attachment: scroll;
+        min-height: 350px;
     }
 
     .container {
-        margin: 1rem 0.5rem;
-        gap: 20px;
-        padding: 10px;
+        margin: 0;
+        gap: var(--spacing-lg);
     }
 
     .tabsWrapper {
-        margin-bottom: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
+        gap: var(--spacing-sm);
     }
 
-    .tabItem {
-        padding: 10px 15px;
+    .departmentInfoCard {
+        flex-direction: column;
     }
 
     .departmentImage {
-        height: 200px;
+        max-width: 100%;
+        min-height: 240px;
+        height: clamp(240px, 40vw, 400px);
+    }
+
+    .statisticsWrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .classroomsList {
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+    }
+
+    .headCardContent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headInfo {
+        text-align: center;
+    }
+}
+
+/* Mobile Large (481px - 768px) */
+@media (max-width: 768px) {
+    .headContent {
+        min-height: 320px;
+        padding: var(--spacing-md);
+    }
+
+    .container {
+        margin: 0;
+        padding: var(--spacing-md);
+    }
+
+    .tabsWrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+    }
+
+    .tabItem {
+        padding: 12px 14px;
+        font-size: 0.85rem;
+    }
+
+    .statisticsWrapper {
+        gap: var(--spacing-sm);
     }
 
     .statCard {
-        flex: 1 1 100%;
-        max-width: 100%;
+        padding: var(--spacing-sm);
+    }
+
+    .departmentImage {
+        height: clamp(200px, 50vw, 300px);
     }
 
     .classroomsList,
     .teachersList {
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
+        gap: var(--spacing-md);
+    }
+
+    .classroomImage {
+        height: 180px;
+    }
+
+    .headImage {
+        width: 110px;
+        height: 110px;
+    }
+
+    .headAchievements li {
+        padding-left: 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile Medium (376px - 480px) */
+@media (max-width: 480px) {
+    .headContent {
+        height: auto;
+        min-height: 280px;
+        padding: var(--spacing-md) var(--spacing-sm);
+    }
+
+    .headContentHashtag {
+        margin-top: clamp(16px, 8vh, 80px);
+    }
+
+    .container {
+        margin: 0;
+        padding: var(--spacing-sm);
+        gap: var(--spacing-md);
+    }
+
+    .tabsWrapper {
         grid-template-columns: 1fr;
-        gap: 15px;
+        gap: var(--spacing-sm);
+        margin-bottom: var(--spacing-md);
+    }
+
+    .tabItem {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+
+    .departmentHeader {
+        margin-bottom: var(--spacing-md);
+    }
+
+    .infoTextSection,
+    .classroomsSection,
+    .headCard {
+        padding: var(--spacing-md);
+    }
+
+    .statisticsWrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-sm);
+    }
+
+    .statCard {
+        padding: 10px;
+    }
+
+    .departmentImage {
+        height: clamp(180px, 60vw, 240px);
+        min-height: 180px;
+    }
+
+    .classroomsList {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
 
     .classroomImage {
         height: 200px;
     }
 
+    .teachersList {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .teacherHeader {
+        padding: var(--spacing-md);
+    }
+
     .headImage {
         width: 100px;
         height: 100px;
+        border-width: 3px;
+    }
+
+    .headCardContent {
+        gap: var(--spacing-md);
+    }
+
+    .headAchievements {
+        margin-top: var(--spacing-md);
+        padding-top: var(--spacing-md);
     }
 
     .teachersTitle {
-        margin: 30px 0 15px;
+        margin: var(--spacing-lg) 0 var(--spacing-md) 0;
     }
 }
 
-@media (max-width: 360px) {
+/* Mobile Small (≤375px) */
+@media (max-width: 375px) {
+    .headContent {
+        min-height: 240px;
+        padding: var(--spacing-sm);
+    }
+
     .container {
-        padding: 8px;
-        margin: 0.5rem 0.25rem;
+        padding: var(--spacing-xs);
+        margin: 0;
+        gap: var(--spacing-md);
+    }
+
+    .tabsWrapper {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .tabItem {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+    }
+
+    .infoTextSection,
+    .classroomsSection,
+    .headCard,
+    .teacherHeader {
+        padding: var(--spacing-sm);
+    }
+
+    .statisticsWrapper {
+        gap: 8px;
+    }
+
+    .departmentImage {
+        height: 160px;
+        min-height: 160px;
+    }
+
+    .classroomImage {
+        height: 180px;
+    }
+
+    .headImage {
+        width: 90px;
+        height: 90px;
+    }
+
+    .teacherImage {
+        width: 80px;
+        height: 80px;
+    }
+
+    .headAchievements li {
+        font-size: 0.85rem;
+        padding-left: 18px;
+    }
+}
+
+/* Ultra Small Devices (≤320px) */
+@media (max-width: 320px) {
+    .container {
+        padding: 6px;
+        margin: 0;
+    }
+
+    .tabsWrapper {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .tabItem {
+        padding: 10px 12px;
+        font-size: 0.8rem;
     }
 
     .infoTextSection,
     .classroomsSection,
     .headCard {
-        padding: 15px;
+        padding: 10px;
+    }
+
+    .statisticsWrapper {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .statCard {
+        padding: 8px;
+    }
+
+    .departmentImage {
+        height: 140px;
+        min-height: 140px;
+    }
+
+    .classroomImage {
+        height: 160px;
+    }
+
+    .headImage {
+        width: 80px;
+        height: 80px;
+        border-width: 2px;
     }
 
     .teacherHeader {
-        padding: 15px;
+        padding: 10px;
+    }
+
+    .teacherImage {
+        width: 70px;
+        height: 70px;
+        border-width: 2px;
+    }
+}
+
+/* Landscape orientation optimization for mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+    .headContent {
+        height: auto;
+        min-height: 280px;
+        padding: var(--spacing-md);
+    }
+
+    .headContentHashtag {
+        margin-top: var(--spacing-md);
+    }
+
+    .statisticsWrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .tabItem {
+        -webkit-tap-highlight-color: rgba(41, 128, 185, 0.2);
+        /* Увеличиваем минимальную высоту для удобного нажатия */
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tabItem:active:not(.active) {
+        transform: scale(0.97);
+        box-shadow: 0 2px 6px rgba(41, 128, 185, 0.15);
+    }
+
+    .tabItem.active:active {
+        transform: scale(0.98) translateY(-1px);
+    }
+
+    .classroomCard,
+    .teacherCard {
+        -webkit-tap-highlight-color: rgba(41, 128, 185, 0.1);
+    }
+
+    .classroomCard:active,
+    .teacherCard:active {
+        transform: scale(0.98);
+    }
+}
+
+/* High DPI screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .headImage,
+    .teacherImage,
+    .departmentImage,
+    .classroomImage {
+        image-rendering: -webkit-optimize-contrast;
     }
 }

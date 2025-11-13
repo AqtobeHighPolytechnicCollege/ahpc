@@ -265,7 +265,12 @@ body {
     }
 
     .pregraduatePractice__Image__Item {
+        max-width: 300px;
         height: auto;
+    }
+
+    .pregraduatePractice__Image {
+        align-items: center;
     }
 
 

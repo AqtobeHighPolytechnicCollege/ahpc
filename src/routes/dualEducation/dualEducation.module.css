@@ -318,13 +318,37 @@ body {
         font-size: 54px;
     }
 
+    .dualInfo__Title {
+        font-size: 24px;
+    }
+
+    .dualInfo__Subtitle,
+    .dualInfo__List__Item,
+    .dualInfo__Text {
+        font-size: 14px;
+    }
+
     .dualEducation__Blocks {
         flex-direction: column-reverse;
         gap: 40px;
     }
 
+    .dualEducation__Block {
+        gap: 30px;
+    }
+
     .dualEducation__Block__Subtitle {
         height: 60px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .dualEducation {
+        padding: 30px;
+    }
+    
+    .dualEducation__Block__List {
+        gap: 18px;
     }
 
 }

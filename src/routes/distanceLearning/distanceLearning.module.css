@@ -259,12 +259,16 @@ body {
     }
 
     .headContent h1 {
-        font-size: 54px;
+        font-size: 48px;
     }
 
     .whoIs {
         flex-direction: column-reverse;
         align-items: flex-end;
+    }
+
+    .whoIs__Logo {
+        width: 55%;
     }
 
     .whoIs__Text {
@@ -273,6 +277,7 @@ body {
 
     .forWhat {
         width:  85%;
+        margin-top: 100px;
     }
 
     .howWork {

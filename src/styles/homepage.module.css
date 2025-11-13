@@ -122,118 +122,92 @@
 }
 
 .anniversarySection {
-    position: relative;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 120px 20px;
-    background: #0025A1;
-    overflow: hidden;
-}
-
-.anniversaryBackground {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-
-.anniversaryLogoBackground {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1200px;
-    height: 1200px;
-    background-image: url('/img/60years/60years_logo.png');
-    background-size: contain;
+    padding: 80px 20px;
+    background-image: url("/img/60years/BG.png");
     background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.08;
-    filter: grayscale(20%);
+    background-color: #000E3B;
+    background-position: bottom;
 }
 
-.anniversaryContent {
-    position: relative;
-    z-index: 2;
-    max-width: 1200px;
-    width: 100%;
+.anniversaryLogo {
+    display: flex;
+    gap: 10px;
+}
+
+.anniversaryLogo img {
+    height: 100%;
+    max-height: 6em;
+    width: auto;
+}
+
+.anniversaryTitle__Data img {
+    max-width: 170px;
+}
+
+.anniversaryLogo__Text {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 80px;
+    line-height: 1.1;
 }
 
-.anniversaryHeader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-}
-
-.yearsBadge {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 20px;
-    background: rgba(255, 255, 255, 0.12);
-    border: 3px solid #FFFFFF;
-    border-radius: 100px;
-    padding: 28px 70px;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.yearsBadge:hover {
-    transform: scale(1.05);
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 20px 60px rgba(255, 255, 255, 0.25);
-}
-
-.yearsNumber {
-    font-size: 90px;
+.anniversaryLogo__Text__Item {
+    display: block;
+    font-size: 27px;
     font-weight: 900;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: -3px;
-    line-height: 1;
-}
-
-.yearsText {
-    font-size: 28px;
-    color: #FFFFFF;
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    color: white;
 }
 
 .anniversaryTitle {
-    font-size: 110px;
-    font-weight: 900;
-    color: #FFFFFF;
-    line-height: 1;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: -4px;
-}
-
-.anniversarySubtitle {
-    font-size: 32px;
-    color: rgba(255, 255, 255, 0.95);
-    font-weight: 600;
-    letter-spacing: 12px;
-    text-transform: uppercase;
-    margin-top: 16px;
-}
-
-.anniversaryMainContent {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
-    width: 100%;
+    max-width: 60%;
+    margin-top: 100px;
 }
+
+.anniversaryTitle__Title {
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 30px;
+}
+
+.anniversaryStats {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.statsItem {
+    border: 20px solid transparent;
+    border-image: url("/img/60years/border.png") 30 round;
+    border-image-repeat: stretch stretch;
+    border-radius: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+.statsItem__Title {
+   font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+.statsItem__Number {
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
 
 .description {
     font-size: 24px;
@@ -527,160 +501,124 @@
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
-/* ======== АДАПТИВ ======== */
-@media (max-width: 1340px) {
-    .headContentHashtag {
-        margin-top: 150px;
-    }
-
-    .headContent h1 {
-        font-size: 90px;
-    }
-
-    .anniversaryContent {
-        grid-template-columns: 1fr;
-        gap: 60px;
-        text-align: center;
-    }
-
-    .anniversaryLogoContainer {
-        width: 300px;
-        height: 300px;
-    }
-
-    .anniversaryLogoContainer::before {
-        width: 320px;
-        height: 320px;
-    }
-
-    .anniversaryLogoContainer::after {
-        width: 340px;
-        height: 340px;
-    }
-
-    .anniversaryLogo {
-        width: 240px;
-    }
-
-    .anniversaryTitle {
-        font-size: 42px;
-    }
-
-    .anniversaryDescription {
-        font-size: 18px;
-    }
-}
-
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
 @media (max-width: 1199px) {
     .headContent h1 {
         font-size: 70px;
     }
 
-    .headContentHashtag p {
+    .anniversaryTitle__Title {
+        font-size: 40px;
+    }
+
+    .anniversaryLogo {
+        align-items: center;
+    }
+
+    .anniversaryLogo__Text__Item {
+        font-size: 14px;
+    }
+
+    .anniversaryTitle {
+        margin-top: 50px;
+    }
+
+    .statsItem {
+        padding: 20px;
+        border: 15px solid transparent;
+        border-image: url("/img/60years/border.png") 30 round;
+        border-image-repeat: stretch stretch;
+        border-radius: 40px;
+    }
+
+    .statsItem__Title {
+        font-size: 18px;
+    }
+    
+    .statsItem__Number {
         font-size: 24px;
     }
 
-    .anniversaryContent {
-        grid-template-columns: 1fr;
-        gap: 50px;
-        text-align: center;
-    }
 
-    .anniversaryLogoContainer {
-        width: 250px;
-        height: 250px;
-    }
 
-    .anniversaryLogoContainer::before {
-        width: 270px;
-        height: 270px;
-    }
-
-    .anniversaryLogoContainer::after {
-        width: 290px;
-        height: 290px;
-    }
-
-    .anniversaryLogo {
-        width: 200px;
-    }
-
-    .anniversaryTitle {
-        font-size: 36px;
-    }
-
-    .anniversaryDescription {
-        font-size: 16px;
-    }
-
-    .infoCardsContainer {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
-@media (max-width: 767px) {
-    .headContent {
-        height: auto;
-        padding: 40px 15px;
-    }
-
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
     .headContent h1 {
-        font-size: 48px;
-        line-height: 1.2;
-    }
-
-    .headContentHashtag {
-        margin-top: 60px;
+        font-size: 60px;
     }
 
     .headContentHashtag p {
-        font-size: 18px;
-        text-align: center;
-        padding: 0 10px;
+        font-size: 20px;
     }
 
-    .anniversaryLogoContainer {
-        width: 200px;
-        height: 200px;
+
+
+    .anniversarySection {
+        padding: 50px 20px;
+    }
+    
+    .anniversaryTitle__Title {
+        font-size: 34px;
     }
 
-    .anniversaryLogoContainer::before {
-        width: 220px;
-        height: 220px;
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .container {
+        margin: 5rem 1rem;
     }
 
-    .anniversaryLogoContainer::after {
-        width: 240px;
-        height: 240px;
+    .headContent h1 {
+        font-size: 30px;
     }
 
-    .anniversaryLogo {
-        width: 160px;
+    .anniversarySection {
+        padding: 0;
+    }
+
+    .anniversaryStats {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .anniversaryTitle {
-        font-size: 28px;
+        max-width: 100%;
     }
 
-    .anniversaryDescription {
-        font-size: 16px;
+    .anniversaryTitle__Title {
+        font-size: 24px;
     }
 
-    .cardStack {
-        width: 280px;
-        height: 360px;
+    .statsItem {
+        padding: 5px;
     }
 
-    .mosaicTop, .mosaicBottom {
-        height: 100px;
+    .anniversaryTitle svg {
+        width: 50%;
     }
 
-    .reviewsGrid {
-        grid-template-columns: 1fr;
+
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+    .container {
+        margin: 5rem 1rem;
     }
 
-    .reviewsTitle {
-        font-size: 36px;
-    }
+
 }

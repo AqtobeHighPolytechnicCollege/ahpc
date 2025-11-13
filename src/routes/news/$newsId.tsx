@@ -38,19 +38,18 @@ function NewsDetail() {
 
     const id = newsId;
     console.log(`Запрос на новость с ID: ${id}`);
-    const imageUrl = "http://95.182.15.62:1337" + news.Photo?.url;
+    const imageUrl = "http://95.182.15.53:1337" + news.Photo?.url;
     const imageName = news.Photo?.name;
     const title = news.title;
     const itemDate = news.Date;
     const shortDescription = news.Short_description;
-    const article = news.Article;
+    const article = news.Arcticle;
 
     return (
         <div className={styles.newsContainer}>
             <p className={styles.newsDate}>{itemDate}</p>
             <h1 className={styles.newsTitle}>{title}</h1>
             <img className={styles.newsImage} src={imageUrl} alt={imageName} />
-            <p className={styles.newsShortDescription}>{shortDescription}</p>
             <div className={styles.newsContent}>
                 <p>{article}</p>
             </div>

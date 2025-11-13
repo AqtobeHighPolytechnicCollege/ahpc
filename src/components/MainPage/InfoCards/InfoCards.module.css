@@ -32,62 +32,63 @@
 }
 
 
-/* ======== АДАПТИВ  ======== */
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .itemTitle h2 {
+        font-size: 48px;
+    }
 
-@media (max-width: 1340px) {
+    .itemSubtitle {
+        font-size: 24px;
+    }
+    
     .infoCards {
-        gap: 70px;
+        gap: 10px;
     }
-
-    .cardsItem {
-        max-width: 200px;
-    }
-
-    .itemTitle {
-        font-size: 75px;
-    }
-
 }
 
-@media (max-width: 1199px) {
-    .infoCards {
-        gap: 40px;
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
+
+    .itemSubtitle {
+        font-size: 24px;
     }
 
     .cardsItem {
+        min-width: 200px;
         max-width: 100px;
     }
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
 
     .itemTitle {
         font-size: 36px;
     }
 
     .itemSubtitle {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .cardsItem {
+        min-width: 130px;
+        max-width: 50px;
     }
 
 }
 
-/* Для телефонов (до 767px) */
-@media (max-width: 767px) {
-    .headContent {
-        height: auto;
-        padding: 40px 15px;
-    }
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
 
-    .headContent h1 {
-        font-size: 48px;
-        line-height: 1.2;
-    }
 
-    .headContentHashtag {
-        margin-top: 60px;
-    }
-
-    .headContentHashtag p {
-        font-size: 18px;
-        text-align: center;
-        padding: 0 10px;
-    }
 }
 
