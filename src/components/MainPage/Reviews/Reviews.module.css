@@ -1,186 +1,348 @@
-.reviewsContent {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
-}
-
-.reviewsHeader {
-
-}
-
-.reviewsHeader h1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 64px;
-    font-weight: 800;
-    color: #000E3B;
-}
-
-.cardsContent {
-    display: flex;
-    width: auto;
-}
-
-.carouselWrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 100%;
+.reviewsSection {
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #2D3748 0%, #1A202C 100%);
+    position: relative;
     overflow: hidden;
 }
 
-.carousel {
-    gap: 50px;
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.backgroundEffect {
+    position: absolute;
+    inset: 0;
+    opacity: 0.05;
+    pointer-events: none;
 }
 
-.cardsSwitch {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 20px;
-}
-
-.dot {
-    width: 16px;
-    height: 16px;
+.bgCircle1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background: #FFD700;
     border-radius: 50%;
-    background-color: rgba(0, 14, 59, 0.3); /* пассивный */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    filter: blur(100px);
 }
 
-.activeDot {
-    background-color: #000E3B; /* активный */
-}
-
-.cardsContent {
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-}
-
-@keyframes scrollCarousel {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
-}
-
-
-.cardsList {
-    margin-top: 52px;
-    display: flex;
-    flex-wrap: nowrap;
-    margin-bottom: 100px;
-    gap: 50px;
-}
-
-.cardsInfo {
-    border: 1px solid #000E3B;
-    border-radius: 15px;
-    width: 550px;
-    padding: 40px;
-}
-
-.cardsInfoUp {
-    display: flex;
-    align-items: center;
-}
-
-.avatarLogo {
-    width: 118px;
-    height: 118px;
+.bgCircle2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    background: #0025A1;
     border-radius: 50%;
-    background-color: #000E3B;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 55px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    color: white;
-    overflow: hidden;
+    filter: blur(100px);
 }
-
-.avatarLogo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.initials {
-    text-align: center;
-    line-height: 1;
-}
-
-.nameConteiner {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-}
-
-.firstName h3 {
-    color: #000E3B;
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-}
-
-.position h4 {
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 200;
-    color: #000E3B;
-}
-
-.cardsInfoDown {
-    margin-top: 30px;
-    max-width: 460px;
-}
-
-.cardsInfoDown p{
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 200;
-    color: #000E3B;
-}
-
-/* Reviews.module.css */
 
 .reviewsContainer {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    position: relative;
+    z-index: 10;
 }
 
-.header {
+.reviewsTitle {
     text-align: center;
-    margin-bottom: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
 }
 
-.card {
-    min-height: 220px;
+.reviewsSubtitle {
+    text-align: center;
+    color: #CBD5E0;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.carouselWrapper {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.carouselTrack {
+    position: relative;
+    height: 500px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
-.topRow {
-    margin-bottom: 1rem;
+.carouselCard {
+    position: absolute;
+    transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 550px;
+}
+
+.cardCenter {
+    z-index: 30;
+    transform: scale(1);
+    opacity: 1;
+    filter: blur(0);
+}
+
+.cardLeft {
+    z-index: 10;
+    transform: translateX(-600px) scale(0.75);
+    opacity: 0.4;
+    filter: blur(2px);
+}
+
+.cardRight {
+    z-index: 10;
+    transform: translateX(600px) scale(0.75);
+    opacity: 0.4;
+    filter: blur(2px);
+}
+
+.reviewCardInner {
+    background: linear-gradient(135deg, rgba(71, 85, 105, 0.8), rgba(51, 65, 85, 0.8));
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(148, 163, 184, 0.5);
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.quoteIcon {
+    color: #FFD700;
+    font-size: 72px;
+    font-family: serif;
+    line-height: 1;
+    margin-bottom: 16px;
+    opacity: 0.3;
 }
 
 .reviewText {
+    color: white;
+    font-size: 18px;
     line-height: 1.6;
-    color: #333;
-    flex-grow: 1;
+    margin-bottom: 24px;
+    font-style: italic;
+    min-height: 180px;
 }
 
+.reviewAuthorSection {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(148, 163, 184, 0.5);
+}
 
+.authorAvatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #475569;
+    flex-shrink: 0;
+}
 
+.authorAvatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.authorInfo {
+    flex: 1;
+}
+
+.reviewAuthor {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.reviewRole {
+    color: #94A3B8;
+    font-size: 14px;
+}
+
+.navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 40;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navButton:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.navButtonPrev {
+    left: 0;
+}
+
+.navButtonNext {
+    right: 0;
+}
+
+.dotsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 48px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #475569;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+}
+
+.dot:hover {
+    background: #64748B;
+}
+
+.dotActive {
+    width: 48px;
+    height: 12px;
+    border-radius: 6px;
+    background: #FFD700;
+}
+
+.counter {
+    text-align: center;
+    margin-top: 32px;
+    color: #94A3B8;
+    font-size: 16px;
+}
+
+.counterCurrent {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.counterSeparator {
+    margin: 0 8px;
+}
+
+.counterTotal {
+    color: #94A3B8;
+}
+
+/* Responsive */
+@media (max-width: 1199px) {
+    .carouselCard {
+        width: 500px;
+    }
+
+    .cardLeft {
+        transform: translateX(-550px) scale(0.75);
+    }
+
+    .cardRight {
+        transform: translateX(550px) scale(0.75);
+    }
+}
+
+@media (max-width: 991px) {
+    .reviewsTitle {
+        font-size: 40px;
+    }
+
+    .carouselCard {
+        width: 450px;
+    }
+
+    .cardLeft {
+        transform: translateX(-500px) scale(0.7);
+    }
+
+    .cardRight {
+        transform: translateX(500px) scale(0.7);
+    }
+
+    .reviewCardInner {
+        padding: 32px;
+    }
+}
+
+@media (max-width: 575px) {
+    .reviewsTitle {
+        font-size: 32px;
+    }
+
+    .reviewsSubtitle {
+        font-size: 16px;
+    }
+
+    .carouselCard {
+        width: 90vw;
+        max-width: 400px;
+    }
+
+    .cardLeft,
+    .cardRight {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    .carouselTrack {
+        height: 600px;
+    }
+
+    .reviewCardInner {
+        padding: 24px;
+    }
+
+    .reviewText {
+        font-size: 16px;
+        min-height: 200px;
+    }
+
+    .navButton {
+        padding: 12px;
+    }
+
+    .navButtonPrev {
+        left: -10px;
+    }
+
+    .navButtonNext {
+        right: -10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .reviewsSection {
+        padding: 60px 15px;
+    }
+
+    .reviewsTitle {
+        font-size: 28px;
+    }
+
+    .quoteIcon {
+        font-size: 56px;
+    }
+
+    .reviewText {
+        font-size: 15px;
+    }
+
+    .reviewAuthor {
+        font-size: 16px;
+    }
+}

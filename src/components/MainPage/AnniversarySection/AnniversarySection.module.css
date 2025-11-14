@@ -1,0 +1,236 @@
+.anniversarySection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    background-image: url("/img/60years/BG.png");
+    background-repeat: no-repeat;
+    background-color: #000E3B;
+    background-position: bottom;
+}
+
+.anniversaryLogo {
+    display: flex;
+    gap: 10px;
+}
+
+.anniversaryLogo img {
+    height: 100%;
+    max-height: 6em;
+    width: auto;
+}
+
+.anniversaryTitle__Data img {
+    max-width: 170px;
+}
+
+.anniversaryLogo__Text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.anniversaryLogo__Text__Item {
+    display: block;
+    font-size: 27px;
+    font-weight: 900;
+    color: white;
+}
+
+.anniversaryTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+    margin-top: 100px;
+}
+
+.anniversaryTitle__Title {
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 30px;
+}
+
+.anniversaryStats {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.statsItem {
+    border: 20px solid transparent;
+    border-image: url("/img/60years/border.png") 30 round;
+    border-image-repeat: stretch stretch;
+    border-radius: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+.statsItem__Title {
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+.statsItem__Number {
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+
+.description {
+    font-size: 24px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 900px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.statCard {
+    padding: 48px 32px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 28px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+}
+
+.statCard:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.45);
+    transform: translateY(-12px);
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25);
+}
+
+.statNumber {
+    font-size: 56px;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 1;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -1px;
+}
+
+.statLabel {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.achievementsBadges {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.badge {
+    padding: 16px 36px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    color: #FFFFFF;
+    border-radius: 60px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.badge:hover {
+    background: rgba(255, 255, 255, 0.28);
+    border-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+ @media (max-width: 1199px) {
+     .anniversaryTitle__Title {
+         font-size: 40px;
+     }
+
+     .anniversaryLogo {
+         align-items: center;
+     }
+
+     .anniversaryLogo__Text__Item {
+         font-size: 14px;
+     }
+
+     .anniversaryTitle {
+         margin-top: 50px;
+     }
+
+     .statsItem {
+         padding: 20px;
+         border: 15px solid transparent;
+         border-image: url("/img/60years/border.png") 30 round;
+         border-image-repeat: stretch stretch;
+         border-radius: 40px;
+     }
+
+     .statsItem__Title {
+         font-size: 18px;
+     }
+
+     .statsItem__Number {
+         font-size: 24px;
+     }
+ }
+
+@media (max-width: 991px) {
+    .anniversarySection {
+        padding: 50px 20px;
+    }
+
+    .anniversaryTitle__Title {
+        font-size: 34px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .anniversarySection {
+        padding: 0;
+    }
+
+    .anniversaryStats {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .anniversaryTitle {
+        max-width: 100%;
+    }
+
+    .anniversaryTitle__Title {
+        font-size: 24px;
+    }
+
+    .statsItem {
+        padding: 5px;
+    }
+
+    .anniversaryTitle svg {
+        width: 50%;
+    }
+}

@@ -14,6 +14,90 @@
     "students": "Students",
     "graduates": "Graduates",
     "specialties": "specialties",
-    "watchAll": "Watch all"
+    "watchAll": "Watch all",
+    "quote": "Where there is a desire for knowledge, the future is always born.",
+    "point1": "The first in the region in",
+    "point2": "Graduates employed",
+    "point3": "More graduates employed.",
+  "infoCards": {
+    "education": {
+      "title": "Quality Education",
+      "description": "Modern training programs that meet international standards"
+    },
+    "employment": {
+      "title": "Employment",
+      "description": "95% of graduates find jobs within the first 6 months after graduation"
+    },
+    "technology": {
+      "title": "Modern Technologies",
+      "description": "Latest equipment and laboratories for practical training"
+    }
+  },
+  "reviews": {
+    "title": "Alumni Reviews",
+    "subtitle": "Success stories of our students and partners",
+    "items": {
+      "0": {
+        "text": "For almost 3 years, we have been working closely with the Polytechnic College in training specialists for two energy sectors. This is very good for modern youth who studied at the college, that in the future we will be engaged in this profession, as the dual system has been implemented in many colleges.",
+        "author": "Bekmuratov N.B.",
+        "role": "Director of LLP \"AEMK - Zharyk\""
+      },
+      "1": {
+        "text": "From 2010 to 2013, I studied in this specialty and became the best graduate of the college. While studying at the college, I participated in various public events, sports sections, clubs, participated in competitions on behalf of the college and won prizes. Currently a pop singer.",
+        "author": "Mamyrova Aigerim Bekbolatovna",
+        "role": "Graduate of the \"Translation Studies\" specialty"
+      },
+      "2": {
+        "text": "I am glad that I finished school and chose this college. Because I found my path. I want to thank everyone who helped me along the way and gave advice. This college gave me a chance to receive not only a comprehensive education, but also to master a profession.",
+        "author": "Boranbaev Adil",
+        "role": "Graduate of the \"Power Supply\" specialty"
+      },
+      "3": {
+        "text": "Currently I work as a metrologist engineer at the Aktobe Ferroalloy Plant of JSC \"TNK \"Kazcrom\". In 2015, I was awarded the title \"Best Young Specialist\" of our company. I want to thank the college teachers for their hard work in training future specialists like us.",
+        "author": "Izteleuova Ainagul Berikovna",
+        "role": "Graduate of the \"Automation and Control\" department"
+      },
+      "4": {
+        "text": "I am proud to have graduated from Aktobe Higher Polytechnic College. I actively participated in the public life of the college and implemented various events and projects. I work as an engineer of \"Relay Protection and Automation\" at the Aktobe Ferroalloy Plant.",
+        "author": "Seyilkhan Yesimkhan Syrymbекuly",
+        "role": "Graduate of the \"Power Supply\" specialty"
+      },
+      "5": {
+        "text": "I can only say good things about the college. The teachers are wonderful. But the best is Yerzhan Baktybaevich. If you are lucky and he becomes the curator of your group. Together with Yerzhan Baktybaevich, the group is your second family. He may scold, but always supports.",
+        "author": "Dosmukhan Temirlan Nurmanuly",
+        "role": "Graduate of the \"Power Supply\" specialty"
+      },
+      "6": {
+        "text": "Aktobe Higher Polytechnic College is one of the best educational institutions in the Aktobe region. Our specialists conduct classes at this college and share their work experience. Students undergoing industrial practice show good basic knowledge and good discipline.",
+        "author": "Ykhlasov A.",
+        "role": "Engineer of JSC \"KEGOC\""
+      },
+      "7": {
+        "text": "Positive impressions about the \"Aktobe Polytechnic College\": wonderful qualified teachers and specialists, very interesting and accessible materials about our specialties, new programs, our teachers were ready to provide support during exams, term papers, diplomas.",
+        "author": "Seytimov Galymbek Sundetullauly",
+        "role": "Graduate of the \"Information Systems\" specialty"
+      },
+      "8": {
+        "text": "The level of knowledge gained at the technical school was higher than, for example, at school or university. Some of the subjects we were taught are in demand in my daily work. In addition, this education gives me the opportunity to recruit students for internships and train them.",
+        "author": "Ishangaliev Raiymbek",
+        "role": "Graduate of the \"Information Systems\" specialty"
+      },
+      "9": {
+        "text": "The impressions I received during my studies were positive. Friendly teachers teach in full. They treat students with understanding and respect. During the learning process, I mastered all the theoretical material.",
+        "author": "Zhaksylykova Saltanat Kanatkyzy",
+        "role": "Graduate of the \"Accounting and Auditing\" specialty"
+      },
+      "10": {
+        "text": "The high qualifications of college teachers and a good educational program allowed me to master a large knowledge base, gain work experience in specific organizations and receive recommendations from employers.",
+        "author": "Otegenova Bakytgul Kaiyrbekkyzy",
+        "role": "Graduate of the \"Oil and Gas Processing Technology\" specialty"
+      },
+      "11": {
+        "text": "We have a close connection with AHPC college. For many years we have been working with them, students and graduates of this college undergo industrial practice with us and train as masters. Many college graduates come to work for us as masters and foremen.",
+        "author": "Gubanov Vladimir Konstantinovich",
+        "role": "Director of LLP \"Khimstroy - Aktobe\""
+      }
+    }
+  }
   }
   

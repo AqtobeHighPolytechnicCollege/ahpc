@@ -29,7 +29,7 @@ export default function InfoCards() {
 
     useEffect(() => {
         animateValue(studentsRef, 2875, 700);
-        animateValue(graduatesRef, 3545, 700);
+        animateValue(graduatesRef, 20000, 700);
         animateValue(specialtiesRef, 12, 700);
     }, []);
 

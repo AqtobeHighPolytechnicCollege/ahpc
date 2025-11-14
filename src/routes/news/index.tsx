@@ -30,7 +30,7 @@ function NewsPage() {
     // Функция фильтрации новостей по заголовку (или любому полю)
     const filteredList = newsList
         ? newsList.filter((item: any) =>
-            item.Article.toLowerCase().includes(query.toLowerCase())
+            item.Arcticle.toLowerCase().includes(query.toLowerCase())
         )
         : [];
 
