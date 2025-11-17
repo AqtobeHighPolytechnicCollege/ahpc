@@ -63,10 +63,10 @@ export default function Footer() {
                     </div>
                     <div className={styles.ftrInfoBlockInfo}>
                         <ul>
-                            <li><Link to={"https://egov.kz/cms"}>{t('EGRK')}</Link></li>
+                            <li><a href="https://egov.kz/cms" target="_blank" rel="noopener noreferrer">{t('EGRK')}</a></li>
                             <li>{t('adilet')}</li>
-                            <li><Link to={"https://aktobeahpc.c-platonus.kz/"}>{t('AEPC')}</Link></li>
-                            <li><Link to={"https://talap.edu.kz"}>{t('talap')}</Link></li>
+                            <li><a href="https://aktobeahpc.c-platonus.kz/" target="_blank" rel="noopener noreferrer">{t('AEPC')}</a></li>
+                            <li><a href="https://talap.edu.kz" target="_blank" rel="noopener noreferrer">{t('talap')}</a></li>
                         </ul>
                     </div>
                 </div>

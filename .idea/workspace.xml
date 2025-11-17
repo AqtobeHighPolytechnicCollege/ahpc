@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/partners.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/partners.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/partners.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/partners.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/partners.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/partners.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/newspage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/newspage.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +69,11 @@
       <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\img\Contact" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\Desktop\ahpc\public" />
       <recent name="C:\Users\Kirill\Desktop\ahpc\src\components\MainPage" />
       <recent name="C:\Users\Kirill\Desktop\ahpc-react\src\lib\locales\ru" />
       <recent name="C:\Users\Kirill\Desktop\ahpc-react\public\img\media" />
       <recent name="C:\Users\Kirill\Desktop\ahpc-react\public\video\companyReviews" />
-      <recent name="C:\Users\Kirill\Desktop\ahpc-react\public\documents\schedule" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,7 +172,7 @@
       <workItem from="1762522559067" duration="1127000" />
       <workItem from="1762762619181" duration="2279000" />
       <workItem from="1763024788943" duration="12914000" />
-      <workItem from="1763352595994" duration="3867000" />
+      <workItem from="1763352595994" duration="5168000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />
