@@ -44,11 +44,15 @@ export default function Footer() {
                     </div>
                     <div className={styles.ftrInfoBlockInfo}>
                         <ul>
+                            <Link to={"/"}>
                             <li>{t('main')}</li>
+                            </Link>
                             <Link to={'/news'}>
                             <li>{t('news')}</li>
                             </Link>
+                            <Link to={"/graduatesReviews"}>
                             <li>{t('reviews')}</li>
+                            </Link>
                             <li>{t('partners')}</li>
                         </ul>
                     </div>
@@ -59,10 +63,10 @@ export default function Footer() {
                     </div>
                     <div className={styles.ftrInfoBlockInfo}>
                         <ul>
-                            <li>{t('EGRK')}</li>
+                            <li><Link to={"https://egov.kz/cms"}>{t('EGRK')}</Link></li>
                             <li>{t('adilet')}</li>
-                            <li>{t('AEPC')}</li>
-                            <li>{t('talap')}</li>
+                            <li><Link to={"https://aktobeahpc.c-platonus.kz/"}>{t('AEPC')}</Link></li>
+                            <li><Link to={"https://talap.edu.kz"}>{t('talap')}</Link></li>
                         </ul>
                     </div>
                 </div>

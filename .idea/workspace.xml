@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
-      <change afterPath="$PROJECT_DIR$/src/components/MainPage/InfoCardsWithDeck/InfoCardsWithDeck.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainPage/InfoCardsWithDeck/InfoCardsWithDeck.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/AnniversarySection/AnniversarySection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/AnniversarySection/AnniversarySection.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/AnniversarySection/AnniversarySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/AnniversarySection/AnniversarySection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/InfoCards/InfoCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/InfoCards/InfoCards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Reviews/Reviews.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Reviews/Reviews.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Reviews/Reviews.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Reviews/Reviews.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/news/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/news/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/homepage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/partners.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/partners.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/partners.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/partners.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/partners.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/partners.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/newspage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/newspage.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +179,8 @@
       <workItem from="1762424127826" duration="5600000" />
       <workItem from="1762522559067" duration="1127000" />
       <workItem from="1762762619181" duration="2279000" />
-      <workItem from="1763024788943" duration="12681000" />
+      <workItem from="1763024788943" duration="12914000" />
+      <workItem from="1763352595994" duration="3867000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />

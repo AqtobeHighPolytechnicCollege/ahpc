@@ -16,9 +16,11 @@ export default function Header() {
     const currentLang = i18.language;
     const [scrolled, setScrolled] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
+    const [langDropdownOpen, setLangDropdownOpen] = useState(false);
 
     const changeLanguage = (lang: string) => {
         i18.changeLanguage(lang);
+        setLangDropdownOpen(false);
     };
 
     useEffect(() => {
@@ -35,6 +37,11 @@ export default function Header() {
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+
+    const toggleLangDropdown = () => {
+        setLangDropdownOpen(!langDropdownOpen);
+    };
+
     const [activeTab, setActiveTab] = useState("abiturient");
 
     const abiturientLinks = (
@@ -85,15 +92,48 @@ export default function Header() {
                 </div>
 
                 <div className="lang-switch">
-                    {Object.entries(langs).map(([lang, label]) => (
+                    <div className="lang-dropdown">
                         <span
-                            key={lang}
-                            className={currentLang === lang ? 'active' : ''}
-                            onClick={() => changeLanguage(lang)}
+                            className="lang-current"
+                            onClick={toggleLangDropdown}
                         >
-                            {label}
+                            {langs[currentLang as keyof typeof langs]}
+                            <svg
+                                className={`dropdown-arrow ${langDropdownOpen ? 'open' : ''}`}
+                                width="12"
+                                height="8"
+                                viewBox="0 0 12 8"
+                                fill="none"
+                            >
+                                <path d="M1 1L6 6L11 1" stroke="#000E3B" strokeWidth="2"/>
+                            </svg>
                         </span>
-                    ))}
+                        {langDropdownOpen && (
+                            <div className="lang-dropdown-menu">
+                                {Object.entries(langs).map(([lang, label]) => (
+                                    lang !== currentLang && (
+                                        <span
+                                            key={lang}
+                                            onClick={() => changeLanguage(lang)}
+                                        >
+                                            {label}
+                                        </span>
+                                    )
+                                ))}
+                            </div>
+                        )}
+                    </div>
+                    <div className="lang-desktop">
+                        {Object.entries(langs).map(([lang, label]) => (
+                            <span
+                                key={lang}
+                                className={currentLang === lang ? 'active' : ''}
+                                onClick={() => changeLanguage(lang)}
+                            >
+                                {label}
+                            </span>
+                        ))}
+                    </div>
                 </div>
             </nav>
 

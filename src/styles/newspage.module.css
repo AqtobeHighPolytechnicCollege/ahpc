@@ -77,18 +77,6 @@
     fill: #007acc;
 }
 
-/* Адаптив для мобильных устройств */
-@media (max-width: 480px) {
-    .searchInput {
-        padding: 0.5rem 2rem 0.5rem 0.75rem;
-        font-size: 0.95rem;
-    }
-    .searchIcon {
-        right: 0.5rem;
-        width: 0.875rem;  /* 14px примерно */
-        height: 0.875rem;
-    }
-}
 
 
 /* Само поле ввода */
@@ -108,13 +96,7 @@
     box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
 }
 
-/* Адаптив */
-@media (max-width: 480px) {
-    .searchInput {
-        max-width: 90%;
-        font-size: 0.95rem;
-    }
-}
+
 
 
 /* Список карточек */
@@ -236,24 +218,83 @@
     color: #555;
 }
 
-/* Адаптивные правки */
-@media (max-width: 768px) {
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent {
+        margin: 8rem auto;
+        padding: 1.5rem 1rem;
+    }
+
     .headContent h1 {
-        font-size: 1.75rem;
+        font-size: 3.5rem;
     }
 
     .newsCardList {
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1.25rem;
     }
 }
 
-@media (max-width: 480px) {
+/* =============================
+   MEDIUM DEVICES — max-width: 991px (планшеты)
+   ============================= */
+@media (max-width: 991px) {
     .headContent {
-        padding: 1.5rem 0.5rem;
+        margin: 7rem auto;
+        padding: 1.5rem 1rem;
     }
 
     .headContent h1 {
-        font-size: 1.5rem;
+        font-size: 3rem;
+    }
+
+    .newsCardList {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 1.25rem;
+    }
+
+    .searchInputWrapper {
+        max-width: 400px;
+    }
+
+    .newsTitle {
+        font-size: 1.1rem;
+    }
+
+    .newsSubtitle {
+        font-size: 0.9rem;
+    }
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   ============================= */
+@media (max-width: 575px) {
+    .headContent {
+        margin: 5rem auto;
+        padding: 1rem 0.75rem;
+    }
+
+    .headContent h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .searchWrapper {
+        margin-top: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .searchInputWrapper {
+        max-width: 100%;
+    }
+
+    .searchInput {
+        font-size: 0.95rem;
+        padding: 0.45rem 2.5rem 0.45rem 0.85rem;
     }
 
     .newsCardList {
@@ -261,8 +302,88 @@
         gap: 1rem;
     }
 
+    .newsRightInfo {
+        padding: 0.85rem;
+    }
+
+    .newsTitle {
+        font-size: 1.05rem;
+    }
+
+    .newsSubtitle {
+        font-size: 0.88rem;
+        max-height: 3em;
+    }
+
+    .newsButton a {
+        padding: 0.45rem 0.9rem;
+        font-size: 0.85rem;
+    }
+
+    .newsRightInfoDown {
+        margin-top: 0.75rem;
+    }
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent {
+        margin: 4rem auto;
+        padding: 0.75rem 0.5rem;
+    }
+
+    .headContent h1 {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .searchWrapper {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .searchInput {
+        font-size: 0.9rem;
+        padding: 0.4rem 2.25rem 0.4rem 0.75rem;
+    }
+
+    .searchIcon {
+        right: 0.6rem;
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+
+    .newsCardList {
+        gap: 0.85rem;
+    }
+
+    .newsRightInfo {
+        padding: 0.75rem;
+    }
+
+    .newsDate {
+        font-size: 0.8rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .newsTitle {
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .newsSubtitle {
+        font-size: 0.85rem;
+    }
+
     .newsButton a {
         padding: 0.4rem 0.8rem;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
+    }
+
+    .newsError h1,
+    .loadNews h1 {
+        font-size: 1.2rem;
     }
 }
