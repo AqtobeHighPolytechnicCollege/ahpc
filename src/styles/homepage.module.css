@@ -164,6 +164,25 @@
 }
 
 /* =============================
+   LARGE SCREENS — 1400px-1919px
+   ============================= */
+@media (min-width: 1400px) and (max-width: 1919px) {
+    .headContent h1 {
+        font-size: 70px;
+    }
+}
+
+/* =============================
+   DESKTOP — 1200px-1399px
+   ============================= */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .headContent h1 {
+        font-size: 70px;
+    }
+}
+
+
+/* =============================
    LARGE DEVICES — max-width: 1199px (ноутбуки)
    ============================= */
 @media (max-width: 1199px) {
