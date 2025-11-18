@@ -78,7 +78,7 @@
 
 .photo {
     width: 200px;
-    height: auto;
+    height: 266px;
     border-radius: 8px;
     object-fit: cover;
     flex-shrink: 0;

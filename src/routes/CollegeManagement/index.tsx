@@ -16,7 +16,7 @@ const teamData: Person[] = [
     { id: 3, photoSrc: '/img/collegeManagement/Muhtarov-Abzal.png' },
     { id: 4, photoSrc: '/img/collegeManagement/Karazhev-Asilbek.png' },
     { id: 5, photoSrc: '/img/collegeManagement/Seetkali.png' },
-    { id: 6, photoSrc: '/img/collegeManagement/Seetkali.png' },
+    { id: 6, photoSrc: '/img/collegeManagement/Kuralai_Muratovna.png' },
     { id: 7, photoSrc: '/img/collegeManagement/Jainagul_Shackenovna.png' },
 ]
 

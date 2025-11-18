@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/CollegeManagement/CollegeManagement.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/CollegeManagement/CollegeManagement.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/CollegeManagement/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/CollegeManagement/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +176,8 @@
       <workItem from="1762522559067" duration="1127000" />
       <workItem from="1762762619181" duration="2279000" />
       <workItem from="1763024788943" duration="12914000" />
-      <workItem from="1763352595994" duration="5168000" />
+      <workItem from="1763352595994" duration="5889000" />
+      <workItem from="1763456906698" duration="1682000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />
