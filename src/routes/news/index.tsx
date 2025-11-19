@@ -84,7 +84,7 @@ function NewsPage() {
                 <div className={styles.newsCardList}>
                     {filteredList.map((item: any) => {
                         const {id} = item;
-                        const imageUrl = news.Photo?.url;
+                        const imageUrl = item.Photo?.url;
                         const imageName = item.Photo?.name;
                         const article = item.Article;
                         const itemDate = item.Date;
