@@ -38,7 +38,7 @@ function NewsDetail() {
 
     const id = newsId;
     console.log(`Запрос на новость с ID: ${id}`);
-    const imageUrl = "http://95.182.15.53:1337" + news.Photo?.url;
+    const imageUrl = news.Photo?.url;
     const imageName = news.Photo?.name;
     const title = news.title;
     const itemDate = news.Date;
