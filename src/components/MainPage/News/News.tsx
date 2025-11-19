@@ -44,7 +44,9 @@ export default function News () {
                         {newsList.slice(0, 4).map((item) => {
 
                             const {id} = item;
-                            const imageUrl = item.Photo?.url;
+                            const imageUrl = item.Photo?.url
+                                ? `${window.location.origin}${item.Photo.url}`
+                                : null;
                             const imageName = item.Photo?.name
                             const article = item.Article
                             const itemDate = item.Date
