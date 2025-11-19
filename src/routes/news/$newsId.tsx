@@ -38,9 +38,7 @@ function NewsDetail() {
 
     const id = newsId;
     console.log(`Запрос на новость с ID: ${id}`);
-    const imageUrl = news.Photo?.url
-        ? `${window.location.origin}${news.Photo.url}`
-        : null;
+    const imageUrl = news.Photo?.url;
     const imageName = news.Photo?.name;
     const title = news.title;
     const itemDate = news.Date;
