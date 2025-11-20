@@ -28,7 +28,7 @@ export default function InfoCards() {
     const { t, i18n } = useTranslation();
 
     useEffect(() => {
-        animateValue(studentsRef, 2875, 700);
+        animateValue(studentsRef, 2359 , 700);
         animateValue(graduatesRef, 20000, 700);
         animateValue(specialtiesRef, 12, 700);
     }, []);
