@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/locales/en/collegeManagement.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/collegeManagement.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/collegeManagement.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/collegeManagement.json" afterDir="false" />
     </list>
@@ -177,7 +176,7 @@
       <workItem from="1763352595994" duration="5889000" />
       <workItem from="1763456906698" duration="8148000" />
       <workItem from="1763542230164" duration="6604000" />
-      <workItem from="1763613985448" duration="10551000" />
+      <workItem from="1763613985448" duration="10745000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />
