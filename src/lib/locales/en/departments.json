@@ -997,27 +997,27 @@
         ]
       },
       "head": {
-        "title": "Head of the Department",
-        "image": "/img/OOD/Arai_Bayadilova.jpg",
+        "title": "Department Head",
+        "image": "/img/TM/Abdijalelova_Altinai.jpeg",
         "name": {
           "label": "Full Name",
-          "value": "Abdzhalelova Altinai Zholdasovna"
+          "value": "Abdizhalelova Altynai Zholdaskyzy"
         },
         "education": {
           "label": "Education",
           "value": "Higher"
         },
         "graduation": {
-          "label": "Graduation Year and Institution Name",
-          "value": "Kazakh Academy of Transport and Communications named after M. Tynyshpaeva 2003-2006, Kazakh University of Railway Transport 2006-2008"
+          "label": "Graduation year and name of the educational institution",
+          "value": "Aktobe Regional University named after K. Zhubanov 2006–2009"
         },
         "specialization": {
           "label": "Specialization",
-          "value": "Organization of Transportation and Management"
+          "value": "Jurisprudence"
         },
         "degree": {
           "label": "Academic Degree",
-          "value": "Master of Technical Sciences"
+          "value": "Teacher-Moderator"
         },
         "achievements": {
           "title": "",
@@ -1036,7 +1036,7 @@
               "label": "Subjects",
               "list": ["Russian Language", "Literature"]
             },
-            "experience": "Work Experience: 5 months"
+            "experience": "Work Experience: 1.5 years"
           },
           {
             "image": "/img/OOD/Abigaeva_Akmaral.jpg",
@@ -1053,7 +1053,7 @@
             "image": "/img/OOD/Adilkanova_Guldana.png",
             "alt": "Teacher photo",
             "name": "Adilkanova Guldana Bazarkozhaovna",
-            "position": "Teacher of the 'GED' Department (on maternity leave until 31.03.2026)",
+            "position": "Teacher of the 'GED' Department ",
             "subjects": {
               "label": "Subjects",
               "list": ["Kazakh Language", "Literature", "Pedagogy"]
@@ -1080,7 +1080,7 @@
               "label": "Subjects",
               "list": ["Kazakh Language", "Literature"]
             },
-            "experience": "Work Experience: 29 years"
+            "experience": "Work Experience: 30 years"
           },
           {
             "image": "/img/OOD/Dlimova_Botakuz.jpeg",
@@ -1171,15 +1171,26 @@
             "experience": "Work Experience: 2 years"
           },
           {
-            "image": "/img/OOD/*",
+            "image": "/img/OOD/Raushanova_Indira.jpeg",
             "alt": "Teacher photo",
-            "name": "Kobenov Ahmet Qanatuly",
-            "position": "Teacher of the 'GED' Department",
+            "name": "Raushanova Indira Amangeldinovna",
+            "position": "Teacher of the “OOD” department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Labor", "Drafting"]
+              "list": ["History", "Basics of Law"]
             },
-            "experience": "Work Experience: 8 years"
+            "experience": "Work experience: 8 years"
+          },
+          {
+            "image": "/img/OOD/Syindikova_Ainur.jpeg",
+            "alt": "Teacher photo",
+            "name": "Suyindikova Ainur Zhanabayevna",
+            "position": "Teacher of ther “OOD” department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Biology"]
+            },
+            "experience": "Work experience: 21 years"
           },
           {
             "image": "/img/OOD/Kanatbai_Aidarhan.jpeg",
@@ -1212,7 +1223,7 @@
               "label": "Subjects",
               "list": ["History", "Geography", "Jurisprudence"]
             },
-            "experience": "Work Experience: 11 years"
+            "experience": "Work Experience: 12 years"
           },
           {
             "image": "/img/OOD/Nurudinova_Ardak.jpeg",

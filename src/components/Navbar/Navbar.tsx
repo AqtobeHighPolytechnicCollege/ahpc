@@ -142,7 +142,7 @@ export default function Header() {
                 {<div className="menu-content">
                     <div className="menu-section">
                         <div className='menu-section-header'>
-                            <h2>О колледже</h2>
+                            <h2>{t('collegeAbout')}</h2>
                             <div className="lang-switch burger-lang-switch">
                                 {Object.entries(langs).map(([lang, label]) => (
                                     <span
@@ -177,20 +177,20 @@ export default function Header() {
                                 className={activeTab === "abiturient" ? "tab-active" : "tab"}
                                 onClick={() => setActiveTab("abiturient")}
                             >
-                                Абитуриенту
+                                {t('applicant')}
                             </span>
                             <span
                                 className={activeTab === "student" ? "tab-active" : "tab"}
                                 onClick={() => setActiveTab("student")}
                             >
-                                Студенту
+                                {t('students')}
                             </span>
                         </div>
                         {activeTab === "abiturient" ? abiturientLinks : studentLinks}
                     </div>
 
                     <div className="menu-section">
-                        <h2>Обучение</h2>
+                        <h2>{t('education')}</h2>
                         <ul onClick={toggleMenu}>
                             <li><Link to="/distanceLearning">{t('distanceLearning')}</Link></li>
                             <li><Link to="/dualEducation">{t('dualEducation')}</Link></li>
@@ -200,7 +200,7 @@ export default function Header() {
                     </div>
 
                     <div className="menu-section">
-                        <h2>Трудоустройство</h2>
+                        <h2>{t('employment')}</h2>
                         <ul onClick={toggleMenu}>
                             <li><Link to="/WorldSkills">{t('worldSkills')}</Link></li>
                             <li><Link to="/employment">{t('employment')}</Link></li>

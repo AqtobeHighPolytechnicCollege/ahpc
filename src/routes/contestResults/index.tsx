@@ -175,7 +175,7 @@ function RouteComponent() {
 
                 {/* Дополнительная информация */}
                 <div className={styles.infoSection}>
-                    <h3>{t('additionalInformation')}</h3>
+                    <h3>{t('aditionalInformation')}</h3>
                     <div className={styles.infoContent}>
                         <p>
                             <strong>{t('happy')}</strong> {t('happyInfo')}

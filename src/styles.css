@@ -5,6 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    scrollbar-width: 10px;
+    scrollbar-color: #000E3B #FFFFFF;
 }
 
 body {
@@ -15,3 +17,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Ширина скроллбара */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Полоса прокрутки (дорожка) */
+::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Цвет фона */
+    border-radius: 10px;
+}
+
+/* Ползунок */
+::-webkit-scrollbar-thumb {
+    background: #000E3B; /* Цвет ползунка */
+    border-radius: 10px;
+}
+
+/* При наведении */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFFFFF;
+}
+
