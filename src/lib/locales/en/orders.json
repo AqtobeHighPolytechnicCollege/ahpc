@@ -6,14 +6,6 @@
   "downloadButton": "Download Order",
   "ordersData": [
     {
-      "id": 1,
-      "title": "Order No.41 on the establishment of the Council on Pedagogical Ethics",
-      "description": "Approval of the composition of the Council on Pedagogical Ethics, list of members, rules of operation, and measures to ensure compliance with ethical standards",
-      "date": "19.01.2024",
-      "fileName": "/documents/orders/Order_41.pdf",
-      "size": "2.3 MB"
-    },
-    {
       "id": 2,
       "title": "Order No.42 on the establishment of a Conciliation Commission for resolving individual labor disputes",
       "description": "Approval of the composition of the Conciliation Commission, including representatives of the employer and employees, rules of operation, and duties of commission members",
