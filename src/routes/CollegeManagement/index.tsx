@@ -146,14 +146,26 @@ const PersonModal: FC<PersonModalProps> = ({ person, onClose }) => {
                         )}
 
                         {personId === '0' && (
+                            <>
+                                <div className={styles.appointmentOrders}>
                             <a
-                                href="/src/docs/prikaz_direktor.pdf"
+                                href="/documents/prikaz1.pdf"
                                 className={styles.documentLink}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 {t('appointmentOrder')}
                             </a>
+                                <a
+                                    href="/documents/prikaz2.pdf"
+                                    className={styles.documentLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {t('appointmentOrder')}
+                                </a>
+                                </div>
+                            </>
                         )}
                     </div>
                 </div>

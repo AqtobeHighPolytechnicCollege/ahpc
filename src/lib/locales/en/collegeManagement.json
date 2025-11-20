@@ -40,7 +40,7 @@
       "education": "Higher education",
       "graduationYear": "Aktobe Regional State University named after K. Zhubanov, 2015",
       "specialty": "5B011100 - Computer Science",
-      "qualification": "Bachelor of Education",
+      "qualification": ["Master’s degree","Bachelor of Education"],
       "degree": "Aktobe Regional State University named after K. Zhubanov, 2017, 6M060200 - Computer Science, Master of Natural Sciences",
       "achievements": [
         "Grand Prix Diploma in Robotics Championship at regional level - 2018",
@@ -122,7 +122,7 @@
     "5": {
       "name": "Mukanov Seitkali Umbetyazovich",
       "position": "Deputy Director for Economic Affairs",
-      "education": "Higher education",
+      "education": "Secondary vocational education",
       "graduationYear": "Aktobe Polytechnic College, 2005",
       "specialty": "Electrical supply",
       "qualification": "Electrical technician",
@@ -162,7 +162,8 @@
       "qualification": [
         "Technician-technologist",
         "Bachelor of Oil and Gas Engineering",
-        "Bachelor of Education"
+        "Bachelor of Education",
+        "Master’s degree"
       ],
       "degree": "Master of Pedagogy and Psychology",
       "achievements": []
