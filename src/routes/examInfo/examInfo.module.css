@@ -585,6 +585,19 @@ body {
         flex-direction: column;
     }
 
+    .examSchedule {
+        border-radius: 15px 15px 0 0;
+        padding: 25px;
+    }
+
+    .examSchedule__Header__Title {
+        font-size: 24px;
+    }
+
+    .examSchedule__Header__Subtitle {
+        font-size: 12px;
+    }
+
     .examSchedule__Block__NoFound__Title {
         font-size: 24px;
     }
