@@ -2,7 +2,7 @@
 
 export async function fetchNewsList(locale: string) {
     console.log(locale)
-    const response = await fetch(`http://95.182.15.53:1337/api/newss?locale=${locale}&populate=*&sort=createdAt:desc`);
+    const response = await fetch(`/api/newss?locale=${locale}&populate=*&sort=createdAt:desc`);
     if (!response.ok) {
         throw new Error('Ошибка при загрузке новостей');
     }
@@ -12,7 +12,7 @@ export async function fetchNewsList(locale: string) {
 
 
 export async function fetchNewsItem(newsId: string | undefined, locale) {
-    const response = await fetch(`http://95.182.15.53:1337/api/newss/${newsId}?locale=${locale}&populate=*`);
+    const response = await fetch(`/api/newss/${newsId}?locale=${locale}&populate=*`);
     if (!response.ok) {
         throw new Error('Ошибка при загрузке новости');
     }
@@ -27,7 +27,7 @@ export async function fetchExamsList(locale: string) {
     if (locale === 'kk') strapiLocale = 'kk';
     if (locale === 'en') strapiLocale = 'en';
 
-    const response = await fetch(`http://95.182.15.53:1337/api/exams?locale=${strapiLocale}&populate=*&sort=start_datetime:asc`);
+    const response = await fetch(`/api/exams?locale=${strapiLocale}&populate=*&sort=start_datetime:asc`);
     if (!response.ok) {
         throw new Error('Ошибка при загрузке экзаменов');
     }
