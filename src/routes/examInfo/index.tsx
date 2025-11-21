@@ -184,6 +184,7 @@ function RouteComponent() {
                 <div className={styles.examSchedule__DateFilter}>
                     <input
                         type="date"
+                        placeholder={t('datePlace')}
                         className={styles.examSchedule__DateFilter__Input}
                         value={selectedDate}
                         onChange={(e) => setSelectedDate(e.target.value)}

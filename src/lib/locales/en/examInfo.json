@@ -22,6 +22,7 @@
   "loading": "Loading...",
   "teacher": "Teacher",
   "date": "Date",
+  "datePlace": "dd.mm.yyyy",
   "time": "Time",
   "room": "Room"
 
