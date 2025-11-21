@@ -96,7 +96,11 @@ body {
 .examinfo__Text__Link {
     font-size: 24px;
     font-weight: 600;
-    text-decoration: underline;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #000E3B;
+    color: white;
     cursor: pointer;
 }
 
@@ -515,6 +519,11 @@ body {
         font-size: 86px;
     }
 
+    .examinfo__Text__Link {
+        font-size: 16px;
+        padding: 10px;
+    }
+
     .graduateWork__Image {
         width: 400px;
         height: 300px;
@@ -638,8 +647,9 @@ body {
         font-size: 20px;
     }
 
-    .examInfo__Text__link {
-        font-size: 16px;
+    .examinfo__Text__Link {
+        font-size: 14px;
+        padding: 10px;
     }
 
     .examSchedule__Header {
