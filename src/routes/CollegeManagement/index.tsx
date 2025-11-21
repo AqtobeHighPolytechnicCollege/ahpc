@@ -11,13 +11,13 @@ type Person = {
 
 const teamData: Person[] = [
     { id: 0, photoSrc: '/img/collegeManagement/Dir.png' },
-    { id: 1, photoSrc: '/img/collegeManagement/Rinat-Askerovich.png' },
-    { id: 2, photoSrc: '/img/collegeManagement/Erzhan-Utitliev.png' },
-    { id: 3, photoSrc: '/img/collegeManagement/Muhtarov-Abzal.png' },
-    { id: 4, photoSrc: '/img/collegeManagement/Karazhev-Asilbek.png' },
-    { id: 5, photoSrc: '/img/collegeManagement/Seetkali.png' },
-    { id: 6, photoSrc: '/img/collegeManagement/Kuralai_Muratovna.png' },
-    { id: 7, photoSrc: '/img/collegeManagement/Jainagul_Shackenovna.png' },
+    { id: 1, photoSrc: '/img/collegeManagement/Erzhan-Utitliev.png' },
+    { id: 2, photoSrc: '/img/collegeManagement/Muhtarov-Abzal.png' },
+    { id: 3, photoSrc: '/img/collegeManagement/Kuralai_Muratovna.png' },
+    { id: 4, photoSrc: '/img/collegeManagement/Jainagul_Shackenovna.png' },
+    { id: 5, photoSrc: '/img/collegeManagement/Rinat-Askerovich.png' },
+    { id: 6, photoSrc: '/img/collegeManagement/Karazhev-Asilbek.png' },
+    { id: 7, photoSrc: '/img/collegeManagement/Seetkali.png' },
 ]
 
 type PersonCardProps = {

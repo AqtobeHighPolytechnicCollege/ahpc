@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/examInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/examInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/examInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/examInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/examInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/examInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/examInfo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/examInfo/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/collegeManagement.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/collegeManagement.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/collegeManagement.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/collegeManagement.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/collegeManagement.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/collegeManagement.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/CollegeManagement/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/CollegeManagement/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/TeachingStaff/TeachingStaff.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/TeachingStaff/TeachingStaff.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +181,8 @@
       <workItem from="1763456906698" duration="8148000" />
       <workItem from="1763542230164" duration="6604000" />
       <workItem from="1763613985448" duration="15775000" />
-      <workItem from="1763698702600" duration="10526000" />
+      <workItem from="1763698702600" duration="14930000" />
+      <workItem from="1763724912878" duration="2428000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />

@@ -35,21 +35,6 @@
       ]
     },
     "1": {
-      "name": "Khairullaev Rinat Askerovich",
-      "position": "Deputy Director for Information Technology",
-      "education": "Higher education",
-      "graduationYear": "Aktobe Regional State University named after K. Zhubanov, 2015",
-      "specialty": "5B011100 - Computer Science",
-      "qualification": ["Master’s degree","Bachelor of Education"],
-      "degree": "Aktobe Regional State University named after K. Zhubanov, 2017, 6M060200 - Computer Science, Master of Natural Sciences",
-      "achievements": [
-        "Grand Prix Diploma in Robotics Championship at regional level - 2018",
-        "1st degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2018 in Graphic Design competency",
-        "3rd degree diploma for preparing a student in the National Championship WorldSkills Kazakhstan-2018 in Graphic Design competency",
-        "3rd degree diploma for participation in the business project 'Innovative Teacher' - 2018"
-      ]
-    },
-    "2": {
       "name": "Uteuliev Yerzhan Baktybayevich",
       "position": "Deputy Director for Academic Affairs",
       "education": "Higher education",
@@ -82,7 +67,7 @@
         "Badge 'Білім беру ісінің құрметті қызметкері', 2024"
       ]
     },
-    "3": {
+    "2": {
       "name": "Mukhtarov Abzal Tanzharbaevich",
       "position": "Deputy Director for Educational and Production Work",
       "education": "Higher education",
@@ -104,31 +89,7 @@
         "Certificate of Honor from the Aktobe Regional Organization of the Kazakhstan Industry Professional Union of Education Workers, 2019"
       ]
     },
-    "4": {
-      "name": "Karashev Asylbek Amantaevich",
-      "position": "Deputy Director for Professional Training",
-      "education": "Higher education",
-      "graduationYear": "Kazakh Academy of Transport and Communications named after M. Tynyshpaev, 2009",
-      "specialty": "Radio engineering, electronics and telecommunications",
-      "qualification": "Bachelor of Radio Engineering, Electronics and Telecommunications",
-      "achievements": [
-        "2nd degree diploma for participation in the regional olympiad on 'Theoretical Foundations of Electrical Engineering' and 'Theory of Electrical Circuits'",
-        "3rd degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2021 in Information Cabling Systems competency",
-        "2nd degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2023 in Information Cabling Systems competency",
-        "Gratitude for participation in the III International Scientific and Practical Conference 'Youth. Science. Transport'",
-        "1st degree diploma for participation in the competition of republican scientific projects 'Rukhani zhangyru - eldiktin tiregi'"
-      ]
-    },
-    "5": {
-      "name": "Mukanov Seitkali Umbetyazovich",
-      "position": "Deputy Director for Economic Affairs",
-      "education": "Secondary vocational education",
-      "graduationYear": "Aktobe Polytechnic College, 2005",
-      "specialty": "Electrical supply",
-      "qualification": "Electrical technician",
-      "achievements": []
-    },
-    "6": {
+    "3": {
       "name": "Kylyshbaeva Kuralay Muratkyzy",
       "position": "Deputy Director for Educational and Methodological Work",
       "education": "Higher education",
@@ -146,7 +107,7 @@
       ],
       "achievements": []
     },
-    "7": {
+    "4": {
       "name": "Abieva Zhainagul Shakenovna",
       "position": "Deputy Director for Educational Work",
       "education": "Higher education",
@@ -166,6 +127,45 @@
         "Master’s degree"
       ],
       "degree": "Master of Pedagogy and Psychology",
+      "achievements": []
+    },
+    "5": {
+      "name": "Khairullaev Rinat Askerovich",
+      "position": "Deputy Director for Information Technology",
+      "education": "Higher education",
+      "graduationYear": "Aktobe Regional State University named after K. Zhubanov, 2015",
+      "specialty": "5B011100 - Computer Science",
+      "qualification": ["Master’s degree","Bachelor of Education"],
+      "degree": "Aktobe Regional State University named after K. Zhubanov, 2017, 6M060200 - Computer Science, Master of Natural Sciences",
+      "achievements": [
+        "Grand Prix Diploma in Robotics Championship at regional level - 2018",
+        "1st degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2018 in Graphic Design competency",
+        "3rd degree diploma for preparing a student in the National Championship WorldSkills Kazakhstan-2018 in Graphic Design competency",
+        "3rd degree diploma for participation in the business project 'Innovative Teacher' - 2018"
+      ]
+    },
+    "6": {
+      "name": "Karashev Asylbek Amantaevich",
+      "position": "Deputy Director for Professional Training",
+      "education": "Higher education",
+      "graduationYear": "Kazakh Academy of Transport and Communications named after M. Tynyshpaev, 2009",
+      "specialty": "Radio engineering, electronics and telecommunications",
+      "qualification": "Bachelor of Radio Engineering, Electronics and Telecommunications",
+      "achievements": [
+        "2nd degree diploma for participation in the regional olympiad on 'Theoretical Foundations of Electrical Engineering' and 'Theory of Electrical Circuits'",
+        "3rd degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2021 in Information Cabling Systems competency",
+        "2nd degree diploma for preparing a student in the regional championship WorldSkills Kazakhstan Aktobe-2023 in Information Cabling Systems competency",
+        "Gratitude for participation in the III International Scientific and Practical Conference 'Youth. Science. Transport'",
+        "1st degree diploma for participation in the competition of republican scientific projects 'Rukhani zhangyru - eldiktin tiregi'"
+      ]
+    },
+    "7": {
+      "name": "Mukanov Seitkali Umbetyazovich",
+      "position": "Deputy Director for Economic Affairs",
+      "education": "Secondary vocational education",
+      "graduationYear": "Aktobe Polytechnic College, 2005",
+      "specialty": "Electrical supply",
+      "qualification": "Electrical technician",
       "achievements": []
     }
   }
