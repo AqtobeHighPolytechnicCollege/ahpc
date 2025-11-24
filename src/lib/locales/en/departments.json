@@ -1252,7 +1252,7 @@
         {
           "icon": "lucide-users",
           "iconPath": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path>",
-          "number": "150+",
+          "number": "376",
           "label": "Students"
         },
         {
@@ -1324,6 +1324,17 @@
       "teachers": {
         "title": "Teaching Staff",
         "list": [
+          {
+            "image": "/img/GM/Ahmetov_T.jpg",
+            "alt": "Teacher photo",
+            "name": "Ahmetov Talgat Kairgalievich",
+            "position": "Teacher of the “HS” Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Initial Military and Technological Training"]
+            },
+            "experience": "Work experience: 33 years"
+          },
           {
             "image": "/img/GM/Bazekenova_G.jpg",
             "alt": "Teacher photo",
@@ -1532,6 +1543,39 @@
               "list": ["Finance and Credit"]
             },
             "experience": "Work Experience: 26 years"
+          },
+          {
+            "image": "/img/GM/Kusherbaev_N.jpg",
+            "alt": "Teacher photo",
+            "name": "Kusherbayev Nursat Talgatuly",
+            "position": "Teacher of the “HS” Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Physical Education and Sports"]
+            },
+            "experience": "Work experience: 2 years"
+          },
+          {
+            "image": "/img/GM/Jalkibaev_B.jpg",
+            "alt": "Teacher photo",
+            "name": "Jylkybayev Bakyt Meirambekuly",
+            "position": "Teacher of the “GM” department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Physical Education and Sports"]
+            },
+            "experience": "Work experience: 3 years"
+          },
+          {
+            "image": "/img/GM/Baitakova_G.jpeg",
+            "alt": "Teacher photo",
+            "name": "Baitakova Gulsezim Serikkalykyzy",
+            "position": "Teacher of the “GM” department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["English Language"]
+            },
+            "experience": "Work experience: 10 years"
           }
         ]
       }
