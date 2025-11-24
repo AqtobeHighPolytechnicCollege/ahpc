@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/GM/Ahmetov_T.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/GM/Ahmetov_T.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/GM/Jalkibaev_B.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/GM/Jalkibaev_B.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/GM/Kusherbaev_N.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/GM/Kusherbaev_N.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/AS/AS_Group.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/AS/Almazagi_Talgat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/AS/Almazagi_Talgat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/AS/DSC_2961.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/AS/Erkebulan_Amangolov.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/AS/Erkebulan_Amangolov.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/AS/Muhanbetova.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/AS/Muhanbetova.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/locales/en/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/departments.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" afterDir="false" />
@@ -185,7 +187,7 @@
       <workItem from="1763698702600" duration="14930000" />
       <workItem from="1763724912878" duration="3801000" />
       <workItem from="1763957046857" duration="8130000" />
-      <workItem from="1763966891968" duration="2836000" />
+      <workItem from="1763966891968" duration="9510000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />

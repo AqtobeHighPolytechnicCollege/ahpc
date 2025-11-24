@@ -419,14 +419,19 @@
         "title": "Our Laboratories",
         "list": [
           {
-            "image": "/img/AU/lab1.JPG",
-            "alt": "laboratory photo",
-            "title": "Automation Laboratory"
+            "image": "/img/AS/107.jpg",
+            "alt": "фото лаборатории",
+            "title": "107 room"
           },
           {
-            "image": "/img/AU/lab2.JPG",
-            "alt": "laboratory photo",
-            "title": "PLC Laboratory"
+            "image": "/img/AS/202.jpg",
+            "alt": "фото лаборатории",
+            "title": "202 room"
+          },
+          {
+            "image": "/img/AS/14.png",
+            "alt": "фото лаборатории",
+            "title": "14 room"
           }
         ]
       },
@@ -474,112 +479,101 @@
           {
             "image": "/img/AS/Suteeva_A.jpeg",
             "alt": "Teacher photo",
-            "name": "SUTEEVA AQTENTEK AYANQYZY",
+            "name": "SUTEEVA AKTENTEK AYANKYZY",
             "position": "Teacher",
             "subjects": {
               "label": "Subjects",
-              "list": ["Pedagogue-moderator", "Bachelor of Technology and Engineering"]
+              "list": ["Pedagogue–moderator", "Bachelor of Engineering and Technology"]
             },
-            "experience": "Work Experience: 5 years"
+            "experience": "Work experience: 5 years"
           },
           {
-            "image": "/img/AS/Muhanbetova.jpg",
+            "image": "/img/AS/Muhanbetova.JPG",
             "alt": "Teacher photo",
-            "name": "Mukhanbetova Ryskul Zhaksylyqkyzy",
+            "name": "Mukhanbetova Ryskul Zhaksylykkyzy",
             "position": "Teacher",
             "subjects": {
               "label": "Subjects",
-              "list": ["Electrical Engineer", "Chair of the PMC", "AMC"]
+              "list": ["Electrical Engineer", "Head of CMB", "AMC"]
             },
-            "experience": "Work Experience: 18 years"
+            "experience": "Work experience: 18 years"
           },
           {
             "image": "/img/AS/Moldabaeva_Meruert.jpg",
             "alt": "Teacher photo",
             "name": "Moldabaeva Meruert Nabievna",
-            "position": "Teacher-Researcher, College Methodologist",
+            "position": "Teacher-researcher, College Methodologist",
             "subjects": {
               "label": "Subjects",
               "list": ["Methodologist", "Teacher"]
             },
-            "experience": "Work Experience: 14 years"
+            "experience": "Work experience: 14 years"
           },
           {
             "image": "/img/AS/Konsbaeva_Ainura.png",
             "alt": "Teacher photo",
-            "name": "Konsbaeva Ainura Karimollovna",
+            "name": "Konsbaeva Ainura Karimollaevna",
             "position": "Teacher",
             "subjects": {
               "label": "Subjects",
               "list": ["Engineer", "Teacher"]
             },
-            "experience": "Work Experience: 7 years"
-          },
-          {
-            "image": "/img/AS/Aktilek.jpg",
-            "alt": "Teacher photo",
-            "name": "Kaldygarina Mirgul Sanatovna",
-            "position": "Teacher",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Engineer", "Teacher"]
-            },
-            "experience": "Work Experience: 12 years"
+            "experience": "Work experience: 7 years"
           },
           {
             "image": "/img/AS/Alisher.png",
             "alt": "Teacher photo",
             "position": "Teacher",
-            "name": "Dil'magambetov Alisher Serikuly",
+            "name": "Dilmagambetov Alisher Serikuly",
             "subjects": {
               "label": "Subjects",
               "list": ["Engineer", "Teacher"]
             },
-            "experience": "Work Experience: 12 years"
+            "experience": "Work experience: 12 years"
           },
           {
             "image": "/img/AS/Dayilbaeva_Korkemai.jpg",
             "alt": "Teacher photo",
             "position": "Teacher",
-            "name": "Dauylbaeva Korkemai Serikbayqyzy",
+            "name": "Dauylbaeva Korkemai Serikbaikyzy",
             "subjects": {
               "label": "Subjects",
-              "list": ["Design and Repair", "Installation", "Repair and Adjustment of Mechanisms"]
+              "list": ["Design and repair", "Installation", "Mechanism repair and adjustment"]
             },
-            "experience": "Work Experience: 6 years"
+            "experience": "Work experience: 6 years"
           },
           {
             "image": "/img/AS/Abdualiev_Adil.jpeg",
             "alt": "Teacher photo",
             "position": "Teacher",
-            "name": "Adil Berikuly Abdulaiev",
+            "name": "Adil Berikuly Abdualiev",
             "subjects": {
               "label": "Subjects",
-              "list": ["Design and Repair", "Installation", "Repair and Adjustment of Mechanisms"]
+              "list": ["Design and repair", "Installation", "Mechanism repair and adjustment"]
             },
-            "experience": "Work Experience: 7 years"
+            "experience": "Work experience: 7 years"
           },
           {
             "image": "/img/AS/Tomagambetova_Aimgul.jpeg",
             "alt": "Teacher photo",
             "position": "Teacher",
-            "name": "Toimagambetova Aymgul Myrzagalievna",
+            "name": "Toimagambetova Aimgul Myrzagalievna",
             "subjects": {
               "label": "Subjects",
-              "list": ["Pedagogue", "Installation", "Methodologist"]
+              "list": ["Pedagogue-moderator"]
             },
-            "experience": "Work Experience: 13 years"
+            "experience": "Work experience: 13 years"
           },
           {
             "image": "/img/AS/Aitkazieva_Gulshat.jpg",
             "alt": "Teacher photo",
             "position": "Teacher",
-            "name": "Aitkazieva Gulshat Sagindykqyzy",
+            "name": "Aitkazieva Gulshat Sagyndykovna",
             "subjects": {
               "label": "Subjects",
               "list": ["Pedagogue", "Teacher", "Electrical Engineer"]
             },
-            "experience": "Work Experience: 15 years"
+            "experience": "Work experience: 15 years"
           },
           {
             "image": "/img/AS/Saukenov.png",
@@ -590,29 +584,18 @@
               "label": "Subjects",
               "list": ["Pedagogue", "WSK Expert", "Electrical Engineer"]
             },
-            "experience": "Work Experience: 32 years"
+            "experience": "Work experience: 32 years"
           },
           {
             "image": "/img/AS/Izimov_G.png",
             "alt": "Teacher photo",
             "position": "Teacher",
-            "name": "Izimov Galymzhan Kuanyzhevich",
+            "name": "Izimov Galymzhan Kuanyshevich",
             "subjects": {
               "label": "Subjects",
               "list": ["Pedagogue", "Power Supply", "Electrical Engineer"]
             },
-            "experience": "Work Experience: 22 years"
-          },
-          {
-            "image": "/img/AS/Zhuldubaeva_Aigerim.jpg",
-            "alt": "Teacher photo",
-            "position": "Teacher",
-            "name": "Zhulduabaeva Aigerim Aidusovna",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Pedagogue", "WSK Expert", "Electrical Engineer"]
-            },
-            "experience": "Work Experience: 17 years"
+            "experience": "Work experience: 14 years"
           },
           {
             "image": "/img/AS/Gabidulla_S.jpg",
@@ -623,18 +606,128 @@
               "label": "Subjects",
               "list": ["Pedagogue", "WSK Expert", "Electrical Engineer"]
             },
-            "experience": "Work Experience: 7 years"
+            "experience": "Work experience: 7 years"
           },
           {
             "image": "/img/AS/Erkebulan_Amangolov.jpg",
             "alt": "Teacher photo",
             "position": "Teacher",
-            "name": "Amanzholov Erkebulan Batihanovich",
+            "name": "Amanzholov Erkebulan Batikhanovich",
             "subjects": {
               "label": "Subjects",
               "list": ["Pedagogue", "Automation and Control", "Electrical Engineer"]
             },
-            "experience": "Work Experience: 5 years"
+            "experience": "Work experience: 5 years"
+          },
+          {
+            "image": "/img/AS/Abdrahmanova.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Abdrakhmanova Zhuldyz",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Pedagogue", "Automation and Control", "Electrical Engineer"]
+            },
+            "experience": "Work experience: 1 year"
+          },
+          {
+            "image": "/img/AS/Jumakoja_A.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Zhumakozha Aizhan Seidakhmetkyzy",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Pedagogue", "Automation and Control"]
+            },
+            "experience": "Work experience: 1 year"
+          },
+          {
+            "image": "/img/AS/Aikaidar_A.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Akaidar Asylbek Askaruly",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Electrical Engineer", "Automation and Control"]
+            },
+            "experience": "Work experience: 3 years"
+          },
+          {
+            "image": "/img/AS/Tolegen_M.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Tolegen Marghulan Tolegenuly",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Automation and Control"]
+            },
+            "experience": "Work experience: 4 years"
+          },
+          {
+            "image": "/img/AS/Bazilov_D.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Bazylov Daryn Erkinuly",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Automation and Control"]
+            },
+            "experience": "Work experience: 2 years"
+          },
+          {
+            "image": "/img/AS/Almazagi_Talgat.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Almagazy Talgat Adiluly",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Power Supply"]
+            },
+            "experience": "Work experience: 4 years"
+          },
+          {
+            "image": "/img/AS/Seilova_N.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Seilova Nazym Khamitkyzy",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Pedagogue-moderator"]
+            },
+            "experience": "Work experience: 10 years"
+          },
+          {
+            "image": "/img/AS/Salimkerei_G.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Salimkerei Gulstan Salimkereikyzy",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Pedagogue-moderator"]
+            },
+            "experience": "Work experience: 13 years"
+          },
+          {
+            "image": "/img/AS/Jaksilik_P.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Zhaksylyk Perizat Bolatkyzy",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Pedagogue-moderator"]
+            },
+            "experience": "Work experience: 3 years"
+          },
+          {
+            "image": "/img/AS/Samatova_A.jpg",
+            "alt": "Teacher photo",
+            "position": "Teacher",
+            "name": "Samatova Aizhan Nurbolatkyzy",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Automation and Control"]
+            },
+            "experience": "Work experience: 2 years"
           }
         ]
       }
