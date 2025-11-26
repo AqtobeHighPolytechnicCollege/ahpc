@@ -1068,24 +1068,24 @@
         "title": "Біздің кабинеттеріміз",
         "list": [
           {
-            "image": "/img/IS/110.JPG",
+            "image": "/img/OOD/cab1.JPG",
             "alt": "кабинет суреті",
-            "title": "Компьютерлік сынып 1"
+            "title": "Кабинет 1"
           },
           {
-            "image": "/img/IS/108.JPG",
+            "image": "/img/OOD/cab2.JPG",
             "alt": "кабинет суреті",
-            "title": "Компьютерлік сынып 2"
+            "title": "Кабинет 2"
           },
           {
-            "image": "/img/IS/112.JPG",
+            "image": "/img/OOD/cab3.JPG",
             "alt": "кабинет суреті",
-            "title": "Компьютерлік сынып 3"
+            "title": "Кабинет 3"
           },
           {
-            "image": "/img/IS/208.JPG",
+            "image": "/img/OOD/cab4.JPG",
             "alt": "кабинет суреті",
-            "title": "Компьютерлік сынып 4"
+            "title": "Кабинет 4"
           }
         ]
       },

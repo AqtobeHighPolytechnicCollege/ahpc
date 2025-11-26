@@ -1068,24 +1068,24 @@
         "title": "Our Classrooms",
         "list": [
           {
-            "image": "/img/IS/110.JPG",
-            "alt": "classroom photo",
-            "title": "Computer Classroom 1"
+            "image": "/img/OOD/cab1.JPG",
+            "alt": "кабинет суреті",
+            "title": "Room 1"
           },
           {
-            "image": "/img/IS/108.JPG",
-            "alt": "classroom photo",
-            "title": "Computer Classroom 2"
+            "image": "/img/OOD/cab2.JPG",
+            "alt": "кабинет суреті",
+            "title": "Room 2"
           },
           {
-            "image": "/img/IS/112.JPG",
-            "alt": "classroom photo",
-            "title": "Computer Classroom 3"
+            "image": "/img/OOD/cab3.JPG",
+            "alt": "кабинет суреті",
+            "title": "Room 3"
           },
           {
-            "image": "/img/IS/208.JPG",
-            "alt": "classroom photo",
-            "title": "Computer Classroom 4"
+            "image": "/img/OOD/cab4.JPG",
+            "alt": "кабинет суреті",
+            "title": "Room 4"
           }
         ]
       },

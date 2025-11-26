@@ -7,6 +7,7 @@
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/locales/en/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/departments.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +184,7 @@
       <workItem from="1763957046857" duration="8130000" />
       <workItem from="1763966891968" duration="10784000" />
       <workItem from="1764051965680" duration="595000" />
-      <workItem from="1764130548402" duration="1301000" />
+      <workItem from="1764130548402" duration="2454000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />
