@@ -1325,7 +1325,10 @@
             "position": "Teacher of the 'GED' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Basics of Law", "Economics", "Philosophy of Science"]
+              "list": ["Fundamentals of Law",
+                "Cultural Studies",
+                "Fundamentals of Philosophy",
+                "Fundamentals of Political Science and Sociology"]
             },
             "experience": "Work Experience: 27 years"
           }
