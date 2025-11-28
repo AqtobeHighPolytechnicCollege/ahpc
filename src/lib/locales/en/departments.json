@@ -1321,14 +1321,11 @@
           {
             "image": "/img/OOD/Nurudinova_Ardak.jpeg",
             "alt": "Teacher photo",
-            "name": "Nurudinova Ardak Amanzholqyzy",
+            "name": "Nurudinova Ardak Amanzholkyzy",
             "position": "Teacher of the 'GED' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Fundamentals of Law",
-                "Cultural Studies",
-                "Fundamentals of Philosophy",
-                "Fundamentals of Political Science and Sociology"]
+              "list": ["BM 04: Application of social science fundamentals for socialization and adaptation in society and in the workplace."]
             },
             "experience": "Work Experience: 27 years"
           }
