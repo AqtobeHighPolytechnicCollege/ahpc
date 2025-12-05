@@ -24,6 +24,7 @@ import { Route as GraduatesReviewsIndexRouteImport } from './routes/graduatesRev
 import { Route as ExamInfoIndexRouteImport } from './routes/examInfo/index'
 import { Route as EmploymentIndexRouteImport } from './routes/employment/index'
 import { Route as DualEducationIndexRouteImport } from './routes/dualEducation/index'
+import { Route as DocumentsIndexRouteImport } from './routes/documents/index'
 import { Route as DistanceLearningIndexRouteImport } from './routes/distanceLearning/index'
 import { Route as CounteringCorruptionIndexRouteImport } from './routes/counteringCorruption/index'
 import { Route as CorrespondenceIndexRouteImport } from './routes/correspondence/index'
@@ -115,6 +116,11 @@ const EmploymentIndexRoute = EmploymentIndexRouteImport.update({
 const DualEducationIndexRoute = DualEducationIndexRouteImport.update({
   id: '/dualEducation/',
   path: '/dualEducation/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DocumentsIndexRoute = DocumentsIndexRouteImport.update({
+  id: '/documents/',
+  path: '/documents/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DistanceLearningIndexRoute = DistanceLearningIndexRouteImport.update({
@@ -224,6 +230,7 @@ export interface FileRoutesByFullPath {
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
   '/distanceLearning': typeof DistanceLearningIndexRoute
+  '/documents': typeof DocumentsIndexRoute
   '/dualEducation': typeof DualEducationIndexRoute
   '/employment': typeof EmploymentIndexRoute
   '/examInfo': typeof ExamInfoIndexRoute
@@ -258,6 +265,7 @@ export interface FileRoutesByTo {
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
   '/distanceLearning': typeof DistanceLearningIndexRoute
+  '/documents': typeof DocumentsIndexRoute
   '/dualEducation': typeof DualEducationIndexRoute
   '/employment': typeof EmploymentIndexRoute
   '/examInfo': typeof ExamInfoIndexRoute
@@ -293,6 +301,7 @@ export interface FileRoutesById {
   '/correspondence/': typeof CorrespondenceIndexRoute
   '/counteringCorruption/': typeof CounteringCorruptionIndexRoute
   '/distanceLearning/': typeof DistanceLearningIndexRoute
+  '/documents/': typeof DocumentsIndexRoute
   '/dualEducation/': typeof DualEducationIndexRoute
   '/employment/': typeof EmploymentIndexRoute
   '/examInfo/': typeof ExamInfoIndexRoute
@@ -329,6 +338,7 @@ export interface FileRouteTypes {
     | '/correspondence'
     | '/counteringCorruption'
     | '/distanceLearning'
+    | '/documents'
     | '/dualEducation'
     | '/employment'
     | '/examInfo'
@@ -363,6 +373,7 @@ export interface FileRouteTypes {
     | '/correspondence'
     | '/counteringCorruption'
     | '/distanceLearning'
+    | '/documents'
     | '/dualEducation'
     | '/employment'
     | '/examInfo'
@@ -397,6 +408,7 @@ export interface FileRouteTypes {
     | '/correspondence/'
     | '/counteringCorruption/'
     | '/distanceLearning/'
+    | '/documents/'
     | '/dualEducation/'
     | '/employment/'
     | '/examInfo/'
@@ -432,6 +444,7 @@ export interface RootRouteChildren {
   CorrespondenceIndexRoute: typeof CorrespondenceIndexRoute
   CounteringCorruptionIndexRoute: typeof CounteringCorruptionIndexRoute
   DistanceLearningIndexRoute: typeof DistanceLearningIndexRoute
+  DocumentsIndexRoute: typeof DocumentsIndexRoute
   DualEducationIndexRoute: typeof DualEducationIndexRoute
   EmploymentIndexRoute: typeof EmploymentIndexRoute
   ExamInfoIndexRoute: typeof ExamInfoIndexRoute
@@ -553,6 +566,13 @@ declare module '@tanstack/react-router' {
       path: '/dualEducation'
       fullPath: '/dualEducation'
       preLoaderRoute: typeof DualEducationIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/documents/': {
+      id: '/documents/'
+      path: '/documents'
+      fullPath: '/documents'
+      preLoaderRoute: typeof DocumentsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/distanceLearning/': {
@@ -696,6 +716,7 @@ const rootRouteChildren: RootRouteChildren = {
   CorrespondenceIndexRoute: CorrespondenceIndexRoute,
   CounteringCorruptionIndexRoute: CounteringCorruptionIndexRoute,
   DistanceLearningIndexRoute: DistanceLearningIndexRoute,
+  DocumentsIndexRoute: DocumentsIndexRoute,
   DualEducationIndexRoute: DualEducationIndexRoute,
   EmploymentIndexRoute: EmploymentIndexRoute,
   ExamInfoIndexRoute: ExamInfoIndexRoute,

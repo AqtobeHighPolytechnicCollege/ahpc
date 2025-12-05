@@ -1,0 +1,246 @@
+body {
+    background-color: #f2f1f3;
+}
+
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    text-align: center;
+    font-size: 115px;
+    line-height: 1;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.headContent h1 span {
+    display: block;
+}
+
+.headContent h1 span:nth-child(1)::after {
+    content: " ";
+}
+
+.headContent h1 span:nth-child(2)::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag p {
+    font-size: 32px;
+    color: #05070F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* Новые стили для секций документов */
+.documentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sectionTitle {
+    font-size: 32px;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.documentCard {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.documentCard:hover {
+    box-shadow: 0 4px 16px rgba(0, 37, 161, 0.15);
+    transform: translateY(-2px);
+}
+
+.documentInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.documentTitle {
+    font-size: 20px;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.documentDescription {
+    font-size: 15px;
+    color: #666;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.documentMeta {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.documentType,
+.documentSize,
+.documentDate {
+    font-size: 13px;
+    color: #888;
+    font-family: 'Inter', sans-serif;
+}
+
+.documentType {
+    background: #e8f0fe;
+    color: #0025A1;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.documentActions {
+    display: flex;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.downloadButton,
+.viewButton {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.downloadButton {
+    background: #0025A1;
+    color: white;
+}
+
+.downloadButton:hover {
+    background: #001d80;
+    transform: scale(1.05);
+}
+
+.viewButton {
+    background: transparent;
+    color: #0025A1;
+    border: 2px solid #0025A1;
+}
+
+.viewButton:hover {
+    background: #f0f5ff;
+}
+
+.downloadIcon {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.documentGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 20px;
+    border-left: 3px solid #0025A1;
+}
+
+/* Адаптивность */
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 8rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .headContent h1 {
+        font-size: 60px;
+    }
+
+    .sectionTitle {
+        font-size: 24px;
+    }
+
+    .documentCard {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .documentActions {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .downloadButton,
+    .viewButton {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .documentMeta {
+        flex-wrap: wrap;
+    }
+}

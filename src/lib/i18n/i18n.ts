@@ -35,6 +35,7 @@ import ruPractice from '../locales/ru/practice.json'
 import ruOurGraduates from '../locales/ru/ourGraduates.json'
 import ruAlumniAssoctiation from '../locales/ru/alumniAssoctiation.json'
 import ruNavbar from '../locales/ru/navbar.json'
+import ruDocuments from '../locales/ru/documents.json'
 import kzHome from '../locales/kz/home.json'
 import kzNews from '../locales/kz/news.json'
 import kzReviews from '../locales/kz/reviews.json'
@@ -69,6 +70,7 @@ import kzPractice from '../locales/kz/practice.json'
 import kzOurGraduates from '../locales/kz/ourGraduates.json'
 import kzAlumniAssoctiation from '../locales/kz/alumniAssoctiation.json'
 import kzNavbar from '../locales/kz/navbar.json'
+import kzDocuments from '../locales/kz/documents.json'
 import enHome from '../locales/en/home.json'
 import enNews from '../locales/en/news.json'
 import enReviews from '../locales/en/reviews.json'
@@ -103,6 +105,7 @@ import enPractice from '../locales/en/practice.json'
 import enOurGraduates from '../locales/en/ourGraduates.json'
 import enAlumniAssoctiation from '../locales/en/alumniAssoctiation.json'
 import enNavbar from '../locales/en/navbar.json'
+import enDocuments from '../locales/en/documents.json'
 
 i18n
     .use(initReactI18next)
@@ -143,6 +146,7 @@ i18n
                 ourGraduates: ruOurGraduates,
                 alumniAssoctiation: ruAlumniAssoctiation,
                 navbar: ruNavbar,
+                documents: ruDocuments,
             },
             'kk': {
                 home: kzHome,
@@ -179,6 +183,7 @@ i18n
                 ourGraduates: kzOurGraduates,
                 alumniAssoctiation: kzAlumniAssoctiation,
                 navbar: kzNavbar,
+                documents: kzDocuments,
             },
             en: {
                 home: enHome,
@@ -215,6 +220,7 @@ i18n
                 ourGraduates: enOurGraduates,
                 alumniAssoctiation: enAlumniAssoctiation,
                 navbar: enNavbar,
+                documents: enDocuments,
             }
         },
         lng: 'ru-RU',
@@ -222,7 +228,7 @@ i18n
         ns: ['home', 'about', 'reviews', 'partners', 'footer', 'departments', 'collegeManagement', 'sybmols','contacts','companyReviews','charter',
             'collegeHistory', 'counteringCorruption','graduateReviews','media','orders','contestResult','admissionRules', 'dormitory','specials',
         'schedule','examInfo', 'scholarship','studentLive','distancelLearning','correspondence','license','worldSkills','employemnt','dualEducation',
-        'practice', 'ourGraduates','alumniAssoctiation', 'navbar'],
+        'practice', 'ourGraduates','alumniAssoctiation', 'navbar','documents'],
 
         defaultNS: 'home',
         interpolation: {

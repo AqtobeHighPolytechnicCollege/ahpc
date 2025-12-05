@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/en/documents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/documents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/locales/ru/documents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/documents/documents.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/documents/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/departments.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/departments.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/departments.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/i18n/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/i18n/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/en/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/en/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/kz/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/kz/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/locales/ru/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/locales/ru/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/practice/practice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/practice/practice.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +195,9 @@
       <workItem from="1764051965680" duration="595000" />
       <workItem from="1764130548402" duration="2454000" />
       <workItem from="1764239881448" duration="3699000" />
-      <workItem from="1764303366232" duration="6612000" />
+      <workItem from="1764303366232" duration="8428000" />
+      <workItem from="1764567427136" duration="160000" />
+      <workItem from="1764913428348" duration="4275000" />
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />
