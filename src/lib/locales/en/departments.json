@@ -74,15 +74,15 @@
           "value": "Higher"
         },
         "graduation": {
-          "label": "Graduation Year and Institution Name",
+          "label": "Institution name and graduation year",
           "value": "2012, Al-Farabi Kazakh National University"
         },
         "specialization": {
-          "label": "Specialization",
+          "label": "Specialty",
           "value": "Information Systems"
         },
         "degree": {
-          "label": "Academic Degree",
+          "label": "Qualification category",
           "value": "Master of Technical Sciences"
         },
         "achievements": {
@@ -447,15 +447,15 @@
           "value": "Higher, Master's"
         },
         "graduation": {
-          "label": "Graduation Year and Institution Name",
+          "label": "Institution name and graduation year",
           "value": "Aktobe Regional State University named after K. Zhubanov, 2014; West Kazakhstan Agrarian-Technical University named after Zhangir Khan, 2018."
         },
         "specialization": {
-          "label": "Specialization",
+          "label": "Specialty",
           "value": "Physics, Electric Power Engineering"
         },
         "degree": {
-          "label": "Academic Degree",
+          "label": "Qualification category",
           "value": "Master of Technical Sciences"
         },
         "achievements": {
@@ -788,15 +788,15 @@
           "value": "Higher"
         },
         "graduation": {
-          "label": "Graduation Year and Institution Name",
+          "label": "Institution name and graduation year",
           "value": "Aktobe Regional University named after K. Zhubanov, 2005"
         },
         "specialization": {
-          "label": "Specialization",
+          "label": "Specialty",
           "value": "Chemical Technology of Organic Substances"
         },
         "degree": {
-          "label": "Academic Degree",
+          "label": "Qualification category",
           "value": "Pedagogue-Expert"
         },
         "achievements": {
@@ -1101,15 +1101,15 @@
           "value": "Higher"
         },
         "graduation": {
-          "label": "Graduation year and name of the educational institution",
+          "label": "Institution name and graduation year",
           "value": "Aktobe Regional University named after K. Zhubanov 2006–2009"
         },
         "specialization": {
-          "label": "Specialization",
+          "label": "Specialty",
           "value": "Jurisprudence"
         },
         "degree": {
-          "label": "Academic Degree",
+          "label": "Qualification category",
           "value": "Teacher-Moderator"
         },
         "achievements": {
@@ -1398,15 +1398,15 @@
           "value": "Higher"
         },
         "graduation": {
-          "label": "Graduation Year and Institution Name",
+          "label": "Institution name and graduation year",
           "value": "Aktobe State University named after K. Zhubanov, 2007."
         },
         "specialization": {
-          "label": "Specialization",
+          "label": "Specialty",
           "value": "Informatics"
         },
         "degree": {
-          "label": "Academic Degree",
+          "label": "Qualification category",
           "value": "Pedagogue-Moderator"
         },
         "achievements": {
@@ -1417,6 +1417,17 @@
       "teachers": {
         "title": "Teaching Staff",
         "list": [
+          {
+            "image": "/img/GM/Ahmetova_A.jpg",
+            "alt": "Teacher photo",
+            "name": "Akhmetova Assemgul Mukhamedzhanovna",
+            "position": "Teacher of the “HS” Department",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["PM 02. Introduction of discursive methods for interactive language learning", "PM 03. Implementation of various types of oral and written translation"]
+            },
+            "experience": "Work experience: 22 years"
+          },
           {
             "image": "/img/GM/Ahmetov_T.jpg",
             "alt": "Teacher photo",
@@ -1435,7 +1446,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Linguistics"]
+              "list": ["PM 02. Introduction of discursive methods for interactive language learning","PM 03. Implementation of various types of oral and written translation"]
             },
             "experience": "Work Experience: 16 years"
           },
@@ -1446,7 +1457,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Finance", "Finance in Scientific and Pedagogical Direction"]
+              "list": ["GCM 3. Application of basic knowledge of economics and the fundamentals of entrepreneurship in professional activities"]
             },
             "experience": "Work Experience: 6 years"
           },
@@ -1457,7 +1468,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["English Language"]
+              "list": ["PM 02. Introduction of discursive methods for interactive language learning","PM 03. Implementation of various types of oral and written translation"]
             },
             "experience": "Work Experience: 30 years"
           },
@@ -1468,7 +1479,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Zootechnics", "Finance and Credit"]
+              "list": ["GCM 3. Application of basic knowledge of economics and the fundamentals of entrepreneurship in professional activities"]
             },
             "experience": "Work Experience: 20 years"
           },
@@ -1479,7 +1490,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Accounting and Analysis", "History and Basics of Law and Economics", "Finance"]
+              "list": ["PM 2. Working with primary documents and monitoring their movement", "PM 3. Recording transactions related to cash flow"]
             },
             "experience": "Work Experience: 29 years"
           },
@@ -1490,7 +1501,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Physical Education"]
+              "list": ["GSD 15. Physical training","BM 01. Development and improvement of physical qualities"]
             },
             "experience": "Work Experience: 29 years"
           },
@@ -1501,7 +1512,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Physical Education"]
+              "list": ["GSD 15. Physical training","BM 01. Development and improvement of physical qualities"]
             },
             "experience": "Work Experience: 37 years"
           },
@@ -1512,7 +1523,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Accounting and Audit", "Economics"]
+              "list": ["PM 2. Working with primary documents and monitoring their movement", "PM 3. Recording transactions related to cash flow"]
             },
             "experience": "Work Experience: 20 years"
           },
@@ -1523,7 +1534,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Accounting and Audit", "Basic Military and Physical Training"]
+              "list": ["GSD 14. Initial military and technological training"]
             },
             "experience": "Work Experience: 24 years"
           },
@@ -1534,7 +1545,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Physical Culture and Sports"]
+              "list": ["GSD 15. Physical training","BM 01. Development and improvement of physical qualities"]
             },
             "experience": "Work Experience: 2 years"
           },
@@ -1545,7 +1556,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Two Foreign Languages", "Finance"]
+              "list": ["PM 02. Implementation of discursive methods for interactive language learning", "PM 03. Performing various types of oral and written translation"]
             },
             "experience": "Work Experience: 2.5 years"
           },
@@ -1556,7 +1567,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Two Foreign Languages", "Master of Pedagogy and Psychology"]
+              "list": ["GSD 4. Foreign language(English)", "PM 02. Implementation of discursive methods for interactive language learning","PM 04. Support and introduction of social media profiles and filling out the content plan in the auto-posting program"]
             },
             "experience": "Work Experience: 15 years"
           },
@@ -1567,7 +1578,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Two Foreign Languages", "Philology"]
+              "list": ["GSD 4. Foreign language(English)", "PM 1. Fluency in spoken and written language with adherence to orthoepic, lexical, and grammatical norms of the language","PM 2. Application of methods of intercultural interaction in business communication"]
             },
             "experience": "Work Experience: 12 years"
           },
@@ -1578,7 +1589,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Physical Education", "Physical Culture and Sports"]
+              "list": ["GSD 15. Physical training", "BM 01. Development and improvement of physical qualities"]
             },
             "experience": "Work Experience: 11 years"
           },
@@ -1589,7 +1600,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Physical Culture and Sports"]
+              "list": ["GSD 15. Physical training", "BM 01. Development and improvement of physical qualities"]
             },
             "experience": "Work Experience: 1 year"
           },
@@ -1600,7 +1611,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Physical Culture and Sports"]
+              "list": ["GSD 15. Physical training", "BM 01. Development and improvement of physical qualities"]
             },
             "experience": "Work Experience: 25 years"
           },
@@ -1611,7 +1622,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Physical Education"]
+              "list": ["GSD 15. Physical training", "BM 01. Development and improvement of physical qualities"]
             },
             "experience": "Work Experience: 35 years"
           },
@@ -1622,7 +1633,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Physical Culture and Sports"]
+              "list": ["GSD 15. Physical training", "BM 01. Development and improvement of physical qualities"]
             },
             "experience": "Work Experience: 1 year"
           },
@@ -1633,7 +1644,7 @@
             "position": "Teacher of the 'HS' Department",
             "subjects": {
               "label": "Subjects",
-              "list": ["Finance and Credit"]
+              "list": ["GCM 3. Application of basic knowledge of economics and the fundamentals of entrepreneurship in professional activities"]
             },
             "experience": "Work Experience: 26 years"
           },

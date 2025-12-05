@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы">
       <change afterPath="$PROJECT_DIR$/src/lib/locales/en/documents.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/lib/locales/kz/documents.json" afterDir="false" />
@@ -19,6 +20,9 @@
       <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/practice/practice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/practice/practice.module.css" afterDir="false" />
     </list>
+=======
+    <list default="true" id="75f80485-f306-47f8-93fa-2b939205d274" name="Changes" comment="добавил бургер меню и отзывы" />
+>>>>>>> 363fe2001d5b021a5f0bdb18db43f03f3512e75b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,13 +109,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructuralSearchPlugin">
     <searchConfiguration name="$name$.tsx" created="1759258767516" uuid="db4b32bb-b2a1-36a8-a896-0d91c20dad28" text="$name$.tsx" recursive="true" caseInsensitive="false" type="TypeScript" dialect="TypeScript JSX" scope_type="PROJECT" scope_descriptor="" history="1">
@@ -195,9 +192,14 @@
       <workItem from="1764051965680" duration="595000" />
       <workItem from="1764130548402" duration="2454000" />
       <workItem from="1764239881448" duration="3699000" />
+<<<<<<< HEAD
       <workItem from="1764303366232" duration="8428000" />
       <workItem from="1764567427136" duration="160000" />
       <workItem from="1764913428348" duration="4275000" />
+=======
+      <workItem from="1764303366232" duration="6612000" />
+      <workItem from="1764509372347" duration="9269000" />
+>>>>>>> 363fe2001d5b021a5f0bdb18db43f03f3512e75b
     </task>
     <task id="LOCAL-00001" summary="добавил бургер меню и отзывы">
       <option name="closed" value="true" />
