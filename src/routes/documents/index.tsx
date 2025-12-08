@@ -104,34 +104,34 @@ function RouteComponent() {
             <div className={styles.documentSection}>
                 <h2 className={styles.sectionTitle}>{t('other')}</h2>
 
-                {/*<div className={styles.documentGroup}>*/}
-                {/*    <div className={styles.documentCard}>*/}
-                {/*        <div className={styles.documentInfo}>*/}
-                {/*            <h3 className={styles.documentTitle}>Сведения по доходам</h3>*/}
-                {/*            <p className={styles.documentDescription}>*/}
-                {/*                Сведения по доходам должностных лиц ГКП "Актюбниский Высший политех. колледж" на ПХВ ГУ "Управление оброзования Актюбинской области"*/}
-                {/*            </p>*/}
-                {/*            <div className={styles.documentMeta}>*/}
-                {/*                <span className={styles.documentType}>PDF</span>*/}
-                {/*                <span className={styles.documentSize}>1 МБ</span>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*        <div className={styles.documentActions}>*/}
-                {/*            <button*/}
-                {/*                className={styles.downloadButton}*/}
-                {/*                onClick={() => {*/}
-                {/*                    const link = document.createElement('a');*/}
-                {/*                    link.href = '/documents/Income_Information.pdf';*/}
-                {/*                    link.download = 'Сведения по доходам.pdf';*/}
-                {/*                    link.click();*/}
-                {/*                }}*/}
-                {/*            >*/}
-                {/*                <span className={styles.downloadIcon}>⬇</span>*/}
-                {/*                {t('download')}*/}
-                {/*            </button>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+                <div className={styles.documentGroup}>
+                    <div className={styles.documentCard}>
+                        <div className={styles.documentInfo}>
+                            <h3 className={styles.documentTitle}>Сведения по доходам</h3>
+                            <p className={styles.documentDescription}>
+                                Сведения по доходам должностных лиц ГКП "Актюбниский Высший политех. колледж" на ПХВ ГУ "Управление оброзования Актюбинской области"
+                            </p>
+                            <div className={styles.documentMeta}>
+                                <span className={styles.documentType}>PDF</span>
+                                <span className={styles.documentSize}>1 МБ</span>
+                            </div>
+                        </div>
+                        <div className={styles.documentActions}>
+                            <button
+                                className={styles.downloadButton}
+                                onClick={() => {
+                                    const link = document.createElement('a');
+                                    link.href = '/documents/Income_Information.pdf';
+                                    link.download = 'Сведения по доходам.pdf';
+                                    link.click();
+                                }}
+                            >
+                                <span className={styles.downloadIcon}>⬇</span>
+                                {t('download')}
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </>
