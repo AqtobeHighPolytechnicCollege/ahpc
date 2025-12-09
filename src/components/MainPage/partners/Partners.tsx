@@ -80,12 +80,12 @@ export default function Partners() {
                 </div>
                 <div className={styles.statDivider}></div>
                 <div className={styles.statItem}>
-                    <span className={styles.statNumber}>5+</span>
+                    <span className={styles.statNumber}>60</span>
                     <span className={styles.statLabel}>{t('Years Experience')}</span>
                 </div>
                 <div className={styles.statDivider}></div>
                 <div className={styles.statItem}>
-                    <span className={styles.statNumber}>100+</span>
+                    <span className={styles.statNumber}>73%</span>
                     <span className={styles.statLabel}>{t('Joint Projects')}</span>
                 </div>
             </div>

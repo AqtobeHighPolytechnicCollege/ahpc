@@ -3,13 +3,16 @@
     flex-direction: column;
     background-color: #000E3B;
     background-image: url('/img/Specials/footer-bg 1.png');
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 40px 20px;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .ftrContentIfo {
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -28,7 +31,7 @@
 
 .ftrInfoBlockTitle h3 {
     font-size: clamp(20px, 2vw, 32px);
-    font-family: 'Inter var', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #f0f0f0;
     font-weight: 500;
 }
@@ -48,7 +51,7 @@
 .ftrInfoBlockInfoContact li {
     color: #f0f0f0;
     font-size: clamp(14px, 1.2vw, 19px);
-    font-family: 'Inter var', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
 
@@ -61,6 +64,7 @@
     padding: 0 20px;
     margin-bottom: 40px;
     box-sizing: border-box;
+    width: 90%;
 }
 
 /* От 1200px до 1600px — уменьшение отступов и шрифтов */

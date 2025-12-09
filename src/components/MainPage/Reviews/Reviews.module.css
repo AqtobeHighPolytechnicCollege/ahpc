@@ -1,6 +1,6 @@
 .reviewsSection {
     padding: 100px 20px;
-    background: linear-gradient(135deg, #2D3748 0%, #1A202C 100%);
+    background-color: #000E3B;
     position: relative;
     overflow: hidden;
 }
@@ -18,7 +18,7 @@
     left: 0;
     width: 400px;
     height: 400px;
-    background: #FFD700;
+    background: #ffffff;
     border-radius: 50%;
     filter: blur(100px);
 }
@@ -99,16 +99,16 @@
 }
 
 .reviewCardInner {
-    background: linear-gradient(135deg, rgba(71, 85, 105, 0.8), rgba(51, 65, 85, 0.8));
+    background-color: white;
     backdrop-filter: blur(20px);
     border: 1px solid rgba(148, 163, 184, 0.5);
-    border-radius: 24px;
+    border-radius: 14px;
     padding: 40px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
 }
 
 .quoteIcon {
-    color: #FFD700;
+    color: #000E3B;
     font-size: 72px;
     font-family: serif;
     line-height: 1;
@@ -117,7 +117,7 @@
 }
 
 .reviewText {
-    color: white;
+    color: #000E3B;
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 24px;
@@ -153,14 +153,14 @@
 }
 
 .reviewAuthor {
-    color: white;
+    color: #000E3B;
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 4px;
 }
 
 .reviewRole {
-    color: #94A3B8;
+    color: #000E3B;
     font-size: 14px;
 }
 
@@ -218,7 +218,7 @@
     width: 48px;
     height: 12px;
     border-radius: 6px;
-    background: #FFD700;
+    background: #ffffff;
 }
 
 .counter {
