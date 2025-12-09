@@ -25,18 +25,7 @@ export default function News () {
 
     return (
         <>
-            <div className={styles.mazzBlock}>
-                <div className={styles.mazzBlock__Item1}></div>
-                <div className={styles.mazzBlock__Item2}></div>
-                <div className={styles.mazzBlock__Item3}></div>
-                <div className={styles.mazzBlock__Item4}></div>
-                <div className={styles.mazzBlock__Item5}></div>
-                <div className={styles.mazzBlock__Item6}></div>
-                <div className={styles.mazzBlock__Item7}></div>
-                <div className={styles.mazzBlock__Item8}></div>
-                <div className={styles.mazzBlock__Item9}></div>
-                <div className={styles.mazzBlock__Item10}></div>
-            </div>
+
             <div className={styles.newsSection} id="news-section">
                 <h1>{t('news')}</h1>
                 <div className={styles.newsContent}>
@@ -83,15 +72,7 @@ export default function News () {
                 </div>
 
             </div>
-            <div className={styles.mazzBlock__Bottom}>
-                <div className={styles.mazzBlock__Bottom__Item1}></div>
-                <div className={styles.mazzBlock__Bottom__Item2}></div>
-                <div className={styles.mazzBlock__Bottom__Item3}></div>
-                <div className={styles.mazzBlock__Bottom__Item4}></div>
-                <div className={styles.mazzBlock__Bottom__Item5}></div>
-                <div className={styles.mazzBlock__Bottom__Item6}></div>
-                <div className={styles.mazzBlock__Bottom__Item7}></div>
-            </div>
+
         </>
     );
 }

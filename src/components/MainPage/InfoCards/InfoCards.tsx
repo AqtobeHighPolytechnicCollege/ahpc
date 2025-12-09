@@ -35,14 +35,7 @@ export default function InfoCards() {
 
     return (
         <div className={styles.infoCards}>
-            <div className={styles.cardsItem}>
-                <div className={styles.itemTitle}>
-                    <h2>№2</h2>
-                </div>
-                <div className={styles.itemSubtitle}>
-                    <h4>{t('collegeInKz')}</h4>
-                </div>
-            </div>
+
 
             <div className={styles.cardsItem}>
                 <div className={styles.itemTitle}>
