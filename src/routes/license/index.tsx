@@ -100,7 +100,7 @@ function RouteComponent() {
 
                     <div className={styles.downloadButtons}>
                         <a
-                            href="/documents/ЛИЦЕНЗИЯ_25005254_ru.pdf"
+                            href="/documents/license_ru.pdf"
                             download="Лицензия_АВПК_русский.pdf"
                             className={styles.downloadButton}
                         >
@@ -112,7 +112,7 @@ function RouteComponent() {
                         </a>
 
                         <a
-                            href="/documents/ЛИЦЕНЗИЯ_25005254_kz.pdf"
+                            href="/documents/license_kz.pdf"
                             download="Лицензия_АВПК_казахский.pdf"
                             className={styles.downloadButton}
                         >
