@@ -25,7 +25,6 @@ import { Route as ExamInfoIndexRouteImport } from './routes/examInfo/index'
 import { Route as EmploymentIndexRouteImport } from './routes/employment/index'
 import { Route as DualEducationIndexRouteImport } from './routes/dualEducation/index'
 import { Route as DocumentsIndexRouteImport } from './routes/documents/index'
-import { Route as DistanceLearningIndexRouteImport } from './routes/distanceLearning/index'
 import { Route as CounteringCorruptionIndexRouteImport } from './routes/counteringCorruption/index'
 import { Route as CorrespondenceIndexRouteImport } from './routes/correspondence/index'
 import { Route as ContestResultsIndexRouteImport } from './routes/contestResults/index'
@@ -121,11 +120,6 @@ const DualEducationIndexRoute = DualEducationIndexRouteImport.update({
 const DocumentsIndexRoute = DocumentsIndexRouteImport.update({
   id: '/documents/',
   path: '/documents/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DistanceLearningIndexRoute = DistanceLearningIndexRouteImport.update({
-  id: '/distanceLearning/',
-  path: '/distanceLearning/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CounteringCorruptionIndexRoute =
@@ -229,7 +223,6 @@ export interface FileRoutesByFullPath {
   '/contestResults': typeof ContestResultsIndexRoute
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
-  '/distanceLearning': typeof DistanceLearningIndexRoute
   '/documents': typeof DocumentsIndexRoute
   '/dualEducation': typeof DualEducationIndexRoute
   '/employment': typeof EmploymentIndexRoute
@@ -264,7 +257,6 @@ export interface FileRoutesByTo {
   '/contestResults': typeof ContestResultsIndexRoute
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
-  '/distanceLearning': typeof DistanceLearningIndexRoute
   '/documents': typeof DocumentsIndexRoute
   '/dualEducation': typeof DualEducationIndexRoute
   '/employment': typeof EmploymentIndexRoute
@@ -300,7 +292,6 @@ export interface FileRoutesById {
   '/contestResults/': typeof ContestResultsIndexRoute
   '/correspondence/': typeof CorrespondenceIndexRoute
   '/counteringCorruption/': typeof CounteringCorruptionIndexRoute
-  '/distanceLearning/': typeof DistanceLearningIndexRoute
   '/documents/': typeof DocumentsIndexRoute
   '/dualEducation/': typeof DualEducationIndexRoute
   '/employment/': typeof EmploymentIndexRoute
@@ -337,7 +328,6 @@ export interface FileRouteTypes {
     | '/contestResults'
     | '/correspondence'
     | '/counteringCorruption'
-    | '/distanceLearning'
     | '/documents'
     | '/dualEducation'
     | '/employment'
@@ -372,7 +362,6 @@ export interface FileRouteTypes {
     | '/contestResults'
     | '/correspondence'
     | '/counteringCorruption'
-    | '/distanceLearning'
     | '/documents'
     | '/dualEducation'
     | '/employment'
@@ -407,7 +396,6 @@ export interface FileRouteTypes {
     | '/contestResults/'
     | '/correspondence/'
     | '/counteringCorruption/'
-    | '/distanceLearning/'
     | '/documents/'
     | '/dualEducation/'
     | '/employment/'
@@ -443,7 +431,6 @@ export interface RootRouteChildren {
   ContestResultsIndexRoute: typeof ContestResultsIndexRoute
   CorrespondenceIndexRoute: typeof CorrespondenceIndexRoute
   CounteringCorruptionIndexRoute: typeof CounteringCorruptionIndexRoute
-  DistanceLearningIndexRoute: typeof DistanceLearningIndexRoute
   DocumentsIndexRoute: typeof DocumentsIndexRoute
   DualEducationIndexRoute: typeof DualEducationIndexRoute
   EmploymentIndexRoute: typeof EmploymentIndexRoute
@@ -573,13 +560,6 @@ declare module '@tanstack/react-router' {
       path: '/documents'
       fullPath: '/documents'
       preLoaderRoute: typeof DocumentsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/distanceLearning/': {
-      id: '/distanceLearning/'
-      path: '/distanceLearning'
-      fullPath: '/distanceLearning'
-      preLoaderRoute: typeof DistanceLearningIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/counteringCorruption/': {
@@ -715,7 +695,6 @@ const rootRouteChildren: RootRouteChildren = {
   ContestResultsIndexRoute: ContestResultsIndexRoute,
   CorrespondenceIndexRoute: CorrespondenceIndexRoute,
   CounteringCorruptionIndexRoute: CounteringCorruptionIndexRoute,
-  DistanceLearningIndexRoute: DistanceLearningIndexRoute,
   DocumentsIndexRoute: DocumentsIndexRoute,
   DualEducationIndexRoute: DualEducationIndexRoute,
   EmploymentIndexRoute: EmploymentIndexRoute,

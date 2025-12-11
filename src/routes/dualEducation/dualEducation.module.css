@@ -207,6 +207,121 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.whoIs {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.whoIs__Text {
+    width: 45%;
+}
+
+.whoIs__Text__Title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.whoIs__Text__Subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
+.whoIs__Text__Link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000E3B;
+    text-decoration: #000E3B;
+    text-decoration-line: underline;
+}
+
+.whoIs__Logo {
+    background-color: #000E3B;
+    padding: 150px 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+    -moz-box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+    box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+}
+
+.forWhat {
+    background-color: #000E3B;
+    border-radius: 0 20px 20px 0;
+    padding: 20px 180px;
+    margin-top: 200px;
+    width: 50%;
+    -webkit-box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+    -moz-box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+    box-shadow: 24px 9px 20px 0px rgba(0, 14, 59, 0.2);
+}
+
+.forWhat__Title {
+    font-size: 48px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.forWhat__Subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.platonus {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000E3B;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.howWork {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 150px;
+    padding: 20px;
+    gap: 150px;
+    align-items: center;
+    -webkit-box-shadow: 15px 12px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 15px 12px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 15px 12px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.howWork__Text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.howWork__Text__Title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #000E3B;
+}
+
+.howWork__Text__List {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 20px;
+}
+
+.howWork__Text__List__Item {
+    display: flex;
+    gap: 10px;
+}
+
+.howWork__Text__List__Item__Stroke {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+}
+
 .dualEducation {
     background-color: #FFFFFF;
     border-radius: 60px 60px 0  0;
@@ -290,6 +405,52 @@ body {
         width: 40px;
     }
 
+    .whoIs__Text__Title {
+        font-size: 36px;
+    }
+
+    .whoIs__Text__Subtitle {
+        font-size: 16px;
+    }
+
+    .whoIs__Text__Link {
+        font-size: 20px;
+    }
+
+    .container {
+        margin: 0 5rem 10rem 5rem;
+    }
+
+    .whoIs__Logo {
+        padding: 100px 20px;
+        width: 40%;
+    }
+
+    .forWhat__Title {
+        font-size: 30px;
+    }
+
+    .forWhat__Subtitle {
+        font-size: 16px;
+    }
+
+    .forWhat {
+        padding: 15px 60px;
+        width: 40%;
+    }
+
+    .howWork__Text__Title {
+        font-size: 40px;
+    }
+
+    .howWork__Text__List__Item__Stroke {
+        font-size: 16px;
+    }
+
+    .howWork__Image {
+        width: 35%;
+    }
+
 
 }
 
@@ -301,7 +462,9 @@ body {
         font-size: 86px;
     }
 
-
+    .forWhat {
+        width:  50%;
+    }
 
 }
 
@@ -350,6 +513,63 @@ body {
     .dualEducation__Block__List {
         gap: 18px;
     }
+
+    .whoIs {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
+    .whoIs__Logo {
+        width: 55%;
+    }
+
+    .whoIs__Text {
+        width: auto;
+    }
+
+    .forWhat {
+        width:  85%;
+        margin-top: 100px;
+    }
+
+    .howWork {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .whoIs__Logo {
+        width: auto;
+    }
+
+    .whoIs__Text__Title {
+        font-size: 30px;
+    }
+
+    .forWhat__Title {
+        font-size: 30px;
+    }
+
+    .forWhat__Subtitle {
+        font-size: 16px;
+    }
+
+    .forWhat {
+        width: auto;
+        border-radius: 0;
+        padding: 15px 20px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .howWork__Text__Title {
+        font-size: 30px;
+    }
+
+    .howWork__Image {
+        display: none;
+    }
+
 
 }
 

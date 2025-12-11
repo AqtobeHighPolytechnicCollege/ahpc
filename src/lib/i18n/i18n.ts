@@ -25,7 +25,6 @@ import ruSchedule from '../locales/ru/schedule.json'
 import ruExamInfo from '../locales/ru/examInfo.json'
 import ruScholarship from '../locales/ru/scholarship.json'
 import ruStudentLive from '../locales/ru/studentLive.json'
-import ruDistancelLearning from '../locales/ru/distancelLearning.json'
 import ruCorrespondence from '../locales/ru/correspondence.json'
 import ruLicense from '../locales/ru/license.json'
 import ruWorldSKills from '../locales/ru/worldSkills.json'
@@ -60,7 +59,6 @@ import kzSchedule from '../locales/kz/schedule.json'
 import kzExamInfo from '../locales/kz/examInfo.json'
 import kzScholarship from '../locales/kz/scholarship.json'
 import kzStudentLive from '../locales/kz/studentLive.json'
-import kzDistancelLearning from '../locales/kz/distancelLearning.json'
 import kzCorrespondence from '../locales/kz/correspondence.json'
 import kzLicense from '../locales/kz/license.json'
 import kzWorldSkills from '../locales/kz/worldSkills.json'
@@ -95,7 +93,6 @@ import enSchedule from '../locales/en/schedule.json'
 import enExamInfo from '../locales/en/examInfo.json'
 import enScholarship from '../locales/en/scholarship.json'
 import enStudentLive from '../locales/en/studentLive.json'
-import enDistancelLearning from '../locales/en/distancelLearning.json'
 import enCorrespondence from '../locales/en/correspondence.json'
 import enLicense from '../locales/en/license.json'
 import enWorldSkills from   '../locales/en/worldSkills.json'
@@ -136,7 +133,6 @@ i18n
                 examInfo: ruExamInfo,
                 scholarship: ruScholarship,
                 studentLive: ruStudentLive,
-                distancelLearning: ruDistancelLearning,
                 correspondence:ruCorrespondence,
                 license: ruLicense,
                 worldSkills: ruWorldSKills,
@@ -173,7 +169,6 @@ i18n
                 examInfo: kzExamInfo,
                 scholarship: kzScholarship,
                 studentLive: kzStudentLive,
-                distancelLearning: kzDistancelLearning,
                 correspondence: kzCorrespondence,
                 license: kzLicense,
                 worldSkills: kzWorldSkills,
@@ -210,7 +205,6 @@ i18n
                 examInfo: enExamInfo,
                 scholarship: enScholarship,
                 studentLive: enStudentLive,
-                distancelLearning: enDistancelLearning,
                 correspondence:enCorrespondence,
                 license: enLicense,
                 worldSkills: enWorldSkills,
@@ -227,7 +221,7 @@ i18n
         fallbackLng: 'kk',
         ns: ['home', 'about', 'reviews', 'partners', 'footer', 'departments', 'collegeManagement', 'sybmols','contacts','companyReviews','charter',
             'collegeHistory', 'counteringCorruption','graduateReviews','media','orders','contestResult','admissionRules', 'dormitory','specials',
-        'schedule','examInfo', 'scholarship','studentLive','distancelLearning','correspondence','license','worldSkills','employemnt','dualEducation',
+        'schedule','examInfo', 'scholarship','studentLive','correspondence','license','worldSkills','employemnt','dualEducation',
         'practice', 'ourGraduates','alumniAssoctiation', 'navbar','documents'],
 
         defaultNS: 'home',

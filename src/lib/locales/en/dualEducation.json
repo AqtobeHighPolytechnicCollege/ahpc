@@ -25,5 +25,16 @@
   "item11": "Extract from the SSC (State Social Insurance Fund)",
   "item12": "Ensure that the professional training level of teachers corresponds to the high level of technical equipment in the production process",
   "item13": "Create an innovative educational and material base",
-  "item14": "Use modern management technologies in the educational process"
+  "item14": "Use modern management technologies in the educational process",
+  "distancelLearning": "Distance Learning",
+  "platonus": "What is Platonus?",
+  "platonusInfo": "Platonus is an online system for learning and interaction between students and teachers.",
+  "platonusLink": "Go to the platform",
+  "forWhat": "What is it used for?",
+  "forWhatInfo": "Assignments and materials are posted here, and students can also submit their work and receive grades.\n                The platform is used for dual education students\n                or during online classes.",
+  "howWork": "How does it work?",
+  "item1": "The teacher uploads an assignment.",
+  "item2": "The student completes the assignment.",
+  "item3": "The teacher checks and gives a grade.",
+  "item4": "The student sees the result in their personal account."
 }

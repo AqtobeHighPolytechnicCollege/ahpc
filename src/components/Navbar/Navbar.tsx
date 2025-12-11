@@ -193,7 +193,6 @@ export default function Header() {
                     <div className="menu-section">
                         <h2>{t('education')}</h2>
                         <ul onClick={toggleMenu}>
-                            <li><Link to="/distanceLearning">{t('distanceLearning')}</Link></li>
                             <li><Link to="/dualEducation">{t('dualEducation')}</Link></li>
                             <li><Link to="/correspondence">{t('correspodence')}</Link></li>
                             <li><Link to="/license">{t('license')}</Link></li>
