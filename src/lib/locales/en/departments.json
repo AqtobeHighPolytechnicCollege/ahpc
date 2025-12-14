@@ -122,7 +122,7 @@
           {
             "image": "/img/IS/Bazarbaeva_Asem.jpg",
             "alt": "Teacher photo",
-            "name": "Aldongarova Kymbat Kannazarovna",
+            "name": "Bazarbaeva Asem Bolisbaevna",
             "position": "Programming Teacher",
             "subjects": {
               "label": "Subjects",
@@ -175,7 +175,7 @@
             "experience": "Work Experience: 19 years"
           },
           {
-            "image": "/img/IS/Adlet.jpg",
+            "image": "/img/IS/Adlet.jpeg",
             "alt": "Teacher photo",
             "name": "Kulbaev Adilet Bisengulovich",
             "position": "Programming Teacher",
@@ -376,6 +376,17 @@
             "image": "/img/IS/Sabit_M.jpeg",
             "alt": "Teacher photo",
             "name": "Sabit Madiyar",
+            "position": "Programming Teacher",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Computing Technology", "Software"]
+            },
+            "experience": "Work Experience: 1 year"
+          },
+          {
+            "image": "/img/IS/Nurina.png",
+            "alt": "Teacher photo",
+            "name": "Nurina Jazira Kalimuhanovna",
             "position": "Programming Teacher",
             "subjects": {
               "label": "Subjects",
