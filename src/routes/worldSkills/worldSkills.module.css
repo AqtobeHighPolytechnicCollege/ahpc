@@ -2,7 +2,9 @@ body {
     background-color: #F0EBFF;
 }
 
-
+/* ============================================
+   HERO SECTION - Оригинальный стиль
+   ============================================ */
 .headContent {
     height: 100vh;
     background-image: url('/img/bg_layout.jpg');
@@ -60,6 +62,9 @@ body {
     margin-bottom: 20px;
 }
 
+/* ============================================
+   CONTAINER
+   ============================================ */
 .container {
     display: flex;
     flex-direction: column;
@@ -75,10 +80,43 @@ body {
     align-items: center;
 }
 
+/* ============================================
+   INFO 2014 SECTION
+   ============================================ */
 .wskInfo2014 {
     display: flex;
     gap: 200px;
     align-items: center;
+    padding: 40px;
+    background: linear-gradient(135deg, rgba(0, 37, 161, 0.03) 0%, transparent 100%);
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.wskInfo2014::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #0025A1 0%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.wskInfo2014:hover::before {
+    opacity: 1;
+}
+
+.wskInfo2014 img {
+    max-width: 350px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.15));
+}
+
+.wskInfo2014:hover img {
+    transform: scale(1.03);
 }
 
 .wskInfo2014__Text {
@@ -91,18 +129,59 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #000E3B;
+    position: relative;
+    display: inline-block;
+}
+
+.wskInfo2014__Text__Title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: #0025A1;
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.wskInfo2014:hover .wskInfo2014__Text__Title::after {
+    width: 100%;
 }
 
 .wskInfo2014__Text__Description {
     font-size: 24px;
     font-weight: 400;
     color: #000E3B;
+    line-height: 1.7;
+    opacity: 0.9;
 }
 
+/* ============================================
+   GOAL SECTION
+   ============================================ */
 .wskGoal {
     display: flex;
     gap: 50px;
     align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, rgba(0, 37, 161, 0.04) 0%, transparent 100%);
+    position: relative;
+}
+
+.wskGoal::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent 0%, #0025A1 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.wskGoal:hover::after {
+    opacity: 1;
 }
 
 .wskGoal__Text {
@@ -115,39 +194,200 @@ body {
     font-size: 24px;
     font-weight: 400;
     color: #000E3B;
+    line-height: 1.8;
+    padding-left: 25px;
+    border-left: 3px solid #0025A1;
+    transition: all 0.3s ease;
+    opacity: 0.9;
 }
 
+.wskGoal__Text__Info:hover {
+    padding-left: 35px;
+    opacity: 1;
+}
+
+.wskGoal img {
+    max-width: 500px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.15));
+}
+
+.wskGoal:hover img {
+    transform: scale(1.03);
+}
+
+/* ============================================
+   QUOTE SECTION
+   ============================================ */
 .wskQuote {
     background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 15px;
+    padding: 40px 50px;
     width: 40%;
+    box-shadow: 0 20px 60px rgba(0, 37, 161, 0.12);
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.wskQuote::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #0025A1 0%, transparent 100%);
+}
+
+.wskQuote:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 80px rgba(0, 37, 161, 0.18);
 }
 
 .wskQuote__Title {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 600;
     color: #000E3B;
+    line-height: 1.6;
 }
 
+/* ============================================
+   CHRONOLOGY SECTION
+   ============================================ */
 .wskChronology {
     background-color: #FFFFFF;
     padding: 150px;
-    border-radius: 20px 20px 0 0;
+    position: relative;
 }
 
-.wskChronology__2015 {
-    background: url('/img/WorldSkills/WSK.png');
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    gap: 70px;
+.wskChronology::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,
+    transparent 0%,
+    #E0E0E0 10%,
+    #E0E0E0 90%,
+    transparent 100%
+    );
 }
 
-.wskChronology__2015__Title {
+/* ============================================
+   YEAR SECTIONS - Общие стили
+   ============================================ */
+.wskChronology__2015,
+.wskChronology__2017,
+.wskChronology__2018,
+.wskChronology__2019,
+.wskChronology__2021,
+.wskChronology__2022,
+.wskChronology__2023,
+.wskChronology__2024,
+.wskChronology__2025 {
+    position: relative;
+    margin-bottom: 150px;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.wskChronology__2015 { animation-delay: 0.1s; }
+.wskChronology__2017 { animation-delay: 0.2s; }
+.wskChronology__2018 { animation-delay: 0.3s; }
+.wskChronology__2019 { animation-delay: 0.4s; }
+.wskChronology__2021 { animation-delay: 0.5s; }
+.wskChronology__2022 { animation-delay: 0.6s; }
+.wskChronology__2023 { animation-delay: 0.7s; }
+.wskChronology__2024 { animation-delay: 0.8s; }
+.wskChronology__2025 { animation-delay: 0.9s; }
+
+/* Заголовки годов */
+.wskChronology__2015__Title,
+.wskChronology__2017__Title,
+.wskChronology__2018__Info__Title,
+.wskChronology__2019__Title,
+.wskChronology__2021__Title,
+.wskChronology__2022__Title,
+.wskChronology__2023__Title,
+.wskChronology__2024__Title,
+.wskChronology__2025__Title {
     font-size: 128px;
     font-weight: 900;
-    color: #000E3B;
+    line-height: 1;
+    margin-bottom: 50px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.wskChronology__2015__Title:hover,
+.wskChronology__2017__Title:hover,
+.wskChronology__2018__Info__Title:hover,
+.wskChronology__2019__Title:hover,
+.wskChronology__2021__Title:hover,
+.wskChronology__2022__Title:hover,
+.wskChronology__2023__Title:hover,
+.wskChronology__2024__Title:hover,
+.wskChronology__2025__Title:hover {
+    transform: translateX(10px);
+}
+
+/* Уникальные цвета для каждого года */
+.wskChronology__2015__Title {
+    color: #667eea;
+}
+
+.wskChronology__2017__Title {
+    color: #E9605A;
+}
+
+.wskChronology__2018__Info__Title {
+    color: #521BC0;
+}
+
+.wskChronology__2019__Title {
+    color: #F9C32F;
+}
+
+.wskChronology__2021__Title {
+    color: #0A8E22;
+}
+
+.wskChronology__2022__Title {
+    color: #e31e73;
+    text-align: right;
+}
+
+.wskChronology__2023__Title {
+    color: #FF6B6B;
+}
+
+.wskChronology__2024__Title {
+    color: #ff731b;
+    text-align: center;
+}
+
+.wskChronology__2025__Title {
+    color: #ef0606;
+}
+
+/* ============================================
+   2015 SECTION
+   ============================================ */
+.wskChronology__2015 {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.03) 0%, transparent 100%);
+    padding: 50px;
 }
 
 .wskChronology__2015__Info {
@@ -159,14 +399,32 @@ body {
 .wskChronology__2015__Info__Block {
     display: flex;
     gap: 100px;
+    align-items: center;
+}
+
+.wskChronology__2015__Info__Block img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: drop-shadow(0 15px 35px rgba(102, 126, 234, 0.15));
+}
+
+.wskChronology__2015__Info__Block:hover img {
+    transform: scale(1.02) translateY(-5px);
 }
 
 .wskChronology__2015__Info__Description {
     font-size: 32px;
     font-weight: 400;
     color: #000E3B;
+    line-height: 1.6;
 }
 
+/* ============================================
+   2017 DIPLOMAS SECTION
+   ============================================ */
 .wskChronology__2017 {
     display: flex;
     flex-direction: column;
@@ -174,21 +432,20 @@ body {
     gap: 70px;
 }
 
-.wskChronology__2017__Title {
-    font-size: 128px;
-    font-weight: 900;
-    color: #E9605A;
-}
-
 .wskChronology__2017__Description {
     font-size: 24px;
     font-weight: 400;
     color: #000E3B;
+    line-height: 1.7;
+    text-align: center;
+    max-width: 1000px;
 }
 
 .wskChronology__2017__Diplomas {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .wskChronology__2017__Diploma {
@@ -196,35 +453,54 @@ body {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    max-width: 350px;
+}
+
+.wskChronology__2017__Diploma:hover {
+    transform: translateY(-10px);
+}
+
+.wskChronology__2017__Diploma img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 15px 35px rgba(233, 96, 90, 0.15));
 }
 
 .wskChronology__2017__Diploma__Text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .wskChronology__2017__Diploma__Text__Competence {
     font-size: 16px;
     font-weight: 700;
-    color: #000E3B;
+    color: #E9605A;
+    margin-bottom: 8px;
 }
 
 .wskChronology__2017__Diploma__Text__Name {
     font-size: 16px;
     font-weight: 400;
     color: #000E3B;
+    margin-bottom: 5px;
 }
 
 .wskChronology__2017__Diploma__Text__Place {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
-    color: #000E3B;
+    color: #666;
 }
 
+/* ============================================
+   2018 SECTION
+   ============================================ */
 .wskChronology__2018 {
     display: flex;
-    gap: 200px
+    gap: 200px;
+    align-items: center;
 }
 
 .wskChronology__2018__Info {
@@ -233,45 +509,59 @@ body {
     gap: 40px;
 }
 
-.wskChronology__2018__Info__Title {
-    font-size: 128px;
-    font-weight: 900;
-    color: #521BC0;
-}
-
 .wskChronology__2018__Info__Subtitle {
     font-size: 20px;
     font-weight: 400;
     color: #000E3B;
+    line-height: 1.7;
 }
 
 .wskChronology__2018__Info__PlaceBlock {
-    background-color: #F6F8FF;
-    border-radius: 20px;
-    padding: 15px;
+    background: linear-gradient(135deg, rgba(82, 27, 192, 0.05) 0%, transparent 100%);
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .wskChronology__2018__Info__PlaceBlock__Text {
     font-size: 20px;
     font-weight: 700;
-    color: #000E3B;
+    color: #521BC0;
+    padding: 15px 0;
+    border-bottom: 2px solid rgba(82, 27, 192, 0.1);
+    transition: all 0.3s ease;
+}
+
+.wskChronology__2018__Info__PlaceBlock__Text:last-child {
+    border-bottom: none;
+}
+
+.wskChronology__2018__Info__PlaceBlock__Text:hover {
+    padding-left: 15px;
+    color: #3d1490;
+}
+
+.wskChronology__2018 > img {
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: drop-shadow(0 20px 45px rgba(82, 27, 192, 0.15));
 }
 
 .wskChronology__2018__Image {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .wskChronology__2018__Image__Block {
     display: flex;
-    background-color: #F6F8FF;
-    padding: 30px;
-    border-radius: 20px;
     gap: 20px;
+    background: linear-gradient(135deg, rgba(82, 27, 192, 0.03) 0%, transparent 100%);
+    padding: 40px;
 }
 
 .wskChronology__2018__Image__Block__LittleImage {
@@ -280,131 +570,221 @@ body {
     gap: 20px;
 }
 
-.wskChronology__2019 {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
+.wskChronology__2018__Image__Block img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    filter: drop-shadow(0 10px 25px rgba(82, 27, 192, 0.1));
 }
 
-.wskChronology__2019__Title {
-    font-size: 129px;
-    font-weight: 900;
-    color: #F9C32F;
+.wskChronology__2018__Image__Block img:hover {
+    transform: scale(1.02);
 }
 
-.wskChronology__2019__Subtitle {
+/* ============================================
+   PARTICIPANT CARDS (2019-2025)
+   ============================================ */
+.wskChronology__2019__Subtitle,
+.wskChronology__2021__Subtitle,
+.wskChronology__2022__Subtitle,
+.wskChronology__2023__Subtitle,
+.wskChronology__2024__Subtitle,
+.wskChronology__2025__Subtitle {
     font-size: 24px;
     font-weight: 400;
     color: #000E3B;
+    line-height: 1.7;
+    margin-bottom: 50px;
+    max-width: 1200px;
 }
 
-.wskChronology__2019__PlaceBlock {
+.wskChronology__2019,
+.wskChronology__2021,
+.wskChronology__2022,
+.wskChronology__2023 {
     display: flex;
-    gap: 50px ;
+    flex-direction: column;
+    gap: 50px;
 }
 
-.wskChronology__2019__PlaceBlock__Item {
+.wskChronology__2019__PlaceBlock,
+.wskChronology__2021__PlaceBlock,
+.wskChronology__2022__PlaceBlock,
+.wskChronology__2023__PlaceBlock,
+.wskChronology__2024__PlaceBlock,
+.wskChronology__2025__PlaceBlock {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wskChronology__2019__PlaceBlock__Item,
+.wskChronology__2021__PlaceBlock__Item,
+.wskChronology__2022__PlaceBlock__Item,
+.wskChronology__2023__PlaceBlock__Item,
+.wskChronology__2024__PlaceBlock__Item,
+.wskChronology__2025__PlaceBlock__Item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 400px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.wskChronology__2019__PlaceBlock__Item__Text {
+.wskChronology__2019__PlaceBlock__Item:hover,
+.wskChronology__2021__PlaceBlock__Item:hover,
+.wskChronology__2022__PlaceBlock__Item:hover,
+.wskChronology__2023__PlaceBlock__Item:hover,
+.wskChronology__2024__PlaceBlock__Item:hover,
+.wskChronology__2025__PlaceBlock__Item:hover {
+    transform: translateY(-10px);
+}
+
+.wskChronology__2024__PlaceBlock__Item__image,
+.wskChronology__2025__PlaceBlock__Item__image {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.wskChronology__2024__PlaceBlock__Item__image img,
+.wskChronology__2025__PlaceBlock__Item__image img {
+    width: calc(50% - 5px);
+    height: 350px;
+    object-fit: cover;
+}
+
+.wskChronology__2019__PlaceBlock__Item img,
+.wskChronology__2021__PlaceBlock__Item img,
+.wskChronology__2022__PlaceBlock__Item img,
+.wskChronology__2023__PlaceBlock__Item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.12));
+    margin-bottom: 20px;
+}
+
+.wskChronology__2024__PlaceBlock__Item > img,
+.wskChronology__2025__PlaceBlock__Item > img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.12));
+    margin-bottom: 20px;
+}
+
+.imageTT {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.wskChronology__2019__PlaceBlock__Item__Text,
+.wskChronology__2021__PlaceBlock__Item__Text,
+.wskChronology__2022__PlaceBlock__Item__Text,
+.wskChronology__2023__PlaceBlock__Item__Text,
+.wskChronology__2024__PlaceBlock__Item__Text,
+.wskChronology__2025__PlaceBlock__Item__Text {
     display: flex;
     flex-direction: column;
     text-align: center;
     max-width: 400px;
 }
 
-.wskChronology__2019__PlaceBlock__Item__Text__Name {
-    font-size: 32px;
-    font-weight: 800;
-    color: #000E3B;
-}
-
-.imageTT {
-    width: 400px;
-    height: 506px;
-}
-
-.wskChronology__2019__PlaceBlock__Item__Text__Competence {
+.wskChronology__2019__PlaceBlock__Item__Text__Name,
+.wskChronology__2021__PlaceBlock__Item__Text__Name,
+.wskChronology__2022__PlaceBlock__Item__Text__Name,
+.wskChronology__2023__PlaceBlock__Item__Text__Name,
+.wskChronology__2024__PlaceBlock__Item__Text__Name,
+.wskChronology__2025__PlaceBlock__Item__Text__Name {
     font-size: 24px;
     font-weight: 800;
     color: #000E3B;
+    margin-bottom: 10px;
 }
 
-.wskChronology__2021 {
-    display: flex;
-    flex-direction: column;
+.wskChronology__2019__PlaceBlock__Item__Text__Competence,
+.wskChronology__2021__PlaceBlock__Item__Text__Competence,
+.wskChronology__2022__PlaceBlock__Item__Text__Competence {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
 }
 
-.wskChronology__2021__Title {
-    font-size: 128px;
-    font-weight: 900;
-    color: #0A8E22;
+.wskChronology__2021__PlaceBlock__Item__Text__Place,
+.wskChronology__2023__PlaceBlock__Item__Text__Place,
+.wskChronology__2024__PlaceBlock__Item__Text__Place,
+.wskChronology__2025__PlaceBlock__Item__Text__Place {
+    font-size: 16px;
+    font-weight: 700;
+    color: #999;
+    line-height: 1.5;
+    margin-bottom: 12px;
 }
 
-.wskChronology__2021__Subtitle {
-    font-size: 24px;
-    font-weight: 400;
-    color: #000E3B;
-}
-
+/* Специальные стили для 2021 года */
 .wskChronology__2021__PlaceBlock__Container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 60px;
 }
 
-.wskChronology__2021__PlaceBlock {
-    display: flex;
-    gap: 100px;
-}
-
-.wskChronology__2021__PlaceBlock__Item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-}
-
-.wskChronology__2021__PlaceBlock__Item__Text {
+/* ============================================
+   СЕКЦИИ 2024 И 2025
+   ============================================ */
+.wskChronology__2024,
+.wskChronology__2025 {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    gap: 50px;
 }
 
-.wskChronology__2021__PlaceBlock__Item__Text__Place {
-    font-size: 24px;
-    font-weight: 700;
-    color: #000E3B;
+/* ============================================
+   ФОТО ГАЛЕРЕЯ
+   ============================================ */
+.wskChronology__2024__PlaceBlock:last-child,
+.wskChronology__2025__PlaceBlock:last-child {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
 }
 
-.wskChronology__2021__PlaceBlock__Item__Text__Competence {
-    font-size: 24px;
-    font-weight: 400;
-    color: #000E3B;
+.wskChronology__2024__PlaceBlock:last-child img,
+.wskChronology__2025__PlaceBlock:last-child img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.1));
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.wskChronology__2021__PlaceBlock__Item__Text__Name {
-    font-size: 24px;
-    font-weight: 400;
-    color: #000E3B;
+.wskChronology__2024__PlaceBlock:last-child img:hover,
+.wskChronology__2025__PlaceBlock:last-child img:hover {
+    transform: scale(1.03) translateY(-8px);
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
 }
 
-/* =============================
-   LARGE DEVICES — max-width: 1199px (ноутбуки)
-   ============================= */
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+/* LARGE DEVICES — max-width: 1199px */
 @media (max-width: 1199px) {
     .headContent h1 {
         font-size: 100px;
     }
 
+    .container {
+        margin: 8rem 3rem;
+    }
 
     .wskInfo2014 {
-        gap: 10px;
+        gap: 100px;
     }
 
     .wskInfo2014__Text__Title {
@@ -420,106 +800,56 @@ body {
     }
 
     .wskGoal img {
-        width: 500px;
+        max-width: 450px;
     }
 
     .wskQuote__Title {
         font-size: 24px;
     }
 
-    .wskChronology__2017 {
-        gap: 50px;
+    .wskChronology {
+        padding: 100px 60px;
     }
 
-    .wskChronology__2018__Info {
-        gap: 50px;
-    }
-
-    .wskChronology__2018  {
-        gap: 0;
-    }
-
-    .wskChronology__2018 img {
-        width: 500px;
-        height: 500px;
+    .wskChronology::before {
+        left: 60px;
     }
 
     .wskChronology__2015__Title,
     .wskChronology__2017__Title,
     .wskChronology__2018__Info__Title,
     .wskChronology__2019__Title,
-    .wskChronology__2021__Title {
-        font-size: 80px;
+    .wskChronology__2021__Title,
+    .wskChronology__2022__Title,
+    .wskChronology__2023__Title,
+    .wskChronology__2024__Title,
+    .wskChronology__2025__Title {
+        font-size: 100px;
     }
 
-    .wskChronology__2015__Info__Description,
-    .wskChronology__2017__Description,
-    .wskChronology__2018__Info__Description,
-    .wskChronology__2019__Subtitle {
-        font-size: 24px;
+    .wskChronology__2018 {
+        gap: 80px;
     }
-
-    .wskChronology__2017__Diploma__Text__Name {
-        text-align: center;
-    }
-
-    .wskChronology__2018__Info__PlaceBlock__Text {
-        font-size: 16px;
-    }
-
-    .wskChronology__2019__PlaceBlock__Item__Text__Name {
-        font-size: 24px;
-    }
-
-    .wskChronology__2019__PlaceBlock__Item__Text__Competence {
-        font-size: 16px;
-    }
-
-    .wskChronology__2019__PlaceBlock__Item img {
-       max-height: 250px;
-        max-width: 250px;
-    }
-
-    .wskChronology__2019__PlaceBlock__Item {
-        max-width: 300px;
-    }
-
-    .wskChronology__2021 {
-        gap: 20px;
-    }
-
-    .wskChronology__2021__PlaceBlock__Item {
-        max-width: 400px;
-    }
-
-    .wskChronology__2021__PlaceBlock__Item__Text__Place {
-        font-size: 20px;
-    }
-
-    .wskChronology__2021__PlaceBlock__Item__Text__Competence {
-        font-size: 20px;
-    }
-
-    .wskChronology__2021__PlaceBlock__Item__Text__Name {
-        font-size: 20px;
-    }
-
-    .wskChronology__2021__PlaceBlock__Container {
-        gap: 20px;
-    }
-
 }
 
-/* =============================
-   MEDIUM DEVICES — max-width: 991px (планшеты)
-   ============================= */
+/* MEDIUM DEVICES — max-width: 991px */
 @media (max-width: 991px) {
     .headContent h1 {
         font-size: 86px;
     }
 
+    .container {
+        margin: 6rem 2rem;
+    }
+
+    .wskInfo2014 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
     .wskGoal {
         flex-direction: column-reverse;
+        gap: 40px;
     }
 
     .wskQuote {
@@ -527,17 +857,34 @@ body {
     }
 
     .wskChronology {
-        padding: 50px;
+        padding: 80px 40px;
     }
 
+    .wskChronology::before {
+        left: 40px;
+    }
 
+    .wskChronology__2015__Title,
+    .wskChronology__2017__Title,
+    .wskChronology__2018__Info__Title,
+    .wskChronology__2019__Title,
+    .wskChronology__2021__Title,
+    .wskChronology__2022__Title,
+    .wskChronology__2023__Title,
+    .wskChronology__2024__Title,
+    .wskChronology__2025__Title {
+        font-size: 80px;
+    }
+
+    .wskChronology__2018 {
+        flex-direction: column;
+        gap: 50px;
+    }
 }
 
-/* =============================
-   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
-   ============================= */
+/* SMALL DEVICES — max-width: 575px */
 @media (max-width: 575px) {
-    .container{
+    .container {
         margin: 5rem 1rem;
         justify-content: center;
     }
@@ -545,7 +892,7 @@ body {
     .headContent h1 {
         font-size: 54px;
     }
-    
+
     .wskInfoSection {
         gap: 100px;
     }
@@ -555,23 +902,7 @@ body {
     }
 
     .wskInfo2014 img {
-        max-width: 60%;
-    }
-
-    .wskChronology__2015__Info__Block {
-        flex-direction: column;
-    }
-
-    .wskChronology__2017__Diplomas {
-        flex-direction: column;
-    }
-
-    .wskChronology__2018 {
-        flex-direction: column-reverse;
-    }
-
-    .wskChronology__2019__PlaceBlock {
-        flex-direction: column;
+        max-width: 100%;
     }
 
     .wskInfo2014__Text__Title {
@@ -583,7 +914,7 @@ body {
     }
 
     .wskGoal img {
-        width: 300px;
+        max-width: 100%;
     }
 
     .wskGoal__Text__Info {
@@ -591,95 +922,107 @@ body {
     }
 
     .wskQuote {
-        width: 80%;
+        width: 90%;
     }
 
     .wskQuote__Title {
         font-size: 20px;
     }
 
+    .wskChronology {
+        padding: 60px 20px;
+    }
+
+    .wskChronology::before {
+        left: 20px;
+    }
+
     .wskChronology__2015__Title,
     .wskChronology__2017__Title,
     .wskChronology__2018__Info__Title,
     .wskChronology__2019__Title,
-    .wskChronology__2021__Title {
+    .wskChronology__2021__Title,
+    .wskChronology__2022__Title,
+    .wskChronology__2023__Title,
+    .wskChronology__2024__Title,
+    .wskChronology__2025__Title {
         font-size: 60px;
     }
 
-    .wskChronology__2015__Info__Block img {
-        max-width: 300px;
-    }
-
     .wskChronology__2015__Info__Block {
-        align-items: center;
-    }
-
-    .wskChronology__2015__Info,
-    .wskChronology__2015__Info__Block {
-        gap: 50px;
-    }
-
-
-
-    .wskChronology__2015__Info__Description,
-    .wskChronology__2017__Description,
-    .wskChronology__2018__Info__Description,
-    .wskChronology__2019__Subtitle {
-        font-size: 20px;
-    }
-
-    .wskChronology__2017__Diploma img {
-        max-width: 150px;
-    }
-
-    .wskChronology__2018 img {
-        width: 400px;
-        height: 400px;
-    }
-
-    .wskChronology__2018__Info__Subtitle {
-        font-size: 16px;
-    }
-
-    .wskChronology__2021__PlaceBlock {
         flex-direction: column;
+        gap: 40px;
     }
 
-    .wskChronology__2021__Subtitle {
-        font-size: 16px;
+    .wskChronology__2015__Info__Block img {
+        max-width: 100%;
     }
 
-    .wskChronology__2021__PlaceBlock__Item__Text__Name,
-    .wskChronology__2021__PlaceBlock__Item__Text__Competence {
-        font-size: 16px;
+    .wskChronology__2015__Info {
+        gap: 60px;
     }
 
-
-}
-
-/* =============================
-   VERY SMALL DEVICES — max-width: 375px
-   ============================= */
-@media (max-width: 375px) {
-    .headContent h1 {
-        font-size: 40px;
-    }
-    .container {
-        margin: 5rem 1rem;
+    .wskChronology__2015__Info__Description {
+        font-size: 20px;
     }
 
     .wskChronology__2017__Diplomas {
         flex-direction: column;
     }
 
-    .wskQuote {
-        width: auto;
+    .wskChronology__2017__Diploma {
+        max-width: 100%;
     }
 
-    .wskChronology__2021__PlaceBlock {
+    .wskChronology__2018 > img {
+        max-width: 100%;
+    }
+
+    .wskChronology__2018__Info__Subtitle {
+        font-size: 16px;
+    }
+
+    .wskChronology__2018__Image__Block {
         flex-direction: column;
+        padding: 20px;
     }
 
+    .wskChronology__2019__PlaceBlock,
+    .wskChronology__2021__PlaceBlock,
+    .wskChronology__2022__PlaceBlock,
+    .wskChronology__2023__PlaceBlock,
+    .wskChronology__2024__PlaceBlock,
+    .wskChronology__2025__PlaceBlock {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .wskChronology__2024__PlaceBlock:last-child,
+    .wskChronology__2025__PlaceBlock:last-child {
+        grid-template-columns: 1fr;
+    }
+}
 
+/* VERY SMALL DEVICES — max-width: 375px */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        margin: 5rem 1rem;
+    }
+
+    .wskQuote {
+        width: 100%;
+        padding: 30px 25px;
+    }
+
+    .wskChronology {
+        padding: 40px 15px;
+    }
+
+    .wskChronology::before {
+        left: 15px;
+    }
 }

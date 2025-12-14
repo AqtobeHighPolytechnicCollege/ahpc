@@ -189,6 +189,224 @@ function RouteComponent() {
         </div>
         </div>
       </section>
+      <section className={styles.wskChronology__2022}>
+        <h1 className={styles.wskChronology__2022__Title}>2022</h1>
+        <p className={styles.wskChronology__2022__Subtitle}>В 2022 году студенты нашего колледжа приняли участие в
+          региональном чемпионате «WorldSkills Актобе-2022» и стали победителями Гран-при по 10 компетенциям и получили
+          путевку на национальный чемпионат.
+          «WorldSkills Kazakhstan 2022» на VII республиканском чемпионате профессионального мастерства в 2022 году
+          колледж принял участие по 9 компетенциям. По итогам национального чемпионата стали победителями в 5
+          компетенциях и добился следующих успехов: 1 золотая медаль, 2 бронзовая медаль, 3 медальон «Лучший специалист»
+          Благодаря этим результатам колледж занял 1-е место по области, а Актюбинская область поднялась на 6-е место на
+          республиканском уровне.
+        </p>
+        <div className={styles.wskChronology__2022__PlaceBlock__Container}>
+          <div className={styles.wskChronology__2022__PlaceBlock}>
+            <div className={styles.wskChronology__2022__PlaceBlock__Item}>
+              <img src="/img/WorldSkills/image231.png" alt="WorldSkills2022"/>
+              <div className={styles.wskChronology__2022__PlaceBlock__Item__Text}>
+                <p className={styles.wskChronology__2022__PlaceBlock__Item__Text__Place}>1 место по компетенции
+                  «Мобильная робототехника»</p>
+                <h2 className={styles.wskChronology__2022__PlaceBlock__Item__Text__Name}>Убниев Бекзат, Койшыбаев
+                  Багыжан</h2>
+              </div>
+            </div>
+            <div className={styles.wskChronology__2022__PlaceBlock__Item}>
+              <img src="/img/WorldSkills/image333.jpg" alt="WorldSkills2022"/>
+              <div className={styles.wskChronology__2022__PlaceBlock__Item__Text}>
+                <p className={styles.wskChronology__2022__PlaceBlock__Item__Text__Place}>3 место по компетенции
+                  «Инженерная графика CAD» </p>
+                <h2 className={styles.wskChronology__2022__PlaceBlock__Item__Text__Name}>Чабанов Кирилл</h2>
+              </div>
+            </div>
+            <div className={styles.wskChronology__2022__PlaceBlock__Item}>
+              <img src="/img/WorldSkills/image321.png" alt="WorldSkills2022"/>
+              <div className={styles.wskChronology__2022__PlaceBlock__Item__Text}>
+                <p className={styles.wskChronology__2022__PlaceBlock__Item__Text__Place}> 3 место по компетенции
+                  «Электроника» </p>
+                <h2 className={styles.wskChronology__2022__PlaceBlock__Item__Text__Name}>Муслиев Сержан</h2>
+              </div>
+            </div>
+
+            <div className={styles.wskChronology__2022__PlaceBlock__Item}>
+              <img src="/img/WorldSkills/ramzan.jpg" alt="WorldSkills2022"/>
+              <div className={styles.wskChronology__2022__PlaceBlock__Item__Text}>
+                <p className={styles.wskChronology__2022__PlaceBlock__Item__Text__Place}> Обладатель медальона «Лучший
+                  специалист»
+                  по компетенции «ІТ решение для бизнеса»
+                </p>
+                <h2 className={styles.wskChronology__2022__PlaceBlock__Item__Text__Name}>Абдуллин Рамзан</h2>
+              </div>
+            </div>
+            <div className={styles.wskChronology__2022__PlaceBlock__Item}>
+              <img src="/img/WorldSkills/beka.jpg" alt="WorldSkills2022"/>
+              <div className={styles.wskChronology__2022__PlaceBlock__Item__Text}>
+                <p className={styles.wskChronology__2022__PlaceBlock__Item__Text__Place}> Обладатель медальона «Лучший
+                  специалист»
+                  по компетенции «Сетевое и системное администрирование»
+                </p>
+                <h2 className={styles.wskChronology__2022__PlaceBlock__Item__Text__Name}>Күшербаев Бекзат</h2>
+              </div>
+            </div>
+            <div className={styles.wskChronology__2022__PlaceBlock__Item}>
+              <img src="/img/WorldSkills/roma.jpg" alt="WorldSkills2022"/>
+              <div className={styles.wskChronology__2022__PlaceBlock__Item__Text}>
+                <p className={styles.wskChronology__2022__PlaceBlock__Item__Text__Place}>Обладатель медальона «Лучший специалист»
+                  по компетенции  «Графический дизайн»
+                </p>
+                <h2 className={styles.wskChronology__2022__PlaceBlock__Item__Text__Name}>Соколов Роман</h2>
+              </div>
+            </div>
+          </div>
+          <div className={styles.wskChronology__2022__PlaceBlock}>
+            <div className={styles.wskChronology__2022__PlaceBlock__Item}>
+              <img src="/img/WorldSkills/wsk22.jpg" alt="WorldSkills2022"/>
+              <p className={styles.wskChronology__2022__PlaceBlock__Item__Text__Name}>«WorldSkills Kazakhstan 2022» на VII республиканском чемпионате участники с директором колледжа</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.wskChronology__2023}>
+        <h1 className={styles.wskChronology__2023__Title}>2023</h1>
+        <p className={styles.wskChronology__2023__Subtitle}>В 2023 году студенты нашего колледжа приняли участие в региональном чемпионате "WorldSkills Актобе-2023" и стали победителями Гран-при по 15 компетенциям и получили путевку на национальный чемпионат.
+          «WorldSkills Kazakhstan 2023» на VIIІ республиканском чемпионате профессионального мастерства в 2023 году колледж принял участие по 9 компетенциям. По итогам национального чемпионата 3 участника были награждены медальоном «Лучший специалист».
+        </p>
+        <div className={styles.wskChronology__2023__PlaceBlock}>
+          <div className={styles.wskChronology__2023__PlaceBlock__Item}>
+            <img src="/img/WorldSkills/erasim&nugrali.png" alt="WorldSkills2023"/>
+            <div className={styles.wskChronology__2023__PlaceBlock__Item__Text}>
+              <p className={styles.wskChronology__2023__PlaceBlock__Item__Text__Place}>Обладатель медальона «Лучший
+                специалист»
+                по компетенции «Мобильная робототехника»
+              </p>
+              <p className={styles.wskChronology__2023__PlaceBlock__Item__Text__Name}>Ерсайм Әділет, Нургали Аян</p>
+            </div>
+          </div>
+          <div className={styles.wskChronology__2023__PlaceBlock__Item}>
+            <img src="/img/WorldSkills/daniel.jpg" alt="WorldSkills2023"/>
+            <div className={styles.wskChronology__2023__PlaceBlock__Item__Text}>
+              <p className={styles.wskChronology__2023__PlaceBlock__Item__Text__Place}>Обладатель медальона «Лучший
+                специалист»
+                по компетенции «Разработка мобильных приложений»
+              </p>
+              <p className={styles.wskChronology__2023__PlaceBlock__Item__Text__Name}>Уразбаев Даниэль</p>
+            </div>
+          </div>
+          <div className={styles.wskChronology__2023__PlaceBlock__Item}>
+            <img src="/img/WorldSkills/shiraz.jpg" alt="WorldSkills2023"/>
+            <div className={styles.wskChronology__2023__PlaceBlock__Item__Text}>
+              <p className={styles.wskChronology__2023__PlaceBlock__Item__Text__Place}>Обладатель медальона «Лучший специалист»
+                по компетенции «Графический дизайн».
+              </p>
+              <p className={styles.wskChronology__2023__PlaceBlock__Item__Text__Name}>Муратов Шираз</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.wskChronology__2024}>
+        <h1 className={styles.wskChronology__2024__Title}>2024</h1>
+        <p className={styles.wskChronology__2024__Subtitle}>В 2024 году студенты нашего колледжа приняли участие в региональном чемпионате «WorldSkills Актобе-2024» и стали победителями Гран-при по 10 компетенциям и получили путевку на национальный чемпионат.
+          «WorldSkills Kazakhstan 2024» на республиканском чемпионате профессионального мастерства в 2024 году колледж принял участие по 9 компетенциям. По итогам национального чемпионата стали победителями в 2 компетенциях и добился следующих успехов: 1 золотая медаль, 1 серебряная медаль.
+        </p>
+        <div className={styles.wskChronology__2024__PlaceBlock}>
+          <div className={styles.wskChronology__2024__PlaceBlock__Item}>
+            <img src="/img/WorldSkills/nurtai.png" alt="WorldSkills2024"/>
+            <div className={styles.wskChronology__2024__PlaceBlock__Item__Text}>
+              <p className={styles.wskChronology__2024__PlaceBlock__Item__Text__Place}>1 место по компетенции
+                «ИТ-решения для бизнеса»
+              </p>
+              <p className={styles.wskChronology__2024__PlaceBlock__Item__Text__Name}>Казиев Нуртай</p>
+            </div>
+          </div>
+          <div className={styles.wskChronology__2024__PlaceBlock__Item}>
+            <div className={styles.wskChronology__2024__PlaceBlock__Item__image}>
+              <img src="/img/WorldSkills/bagzhan.png" alt="WorldSkills2024"/>
+              <img src="/img/WorldSkills/bagzhan1.png" alt="WorldSkills2024"/>
+            </div>
+              <div className={styles.wskChronology__2024__PlaceBlock__Item__Text}>
+                <p className={styles.wskChronology__2024__PlaceBlock__Item__Text__Place}>2 место по компетенции «Графический дизайн».
+                  Участник Международного чемпионата «Eurо skills-2025»
+                </p>
+                <p className={styles.wskChronology__2024__PlaceBlock__Item__Text__Name}>Койшыбаев Багыжан</p>
+              </div>
+          </div>
+        </div>
+        <div className={styles.wskChronology__2024__PlaceBlock}>
+          <div className={styles.wskChronology__2024__PlaceBlock__Item}>
+            <img src="/img/WorldSkills/wsk24.png" alt="WorldSkills2024"/>
+            <div className={styles.wskChronology__2024__PlaceBlock__Item__Text}>
+              <p className={styles.wskChronology__2024__PlaceBlock__Item__Text__Name}>«WorldSkills Kazakhstan 2024» на республиканском чемпионате победители с директором колледжа</p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.wskChronology__2024__PlaceBlock}>
+            <img src="/img/WorldSkills/1.jpg" alt="WorldSkills2024"/>
+            <img src="/img/WorldSkills/2.jpg" alt="WorldSkills2024"/>
+            <img src="/img/WorldSkills/3.jpg" alt="WorldSkills2024"/>
+            <img src="/img/WorldSkills/4.jpg" alt="WorldSkills2024"/>
+            <img src="/img/WorldSkills/5.jpg" alt="WorldSkills2024"/>
+            <img src="/img/WorldSkills/6.jpg" alt="WorldSkills2024"/>
+            <img src="/img/WorldSkills/7.jpg" alt="WorldSkills2024"/>
+            <img src="/img/WorldSkills/8.jpg" alt="WorldSkills2024"/>
+        </div>
+      </section>
+      <section className={styles.wskChronology__2025}>
+        <h1 className={styles.wskChronology__2025__Title}>2025</h1>
+        <p className={styles.wskChronology__2025__Subtitle}>В 2025 году студенты нашего колледжа приняли участие в
+          региональном чемпионате «WorldSkills Актобе-2025» и стали победителями Гран-при по 22 компетенциям и получили
+          путевку на национальный чемпионат.
+          «WorldSkills Kazakhstan 2025» на Х республиканском чемпионате профессионального мастерства в 2025 году колледж
+          принял участие по 9 компетенциям. По итогам национального чемпионата стали победителями в 3 компетенциях и
+          добился следующих успехов: 1 серебряная медаль, 1 бронзовая медаль,
+        </p>
+        <div className={styles.wskChronology__2025__PlaceBlock}>
+          <div className={styles.wskChronology__2025__PlaceBlock__Item}>
+            <div className={styles.wskChronology__2025__PlaceBlock__Item__image}>
+              <img src="/img/WorldSkills/ayana.jpg" alt="WorldSkills2025"/>
+              <img src="/img/WorldSkills/ayana1.jpg" alt="WorldSkills2025"/>
+            </div>
+            <div className={styles.wskChronology__2025__PlaceBlock__Item__Text}>
+              <p className={styles.wskChronology__2025__PlaceBlock__Item__Text__Place}>2 место по компетенции
+                «Графический дизайн»
+              </p>
+              <p className={styles.wskChronology__2025__PlaceBlock__Item__Text__Name}>Ұлықпанова Аяна Жанболатқызы</p>
+            </div>
+          </div>
+          <div className={styles.wskChronology__2025__PlaceBlock__Item}>
+            <img src="/img/WorldSkills/akmarzhan.jpg" alt="WorldSkills2025"/>
+            <div className={styles.wskChronology__2025__PlaceBlock__Item__Text}>
+              <p className={styles.wskChronology__2025__PlaceBlock__Item__Text__Place}>3 место по компетенции
+                Автоматизация бизнес процессов
+                на платформе 1 С
+              </p>
+              <p className={styles.wskChronology__2025__PlaceBlock__Item__Text__Name}>Тілеубаева Ақмаржан Көбесқызы</p>
+            </div>
+          </div>
+          <div className={styles.wskChronology__2025__PlaceBlock__Item}>
+            <div className={styles.wskChronology__2025__PlaceBlock__Item__image}>
+              <img src="/img/WorldSkills/kemaladin.png" alt="WorldSkills2025"/>
+              <img src="/img/WorldSkills/kemaladin1.png" alt="WorldSkills2025"/>
+            </div>
+            <div className={styles.wskChronology__2025__PlaceBlock__Item__Text}>
+              <p className={styles.wskChronology__2025__PlaceBlock__Item__Text__Place}>Обладатель медальона «Лучший
+                специалист»
+                по компетенции «3D моделирование в компьютерных играх».
+              </p>
+              <p className={styles.wskChronology__2025__PlaceBlock__Item__Text__Name}>Ораз Кемаладдин</p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.wskChronology__2025__PlaceBlock}>
+          <img src="/img/WorldSkills/11.png" alt="WorldSkills2025"/>
+          <img src="/img/WorldSkills/12.png" alt="WorldSkills2025"/>
+          <img src="/img/WorldSkills/13.png" alt="WorldSkills2025"/>
+          <img src="/img/WorldSkills/14.png" alt="WorldSkills2025"/>
+          <img src="/img/WorldSkills/15.png" alt="WorldSkills2025"/>
+          <img src="/img/WorldSkills/16.png" alt="WorldSkills2025"/>
+          <img src="/img/WorldSkills/17.png" alt="WorldSkills2025"/>
+
+        </div>
+      </section>
     </section>
   </>
 }
