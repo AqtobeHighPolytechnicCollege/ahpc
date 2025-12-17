@@ -645,14 +645,13 @@ body {
 .wskChronology__2024__PlaceBlock__Item__image,
 .wskChronology__2025__PlaceBlock__Item__image {
     display: flex;
+    flex-direction: column;
     gap: 10px;
     width: 100%;
 }
 
 .wskChronology__2024__PlaceBlock__Item__image img,
 .wskChronology__2025__PlaceBlock__Item__image img {
-    width: calc(50% - 5px);
-    height: 350px;
     object-fit: cover;
 }
 
