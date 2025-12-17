@@ -617,6 +617,7 @@ body {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    align-items: flex-end;
     justify-content: center;
 }
 
