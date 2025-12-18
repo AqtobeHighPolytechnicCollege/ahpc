@@ -15,11 +15,11 @@ function RouteComponent() {
         { year: '2016-2017', graduates: 409, employed: 391, rate: 96 },
         { year: '2017-2018', graduates: 402, employed: 360, rate: 90 },
         { year: '2018-2019', graduates: 345, employed: 315, rate: 91 },
-        { year: '2019-2020', graduates: 378, employed: 299, rate: 79 },
-        { year: '2020-2021', graduates: 420, employed: 248, rate: 59 },
-        { year: '2021-2022', graduates: 420, employed: 399, rate: 88.3},
-        { year: '2022-2023', graduates: 470, employed: 217, rate: 46.2 },
-        { year: '2023-2024', graduates: 434, employed: 256, rate: 59 },
+        { year: '2019-2020', graduates: 378, employed: 299, rate: 92.1 },
+        { year: '2020-2021', graduates: 420, employed: 248, rate: 91 },
+        { year: '2021-2022', graduates: 452, employed: 399, rate: 88.3},
+        { year: '2022-2023', graduates: 470, employed: 217, rate: 71 },
+        { year: '2023-2024', graduates: 434, employed: 256, rate: 79 },
         { year: '2024-2025', graduates: 493, employed: 396, rate: 80.3}
     ];
 

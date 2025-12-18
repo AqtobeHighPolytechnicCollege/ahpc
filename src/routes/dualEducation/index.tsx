@@ -21,12 +21,6 @@ function RouteComponent() {
         <h1 className={styles.dualInfo__Title}>{t('dualEducationSystem')}</h1>
         <p className={styles.dualInfo__Subtitle}>{t('dualEducationSystemInfo')}</p>
         <p className={styles.dualInfo__Subtitle}>{t('consilium')}</p>
-        <ul className={styles.dualInfo__List}>
-          <li className={styles.dualInfo__List__Item}>{t('leadStudents')}</li>
-          <li className={styles.dualInfo__List__Item}>{t('haveDocs')}</li>
-        </ul>
-        <p className={styles.dualInfo__Text}>{t('dualInfo1')}</p>
-        <p className={styles.dualInfo__Text}>{t('dualInfo2')}</p>
       </div>
       <section className={styles.dualStatistic}>
         <h2 className={styles.dualStatistic__Title}>{t('dualStatistic')}</h2>
@@ -61,6 +55,11 @@ function RouteComponent() {
             <div className={styles.statisticCard__Number}>193</div>
             <div className={styles.statisticCard__Label}>{t('students')}</div>
           </div>
+            <div className={styles.statisticCard}>
+                <div className={styles.statisticCard__Year}>2024-2025</div>
+                <div className={styles.statisticCard__Number}>440</div>
+                <div className={styles.statisticCard__Label}>{t('students')}</div>
+            </div>
         </div>
       </section>
         <h1 className={styles.platonus}>Platonus</h1>
