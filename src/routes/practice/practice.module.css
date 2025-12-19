@@ -1,7 +1,6 @@
 body {
-    background-color: #F0EBFF;
+    background-color: #FFFFFF;
 }
-
 
 .headContent {
     height: 100vh;
@@ -63,115 +62,294 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 80px;
     margin: 10rem 5rem;
     flex-wrap: wrap;
+    background-color: #FFFFFF;
 }
 
 .educationalPractice {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
+    padding: 60px 40px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 14, 59, 0.08);
 }
 
 .educationalPractice__Info {
     display: flex;
-    gap: 150px;
+    gap: 80px;
     align-items: center;
+    width: 100%;
+}
+
+.educationalPractice__Info img {
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 14, 59, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.educationalPractice__Info img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 14, 59, 0.18);
 }
 
 .educationalPractice__Info__Text {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 24px;
+    flex: 1;
 }
 
 .educationalPractice__Info__Text__Title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
 }
 
 .educationalPractice__Info__Text__Description {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    opacity: 0.9;
 }
 
 .educationalPractice__ImageBLocks {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
+    width: 100%;
 }
 
 .educationalPractice__ImageBlock {
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.educationalPractice__ImageBlock img {
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 14, 59, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+}
+
+.educationalPractice__ImageBlock img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 24px rgba(0, 14, 59, 0.18);
 }
 
 .educationalPractice__Word {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 24px;
+    padding: 40px;
+    background-color: #F8F9FF;
+    border-radius: 12px;
+    border-left: 4px solid #000E3B;
+    width: 100%;
 }
 
 .educationalPractice__Word__Text {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    opacity: 0.9;
 }
 
 .pregraduatePractice {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
+    padding: 60px 40px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 14, 59, 0.08);
 }
 
 .pregraduatePractice__Title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
 }
 
 .pregraduatePractice__Description {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    opacity: 0.9;
 }
 
 .pregraduatePractice__Image {
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .pregraduatePractice__Image__Item {
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 10px;
+    gap: 16px;
+    max-width: 600px;
 }
 
 .pregraduatePractice__Image__Item img {
-    max-width: 756px;
-    max-height: 495px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 14, 59, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pregraduatePractice__Image__Item img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 14, 59, 0.18);
 }
 
 .pregraduatePractice__Image__Subtitle {
     font-size: 16px;
     font-weight: 400;
     color: #000E3B;
-    max-width: 756px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    opacity: 0.85;
 }
 
+/* Excourse Section Styles */
+.excourse {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 60px 40px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 14, 59, 0.08);
+}
+
+.excourse__Text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.excourse__Text__Paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    opacity: 0.9;
+    text-align: justify;
+}
+
+.excourse__Text__List {
+    list-style: none;
+    padding-left: 0;
+    margin: 16px 0;
+}
+
+.excourse__Text__List__Item {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    opacity: 0.9;
+    padding-left: 32px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.excourse__Text__List__Item::before {
+    content: "•";
+    color: #000E3B;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    left: 12px;
+    top: -2px;
+}
+
+.excourse img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 14, 59, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+.excourse img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 24px rgba(0, 14, 59, 0.18);
+}
+
+.excourse__ImageBlock {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+
+.excourse__ImageBlock img {
+    flex: 1;
+    min-width: 280px;
+    max-width: 480px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 14, 59, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.excourse__ImageBlock img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 24px rgba(0, 14, 59, 0.18);
+}
 
 /* =============================
-   LARGE DEVICES — max-width: 1199px (ноутбуки)
+   LARGE DEVICES – max-width: 1199px (ноутбуки)
    ============================= */
 @media (max-width: 1199px) {
     .headContent h1 {
         font-size: 100px;
+    }
+
+    .container {
+        margin: 8rem 3rem;
+        gap: 60px;
+    }
+
+    .educationalPractice,
+    .pregraduatePractice,
+    .excourse {
+        padding: 50px 30px;
+    }
+
+    .educationalPractice__Info {
+        gap: 60px;
     }
 
     .educationalPractice__ImageBlock img {
@@ -179,10 +357,9 @@ body {
     }
 
     .pregraduatePractice__Image__Item img {
-        height: 300px;
+        max-width: 480px;
     }
-    
-    
+
     .educationalPractice__Info__Text__Title,
     .pregraduatePractice__Title {
         font-size: 40px;
@@ -194,15 +371,38 @@ body {
         font-size: 18px;
     }
 
-
+    .excourse__Text__Paragraph,
+    .excourse__Text__List__Item {
+        font-size: 17px;
+    }
 }
 
 /* =============================
-   MEDIUM DEVICES — max-width: 991px (планшеты)
+   MEDIUM DEVICES – max-width: 991px (планшеты)
    ============================= */
 @media (max-width: 991px) {
     .headContent h1 {
         font-size: 86px;
+    }
+
+    .container {
+        margin: 6rem 2rem;
+        gap: 50px;
+    }
+
+    .educationalPractice,
+    .pregraduatePractice,
+    .excourse {
+        padding: 40px 24px;
+    }
+
+    .educationalPractice__Info {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .educationalPractice__Info img {
+        max-width: 400px;
     }
 
     .educationalPractice__ImageBlock img {
@@ -210,11 +410,7 @@ body {
     }
 
     .pregraduatePractice__Image__Item img {
-        height: 250px;
-    }
-
-    .educationalPractice__Info img {
-        max-width: 250px;
+        max-width: 400px;
     }
 
     .educationalPractice__Info__Text__Title,
@@ -225,73 +421,160 @@ body {
     .educationalPractice__Info__Text__Description,
     .educationalPractice__Word__Text,
     .pregraduatePractice__Description {
-        font-size: 14px;
+        font-size: 16px;
     }
 
+    .excourse__Text__Paragraph,
+    .excourse__Text__List__Item {
+        font-size: 16px;
+    }
+
+    .excourse__ImageBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .excourse__ImageBlock img {
+        max-width: 100%;
+    }
 }
 
 /* =============================
-   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   SMALL DEVICES – max-width: 575px (смартфоны)
    ============================= */
 @media (max-width: 575px) {
-    .container{
+    .container {
         margin: 5rem 1rem;
         justify-content: center;
+        gap: 40px;
     }
 
     .headContent h1 {
         font-size: 54px;
     }
 
-    .educationalPractice {
-        gap: 50px;
+    .educationalPractice,
+    .pregraduatePractice,
+    .excourse {
+        padding: 30px 20px;
+        gap: 32px;
     }
 
-    .educationalPractice__ImageBlock_ {
-        flex-wrap: wrap;
-        justify-content: center;
+    .educationalPractice {
+        gap: 40px;
+    }
+
+    .educationalPractice__Info {
+        gap: 32px;
+    }
+
+    .educationalPractice__ImageBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educationalPractice__ImageBlock img {
+        width: 100%;
+        max-width: 100%;
     }
 
     .educationalPractice__Info img {
         display: none;
     }
 
-    .pregraduatePractice__Image {
-        flex-direction: column;
+    .educationalPractice__Word {
+        padding: 24px;
     }
 
-    .educationalPractice__ImageBlock {
+    .pregraduatePractice__Image {
         flex-direction: column;
+        align-items: center;
+        gap: 32px;
     }
 
     .pregraduatePractice__Image__Item {
-        max-width: 300px;
-        height: auto;
+        max-width: 100%;
     }
 
-    .pregraduatePractice__Image {
-        align-items: center;
+    .pregraduatePractice__Image__Item img {
+        max-width: 100%;
     }
 
+    .educationalPractice__Info__Text__Title,
+    .pregraduatePractice__Title {
+        font-size: 28px;
+    }
 
+    .educationalPractice__Info__Text__Description,
+    .educationalPractice__Word__Text,
+    .pregraduatePractice__Description {
+        font-size: 15px;
+    }
+
+    .excourse__Text__Paragraph,
+    .excourse__Text__List__Item {
+        font-size: 15px;
+    }
+
+    .excourse__Text__List__Item {
+        padding-left: 28px;
+    }
+
+    .excourse__Text__List__Item::before {
+        left: 8px;
+        font-size: 20px;
+    }
+
+    .excourse img {
+        max-width: 100%;
+    }
+
+    .excourse__ImageBlock {
+        gap: 16px;
+    }
+
+    .excourse__ImageBlock img {
+        min-width: 100%;
+        max-width: 100%;
+    }
 }
 
 /* =============================
-   VERY SMALL DEVICES — max-width: 375px
+   VERY SMALL DEVICES – max-width: 375px
    ============================= */
 @media (max-width: 375px) {
     .headContent h1 {
         font-size: 40px;
     }
+
     .container {
-        margin: 5rem 1rem;
+        margin: 4rem 1rem;
+        gap: 32px;
     }
 
-    .pregraduatePractice__Image__Item img {
-        height: 200px;
+    .educationalPractice,
+    .pregraduatePractice,
+    .excourse {
+        padding: 24px 16px;
     }
 
+    .educationalPractice__Info__Text__Title,
+    .pregraduatePractice__Title {
+        font-size: 24px;
+    }
 
+    .educationalPractice__Info__Text__Description,
+    .educationalPractice__Word__Text,
+    .pregraduatePractice__Description {
+        font-size: 14px;
+    }
 
+    .excourse__Text__Paragraph,
+    .excourse__Text__List__Item {
+        font-size: 14px;
+    }
 
+    .pregraduatePractice__Image__Subtitle {
+        font-size: 14px;
+    }
 }
