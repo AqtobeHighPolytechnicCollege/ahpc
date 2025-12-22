@@ -27,7 +27,7 @@ export async function fetchExamsList(locale: string) {
     if (locale === 'kk') strapiLocale = 'kk';
     if (locale === 'en') strapiLocale = 'en';
 
-    const response = await fetch(`/api/exams?locale=${strapiLocale}&populate=*&sort=start_datetime:asc`);
+    const response = await fetch(`/api/exams?locale=${strapiLocale}&populate=*&sort=createdAt:asc`);
     if (!response.ok) {
         throw new Error('Ошибка при загрузке экзаменов');
     }
