@@ -12,10 +12,10 @@ function RouteComponent() {
     usePageTitle(t('schedule'),[i18n.language, t]);
 
     const scheduleFiles = [
-        { course: t('course_1'), filename: '/documents/schedule/schedule_1_course.xlsx' },
-        { course: t('course_2'), filename: '/documents/schedule/schedule_2_course.xlsx' },
-        { course: t('course_3'), filename: '/documents/schedule/schedule_3_course.xlsx' },
-        { course: t('course_4'), filename: '/documents/schedule/schedule_4_course.xlsx' }
+        { course: t('course_1'), filename: '/documents/schedule/1course.pdf' },
+        { course: t('course_2'), filename: '/documents/schedule/2course.pdf' },
+        { course: t('course_3'), filename: '/documents/schedule/3course.pdf' },
+        { course: t('course_4'), filename: '/documents/schedule/4course.pdf' }
     ];
 
     const classTimes = [
