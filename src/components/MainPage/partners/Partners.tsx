@@ -8,18 +8,19 @@ export default function Partners() {
     const [hoveredCard, setHoveredCard] = useState(null);
 
     const partners = [
+        { filename: 'astanaHub.png', name: 'Astana Hub' },
+        { filename: 'ERG.png', name: 'ERG' },
+        { filename: 'talap.png', name: 'Talap'},
+        { filename: 'aqtobeHub.png', name: 'Aqtobe Hub' },
+        { filename: 'daService .png', name: 'Da Service'},
         { filename: 'CD.png', name: 'CD Company' },
         { filename: 'alina.png', name: 'Alina' },
-        { filename: 'aqtobeHub.png', name: 'Aqtobe Hub' },
         { filename: 'aqtobeJeo.png', name: 'Aqtobe Jeo' },
-        { filename: 'ERG.png', name: 'ERG' },
         { filename: 'ICA.png', name: 'ICA' },
-        { filename: 'astanaHub.png', name: 'Astana Hub' },
         { filename: 'enegrosistema.png', name: 'Enegrosistema' },
         { filename: 'kegoc.png', name: 'KEGOC' },
         { filename: 'kuktas.png', name: 'Kuktas' },
-        { filename: 'uzhpromsnab.png', name: 'Uzhpromsnab' },
-        { filename: 'daService .png', name: 'Da Service'}
+        { filename: 'uzhpromsnab.png', name: 'Uzhpromsnab' }
     ];
 
     return (
@@ -76,7 +77,7 @@ export default function Partners() {
             {/* Статистика партнерства */}
             <div className={styles.statsSection}>
                 <div className={styles.statItem}>
-                    <span className={styles.statNumber}>11+</span>
+                    <span className={styles.statNumber}>156</span>
                     <span className={styles.statLabel}>{t('Active Partners')}</span>
                 </div>
                 <div className={styles.statDivider}></div>
