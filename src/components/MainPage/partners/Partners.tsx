@@ -19,6 +19,7 @@ export default function Partners() {
         { filename: 'kegoc.png', name: 'KEGOC' },
         { filename: 'kuktas.png', name: 'Kuktas' },
         { filename: 'uzhpromsnab.png', name: 'Uzhpromsnab' },
+        { filename: 'daService .png', name: 'Da Service'}
     ];
 
     return (
