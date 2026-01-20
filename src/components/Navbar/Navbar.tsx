@@ -5,7 +5,7 @@ import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from 'react';
 
 const langs = {
-    "ru-RU": "RU",
+    "ru": "RU",
     "kk": "KZ",
     "en": "EN",
 };

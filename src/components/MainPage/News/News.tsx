@@ -4,17 +4,19 @@ import {useEffect, useState} from "react";
 import {fetchNewsList} from "@/lib/api.ts";
 import {Link} from "@tanstack/react-router";
 
+// Базовый URL для изображений
+const API_BASE_URL = 'https://api.ahpc.edu.kz';
+
 export default function News () {
     const { t, i18n } = useTranslation('home');
     const [newsList, setNewsList] = useState<any>(null);
     const [error, setError] = useState<string | null>(null);
     const currentLang = i18n.language
 
-
     useEffect(() => {
         fetchNewsList(currentLang)
             .then((data) => {
-                console.log(data);
+                console.log('Данные новостей:', data);
                 setNewsList(data)
             })
             .catch((error) => setError('Ошибка при загрузке новостей'));
@@ -25,22 +27,38 @@ export default function News () {
 
     return (
         <>
-
             <div className={styles.newsSection} id="news-section">
                 <h1>{t('news')}</h1>
                 <div className={styles.newsContent}>
                     <div className={styles.newsList}>
                         {newsList.slice(0, 4).map((item) => {
-
                             const {id} = item;
-                            const imageUrl = item.Photo?.url
-                            const imageName = item.Photo?.name
-                            const article = item.Article
-                            const itemDate = item.Date
-                            const shortDescription = item.Short_description
-                            const title = item.title
-                            const nid = item.documentId
 
+                            // Получаем URL фото с учетом разных вариантов структуры
+                            const photoData = item.photo || item.Photo;
+                            let imageUrl = '';
+
+                            if (photoData) {
+                                // Если это объект с url
+                                if (photoData.url) {
+                                    imageUrl = photoData.url.startsWith('http')
+                                        ? photoData.url
+                                        : `${API_BASE_URL}${photoData.url}`;
+                                }
+                                // Если это массив (media library)
+                                else if (Array.isArray(photoData) && photoData.length > 0 && photoData[0].url) {
+                                    imageUrl = photoData[0].url.startsWith('http')
+                                        ? photoData[0].url
+                                        : `${API_BASE_URL}${photoData[0].url}`;
+                                }
+                            }
+
+                            const imageName = photoData?.name || photoData?.[0]?.name || 'news image';
+                            const article = item.article || item.Article || '';
+                            const itemDate = item.date || item.Date || '';
+                            const shortDescription = item.short_description || item.Short_description || '';
+                            const title = item.title || '';
+                            const nid = item.documentId;
 
                             return <div className={styles.newsCard} key={id}>
                                 <Link to={`/news/${nid}`}>
@@ -55,24 +73,20 @@ export default function News () {
                                             </div>
                                         </div>
                                         <div className={styles.newsImage}>
-                                            <img src={imageUrl} alt={imageName}/>
+                                            {imageUrl && <img src={imageUrl} alt={imageName}/>}
                                         </div>
                                     </div>
                                 </Link>
                             </div>
                         })}
                     </div>
-
-
                 </div>
                 <div className={styles.newsFooter}>
                     <div className={styles.newsButton}>
                         <Link to={'/news'}>{t('watchAll')}</Link>
                     </div>
                 </div>
-
             </div>
-
         </>
     );
 }

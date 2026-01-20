@@ -108,7 +108,7 @@ i18n
     .use(initReactI18next)
     .init({
         resources: {
-            'ru-RU': {
+            'ru': {
                 home: ruHome,
                 news: ruNews,
                 reviews: ruReviews,
@@ -217,7 +217,7 @@ i18n
                 documents: enDocuments,
             }
         },
-        lng: 'ru-RU',
+        lng: 'ru',
         fallbackLng: 'kk',
         ns: ['home', 'about', 'reviews', 'partners', 'footer', 'departments', 'collegeManagement', 'sybmols','contacts','companyReviews','charter',
             'collegeHistory', 'counteringCorruption','graduateReviews','media','orders','contestResult','admissionRules', 'dormitory','specials',

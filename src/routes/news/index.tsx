@@ -1,14 +1,16 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { useTranslation } from 'react-i18next';
-import { useState, useEffect } from 'react'; // <--- Добавь эту строку
-import { Link } from '@tanstack/react-router'; // если Link используется
-import { fetchNewsList } from '../../lib/api'; // убедись, что этот путь корректный
+import { useState, useEffect } from 'react';
+import { Link } from '@tanstack/react-router';
+import { fetchNewsList } from '../../lib/api';
 import styles from '../../styles/newspage.module.css';
 import { usePageTitle} from "@/components/usePageTitile.tsx";
 
+// Базовый URL для изображений
+const API_BASE_URL = 'https://api.ahpc.edu.kz';
 
 export const Route = createFileRoute('/news/')({
-  component: NewsPage,
+    component: NewsPage,
 })
 
 function NewsPage() {
@@ -16,22 +18,29 @@ function NewsPage() {
     const { t, i18n } = useTranslation('news');
     const [newsList, setNewsList] = useState<any>(null);
     const [error, setError] = useState<string | null>(null);
-    const [query, setQuery] = useState<string>(''); // для хранения ввода
+    const [query, setQuery] = useState<string>('');
     const currentLang = i18n.language;
 
     useEffect(() => {
         fetchNewsList(currentLang)
             .then((data) => {
+                console.log('Полученные данные:', data);
                 setNewsList(data);
             })
             .catch(() => setError('Ошибка при загрузке новостей'));
     }, [currentLang]);
 
-    // Функция фильтрации новостей по заголовку (или любому полю)
+    // Функция фильтрации новостей
     const filteredList = newsList
-        ? newsList.filter((item: any) =>
-            item.Arcticle.toLowerCase().includes(query.toLowerCase())
-        )
+        ? newsList.filter((item: any) => {
+            // Проверяем разные варианты названия поля
+            const article = item.article || item.Article || '';
+            const title = item.title || '';
+            const shortDesc = item.short_description || item.Short_description || '';
+
+            const searchText = `${article} ${title} ${shortDesc}`.toLowerCase();
+            return searchText.includes(query.toLowerCase());
+        })
         : [];
 
     if (error)
@@ -51,7 +60,7 @@ function NewsPage() {
         <div className={styles.headContent}>
             <h1>{t('News')}</h1>
 
-            {/* ===== Строка поиска ===== */}
+            {/* Строка поиска */}
             <div className={styles.searchWrapper}>
                 <div className={styles.searchInputWrapper}>
                     <input
@@ -78,23 +87,41 @@ function NewsPage() {
                 </div>
             </div>
 
-            {/* ========================== */}
-
             <div className={styles.newsContent}>
                 <div className={styles.newsCardList}>
                     {filteredList.map((item: any) => {
                         const {id} = item;
-                        const imageUrl =item.Photo?.url;
-                        const imageName = item.Photo?.name;
-                        const article = item.Article;
-                        const itemDate = item.Date;
-                        const shortDescription = item.Short_description;
+
+                        // Получаем URL фото с учетом разных вариантов структуры
+                        const photoData = item.photo || item.Photo;
+                        let imageUrl = '';
+
+                        if (photoData) {
+                            // Если это объект с url
+                            if (photoData.url) {
+                                imageUrl = photoData.url.startsWith('http')
+                                    ? photoData.url
+                                    : `${API_BASE_URL}${photoData.url}`;
+                            }
+                            // Если это массив (media library)
+                            else if (Array.isArray(photoData) && photoData.length > 0 && photoData[0].url) {
+                                imageUrl = photoData[0].url.startsWith('http')
+                                    ? photoData[0].url
+                                    : `${API_BASE_URL}${photoData[0].url}`;
+                            }
+                        }
+
+                        const imageName = photoData?.name || photoData?.[0]?.name || 'news image';
+                        const article = item.article || item.Article || '';
+                        const itemDate = item.date || item.Date || '';
+                        const shortDescription = item.short_description || item.Short_description || '';
                         const nid = item.documentId;
+
                         return (
                             <div className={styles.newsCard} key={id}>
                                 <div className={styles.newsLeftInfo}>
-                                <div className={styles.newsImage}>
-                                        <img src={imageUrl} alt={imageName} />
+                                    <div className={styles.newsImage}>
+                                        {imageUrl && <img src={imageUrl} alt={imageName} />}
                                     </div>
                                 </div>
                                 <div className={styles.newsRightInfo}>
@@ -125,5 +152,3 @@ function NewsPage() {
         </div>
     );
 }
-
-
