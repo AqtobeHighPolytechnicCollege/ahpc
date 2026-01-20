@@ -465,6 +465,27 @@ body {
     text-align: right;
 }
 
+.examSchedule__LoadMore {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.examSchedule__LoadMore__Button {
+    padding: 12px 32px;
+    background-color: #000E3B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.examSchedule__LoadMore__Button:hover {
+    background-color: #01154e;
+}
+
 /* =============================
    LARGE DEVICES – max-width: 1199px (ноутбуки)
    ============================= */

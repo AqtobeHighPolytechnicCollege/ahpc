@@ -38,6 +38,7 @@ function RouteComponent() {
     const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedDate, setSelectedDate] = useState('');
+    const [visibleCount, setVisibleCount] = useState(6); // Количество видимых экзаменов
     const targetRef = useRef(null);
 
     const scrollToExam = () => {
@@ -46,8 +47,6 @@ function RouteComponent() {
             block: "start"
         });
     };
-
-
 
     useEffect(() => {
         const loadExams = async () => {
@@ -69,7 +68,6 @@ function RouteComponent() {
         return exams.filter(exam => {
             const searchLower = searchQuery.toLowerCase();
 
-            // Поиск по всем полям
             const matchesSearch =
                 exam.group?.toLowerCase().includes(searchLower) ||
                 exam.subject?.toLowerCase().includes(searchLower) ||
@@ -77,13 +75,25 @@ function RouteComponent() {
                 exam.room?.toLowerCase().includes(searchLower) ||
                 exam.event_type?.name?.toLowerCase().includes(searchLower);
 
-            // Фильтрация по дате
             const matchesDate = !selectedDate ||
                 new Date(exam.start_datetime).toISOString().split('T')[0] === selectedDate;
 
             return matchesSearch && matchesDate;
         });
     }, [exams, searchQuery, selectedDate]);
+
+    // Сбрасываем счетчик при изменении фильтров
+    useEffect(() => {
+        setVisibleCount(6);
+    }, [searchQuery, selectedDate]);
+
+    // Экзамены для отображения
+    const visibleExams = filteredExams.slice(0, visibleCount);
+    const hasMore = visibleCount < filteredExams.length;
+
+    const loadMore = () => {
+        setVisibleCount(prev => prev + 6);
+    };
 
     const formatDateTime = (dateString: string) => {
         const date = new Date(dateString);
@@ -211,50 +221,62 @@ function RouteComponent() {
                         <h1 className={styles.examSchedule__Block__NoFound__Title}>{t('notFound')}</h1>
                     </>
                 ) : (
-                    <div className={styles.examSchedule__Cards}>
-                        {filteredExams.map((exam) => {
-                            const { date, time } = formatDateTime(exam.start_datetime);
-                            return (
-                                <div key={exam.id} className={styles.examCard}>
-                                    <div className={styles.examCard__Header}>
-                                        <span className={styles.examCard__Type}>
-                                            {exam.event_type.name}
-                                        </span>
-                                        <span className={styles.examCard__Group}>
-                                            {exam.group}
-                                        </span>
+                    <>
+                        <div className={styles.examSchedule__Cards}>
+                            {visibleExams.map((exam) => {
+                                const { date, time } = formatDateTime(exam.start_datetime);
+                                return (
+                                    <div key={exam.id} className={styles.examCard}>
+                                        <div className={styles.examCard__Header}>
+                                            <span className={styles.examCard__Type}>
+                                                {exam.event_type.name}
+                                            </span>
+                                            <span className={styles.examCard__Group}>
+                                                {exam.group}
+                                            </span>
+                                        </div>
+
+                                        <h3 className={styles.examCard__Subject}>
+                                            {exam.subject}
+                                        </h3>
+
+                                        <div className={styles.examCard__Info}>
+                                            <div className={styles.examCard__InfoRow}>
+                                                <span className={styles.examCard__Label}>{t('teacher')}:</span>
+                                                <span className={styles.examCard__Value}>{exam.teacher}</span>
+                                            </div>
+
+                                            <div className={styles.examCard__InfoRow}>
+                                                <span className={styles.examCard__Label}>{t('date')}:</span>
+                                                <span className={styles.examCard__Value}>{date}</span>
+                                            </div>
+
+                                            <div className={styles.examCard__InfoRow}>
+                                                <span className={styles.examCard__Label}>{t('time')}:</span>
+                                                <span className={styles.examCard__Value}>{time}</span>
+                                            </div>
+
+                                            <div className={styles.examCard__InfoRow}>
+                                                <span className={styles.examCard__Label}>{t('room')}:</span>
+                                                <span className={styles.examCard__Value}>{exam.room}</span>
+                                            </div>
+                                        </div>
                                     </div>
+                                );
+                            })}
+                        </div>
 
-                                    <h3 className={styles.examCard__Subject}>
-                                        {exam.subject}
-                                    </h3>
-
-                                    <div className={styles.examCard__Info}>
-                                        <div className={styles.examCard__InfoRow}>
-                                            <span className={styles.examCard__Label}>{t('teacher')}:</span>
-                                            <span className={styles.examCard__Value}>{exam.teacher}</span>
-                                        </div>
-
-                                        <div className={styles.examCard__InfoRow}>
-                                            <span className={styles.examCard__Label}>{t('date')}:</span>
-                                            <span className={styles.examCard__Value}>{date}</span>
-                                        </div>
-
-                                        <div className={styles.examCard__InfoRow}>
-                                            <span className={styles.examCard__Label}>{t('time')}:</span>
-                                            <span className={styles.examCard__Value}>{time}</span>
-                                        </div>
-
-
-                                        <div className={styles.examCard__InfoRow}>
-                                            <span className={styles.examCard__Label}>{t('room')}:</span>
-                                            <span className={styles.examCard__Value}>{exam.room}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
+                        {hasMore && (
+                            <div className={styles.examSchedule__LoadMore}>
+                                <button
+                                    className={styles.examSchedule__LoadMore__Button}
+                                    onClick={loadMore}
+                                >
+                                    {t('showMore') || 'Показать ещё'}
+                                </button>
+                            </div>
+                        )}
+                    </>
                 )}
             </div>
         </section>
