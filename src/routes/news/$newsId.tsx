@@ -55,9 +55,9 @@ function NewsDetail() {
 
     const imageName = photoData?.name || photoData?.[0]?.name || 'news image';
     const title = news.title || '';
-    const itemDate = news.date || news.Date || '';
+    const itemDate = news.date || news.date || '';
     const shortDescription = news.short_description || news.Short_description || '';
-    const article = news.article || news.Article || '';
+    const article = news.arcticle || news.arcticle || '';
 
     return (
         <div className={styles.newsContainer}>

@@ -34,9 +34,9 @@ function NewsPage() {
     const filteredList = newsList
         ? newsList.filter((item: any) => {
             // Проверяем разные варианты названия поля
-            const article = item.article || item.Article || '';
+            const article = item.article || item.article || '';
             const title = item.title || '';
-            const shortDesc = item.short_description || item.Short_description || '';
+            const shortDesc = item.short_description || item.short_description || '';
 
             const searchText = `${article} ${title} ${shortDesc}`.toLowerCase();
             return searchText.includes(query.toLowerCase());

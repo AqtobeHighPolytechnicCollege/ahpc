@@ -54,9 +54,9 @@ export default function News () {
                             }
 
                             const imageName = photoData?.name || photoData?.[0]?.name || 'news image';
-                            const article = item.article || item.Article || '';
-                            const itemDate = item.date || item.Date || '';
-                            const shortDescription = item.short_description || item.Short_description || '';
+                            const article = item.article || item.article || '';
+                            const itemDate = item.date || item.date || '';
+                            const shortDescription = item.short_description || item.short_description || '';
                             const title = item.title || '';
                             const nid = item.documentId;
 
