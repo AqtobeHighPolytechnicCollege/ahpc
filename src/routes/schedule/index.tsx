@@ -57,30 +57,31 @@ function RouteComponent() {
 
             {/* Секция скачивания расписаний */}
             <div className={styles.downloadSection}>
-                <h2>{t('download_title')}</h2>
-                <p>{t('download_description')}</p>
+                <h1>Скачивание не доступно</h1>
+                {/*<h2>{t('download_title')}</h2>*/}
+                {/*<p>{t('download_description')}</p>*/}
 
-                <div className={styles.downloadGrid}>
-                    {scheduleFiles.map((file) => (
-                        <div key={file.course} className={styles.downloadCard}>
-                            <div className={styles.courseTitle}>
-                                <h3>{file.course}</h3>
-                            </div>
-                            <a
-                                href={file.filename}
-                                download
-                                className={styles.downloadButton}
-                            >
-                                <svg className={styles.downloadIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                                    <polyline points="7,10 12,15 17,10" />
-                                    <line x1="12" y1="15" x2="12" y2="3" />
-                                </svg>
-                                {t('download_button')}
-                            </a>
-                        </div>
-                    ))}
-                </div>
+                {/*<div className={styles.downloadGrid}>*/}
+                {/*    {scheduleFiles.map((file) => (*/}
+                {/*        <div key={file.course} className={styles.downloadCard}>*/}
+                {/*            <div className={styles.courseTitle}>*/}
+                {/*                <h3>{file.course}</h3>*/}
+                {/*            </div>*/}
+                {/*            <a*/}
+                {/*                href={file.filename}*/}
+                {/*                download*/}
+                {/*                className={styles.downloadButton}*/}
+                {/*            >*/}
+                {/*                <svg className={styles.downloadIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor">*/}
+                {/*                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />*/}
+                {/*                    <polyline points="7,10 12,15 17,10" />*/}
+                {/*                    <line x1="12" y1="15" x2="12" y2="3" />*/}
+                {/*                </svg>*/}
+                {/*                {t('download_button')}*/}
+                {/*            </a>*/}
+                {/*        </div>*/}
+                {/*    ))}*/}
+                {/*</div>*/}
                 {/* Дополнительная информация */}
                 <div className={styles.additionalInfo}>
                     <h3>{t('important_info_title')}</h3>
