@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(tree *)",
+      "Bash(dir C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\public\\\\documents\\\\olimpiada *)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\public\\\\documents\\\\olimpiada\" -Recurse -File | ForEach-Object { $_.FullName })"
+    ]
+  }
+}

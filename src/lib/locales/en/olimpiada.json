@@ -1,0 +1,25 @@
+{
+  "pageTitle": "Olympiad 2026",
+  "subtitle": "Results of the Olympiad 2026",
+  "regulation": {
+    "title": "Olympiad Regulations",
+    "description": "Official regulations for the 2026 College Olympiad",
+    "download": "Download Regulations"
+  },
+  "stats": {
+    "firstPlace": "1st Place Diplomas",
+    "secondPlace": "2nd Place Diplomas",
+    "thirdPlace": "3rd Place Diplomas",
+    "thankYou": "Letters of Gratitude"
+  },
+  "sections": {
+    "first": { "title": "1st Place Diplomas" },
+    "second": { "title": "2nd Place Diplomas" },
+    "third": { "title": "3rd Place Diplomas" },
+    "thankYou": { "title": "Letters of Gratitude" }
+  },
+  "searchPlaceholder": "Search by name...",
+  "noResults": "No results found",
+  "openPdf": "Open",
+  "openLetter": "Open"
+}

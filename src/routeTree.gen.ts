@@ -17,6 +17,7 @@ import { Route as ScheduleIndexRouteImport } from './routes/schedule/index'
 import { Route as PracticeIndexRouteImport } from './routes/practice/index'
 import { Route as OurGraduatesIndexRouteImport } from './routes/ourGraduates/index'
 import { Route as OrdersIndexRouteImport } from './routes/orders/index'
+import { Route as OlimpiadaIndexRouteImport } from './routes/olimpiada/index'
 import { Route as NewsIndexRouteImport } from './routes/news/index'
 import { Route as MediaIndexRouteImport } from './routes/media/index'
 import { Route as LicenseIndexRouteImport } from './routes/license/index'
@@ -80,6 +81,11 @@ const OurGraduatesIndexRoute = OurGraduatesIndexRouteImport.update({
 const OrdersIndexRoute = OrdersIndexRouteImport.update({
   id: '/orders/',
   path: '/orders/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OlimpiadaIndexRoute = OlimpiadaIndexRouteImport.update({
+  id: '/olimpiada/',
+  path: '/olimpiada/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const NewsIndexRoute = NewsIndexRouteImport.update({
@@ -231,6 +237,7 @@ export interface FileRoutesByFullPath {
   '/license': typeof LicenseIndexRoute
   '/media': typeof MediaIndexRoute
   '/news': typeof NewsIndexRoute
+  '/olimpiada': typeof OlimpiadaIndexRoute
   '/orders': typeof OrdersIndexRoute
   '/ourGraduates': typeof OurGraduatesIndexRoute
   '/practice': typeof PracticeIndexRoute
@@ -265,6 +272,7 @@ export interface FileRoutesByTo {
   '/license': typeof LicenseIndexRoute
   '/media': typeof MediaIndexRoute
   '/news': typeof NewsIndexRoute
+  '/olimpiada': typeof OlimpiadaIndexRoute
   '/orders': typeof OrdersIndexRoute
   '/ourGraduates': typeof OurGraduatesIndexRoute
   '/practice': typeof PracticeIndexRoute
@@ -300,6 +308,7 @@ export interface FileRoutesById {
   '/license/': typeof LicenseIndexRoute
   '/media/': typeof MediaIndexRoute
   '/news/': typeof NewsIndexRoute
+  '/olimpiada/': typeof OlimpiadaIndexRoute
   '/orders/': typeof OrdersIndexRoute
   '/ourGraduates/': typeof OurGraduatesIndexRoute
   '/practice/': typeof PracticeIndexRoute
@@ -336,6 +345,7 @@ export interface FileRouteTypes {
     | '/license'
     | '/media'
     | '/news'
+    | '/olimpiada'
     | '/orders'
     | '/ourGraduates'
     | '/practice'
@@ -370,6 +380,7 @@ export interface FileRouteTypes {
     | '/license'
     | '/media'
     | '/news'
+    | '/olimpiada'
     | '/orders'
     | '/ourGraduates'
     | '/practice'
@@ -404,6 +415,7 @@ export interface FileRouteTypes {
     | '/license/'
     | '/media/'
     | '/news/'
+    | '/olimpiada/'
     | '/orders/'
     | '/ourGraduates/'
     | '/practice/'
@@ -439,6 +451,7 @@ export interface RootRouteChildren {
   LicenseIndexRoute: typeof LicenseIndexRoute
   MediaIndexRoute: typeof MediaIndexRoute
   NewsIndexRoute: typeof NewsIndexRoute
+  OlimpiadaIndexRoute: typeof OlimpiadaIndexRoute
   OrdersIndexRoute: typeof OrdersIndexRoute
   OurGraduatesIndexRoute: typeof OurGraduatesIndexRoute
   PracticeIndexRoute: typeof PracticeIndexRoute
@@ -504,6 +517,13 @@ declare module '@tanstack/react-router' {
       path: '/orders'
       fullPath: '/orders'
       preLoaderRoute: typeof OrdersIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/olimpiada/': {
+      id: '/olimpiada/'
+      path: '/olimpiada'
+      fullPath: '/olimpiada'
+      preLoaderRoute: typeof OlimpiadaIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/news/': {
@@ -703,6 +723,7 @@ const rootRouteChildren: RootRouteChildren = {
   LicenseIndexRoute: LicenseIndexRoute,
   MediaIndexRoute: MediaIndexRoute,
   NewsIndexRoute: NewsIndexRoute,
+  OlimpiadaIndexRoute: OlimpiadaIndexRoute,
   OrdersIndexRoute: OrdersIndexRoute,
   OurGraduatesIndexRoute: OurGraduatesIndexRoute,
   PracticeIndexRoute: PracticeIndexRoute,
