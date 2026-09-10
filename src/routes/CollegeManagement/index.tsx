@@ -10,7 +10,6 @@ type Person = {
 }
 
 const teamData: Person[] = [
-    { id: 0, photoSrc: '/img/collegeManagement/Dir.png' },
     { id: 1, photoSrc: '/img/collegeManagement/Erzhan-Utitliev.png' },
     { id: 2, photoSrc: '/img/collegeManagement/Muhtarov-Abzal.png' },
     { id: 3, photoSrc: '/img/collegeManagement/Kuralai_Muratovna.png' },
