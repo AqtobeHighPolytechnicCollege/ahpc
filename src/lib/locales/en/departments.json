@@ -131,28 +131,6 @@
             "experience": "Work Experience: 9 years"
           },
           {
-            "image": "/img/IS/Edilov_Bazargali.jpg",
-            "alt": "Teacher photo",
-            "name": "Edilov Bazargali Aybekuly",
-            "position": "Programming Teacher",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Information Systems"]
-            },
-            "experience": "Work Experience: 1.5 years"
-          },
-          {
-            "image": "/img/IS/Zhamalov_Tamirlan.png",
-            "alt": "Teacher photo",
-            "name": "Zhamalov Tamirlan Zhenisovich",
-            "position": "Programming Teacher",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Mathematical and Computer Modeling"]
-            },
-            "experience": "Work Experience: 2 years"
-          },
-          {
             "image": "/img/IS/IBK.jpg",
             "alt": "Teacher photo",
             "name": "Itibaev Bataniaz Kuanyzbekovich",
@@ -173,17 +151,6 @@
               "list": ["Physics", "Informatics"]
             },
             "experience": "Work Experience: 19 years"
-          },
-          {
-            "image": "/img/IS/Adlet.jpeg",
-            "alt": "Teacher photo",
-            "name": "Kulbaev Adilet Bisengulovich",
-            "position": "Programming Teacher",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Information Systems", "Robotics"]
-            },
-            "experience": "Work Experience: 2 years"
           },
           {
             "image": "/img/IS/Koishigul_Araylim.jpg",
@@ -208,20 +175,9 @@
             "experience": "Work Experience: 13 years"
           },
           {
-            "image": "/img/IS/Muhanova_Akmaral.jpg",
-            "alt": "Teacher photo",
-            "name": "Muhanova Akmaral Sapargalievna",
-            "position": "Programming Teacher",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Physics"]
-            },
-            "experience": "Work Experience: 3 years"
-          },
-          {
             "image": "/img/IS/Nasirov_Jastilek.png",
             "alt": "Teacher photo",
-            "name": "Nasirov Zhastilek Zhannatuly",
+            "name": "Nassyrov Zhastilek Zhannatuly",
             "position": "Programming Teacher",
             "subjects": {
               "label": "Subjects",
@@ -318,17 +274,6 @@
             "experience": "Work Experience: 15 years"
           },
           {
-            "image": "/img/IS/Ulukpanova_Nurgul.jpeg",
-            "alt": "Teacher photo",
-            "name": "Ulukpanova Nurgul Qydyrbekqyzy",
-            "position": "Programming Teacher",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Mathematics", "Software"]
-            },
-            "experience": "Work Experience: 3 years"
-          },
-          {
             "image": "/img/IS/Aben_Akanseri.jpeg",
             "alt": "Teacher photo",
             "name": "Aben Akanseri Amantayuly",
@@ -349,17 +294,6 @@
               "list": ["Computing Technology", "Software"]
             },
             "experience": "Work Experience: 10 years"
-          },
-          {
-            "image": "/img/IS/Elmira_Erikovna.jpeg",
-            "alt": "Teacher photo",
-            "name": "Zhalgasbaeva Elmira Erikovna",
-            "position": "Programming Teacher",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Information Systems", "Software Engineering"]
-            },
-            "experience": "Work Experience: 14 years"
           },
           {
             "image": "/img/IS/Kosherbaev_B.jpeg",
