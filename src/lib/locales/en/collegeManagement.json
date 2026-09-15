@@ -11,29 +11,6 @@
   "academicDegree": "Academic degree, academic title",
 
   "team": {
-    "0": {
-      "name": "Mukhambetpaizova Zheniskul Sagidollina",
-      "position": "College Director",
-      "education": "Almaty Institute of Railway Transport Engineers",
-      "graduationYear": "Almaty Institute of Railway Transport Engineers",
-      "qualification": "Railway transport engineer in transportation process management",
-      "degree": "Candidate of Technical Sciences",
-      "achievements": [
-        "Letter of Gratitude from the President of the Republic of Kazakhstan",
-        "Certificate from the Minister of Transport and Communications",
-        "Certificate of Merit from the Minister of Education and Science",
-        "Certificate and Letter of Gratitude from the Akim of Aktobe Region",
-        "Letter of Gratitude from the Akim of Aktobe City",
-        "Certificate of Honor from the Aktobe Regional Education Department",
-        "Member of the Nur Otan Party",
-        "Deputy of the Regional Maslikhat",
-        "Member of the Public Council for Anti-Corruption",
-        "Y.Altynsarin Badge",
-        "Order of Kurmet",
-        "Kos Shynar Badge",
-        "Medal for the 20th Anniversary of the Maslikhat of the Republic of Kazakhstan"
-      ]
-    },
     "1": {
       "name": "Uteuliev Yerzhan Baktybayevich",
       "position": "Deputy Director for Academic Affairs",
