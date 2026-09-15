@@ -20,7 +20,7 @@ function RouteComponent() {
         { year: '2021-2022', graduates: 452, employed: 399, rate: 88.3},
         { year: '2022-2023', graduates: 470, employed: 217, rate: 71 },
         { year: '2023-2024', graduates: 434, employed: 256, rate: 79 },
-        { year: '2024-2025', graduates: 493, employed: 396, rate: 80.3}
+        { year: '2024-2025', graduates: 493, employed: 414, rate: 84}
     ];
 
     const activities = [
