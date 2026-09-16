@@ -770,6 +770,137 @@ body {
 }
 
 /* ============================================
+   2026 SECTION (WorldSkills-АНРС 2026)
+   ============================================ */
+.wskChronology__2026 {
+    position: relative;
+    margin-bottom: 150px;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 1.0s;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.wskChronology__2026__Title {
+    font-size: 128px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 50px;
+    position: relative;
+    transition: all 0.3s ease;
+    color: #00A6A6;
+}
+
+.wskChronology__2026__Title:hover {
+    transform: translateX(10px);
+}
+
+.wskChronology__2026__Intro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wskChronology__2026__Subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000E3B;
+    line-height: 1.7;
+    max-width: 1200px;
+}
+
+/* Заготовка для галереи фото */
+.wskChronology__2026__Gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.wskChronology__2026__Gallery__Placeholder {
+    width: 100%;
+    height: 350px;
+    border: 2px dashed rgba(0, 37, 161, 0.25);
+    background: rgba(0, 37, 161, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 37, 161, 0.35);
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.wskChronology__2026__Gallery__Placeholder:hover {
+    border-color: rgba(0, 37, 161, 0.45);
+    background: rgba(0, 37, 161, 0.06);
+}
+
+.wskChronology__2026__Gallery__Placeholder::before {
+    content: 'Фото орны';
+}
+
+/* Итоги по местам */
+.wskChronology__2026__Results {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.wskChronology__2026__Results__Lead {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000E3B;
+    line-height: 1.7;
+    max-width: 1200px;
+}
+
+.wskChronology__2026__Results__Group {
+    background: linear-gradient(135deg, rgba(0, 166, 166, 0.05) 0%, transparent 100%);
+    padding: 40px;
+}
+
+.wskChronology__2026__Results__Group__Title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #00A6A6;
+    margin-bottom: 30px;
+}
+
+.wskChronology__2026__Results__Group__List {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.wskChronology__2026__Results__Item {
+    background: #FFFFFF;
+    padding: 20px 25px;
+    border-left: 3px solid #00A6A6;
+    transition: all 0.3s ease;
+}
+
+.wskChronology__2026__Results__Item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.wskChronology__2026__Results__Item__Competence {
+    font-size: 18px;
+    font-weight: 800;
+    color: #000E3B;
+    margin-bottom: 8px;
+}
+
+.wskChronology__2026__Results__Item__Name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* ============================================
    RESPONSIVE DESIGN
    ============================================ */
 
@@ -1024,5 +1155,49 @@ body {
 
     .wskChronology::before {
         left: 15px;
+    }
+}
+/* ============================================
+   2026 SECTION — RESPONSIVE
+   ============================================ */
+@media (max-width: 1199px) {
+    .wskChronology__2026__Title {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wskChronology__2026__Title {
+        font-size: 80px;
+    }
+
+    .wskChronology__2026__Results__Group__List {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+}
+
+@media (max-width: 575px) {
+    .wskChronology__2026__Title {
+        font-size: 60px;
+    }
+
+    .wskChronology__2026__Subtitle {
+        font-size: 16px;
+    }
+
+    .wskChronology__2026__Gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .wskChronology__2026__Gallery__Placeholder {
+        height: 220px;
+    }
+
+    .wskChronology__2026__Results__Group {
+        padding: 20px;
+    }
+
+    .wskChronology__2026__Results__Group__List {
+        grid-template-columns: 1fr;
     }
 }

@@ -229,7 +229,7 @@ function RouteComponent() {
                                     <div key={exam.id} className={styles.examCard}>
                                         <div className={styles.examCard__Header}>
                                             <span className={styles.examCard__Type}>
-                                                {exam.event_type.name}
+                                                {exam.event_type?.name ?? 'Не указан'}
                                             </span>
                                             <span className={styles.examCard__Group}>
                                                 {exam.group}

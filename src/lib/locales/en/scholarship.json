@@ -15,8 +15,8 @@
     },
     "increased": {
       "title": "Increased Scholarship",
-      "description": "If a student has straight A’s (all grades “5”), they receive an increased scholarship. The amount of the increased scholarship is significantly higher than the basic academic scholarship.",
-      "grades": "straight A’s (all grades “5”)",
+      "description": "If a student has straight A’s (all grades \"5\"), they receive an increased scholarship. The amount of the increased scholarship is significantly higher than the basic academic scholarship.",
+      "grades": "straight A’s (all grades \"5\")",
       "increased": "increased scholarship"
     }
   },
@@ -24,8 +24,8 @@
     "title": "Grounds for Loss of Scholarship",
     "warning": {
       "important": "Important to know:",
-      "description": "If a student receives even one grade of “3”, they lose the right to a scholarship until the next successful assessment.",
-      "oneGrade": "one grade of “3”",
+      "description": "If a student receives even one grade of \"3\", they lose the right to a scholarship until the next successful assessment.",
+      "oneGrade": "one grade of \"3\"",
       "loses": "loses the right to a scholarship"
     },
     "recovery": "To regain the right to receive a scholarship, the student must improve all unsatisfactory and satisfactory grades to good and excellent ones."

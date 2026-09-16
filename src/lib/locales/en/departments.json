@@ -1212,7 +1212,7 @@
             "image": "/img/OOD/Raushanova_Indira.jpeg",
             "alt": "Teacher photo",
             "name": "Raushanova Indira Amangeldinovna",
-            "position": "Teacher of the “OOD” department",
+            "position": "Teacher of the \"OOD\" department",
             "subjects": {
               "label": "Subjects",
               "list": ["History", "Basics of Law"]
@@ -1223,7 +1223,7 @@
             "image": "/img/OOD/Syindikova_Ainur.jpeg",
             "alt": "Teacher photo",
             "name": "Suyindikova Ainur Zhanabayevna",
-            "position": "Teacher of ther “OOD” department",
+            "position": "Teacher of ther \"OOD\" department",
             "subjects": {
               "label": "Subjects",
               "list": ["Biology"]
@@ -1366,7 +1366,7 @@
             "image": "/img/GM/Ahmetov_T.jpg",
             "alt": "Teacher photo",
             "name": "Ahmetov Talgat Kairgalievich",
-            "position": "Teacher of the “HS” Department",
+            "position": "Teacher of the \"HS\" Department",
             "subjects": {
               "label": "Subjects",
               "list": ["Initial Military and Technological Training"]
@@ -1564,7 +1564,7 @@
             "image": "/img/GM/Kusherbaev_N.jpg",
             "alt": "Teacher photo",
             "name": "Kusherbayev Nursat Talgatuly",
-            "position": "Teacher of the “HS” Department",
+            "position": "Teacher of the \"HS\" Department",
             "subjects": {
               "label": "Subjects",
               "list": ["Physical Education and Sports"]
@@ -1575,7 +1575,7 @@
             "image": "/img/GM/Jalkibaev_B.jpg",
             "alt": "Teacher photo",
             "name": "Jylkybayev Bakyt Meirambekuly",
-            "position": "Teacher of the “GM” department",
+            "position": "Teacher of the \"GM\" department",
             "subjects": {
               "label": "Subjects",
               "list": ["Physical Education and Sports"]
@@ -1586,7 +1586,7 @@
             "image": "/img/GM/Baitakova_G.jpeg",
             "alt": "Teacher photo",
             "name": "Baitakova Gulsezim Serikkalykyzy",
-            "position": "Teacher of the “GM” department",
+            "position": "Teacher of the \"GM\" department",
             "subjects": {
               "label": "Subjects",
               "list": ["English Language"]
@@ -1597,7 +1597,7 @@
             "image": "/img/GM/Hasengalieva_M.jpeg",
             "alt": "Teacher photo",
             "name": "Khasangalieva Merey Baikadamkyzy",
-            "position": "Teacher of the “GM” department",
+            "position": "Teacher of the \"GM\" department",
             "subjects": {
               "label": "Subjects",
               "list": ["English Language"]
@@ -1608,7 +1608,7 @@
             "image": "/img/GM/Kuanish_M.jfif",
             "alt": "Teacher photo",
             "name": "Kuanysh Mubarak Bekbolatuly",
-            "position": "Teacher of the “GM” department",
+            "position": "Teacher of the \"GM\" department",
             "subjects": {
               "label": "Subjects",
               "list": ["Physical Education and Sports"]

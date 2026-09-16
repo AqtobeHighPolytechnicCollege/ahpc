@@ -3,7 +3,12 @@
     "allow": [
       "PowerShell(tree *)",
       "Bash(dir C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\public\\\\documents\\\\olimpiada *)",
-      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\public\\\\documents\\\\olimpiada\" -Recurse -File | ForEach-Object { $_.FullName })"
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\public\\\\documents\\\\olimpiada\" -Recurse -File | ForEach-Object { $_.FullName })",
+      "Bash(node -e \"require\\('./src/lib/locales/ru/worldSkills.json'\\); console.log\\('RU: OK'\\)\")",
+      "Bash(node -e \"require\\('./src/lib/locales/en/worldSkills.json'\\); console.log\\('EN: OK'\\)\")",
+      "Bash(node -e \"require\\('./src/lib/locales/kz/worldSkills.json'\\); console.log\\('KZ: OK'\\)\")",
+      "Bash(python -c ' *)",
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\.claude\\\\worktrees\\\\agent-af274c73dc2045684\\\\src\\\\routes\\\\worldSkills\\\\index.tsx\" | Measure-Object -Line\\).Lines)"
     ]
   }
 }
