@@ -422,7 +422,7 @@
         "title": "Teaching Staff",
         "list": [
           {
-            "image": "/img/AS/Suteeva_A.jpeg",
+            "image": "/img/AS/Suteeva_A.jpg",
             "alt": "Teacher photo",
             "name": "SUTEEVA AKTENTEK AYANKYZY",
             "position": "Teacher",
@@ -430,18 +430,18 @@
               "label": "Subjects",
               "list": ["Pedagogue–moderator", "Bachelor of Engineering and Technology"]
             },
-            "experience": "Work experience: 5 years"
+            "experience": "Work experience: 7 years"
           },
           {
             "image": "/img/AS/Muhanbetova.JPG",
             "alt": "Teacher photo",
             "name": "Mukhanbetova Ryskul Zhaksylykkyzy",
-            "position": "Teacher",
+            "position": "Teacher-Researcher",
             "subjects": {
               "label": "Subjects",
-              "list": ["Electrical Engineer", "Head of CMB", "AMC"]
+              "list": ["Electrical Engineer", "Head of CMK", "AMC"]
             },
-            "experience": "Work experience: 18 years"
+            "experience": "Work experience: 28 years"
           },
           {
             "image": "/img/AS/Moldabaeva_Meruert.jpg",
@@ -516,9 +516,9 @@
             "name": "Aitkazieva Gulshat Sagyndykovna",
             "subjects": {
               "label": "Subjects",
-              "list": ["Pedagogue", "Teacher", "Electrical Engineer"]
+              "list": ["Pedagogue", "Teacher", "Electrical Engineer","Head of CMK"]
             },
-            "experience": "Work experience: 15 years"
+            "experience": "Work experience: 19 years"
           },
           {
             "image": "/img/AS/Saukenov.png",
@@ -573,7 +573,7 @@
               "label": "Subjects",
               "list": ["Pedagogue", "Automation and Control", "Electrical Engineer"]
             },
-            "experience": "Work experience: 1 year"
+            "experience": "Work experience: 3 years"
           },
           {
             "image": "/img/AS/Jumakoja_A.jpg",
@@ -587,20 +587,9 @@
             "experience": "Work experience: 1 year"
           },
           {
-            "image": "/img/AS/Aikaidar_A.jpg",
-            "alt": "Teacher photo",
-            "position": "Teacher",
-            "name": "Akaidar Asylbek Askaruly",
-            "subjects": {
-              "label": "Subjects",
-              "list": ["Electrical Engineer", "Automation and Control"]
-            },
-            "experience": "Work experience: 3 years"
-          },
-          {
             "image": "/img/AS/Tolegen_M.jpg",
             "alt": "Teacher photo",
-            "position": "Teacher",
+            "position": "Pedagogue-moderator",
             "name": "Tolegen Marghulan Tolegenuly",
             "subjects": {
               "label": "Subjects",
@@ -622,7 +611,7 @@
           {
             "image": "/img/AS/Almazagi_Talgat.jpg",
             "alt": "Teacher photo",
-            "position": "Teacher",
+            "position": "Pedagogue-moderator",
             "name": "Almagazy Talgat Adiluly",
             "subjects": {
               "label": "Subjects",
@@ -648,7 +637,7 @@
             "name": "Salimkerei Gulstan Salimkereikyzy",
             "subjects": {
               "label": "Subjects",
-              "list": ["Pedagogue-moderator"]
+              "list": ["Pedagogue-expert"]
             },
             "experience": "Work experience: 13 years"
           },
@@ -666,13 +655,24 @@
           {
             "image": "/img/AS/Samatova_A.jpg",
             "alt": "Teacher photo",
-            "position": "Teacher",
+            "position": "Pedagogue-moderator",
             "name": "Samatova Aizhan Nurbolatkyzy",
             "subjects": {
               "label": "Subjects",
               "list": ["Automation and Control"]
             },
             "experience": "Work experience: 2 years"
+          },
+          {
+            "image": "/img/AS/Tileyova_G.jpg",
+            "alt": "Teacher photo",
+            "position": "Pedagogue-moderator",
+            "name": "Tileuova Gauhar Zhanbolatovna",
+            "subjects": {
+              "label": "Subjects",
+              "list": ["Pedagogue-moderator"]
+            },
+            "experience": "Work experience: 6 years"
           }
         ]
       }
