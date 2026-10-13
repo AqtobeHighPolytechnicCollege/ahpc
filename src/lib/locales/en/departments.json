@@ -1575,7 +1575,7 @@
             "image": "/img/GM/Jalkibaev_B.jpg",
             "alt": "Teacher photo",
             "name": "Jylkybayev Bakyt Meirambekuly",
-            "position": "Teacher of the \"GM\" department",
+            "position": "Teacher of the \"HS\" Department",
             "subjects": {
               "label": "Subjects",
               "list": ["Physical Education and Sports"]
@@ -1586,7 +1586,7 @@
             "image": "/img/GM/Baitakova_G.jpeg",
             "alt": "Teacher photo",
             "name": "Baitakova Gulsezim Serikkalykyzy",
-            "position": "Teacher of the \"GM\" department",
+            "position": "Teacher of the \"HS\" Department",
             "subjects": {
               "label": "Subjects",
               "list": ["English Language"]
@@ -1597,7 +1597,7 @@
             "image": "/img/GM/Hasengalieva_M.jpeg",
             "alt": "Teacher photo",
             "name": "Khasangalieva Merey Baikadamkyzy",
-            "position": "Teacher of the \"GM\" department",
+            "position": "Teacher of the \"HS\" Department",
             "subjects": {
               "label": "Subjects",
               "list": ["English Language"]
@@ -1608,7 +1608,7 @@
             "image": "/img/GM/Kuanish_M.jfif",
             "alt": "Teacher photo",
             "name": "Kuanysh Mubarak Bekbolatuly",
-            "position": "Teacher of the \"GM\" department",
+            "position": "Teacher of the \"HS\" Department",
             "subjects": {
               "label": "Subjects",
               "list": ["Physical Education and Sports"]
