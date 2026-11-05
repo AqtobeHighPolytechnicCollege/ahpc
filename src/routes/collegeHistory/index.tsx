@@ -122,6 +122,168 @@ function RouteComponent() {
                             </div>
                         </div>
                     </div>
+
+                    <div className={styles.timelineItem}>
+                        <div className={styles.timelineDate}>2015</div>
+                        <div className={styles.timelineLine}>
+                            <div className={styles.timelineDot}></div>
+                        </div>
+                        <div className={styles.timelineContent}>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2015Desc')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/1.png' alt='Фото'/>
+                                    <h5 className={styles.timelineContentSubtitleImg}>{t('year2015Photo')}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.timelineItem}>
+                        <div className={styles.timelineDate}>2017</div>
+                        <div className={styles.timelineLine}>
+                            <div className={styles.timelineDot}></div>
+                        </div>
+                        <div className={styles.timelineContent}>
+                            <div className={styles.timelineContentBlock}>
+                                <div className={styles.contentTitle}>
+                                    <h3>{t('year2017Title')}</h3>
+                                    <p>{t('year2017Desc')}</p>
+                                </div>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/2.jpeg' alt='Фото'/>
+                                    <img className={styles.contentImage} src='/img/history/3.jpeg' alt='Фото'/>
+                                    <h5 className={styles.timelineContentSubtitleImg}>{t('year2017Photo')}</h5>
+                                </div>
+                            </div>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2017Teacher')}</p>
+                                <p>{t('year2017Accred')}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.timelineItem}>
+                        <div className={styles.timelineDate}>2021</div>
+                        <div className={styles.timelineLine}>
+                            <div className={styles.timelineDot}></div>
+                        </div>
+                        <div className={styles.timelineContent}>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2021Desc')}</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.timelineItem}>
+                        <div className={styles.timelineDate}>2022</div>
+                        <div className={styles.timelineLine}>
+                            <div className={styles.timelineDot}></div>
+                        </div>
+                        <div className={styles.timelineContent}>
+                            <div className={styles.timelineContentBlock}>
+                                <div className={styles.contentTitle}>
+                                    <h3>{t('year2022Title')}</h3>
+                                </div>
+                                <p>{t('year2022Desc')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/4.jpeg' alt='Фото'/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.timelineItem}>
+                        <div className={styles.timelineDate}>2024</div>
+                        <div className={styles.timelineLine}>
+                            <div className={styles.timelineDot}></div>
+                        </div>
+                        <div className={styles.timelineContent}>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2024Teacher1')}</p>
+                                <p>{t('year2024Teacher2')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/5.jpeg' alt='Фото'/>
+                                </div>
+                            </div>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2024Workshop')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/6.jpeg' alt='Фото'/>
+                                    <h5 className={styles.timelineContentSubtitleImg}>{t('year2024WorkshopCaption')}</h5>
+                                </div>
+                                <p>{t('year2024Internship')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/7.jpeg' alt='Фото'/>
+                                </div>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/8.jpeg' alt='Фото'/>
+                                </div>
+                                <p>{t('year2024Meeting')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/9.jpeg' alt='Фото'/>
+                                </div>
+                            </div>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2024WorldSkills')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/11.jpg' alt='Фото'/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.timelineItem}>
+                        <div className={styles.timelineDate}>2025</div>
+                        <div className={styles.timelineLine}>
+                            <div className={styles.timelineDot}></div>
+                        </div>
+                        <div className={styles.timelineContent}>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2025Accred')}</p>
+
+                            </div>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2025EuroSkills')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/12.jpg' alt='Фото'/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={styles.timelineItem}>
+                        <div className={styles.timelineDate}>2026</div>
+                        <div className={styles.timelineLine}>
+                            <div className={styles.timelineDot}></div>
+                        </div>
+                        <div className={styles.timelineContent}>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2026Sports')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/13.jpeg' alt='Фото'/>
+                                </div>
+                            </div>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2026Shanghai')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/14.jpg' alt='Фото'/>
+                                </div>
+                                <p>{t('year2026Conference')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/15.jpeg' alt='Фото'/>
+                                    <img className={styles.contentImage} src='/img/history/16.jpeg' alt="Фото"/>
+                                </div>
+                            </div>
+                            <div className={styles.timelineContentBlock}>
+                                <p>{t('year2026Dosti')}</p>
+                                <div className={styles.timelineContentImage}>
+                                    <img className={styles.contentImage} src='/img/history/17.jpeg' alt='Фото'/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
 

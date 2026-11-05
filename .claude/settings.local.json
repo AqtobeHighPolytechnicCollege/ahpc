@@ -8,7 +8,8 @@
       "Bash(node -e \"require\\('./src/lib/locales/en/worldSkills.json'\\); console.log\\('EN: OK'\\)\")",
       "Bash(node -e \"require\\('./src/lib/locales/kz/worldSkills.json'\\); console.log\\('KZ: OK'\\)\")",
       "Bash(python -c ' *)",
-      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\.claude\\\\worktrees\\\\agent-af274c73dc2045684\\\\src\\\\routes\\\\worldSkills\\\\index.tsx\" | Measure-Object -Line\\).Lines)"
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\.claude\\\\worktrees\\\\agent-af274c73dc2045684\\\\src\\\\routes\\\\worldSkills\\\\index.tsx\" | Measure-Object -Line\\).Lines)",
+      "Bash(python -c \"import sys; print\\(sys.stdin.buffer.read\\(\\).decode\\('utf-8', errors='replace'\\)\\)\")"
     ]
   }
 }
