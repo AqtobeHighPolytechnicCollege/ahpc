@@ -1,6 +1,6 @@
 import { Outlet, createRootRouteWithContext } from '@tanstack/react-router'
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
-
+import { BviProvider } from '@sk1llahh/react-bvi'
 
 import Navbar from '../components/Navbar/Navbar.tsx'
 import Footer from '../components/Footer/Footer.tsx'
@@ -16,7 +16,7 @@ interface MyRouterContext {
 
 export const Route = createRootRouteWithContext<MyRouterContext>()({
   component: () => (
-    <>
+    <BviProvider>
       <Navbar />
 
       <Outlet />
@@ -24,7 +24,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 
       <TanstackQueryLayout />
         <Footer />
-    </>
+    </BviProvider>
   ),
     notFoundComponent: () => {
         return <NotFoundPage />

@@ -3,6 +3,7 @@ import './Navbar.css';
 import '/img/logo.png';
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from 'react';
+import { BviButton } from '@sk1llahh/react-bvi';
 
 const langs = {
     "ru": "RU",
@@ -92,6 +93,11 @@ export default function Header() {
                 </div>
 
                 <div className="lang-switch">
+                    <BviButton>
+                        <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 0C7.636 0 2.258 4.058 0 10C2.258 15.942 7.636 20 14 20C20.364 20 25.742 15.942 28 10C25.742 4.058 20.364 0 14 0ZM14 16.667C10.318 16.667 7.333 13.682 7.333 10C7.333 6.318 10.318 3.333 14 3.333C17.682 3.333 20.667 6.318 20.667 10C20.667 13.682 17.682 16.667 14 16.667ZM14 6C11.794 6 10 7.794 10 10C10 12.206 11.794 14 14 14C16.206 14 18 12.206 18 10C18 7.794 16.206 6 14 6Z" fill="#000E3B"/>
+                        </svg>
+                    </BviButton>
                     <div className="lang-dropdown">
                         <span
                             className="lang-current"

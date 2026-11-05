@@ -18,8 +18,24 @@ nav {
 .lang-switch {
     display: flex;
     gap: 1rem;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     position: relative;
+}
+
+.lang-switch button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+}
+
+.lang-switch button:hover {
+    opacity: 1;
 }
 
 .lang-switch span {
