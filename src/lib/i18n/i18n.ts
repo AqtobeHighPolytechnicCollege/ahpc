@@ -17,7 +17,6 @@ import ruCounteringCorruption from '../locales/ru/counteringCorruption.json'
 import ruGraduateReviews from '../locales/ru/graduateReviews.json'
 import ruMedia from '../locales/ru/media.json'
 import ruOrders from '../locales/ru/orders.json'
-import ruContestResult from '../locales/ru/contestResult.json'
 import ruAdmissionRules from '../locales/ru/admissionRules.json'
 import ruDormitory from '../locales/ru/dormitory.json'
 import ruSpecials from '../locales/ru/specials.json'
@@ -55,7 +54,6 @@ import kzCounteringCorruption from '../locales/kz/counteringCorruption.json'
 import kzGraduateReviews from '../locales/kz/graduateReviews.json'
 import kzMedia from '../locales/kz/media.json'
 import kzOrders from '../locales/kz/orders.json'
-import kzContestResult from '../locales/kz/contestResult.json'
 import kzAdmissionRules from '../locales/kz/admissionRules.json'
 import kzDormitory from '../locales/kz/dormitory.json'
 import kzSpecials from '../locales/kz/specials.json'
@@ -93,7 +91,6 @@ import enCounteringCorruption from '../locales/en/counteringCorruption.json'
 import enGraduateReviews from '../locales/en/graduateReviews.json'
 import enMedia from '../locales/en/media.json'
 import enOrders from '../locales/en/orders.json'
-import enContestResult from '../locales/en/contestResult.json'
 import enAdmissionRules from '../locales/en/admissionRules.json'
 import enDormitory from '../locales/en/dormitory.json'
 import enSpecials from '../locales/en/specials.json'
@@ -137,7 +134,6 @@ i18n
                 graduateReviews: ruGraduateReviews,
                 media: ruMedia,
                 orders: ruOrders,
-                contestResult: ruContestResult,
                 admissionRules: ruAdmissionRules,
                 dormitory: ruDormitory,
                 specials: ruSpecials,
@@ -177,7 +173,6 @@ i18n
                 graduateReviews: kzGraduateReviews,
                 media: kzMedia,
                 orders: kzOrders,
-                contestResult: kzContestResult,
                 admissionRules: kzAdmissionRules,
                 dormitory: kzDormitory,
                 specials: kzSpecials,
@@ -217,7 +212,6 @@ i18n
                 graduateReviews: enGraduateReviews,
                 media: enMedia,
                 orders: enOrders,
-                contestResult: enContestResult,
                 admissionRules: enAdmissionRules,
                 dormitory: enDormitory,
                 specials: enSpecials,
@@ -244,7 +238,7 @@ i18n
         lng: 'ru',
         fallbackLng: 'kk',
         ns: ['home', 'about', 'reviews', 'partners', 'footer', 'departments', 'collegeManagement', 'sybmols','contacts','companyReviews','charter',
-            'collegeHistory', 'counteringCorruption','graduateReviews','media','orders','contestResult','admissionRules', 'dormitory','specials',
+            'collegeHistory', 'counteringCorruption','graduateReviews','media','orders','admissionRules', 'dormitory','specials',
         'schedule','examInfo', 'scholarship','studentLive','correspondence','license','worldSkills','employemnt','dualEducation',
         'practice', 'ourGraduates','alumniAssoctiation', 'navbar','documents','olimpiada','vacancies','publicServices','studentServiceCenter'],
 

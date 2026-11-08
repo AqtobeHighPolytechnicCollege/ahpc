@@ -31,7 +31,6 @@ import { Route as DualEducationIndexRouteImport } from './routes/dualEducation/i
 import { Route as DocumentsIndexRouteImport } from './routes/documents/index'
 import { Route as CounteringCorruptionIndexRouteImport } from './routes/counteringCorruption/index'
 import { Route as CorrespondenceIndexRouteImport } from './routes/correspondence/index'
-import { Route as ContestResultsIndexRouteImport } from './routes/contestResults/index'
 import { Route as CompanyReviewsIndexRouteImport } from './routes/companyReviews/index'
 import { Route as CollegeHistoryIndexRouteImport } from './routes/collegeHistory/index'
 import { Route as CharterIndexRouteImport } from './routes/charter/index'
@@ -158,11 +157,6 @@ const CorrespondenceIndexRoute = CorrespondenceIndexRouteImport.update({
   path: '/correspondence/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ContestResultsIndexRoute = ContestResultsIndexRouteImport.update({
-  id: '/contestResults/',
-  path: '/contestResults/',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const CompanyReviewsIndexRoute = CompanyReviewsIndexRouteImport.update({
   id: '/companyReviews/',
   path: '/companyReviews/',
@@ -245,7 +239,6 @@ export interface FileRoutesByFullPath {
   '/charter': typeof CharterIndexRoute
   '/collegeHistory': typeof CollegeHistoryIndexRoute
   '/companyReviews': typeof CompanyReviewsIndexRoute
-  '/contestResults': typeof ContestResultsIndexRoute
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
   '/documents': typeof DocumentsIndexRoute
@@ -283,7 +276,6 @@ export interface FileRoutesByTo {
   '/charter': typeof CharterIndexRoute
   '/collegeHistory': typeof CollegeHistoryIndexRoute
   '/companyReviews': typeof CompanyReviewsIndexRoute
-  '/contestResults': typeof ContestResultsIndexRoute
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
   '/documents': typeof DocumentsIndexRoute
@@ -322,7 +314,6 @@ export interface FileRoutesById {
   '/charter/': typeof CharterIndexRoute
   '/collegeHistory/': typeof CollegeHistoryIndexRoute
   '/companyReviews/': typeof CompanyReviewsIndexRoute
-  '/contestResults/': typeof ContestResultsIndexRoute
   '/correspondence/': typeof CorrespondenceIndexRoute
   '/counteringCorruption/': typeof CounteringCorruptionIndexRoute
   '/documents/': typeof DocumentsIndexRoute
@@ -362,7 +353,6 @@ export interface FileRouteTypes {
     | '/charter'
     | '/collegeHistory'
     | '/companyReviews'
-    | '/contestResults'
     | '/correspondence'
     | '/counteringCorruption'
     | '/documents'
@@ -400,7 +390,6 @@ export interface FileRouteTypes {
     | '/charter'
     | '/collegeHistory'
     | '/companyReviews'
-    | '/contestResults'
     | '/correspondence'
     | '/counteringCorruption'
     | '/documents'
@@ -438,7 +427,6 @@ export interface FileRouteTypes {
     | '/charter/'
     | '/collegeHistory/'
     | '/companyReviews/'
-    | '/contestResults/'
     | '/correspondence/'
     | '/counteringCorruption/'
     | '/documents/'
@@ -477,7 +465,6 @@ export interface RootRouteChildren {
   CharterIndexRoute: typeof CharterIndexRoute
   CollegeHistoryIndexRoute: typeof CollegeHistoryIndexRoute
   CompanyReviewsIndexRoute: typeof CompanyReviewsIndexRoute
-  ContestResultsIndexRoute: typeof ContestResultsIndexRoute
   CorrespondenceIndexRoute: typeof CorrespondenceIndexRoute
   CounteringCorruptionIndexRoute: typeof CounteringCorruptionIndexRoute
   DocumentsIndexRoute: typeof DocumentsIndexRoute
@@ -657,13 +644,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CorrespondenceIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/contestResults/': {
-      id: '/contestResults/'
-      path: '/contestResults'
-      fullPath: '/contestResults'
-      preLoaderRoute: typeof ContestResultsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/companyReviews/': {
       id: '/companyReviews/'
       path: '/companyReviews'
@@ -773,7 +753,6 @@ const rootRouteChildren: RootRouteChildren = {
   CharterIndexRoute: CharterIndexRoute,
   CollegeHistoryIndexRoute: CollegeHistoryIndexRoute,
   CompanyReviewsIndexRoute: CompanyReviewsIndexRoute,
-  ContestResultsIndexRoute: ContestResultsIndexRoute,
   CorrespondenceIndexRoute: CorrespondenceIndexRoute,
   CounteringCorruptionIndexRoute: CounteringCorruptionIndexRoute,
   DocumentsIndexRoute: DocumentsIndexRoute,

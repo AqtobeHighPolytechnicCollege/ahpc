@@ -47,7 +47,6 @@ export default function Header() {
 
     const abiturientLinks = (
         <ul onClick={toggleMenu}>
-            <li><Link to="/contestResults">{t('contestResult')}</Link></li>
             <li><Link to="/admissionRules">{t('admissionRules')}</Link></li>
             <li><Link to="/Dormitory">{t('dormitory')}</Link></li>
             <li><Link to="/Specials">{t('specials')}</Link></li>
