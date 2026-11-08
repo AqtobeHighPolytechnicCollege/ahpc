@@ -1,0 +1,283 @@
+/* ===========================================================
+   Верхний блок с фоновым изображением (как на странице Specials)
+   =========================================================== */
+.headContent {
+    background: url('/img/bg_layout.jpg') center/cover no-repeat #f0f0f0;
+    min-height: 100vh;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContent h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 115px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+    color: #000E3B;
+    margin: 0;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headSubtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+    color: #05070F;
+    margin: 20px 0 0 0;
+}
+
+/* ===========================================================
+   Контейнер карточек
+   =========================================================== */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10rem 5rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* ===========================================================
+   Карточка курса (тёмная версия)
+   =========================================================== */
+.vacancyCard {
+    background-color: #000E3B;
+    color: #FFFFFF;
+    padding: 50px 38px;
+    width: 100%;
+    max-width: 850px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+/* Карточка курса (светлая версия) */
+.whVacancyCard {
+    color: #000E3B;
+    padding: 50px 38px;
+    width: 100%;
+    max-width: 850px;
+    border-radius: 50px;
+    border: 2px solid #000E3B;
+    box-sizing: border-box;
+}
+
+.headerCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.periodText {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* ===========================================================
+   Таблицы
+   =========================================================== */
+.tableScroll {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table,
+.whTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.table th,
+.table td,
+.whTable th,
+.whTable td {
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.table th,
+.whTable th {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.colSpecialty {
+    text-align: left !important;
+    width: 55%;
+}
+
+/* Тёмная карточка */
+.table th {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.table td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.table tfoot td {
+    font-weight: 700;
+    border-bottom: none;
+    border-top: 2px solid #FFFFFF;
+}
+
+/* Светлая карточка */
+.whTable th {
+    border-bottom: 2px solid #000E3B;
+}
+
+.whTable td {
+    border-bottom: 1px solid rgba(0, 14, 59, 0.25);
+}
+
+.whTable tfoot td {
+    font-weight: 700;
+    border-bottom: none;
+    border-top: 2px solid #000E3B;
+}
+
+.totalLabel {
+    text-align: right !important;
+}
+
+/* ===========================================================
+   Итоговый блок
+   =========================================================== */
+.totalBlock {
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem 8rem;
+    text-align: center;
+}
+
+.totalTitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #000E3B;
+    margin: 0;
+}
+
+/* =============================
+   LARGE DEVICES — max-width: 1199px
+   ============================= */
+@media (max-width: 1199px) {
+    .headContent h1 {
+        font-size: 100px;
+    }
+
+    .headSubtitle {
+        font-size: 26px;
+    }
+
+    .table,
+    .whTable {
+        font-size: 14px;
+    }
+}
+
+/* =============================
+   MEDIUM DEVICES — max-width: 991px
+   ============================= */
+@media (max-width: 991px) {
+    .headContent h1 {
+        font-size: 86px;
+    }
+
+    .totalTitle {
+        font-size: 36px;
+    }
+}
+
+/* =============================
+   SMALL DEVICES — max-width: 575px
+   ============================= */
+@media (max-width: 575px) {
+    .container {
+        margin: 5rem 1rem;
+    }
+
+    .headContent h1 {
+        font-size: 48px;
+    }
+
+    .headContentHashtag {
+        margin-top: 60px;
+    }
+
+    .headSubtitle {
+        font-size: 18px;
+    }
+
+    .vacancyCard,
+    .whVacancyCard {
+        padding: 25px 16px;
+        border-radius: 30px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .table,
+    .whTable {
+        font-size: 12px;
+    }
+
+    .table th,
+    .table td,
+    .whTable th,
+    .whTable td {
+        padding: 6px 4px;
+    }
+
+    .totalTitle {
+        font-size: 26px;
+    }
+}
+
+/* =============================
+   VERY SMALL DEVICES — max-width: 375px
+   ============================= */
+@media (max-width: 375px) {
+    .headContent h1 {
+        font-size: 40px;
+    }
+
+    .table,
+    .whTable {
+        font-size: 11px;
+    }
+
+    .totalTitle {
+        font-size: 22px;
+    }
+}

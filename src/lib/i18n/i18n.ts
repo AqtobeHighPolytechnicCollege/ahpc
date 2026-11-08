@@ -36,6 +36,7 @@ import ruAlumniAssoctiation from '../locales/ru/alumniAssoctiation.json'
 import ruNavbar from '../locales/ru/navbar.json'
 import ruDocuments from '../locales/ru/documents.json'
 import ruOlimiada from '../locales/ru/olimpiada.json'
+import ruVacancies from '../locales/ru/vacancies.json'
 import kzHome from '../locales/kz/home.json'
 import kzNews from '../locales/kz/news.json'
 import kzReviews from '../locales/kz/reviews.json'
@@ -71,6 +72,7 @@ import kzAlumniAssoctiation from '../locales/kz/alumniAssoctiation.json'
 import kzNavbar from '../locales/kz/navbar.json'
 import kzDocuments from '../locales/kz/documents.json'
 import kzOlimiada from '../locales/kz/olimpiada.json'
+import kzVacancies from '../locales/kz/vacancies.json'
 import enHome from '../locales/en/home.json'
 import enNews from '../locales/en/news.json'
 import enReviews from '../locales/en/reviews.json'
@@ -106,6 +108,7 @@ import enAlumniAssoctiation from '../locales/en/alumniAssoctiation.json'
 import enNavbar from '../locales/en/navbar.json'
 import enDocuments from '../locales/en/documents.json'
 import enOlimiada from '../locales/en/olimpiada.json'
+import enVacancies from '../locales/en/vacancies.json'
 
 i18n
     .use(initReactI18next)
@@ -147,6 +150,7 @@ i18n
                 navbar: ruNavbar,
                 documents: ruDocuments,
                 olimpiada: ruOlimiada,
+                vacancies: ruVacancies
             },
             'kk': {
                 home: kzHome,
@@ -184,6 +188,7 @@ i18n
                 navbar: kzNavbar,
                 documents: kzDocuments,
                 olimpiada: kzOlimiada,
+                vacancies: kzVacancies
             },
             en: {
                 home: enHome,
@@ -221,6 +226,7 @@ i18n
                 navbar: enNavbar,
                 documents: enDocuments,
                 olimpiada: enOlimiada,
+                vacancies: enVacancies
             }
         },
         lng: 'ru',
@@ -228,7 +234,7 @@ i18n
         ns: ['home', 'about', 'reviews', 'partners', 'footer', 'departments', 'collegeManagement', 'sybmols','contacts','companyReviews','charter',
             'collegeHistory', 'counteringCorruption','graduateReviews','media','orders','contestResult','admissionRules', 'dormitory','specials',
         'schedule','examInfo', 'scholarship','studentLive','correspondence','license','worldSkills','employemnt','dualEducation',
-        'practice', 'ourGraduates','alumniAssoctiation', 'navbar','documents','olimpiada'],
+        'practice', 'ourGraduates','alumniAssoctiation', 'navbar','documents','olimpiada','vacancies'],
 
         defaultNS: 'home',
         interpolation: {

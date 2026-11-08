@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as WorldSkillsIndexRouteImport } from './routes/worldSkills/index'
+import { Route as VacanciesIndexRouteImport } from './routes/vacancies/index'
 import { Route as StudentLiveIndexRouteImport } from './routes/studentLive/index'
 import { Route as ScholarshipIndexRouteImport } from './routes/scholarship/index'
 import { Route as ScheduleIndexRouteImport } from './routes/schedule/index'
@@ -51,6 +52,11 @@ const IndexRoute = IndexRouteImport.update({
 const WorldSkillsIndexRoute = WorldSkillsIndexRouteImport.update({
   id: '/worldSkills/',
   path: '/worldSkills/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VacanciesIndexRoute = VacanciesIndexRouteImport.update({
+  id: '/vacancies/',
+  path: '/vacancies/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const StudentLiveIndexRoute = StudentLiveIndexRouteImport.update({
@@ -244,6 +250,7 @@ export interface FileRoutesByFullPath {
   '/schedule': typeof ScheduleIndexRoute
   '/scholarship': typeof ScholarshipIndexRoute
   '/studentLive': typeof StudentLiveIndexRoute
+  '/vacancies': typeof VacanciesIndexRoute
   '/worldSkills': typeof WorldSkillsIndexRoute
 }
 export interface FileRoutesByTo {
@@ -279,6 +286,7 @@ export interface FileRoutesByTo {
   '/schedule': typeof ScheduleIndexRoute
   '/scholarship': typeof ScholarshipIndexRoute
   '/studentLive': typeof StudentLiveIndexRoute
+  '/vacancies': typeof VacanciesIndexRoute
   '/worldSkills': typeof WorldSkillsIndexRoute
 }
 export interface FileRoutesById {
@@ -315,6 +323,7 @@ export interface FileRoutesById {
   '/schedule/': typeof ScheduleIndexRoute
   '/scholarship/': typeof ScholarshipIndexRoute
   '/studentLive/': typeof StudentLiveIndexRoute
+  '/vacancies/': typeof VacanciesIndexRoute
   '/worldSkills/': typeof WorldSkillsIndexRoute
 }
 export interface FileRouteTypes {
@@ -352,6 +361,7 @@ export interface FileRouteTypes {
     | '/schedule'
     | '/scholarship'
     | '/studentLive'
+    | '/vacancies'
     | '/worldSkills'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -387,6 +397,7 @@ export interface FileRouteTypes {
     | '/schedule'
     | '/scholarship'
     | '/studentLive'
+    | '/vacancies'
     | '/worldSkills'
   id:
     | '__root__'
@@ -422,6 +433,7 @@ export interface FileRouteTypes {
     | '/schedule/'
     | '/scholarship/'
     | '/studentLive/'
+    | '/vacancies/'
     | '/worldSkills/'
   fileRoutesById: FileRoutesById
 }
@@ -458,6 +470,7 @@ export interface RootRouteChildren {
   ScheduleIndexRoute: typeof ScheduleIndexRoute
   ScholarshipIndexRoute: typeof ScholarshipIndexRoute
   StudentLiveIndexRoute: typeof StudentLiveIndexRoute
+  VacanciesIndexRoute: typeof VacanciesIndexRoute
   WorldSkillsIndexRoute: typeof WorldSkillsIndexRoute
 }
 
@@ -475,6 +488,13 @@ declare module '@tanstack/react-router' {
       path: '/worldSkills'
       fullPath: '/worldSkills'
       preLoaderRoute: typeof WorldSkillsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vacancies/': {
+      id: '/vacancies/'
+      path: '/vacancies'
+      fullPath: '/vacancies'
+      preLoaderRoute: typeof VacanciesIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/studentLive/': {
@@ -730,6 +750,7 @@ const rootRouteChildren: RootRouteChildren = {
   ScheduleIndexRoute: ScheduleIndexRoute,
   ScholarshipIndexRoute: ScholarshipIndexRoute,
   StudentLiveIndexRoute: StudentLiveIndexRoute,
+  VacanciesIndexRoute: VacanciesIndexRoute,
   WorldSkillsIndexRoute: WorldSkillsIndexRoute,
 }
 export const routeTree = rootRouteImport

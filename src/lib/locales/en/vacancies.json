@@ -1,0 +1,32 @@
+{
+  "vacancies": "Vacancies",
+  "cardHeader": "State educational order as of {{date}}",
+  "orderDate": "November 9, 2026",
+  "courseTitle": "Year {{course}}",
+  "colSpecialty": "Specialty",
+  "colGrade": "Grade",
+  "colLang": "Language",
+  "colPlaces": "Places",
+  "courseTotal": "Total for year {{course}}:",
+  "totalVacancies": "Total vacancies: {{total}}",
+  "grade9": "Grade 9",
+  "grade11": "Grade 11",
+  "lang": {
+    "kk": "Kaz",
+    "ru": "Rus"
+  },
+  "specialties": {
+    "oilGas": "Oil and Gas Processing Technology",
+    "electricSupply": "Power Supply",
+    "autoRepair": "Maintenance and Repair of Motor Vehicles",
+    "automation": "Automation and Control",
+    "software": "Software Engineering",
+    "translation": "Translation Studies",
+    "laboratory": "Laboratory Technology",
+    "machineBuilding": "Mechanical Engineering Technology",
+    "electromechanical": "Maintenance, Repair and Operation of Electromechanical Equipment",
+    "accounting": "Accounting and Audit",
+    "oilFields": "Operation of Oil and Gas Fields",
+    "construction": "Construction and Operation of Buildings and Structures"
+  }
+}
