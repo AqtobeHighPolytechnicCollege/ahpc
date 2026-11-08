@@ -1,0 +1,25 @@
+{
+  "publicServices": "Public Services",
+  "goToService": "Go to service",
+  "service1": {
+    "title": "Granting academic leave to students of technical and vocational, post-secondary education organizations"
+  },
+  "service2": {
+    "title": "Issuance of duplicates of documents on technical and vocational, post-secondary education"
+  },
+  "service3": {
+    "title": "Transfer and reinstatement of students by type of educational organization"
+  },
+  "service4": {
+    "title": "Issuance of a certificate to persons who have not completed technical and vocational, post-secondary education"
+  },
+  "service5": {
+    "title": "Provision of free meals to certain categories of citizens, as well as persons under guardianship (trusteeship) and foster care, students and pupils of technical and vocational, post-secondary education organizations"
+  },
+  "service6": {
+    "title": "Provision of dormitory accommodation to students of technical and vocational, post-secondary education organizations"
+  },
+  "service7": {
+    "title": "Admission of documents to technical and vocational, post-secondary education organizations"
+  }
+}

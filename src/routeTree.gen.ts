@@ -15,6 +15,7 @@ import { Route as VacanciesIndexRouteImport } from './routes/vacancies/index'
 import { Route as StudentLiveIndexRouteImport } from './routes/studentLive/index'
 import { Route as ScholarshipIndexRouteImport } from './routes/scholarship/index'
 import { Route as ScheduleIndexRouteImport } from './routes/schedule/index'
+import { Route as PublicServicesIndexRouteImport } from './routes/publicServices/index'
 import { Route as PracticeIndexRouteImport } from './routes/practice/index'
 import { Route as OurGraduatesIndexRouteImport } from './routes/ourGraduates/index'
 import { Route as OrdersIndexRouteImport } from './routes/orders/index'
@@ -72,6 +73,11 @@ const ScholarshipIndexRoute = ScholarshipIndexRouteImport.update({
 const ScheduleIndexRoute = ScheduleIndexRouteImport.update({
   id: '/schedule/',
   path: '/schedule/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PublicServicesIndexRoute = PublicServicesIndexRouteImport.update({
+  id: '/publicServices/',
+  path: '/publicServices/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PracticeIndexRoute = PracticeIndexRouteImport.update({
@@ -247,6 +253,7 @@ export interface FileRoutesByFullPath {
   '/orders': typeof OrdersIndexRoute
   '/ourGraduates': typeof OurGraduatesIndexRoute
   '/practice': typeof PracticeIndexRoute
+  '/publicServices': typeof PublicServicesIndexRoute
   '/schedule': typeof ScheduleIndexRoute
   '/scholarship': typeof ScholarshipIndexRoute
   '/studentLive': typeof StudentLiveIndexRoute
@@ -283,6 +290,7 @@ export interface FileRoutesByTo {
   '/orders': typeof OrdersIndexRoute
   '/ourGraduates': typeof OurGraduatesIndexRoute
   '/practice': typeof PracticeIndexRoute
+  '/publicServices': typeof PublicServicesIndexRoute
   '/schedule': typeof ScheduleIndexRoute
   '/scholarship': typeof ScholarshipIndexRoute
   '/studentLive': typeof StudentLiveIndexRoute
@@ -320,6 +328,7 @@ export interface FileRoutesById {
   '/orders/': typeof OrdersIndexRoute
   '/ourGraduates/': typeof OurGraduatesIndexRoute
   '/practice/': typeof PracticeIndexRoute
+  '/publicServices/': typeof PublicServicesIndexRoute
   '/schedule/': typeof ScheduleIndexRoute
   '/scholarship/': typeof ScholarshipIndexRoute
   '/studentLive/': typeof StudentLiveIndexRoute
@@ -358,6 +367,7 @@ export interface FileRouteTypes {
     | '/orders'
     | '/ourGraduates'
     | '/practice'
+    | '/publicServices'
     | '/schedule'
     | '/scholarship'
     | '/studentLive'
@@ -394,6 +404,7 @@ export interface FileRouteTypes {
     | '/orders'
     | '/ourGraduates'
     | '/practice'
+    | '/publicServices'
     | '/schedule'
     | '/scholarship'
     | '/studentLive'
@@ -430,6 +441,7 @@ export interface FileRouteTypes {
     | '/orders/'
     | '/ourGraduates/'
     | '/practice/'
+    | '/publicServices/'
     | '/schedule/'
     | '/scholarship/'
     | '/studentLive/'
@@ -467,6 +479,7 @@ export interface RootRouteChildren {
   OrdersIndexRoute: typeof OrdersIndexRoute
   OurGraduatesIndexRoute: typeof OurGraduatesIndexRoute
   PracticeIndexRoute: typeof PracticeIndexRoute
+  PublicServicesIndexRoute: typeof PublicServicesIndexRoute
   ScheduleIndexRoute: typeof ScheduleIndexRoute
   ScholarshipIndexRoute: typeof ScholarshipIndexRoute
   StudentLiveIndexRoute: typeof StudentLiveIndexRoute
@@ -516,6 +529,13 @@ declare module '@tanstack/react-router' {
       path: '/schedule'
       fullPath: '/schedule'
       preLoaderRoute: typeof ScheduleIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/publicServices/': {
+      id: '/publicServices/'
+      path: '/publicServices'
+      fullPath: '/publicServices'
+      preLoaderRoute: typeof PublicServicesIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/practice/': {
@@ -747,6 +767,7 @@ const rootRouteChildren: RootRouteChildren = {
   OrdersIndexRoute: OrdersIndexRoute,
   OurGraduatesIndexRoute: OurGraduatesIndexRoute,
   PracticeIndexRoute: PracticeIndexRoute,
+  PublicServicesIndexRoute: PublicServicesIndexRoute,
   ScheduleIndexRoute: ScheduleIndexRoute,
   ScholarshipIndexRoute: ScholarshipIndexRoute,
   StudentLiveIndexRoute: StudentLiveIndexRoute,
