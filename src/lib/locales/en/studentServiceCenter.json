@@ -1,0 +1,185 @@
+{
+  "pageTitle": "Student Service Center",
+  "hero": {
+    "title": "Student Service Center"
+  },
+  "contact": {
+    "role": "Head of the Student Service Center",
+    "name": "Kostanova Bayan Kaztuganovna",
+    "office": "Room 207",
+    "phone": "tel. 8(7132) 56-09-79, (ext. 104)",
+    "email": "E-mail"
+  },
+  "about": {
+    "text": "The work of the Student Service Center (SSC) aims to raise service recipients' satisfaction with the quality of public services, to create conditions for the openness and transparency of the educational process, and to reduce the time college students spend obtaining the certificates they need.",
+    "goalTitle": "Main goal of the SSC",
+    "goal": "to provide services based on a client-oriented approach, and to serve students quickly and to a high standard under the \"one-stop shop\" principle."
+  },
+  "servicesTitle": "List of services provided by the Student Service Center",
+  "notice": {
+    "title": "Dear applicants! While the state of emergency in the Republic of Kazakhstan and the quarantine in Aktobe are in effect",
+    "line1": "You can submit a service request to the college e-mail",
+    "line2": "or to the corporate e-mail of the center's office registrars:",
+    "colNumber": "No.",
+    "colName": "Full name",
+    "colRole": "Position",
+    "colLogin": "Login",
+    "colPhone": "Mobile phone",
+    "role": "Office registrar"
+  },
+  "egovNote": "Public services can only be obtained through the e-government portal",
+  "labels": {
+    "stateService": "Public service",
+    "accepts": "Applications for public services are accepted by",
+    "form": "Form of service delivery",
+    "basis": "The public service is provided on the basis of",
+    "documents": "Documents required to receive the public service",
+    "terms": "Service deadlines",
+    "free": "Free of charge",
+    "jumpTo": "Jump to a service"
+  },
+  "accept": {
+    "college": "College (Student Service Center), 1st floor",
+    "gov": "State Corporation",
+    "branches": "Branches of NJSC \"Government for Citizens\" State Corporation",
+    "egov": "www.egov.kz",
+    "portal": "E-government web portal"
+  },
+  "form": {
+    "paper": "Paper",
+    "electronicPaper": "Electronic / Paper",
+    "auto": "Electronic (automated) and (or) paper"
+  },
+  "basis": {
+    "standard": "the Standard",
+    "standardRegulation": "the Standard and the Regulation"
+  },
+  "services": {
+    "duplicate": {
+      "short": "Duplicates of education documents",
+      "title": "Issuance of duplicates of documents on technical and vocational education",
+      "docs": [
+        { "text": "application in the form set out in Appendix 1 to the public service standard" },
+        { "text": "identity document (for identification)" }
+      ],
+      "terms": [
+        { "value": "15 working days", "text": "From the day the documents are submitted" },
+        { "label": "Maximum waiting time to submit documents", "value": "15 minutes" },
+        { "label": "Maximum service time", "value": "15 minutes" }
+      ]
+    },
+    "transfer": {
+      "short": "Transfer and reinstatement",
+      "title": "Transfer and reinstatement of students in educational institutions implementing technical and vocational and post-secondary education programs",
+      "docs": [
+        { "text": "application for transfer and reinstatement", "note": "in free form" },
+        { "text": "copy of the student's grade book (or progress record) certified by the head of the educational institution from which the student is transferring" },
+        { "text": "certificate issued to persons who did not complete their education", "note": "to be presented upon reinstatement" }
+      ],
+      "terms": [
+        { "label": "For transfer", "value": "within one month", "text": "From the submission of the document package, but no later than five days before the start of the receiving institution's next examination session." },
+        { "label": "For reinstatement", "value": "within two weeks", "text": "From the submission of the document package, counting from the day it is filed." }
+      ]
+    },
+    "certificate": {
+      "short": "Certificate for non-completers",
+      "title": "Issuance of a certificate to persons who have not completed technical and vocational or post-secondary education",
+      "docs": [
+        { "text": "application addressed to the head of the institution", "note": "form as per Appendix 2" },
+        { "text": "identity document", "note": "required to identify the service recipient" }
+      ],
+      "terms": [
+        { "label": "At the service provider's location", "value": "3 working days", "text": "From the day the documents are submitted to the service provider or the State Corporation" },
+        { "label": "Not at the service provider's location", "value": "8 working days" }
+      ]
+    },
+    "meals": {
+      "short": "Free meals",
+      "title": "Provision of free meals to certain categories of citizens, as well as to students under guardianship (custody) and foster care",
+      "docs": [
+        { "text": "application addressed to the head of the institution", "note": "form as per Appendix 2" },
+        { "text": "birth certificate", "note": "for children from large families (if born before August 13, 2007)" },
+        { "text": "certificates confirming guardianship (custody) or foster care", "note": "for orphans and children left without parental care who are raised in the service recipient's family" },
+        { "text": "disability certificates", "note": "for persons with disabilities, persons disabled since childhood and children with disabilities, or the conclusion of a psychological, medical and pedagogical consultation for children with developmental disabilities" },
+        { "text": "certificates confirming that the applicant (family) receives targeted social assistance provided by local executive bodies", "note": "for children from families entitled to targeted social assistance" },
+        { "text": "information on income received", "note": "wages of working parents or their substitutes, income from business and other activities, alimony received for children and other dependants" }
+      ],
+      "terms": [
+        { "value": "5 working days", "text": "From the submission of the document package to the service provider or the State Corporation" }
+      ]
+    },
+    "dormitory": {
+      "short": "Dormitory accommodation",
+      "title": "Provision of dormitory accommodation to students of technical and vocational education institutions",
+      "docs": [
+        { "text": "application addressed to the head of the institution", "note": "form as per Appendix 2" },
+        { "text": "certificate of family composition, if the student has a family" },
+        { "text": "copy of the death certificate of a parent (parents)", "note": "for orphans" },
+        { "text": "certificate confirming the family has 4 or more children", "note": "for children from large families" },
+        { "text": "disability certificate in the form approved by order of the Minister of Labor and Social Protection of the Population of the Republic of Kazakhstan", "note": "for orphans" },
+        { "text": "certificate confirming the right to targeted social assistance, or certificate that no targeted social assistance is provided", "note": "for children from families whose per capita income is below the subsistence minimum" },
+        { "text": "identity document", "note": "for identification" }
+      ],
+      "terms": [
+        { "value": "10 working days", "text": "From the submission of the document package by a student of a technical and vocational education institution (hereinafter – the service recipient) to the service provider" }
+      ]
+    },
+    "leave": {
+      "short": "Academic leave",
+      "title": "Granting academic leave to students of educational institutions",
+      "docs": [
+        { "text": "application addressed to the head of the institution", "note": "form as per Appendix 2" },
+        { "text": "conclusion of the medical advisory commission (VKK) of an outpatient clinic" },
+        { "text": "decision of the central medical advisory commission (TsVKK) of an anti-tuberculosis institution", "note": "for academic leave due to tuberculosis, for a period of up to 36 months" },
+        { "text": "military conscription notice", "note": "for academic leave for students subject to conscription" },
+        { "text": "documents (certificate) of the birth or adoption of a child" },
+        { "text": "identity document", "note": "required for identification" }
+      ],
+      "terms": [
+        { "value": "2 working days", "text": "From the day the document package is submitted to the service provider or to the State Corporation at the service provider's location" }
+      ]
+    },
+    "attestation": {
+      "short": "Teacher attestation",
+      "title": "Acceptance of documents for attestation to assign (confirm) qualification categories of teaching staff",
+      "docs": [
+        { "text": "application", "note": "as per Appendix 1 to this Standard" },
+        { "text": "identity document of the service recipient", "note": "required for identification" },
+        { "text": "copy of the education diploma" },
+        { "text": "copy of the professional development document" },
+        { "text": "copy of the document confirming the employee's work activity" },
+        { "text": "copy of the certificate of the previously assigned qualification category" },
+        { "text": "information on professional achievements", "note": "if any" }
+      ],
+      "terms": [
+        { "label": "At the service provider's location", "value": "3 working days", "text": "From the submission of the document package to the service provider or the State Corporation" },
+        { "label": "Not at the service provider's location", "value": "7 working days" }
+      ]
+    },
+    "admission": {
+      "short": "College admission documents",
+      "title": "Acceptance of documents by technical and vocational and post-secondary education institutions",
+      "docs": [
+        { "text": "application for admission" },
+        { "text": "original document on education" },
+        { "text": "4 photographs, 3x4 cm" },
+        { "text": "medical certificate, form No. 086-U" },
+        { "text": "identity document", "note": "for identification" },
+        { "text": "electronic copies of documents", "note": "when applying via www.egov.kz" }
+      ],
+      "terms": [
+        { "label": "Full-time study", "value": "June 20 – August 25", "text": "of the calendar year" },
+        { "label": "Part-time (evening) study", "value": "June 20 – September 20", "text": "of the calendar year" }
+      ]
+    }
+  },
+  "extra": {
+    "title": "Additional services",
+    "items": [
+      "Confirmation certificates for submission on request",
+      "Certificates for the defense department (military commissariat, Appendix 3)",
+      "Certificates of forms No. 2-1, 4, 6"
+    ],
+    "info": "Student Service Center specialists run outreach for staff, teachers and students on obtaining public services through the e-government portal \"E-gov.kz\": certificates of residence, certificates of a clean or existing criminal record, and more."
+  }
+}

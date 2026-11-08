@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as WorldSkillsIndexRouteImport } from './routes/worldSkills/index'
 import { Route as VacanciesIndexRouteImport } from './routes/vacancies/index'
+import { Route as StudentServiceCenterIndexRouteImport } from './routes/studentServiceCenter/index'
 import { Route as StudentLiveIndexRouteImport } from './routes/studentLive/index'
 import { Route as ScholarshipIndexRouteImport } from './routes/scholarship/index'
 import { Route as ScheduleIndexRouteImport } from './routes/schedule/index'
@@ -60,6 +61,12 @@ const VacanciesIndexRoute = VacanciesIndexRouteImport.update({
   path: '/vacancies/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const StudentServiceCenterIndexRoute =
+  StudentServiceCenterIndexRouteImport.update({
+    id: '/studentServiceCenter/',
+    path: '/studentServiceCenter/',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const StudentLiveIndexRoute = StudentLiveIndexRouteImport.update({
   id: '/studentLive/',
   path: '/studentLive/',
@@ -257,6 +264,7 @@ export interface FileRoutesByFullPath {
   '/schedule': typeof ScheduleIndexRoute
   '/scholarship': typeof ScholarshipIndexRoute
   '/studentLive': typeof StudentLiveIndexRoute
+  '/studentServiceCenter': typeof StudentServiceCenterIndexRoute
   '/vacancies': typeof VacanciesIndexRoute
   '/worldSkills': typeof WorldSkillsIndexRoute
 }
@@ -294,6 +302,7 @@ export interface FileRoutesByTo {
   '/schedule': typeof ScheduleIndexRoute
   '/scholarship': typeof ScholarshipIndexRoute
   '/studentLive': typeof StudentLiveIndexRoute
+  '/studentServiceCenter': typeof StudentServiceCenterIndexRoute
   '/vacancies': typeof VacanciesIndexRoute
   '/worldSkills': typeof WorldSkillsIndexRoute
 }
@@ -332,6 +341,7 @@ export interface FileRoutesById {
   '/schedule/': typeof ScheduleIndexRoute
   '/scholarship/': typeof ScholarshipIndexRoute
   '/studentLive/': typeof StudentLiveIndexRoute
+  '/studentServiceCenter/': typeof StudentServiceCenterIndexRoute
   '/vacancies/': typeof VacanciesIndexRoute
   '/worldSkills/': typeof WorldSkillsIndexRoute
 }
@@ -371,6 +381,7 @@ export interface FileRouteTypes {
     | '/schedule'
     | '/scholarship'
     | '/studentLive'
+    | '/studentServiceCenter'
     | '/vacancies'
     | '/worldSkills'
   fileRoutesByTo: FileRoutesByTo
@@ -408,6 +419,7 @@ export interface FileRouteTypes {
     | '/schedule'
     | '/scholarship'
     | '/studentLive'
+    | '/studentServiceCenter'
     | '/vacancies'
     | '/worldSkills'
   id:
@@ -445,6 +457,7 @@ export interface FileRouteTypes {
     | '/schedule/'
     | '/scholarship/'
     | '/studentLive/'
+    | '/studentServiceCenter/'
     | '/vacancies/'
     | '/worldSkills/'
   fileRoutesById: FileRoutesById
@@ -483,6 +496,7 @@ export interface RootRouteChildren {
   ScheduleIndexRoute: typeof ScheduleIndexRoute
   ScholarshipIndexRoute: typeof ScholarshipIndexRoute
   StudentLiveIndexRoute: typeof StudentLiveIndexRoute
+  StudentServiceCenterIndexRoute: typeof StudentServiceCenterIndexRoute
   VacanciesIndexRoute: typeof VacanciesIndexRoute
   WorldSkillsIndexRoute: typeof WorldSkillsIndexRoute
 }
@@ -508,6 +522,13 @@ declare module '@tanstack/react-router' {
       path: '/vacancies'
       fullPath: '/vacancies'
       preLoaderRoute: typeof VacanciesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/studentServiceCenter/': {
+      id: '/studentServiceCenter/'
+      path: '/studentServiceCenter'
+      fullPath: '/studentServiceCenter'
+      preLoaderRoute: typeof StudentServiceCenterIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/studentLive/': {
@@ -771,6 +792,7 @@ const rootRouteChildren: RootRouteChildren = {
   ScheduleIndexRoute: ScheduleIndexRoute,
   ScholarshipIndexRoute: ScholarshipIndexRoute,
   StudentLiveIndexRoute: StudentLiveIndexRoute,
+  StudentServiceCenterIndexRoute: StudentServiceCenterIndexRoute,
   VacanciesIndexRoute: VacanciesIndexRoute,
   WorldSkillsIndexRoute: WorldSkillsIndexRoute,
 }
