@@ -1,34 +1,78 @@
 {
   "admissionRules": "Admission Rules",
-  "arDocs": "Excerpt from the Admission Rules 2025",
-  "arDocsText": "The State Enterprise on the Right of Economic Management 'Aktobe Higher Polytechnic College' admits citizens of the Republic of Kazakhstan, foreign citizens, and stateless persons with basic secondary, general secondary, technical and vocational, post-secondary (initial and secondary professional), higher education, as well as persons with special educational needs holding a document (certificate, diploma) of education.",
-  "arQuota": "When applying for admission, a quota is provided for persons specified in paragraph 8 of Article 26 of the Law of the Republic of Kazakhstan 'On Education'.",
-  "takeDocs": "Document Submission",
-  "notExam": "WITHOUT ENTRANCE EXAMS",
-  "notExamContinue": "based on profile grades in the diploma",
-  "takeDocsVariant": "Ways to Submit Documents",
-  "priemCommis": "Admission Committee",
-  "street": "Ryskulov 267",
+  "serviceLabel": "Public service",
+  "serviceTitle": "Acceptance of documents by technical and vocational and post-secondary education institutions",
+  "providerLabel": "Service provider:",
+  "provider": "Aktobe Higher Polytechnic College (state-owned enterprise on the right of economic management).",
+  "basisLabel": "Legal basis:",
+  "basis": "Order of the Minister of Education and Science of the Republic of Kazakhstan No. 578 of October 18, 2018 \"On approval of the Model Rules for admission to educational institutions implementing technical and vocational and post-secondary education programs\" (as amended).",
+  "deadlinesTitle": "Document submission deadlines for 2026",
+  "commission": "Admissions Committee",
+  "street": "T. Ryskulov St., 267",
   "city": "Aktobe",
-  "fullTimeEducation": "For full-time education under the state order",
-  "termAfter9": "From June 25 to August 18",
-  "termAfter9Text": "Based on basic secondary education (9th grade)",
-  "termAfter11": "From June 25 to August 20",
-  "termAfter11Text": "Based on general secondary education (11th grade)",
-  "termAfterCorrespodence": "From June 25 to September 20",
-  "termAfterCorrespodenceText": "For correspondence education",
-  "docList": "List of Documents",
-  "applicationForAccept": "Application for Admission",
-  "documentOfEducation": "Original of the education document",
-  "photo": "Four photographs size 3x4 cm",
-  "medicalDocs": "Medical certificate form №075, identity document (for identification), documents for quota (if available)",
-  "portalCollege": "College Portal",
-  "crediting": "Enrollment",
-  "creditingText": "Enrollment in the College for educational programs aimed at training mid-level specialists is carried out based on applications on a COMPETITIVE BASIS.",
-  "bankDetails": "Our Bank Details:",
-  "iic": "IIC KZ566010121000054471",
-  "bin": "BIN 181140013637",
-  "adAdress": "(legal address)",
-  "mail": "Postal Code"
+  "fullTime": "Full-time study",
+  "stateOrderDates": "June 25 – August 22",
+  "stateOrderText": "state-funded places",
+  "paidDates": "June 25 – August 27",
+  "paidText": "fee-paying places",
+  "eveningDates": "June 25 – September 20",
+  "eveningText": "evening and part-time study",
+  "docsTitle": "Required documents",
+  "docs": [
+    "Application for acceptance of documents",
+    "Original document on education",
+    "Digital photograph, 3×4 cm",
+    "Medical certificate, form No. 075/u",
+    "Document confirming entitlement to a benefit (if any)"
+  ],
+  "portalTitle": "Submit documents via the eGov.kz portal",
+  "psText": "Information available in state information systems is obtained by the service provider independently, in accordance with the established procedure.",
+  "details": {
+    "title": "Terms of service",
+    "ways": {
+      "title": "How to apply",
+      "items": [
+        "through the e-government web portal eGov.kz",
+        "in person at the college, in cases provided for by law"
+      ]
+    },
+    "form": { "title": "Form of delivery", "text": "electronic and paper (where applicable)" },
+    "price": { "title": "Cost", "text": "free of charge" },
+    "schedule": {
+      "title": "Admissions Committee working hours",
+      "rows": [
+        { "day": "Monday – Friday", "time": "09:00 – 18:00" },
+        { "day": "Saturday", "time": "09:00 – 14:00" },
+        { "day": "Lunch break", "time": "13:00 – 15:00" },
+        { "day": "Sundays and public holidays", "time": "closed" }
+      ]
+    },
+    "wait": { "label": "Maximum waiting time", "value": "15 minutes" },
+    "service": { "label": "Maximum service time", "value": "15 minutes" },
+    "results": {
+      "title": "Result of the service",
+      "items": [
+        "receipt confirming acceptance of documents",
+        "reasoned refusal to provide the public service where grounds provided by law exist"
+      ]
+    },
+    "refusal": {
+      "title": "Grounds for refusal",
+      "items": [
+        "submission of false documents and (or) information",
+        "the applicant and (or) the submitted documents do not meet the established requirements",
+        "restrictions provided by law apply",
+        "no consent to access the personal data needed to provide the public service"
+      ]
+    },
+    "appeal": "Decisions, actions (or inaction) of the service provider may be appealed in the manner established by the legislation of the Republic of Kazakhstan."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "address": "Address",
+    "egov": "E-government portal",
+    "phones": "Phone numbers",
+    "admissionPhone": "Admissions Committee",
+    "contactCenter": "Unified contact center"
+  }
 }
-
