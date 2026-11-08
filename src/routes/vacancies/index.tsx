@@ -1,6 +1,6 @@
 // Vacancies.route.tsx
 import { createFileRoute } from '@tanstack/react-router'
-import styles from "@/routes/Vacancies/Vacancies.module.css"
+import styles from "@/routes/vacancies/vacancies.module.css"
 import { useTranslation } from "react-i18next";
 import { usePageTitle } from "@/components/usePageTitile.tsx";
 
