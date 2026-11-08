@@ -178,6 +178,7 @@ export default function Header() {
                             <li><Link to="/olimpiada">{t('olimpiada')}</Link></li>
                             <li><Link to="/vacancies">{t('vacancies')}</Link></li>
                             <li><Link to="/publicServices">{t('publicServices')}</Link></li>
+                            <li><Link to="/studentServiceCenter">{t('studentServiceCenter')}</Link></li>
                         </ul>
                     </div>
 
