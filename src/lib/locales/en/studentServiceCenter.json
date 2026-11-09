@@ -77,8 +77,8 @@
         { "text": "certificate issued to persons who did not complete their education", "note": "to be presented upon reinstatement" }
       ],
       "terms": [
-        { "label": "For transfer", "value": "within one month", "text": "From the submission of the document package, but no later than five days before the start of the receiving institution's next examination session." },
-        { "label": "For reinstatement", "value": "within two weeks", "text": "From the submission of the document package, counting from the day it is filed." }
+        { "label": "For transfer from other institutions", "value": "10 working days", "text": "From the submission of the document package, but no later than five days before the start of the receiving institution's next examination session." },
+        { "label": "For reinstatement to another educational institution", "value": "10 working days", "text": "From the submission of the document package, counting from the day it is filed." }
       ]
     },
     "certificate": {
@@ -121,7 +121,7 @@
         { "text": "identity document", "note": "for identification" }
       ],
       "terms": [
-        { "value": "10 working days", "text": "From the submission of the document package by a student of a technical and vocational education institution (hereinafter – the service recipient) to the service provider" }
+        { "value": "3 working days", "text": "From the submission of the document package by a student of a technical and vocational education institution (hereinafter – the service recipient) to the service provider" }
       ]
     },
     "leave": {
@@ -129,31 +129,14 @@
       "title": "Granting academic leave to students of educational institutions",
       "docs": [
         { "text": "application addressed to the head of the institution", "note": "form as per Appendix 2" },
-        { "text": "conclusion of the medical advisory commission (VKK) of an outpatient clinic" },
-        { "text": "decision of the central medical advisory commission (TsVKK) of an anti-tuberculosis institution", "note": "for academic leave due to tuberculosis, for a period of up to 36 months" },
-        { "text": "military conscription notice", "note": "for academic leave for students subject to conscription" },
+        { "text": "conclusion of the medical advisory commission (VKK) of an outpatient clinic", "note": "for academic leave due to tuberculosis, for a period of up to 36 months" },
+        { "text": "decision of the central medical advisory commission (TsVKK) of an anti-tuberculosis institution", "note": "for academic leave for students subject to conscription" },
+        { "text": "military conscription notice" },
         { "text": "documents (certificate) of the birth or adoption of a child" },
         { "text": "identity document", "note": "required for identification" }
       ],
       "terms": [
         { "value": "2 working days", "text": "From the day the document package is submitted to the service provider or to the State Corporation at the service provider's location" }
-      ]
-    },
-    "attestation": {
-      "short": "Teacher attestation",
-      "title": "Acceptance of documents for attestation to assign (confirm) qualification categories of teaching staff",
-      "docs": [
-        { "text": "application", "note": "as per Appendix 1 to this Standard" },
-        { "text": "identity document of the service recipient", "note": "required for identification" },
-        { "text": "copy of the education diploma" },
-        { "text": "copy of the professional development document" },
-        { "text": "copy of the document confirming the employee's work activity" },
-        { "text": "copy of the certificate of the previously assigned qualification category" },
-        { "text": "information on professional achievements", "note": "if any" }
-      ],
-      "terms": [
-        { "label": "At the service provider's location", "value": "3 working days", "text": "From the submission of the document package to the service provider or the State Corporation" },
-        { "label": "Not at the service provider's location", "value": "7 working days" }
       ]
     },
     "admission": {
@@ -162,14 +145,14 @@
       "docs": [
         { "text": "application for admission" },
         { "text": "original document on education" },
-        { "text": "4 photographs, 3x4 cm" },
-        { "text": "medical certificate, form No. 086-U" },
+        { "text": "digital photographs, 3x4 cm" },
+        { "text": "medical certificate, form No. 075-U" },
         { "text": "identity document", "note": "for identification" },
-        { "text": "electronic copies of documents", "note": "when applying via www.egov.kz" }
+        { "text": "electronic copies of documents", "note": "when applying via www.oqu.edu.kz" }
       ],
       "terms": [
-        { "label": "Full-time study", "value": "June 20 – August 25", "text": "of the calendar year" },
-        { "label": "Part-time (evening) study", "value": "June 20 – September 20", "text": "of the calendar year" }
+        { "label": "Full-time study", "value": "June 25 – August 25", "text": "of the calendar year" },
+        { "label": "Part-time (evening) study", "value": "June 25 – September 20", "text": "of the calendar year" }
       ]
     }
   },
@@ -178,7 +161,7 @@
     "items": [
       "Confirmation certificates for submission on request",
       "Certificates for the defense department (military commissariat, Appendix 3)",
-      "Certificates of forms No. 2-1, 4, 6"
+      "Certificates of forms No. 2, 4, 6, 29"
     ],
     "info": "Student Service Center specialists run outreach for staff, teachers and students on obtaining public services through the e-government portal \"E-gov.kz\": certificates of residence, certificates of a clean or existing criminal record, and more."
   }

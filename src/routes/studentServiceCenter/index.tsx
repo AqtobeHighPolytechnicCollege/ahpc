@@ -12,7 +12,7 @@ export const Route = createFileRoute('/studentServiceCenter/')({
 
 const CONTACT = {
   phoneHref: "tel:+77132560979",
-  email: "polytech1965@mail.ru",
+  email: "info@apk-edu.kz",
 }
 
 const REGISTRARS = [
@@ -34,13 +34,12 @@ type ServiceConfig = {
 
 const services: ServiceConfig[] = [
   { key: "duplicate",   accept: ["gov", "college", "egov"],          form: "auto",            basis: "standard",           free: false },
-  { key: "transfer",    accept: ["college"],                         form: "paper",           basis: "standardRegulation", free: true },
-  { key: "certificate", accept: ["branches", "college"],             form: "paper",           basis: "standardRegulation", free: true },
-  { key: "meals",       accept: ["branches", "college", "portal"],   form: "electronicPaper", basis: "standardRegulation", free: true },
+  { key: "transfer",    accept: ["college", "branches"],             form: "paper",           basis: "standard",           free: true },
+  { key: "certificate", accept: ["gov", "college"],                  form: "paper",           basis: "standard",           free: true },
+  { key: "meals",       accept: ["college", "portal"],               form: "electronicPaper", basis: "standard",           free: true },
   { key: "dormitory",   accept: ["college"],                         form: "paper",           basis: "standardRegulation", free: true },
-  { key: "leave",       accept: ["branches", "college"],             form: "paper",           basis: "standardRegulation", free: true },
-  { key: "attestation", accept: ["branches", "college"],             form: "paper",           basis: "standardRegulation", free: true },
-  { key: "admission",   accept: ["portal", "college"],               form: "electronicPaper", basis: "standardRegulation", free: true },
+  { key: "leave",       accept: ["college"],                         form: "paper",           basis: "standardRegulation", free: true },
+  { key: "admission",   accept: ["portal", "college"],               form: "electronicPaper", basis: "standard",           free: true },
 ]
 
 type DocItem = { text: string; note?: string }
