@@ -21,7 +21,7 @@ function RouteComponent() {
             <div className={styles.dormitoryCards}>
                 <div className={styles.leftBlock}>
                     <div className={styles.infoCard}>
-                        <h2 className={styles.text}><span className={styles.number}>576</span>{t('places')}</h2>
+                        <h2 className={styles.text}><span className={styles.number}>100</span>{t('places')}</h2>
                     </div>
                     <div className={styles.infoCard}>
                         <h1 className={styles.textTitle}>{t('ourRules')}</h1>
@@ -101,12 +101,7 @@ function RouteComponent() {
                                 <h1 className={styles.convTime}>{t('before')}<span className={styles.convNumber}>48</span> {t('monthOfStay')}</h1>
                             </div>
                         </div>
-                        <div className={styles.convContainer}>
-                            <div className={styles.priceBlock}>
-                                <h1 className={styles.price}>10.000 тг </h1>
-                                <h2 className={styles.priceTitle}> {t('monthLife')}</h2>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
