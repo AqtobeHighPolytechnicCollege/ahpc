@@ -45,7 +45,7 @@ function RouteComponent() {
                 <div className={styles.rightBlock}>
                     <div className={styles.infoCard}>
                         <div className={styles.infoCardTexts}>
-                            <h1 className={styles.infoCardNumber}>6:00-22:00</h1>
+                            <h1 className={styles.infoCardNumber}>6:00-21:00</h1>
                             <h2 className={styles.infoCardText}>{t('curfew')}</h2>
                         </div>
                     </div>
