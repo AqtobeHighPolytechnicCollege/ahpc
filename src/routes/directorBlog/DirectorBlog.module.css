@@ -1,0 +1,477 @@
+/* ===== HERO ===== */
+.headContent {
+    height: 100vh;
+    background-image: url('/img/bg_layout.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 1px solid #0025A1;
+}
+
+.headContentHashtag {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headContentHashtag h1 {
+    font-size: 90px;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    text-align: center;
+}
+
+/* ===== PROFILE SECTION ===== */
+.profileSection {
+    padding: 7rem 5rem;
+    background: #fff;
+}
+
+.profileLayout {
+    display: flex;
+    gap: 70px;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profileLeft {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.profilePhoto {
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+    border: 1px solid #000E3B;
+}
+
+.profileMeta {
+    width: 300px;
+}
+
+.profileName {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 6px;
+    line-height: 1.3;
+}
+
+.profilePosition {
+    font-size: 15px;
+    color: #000E3B;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 4px;
+    letter-spacing: 0.3px;
+}
+
+.profileDegree {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.profileRight {
+    flex: 1;
+    padding-top: 8px;
+}
+
+.greetingLabel {
+    font-size: 13px;
+    font-weight: 600;
+    color: #0025A1;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0 0 20px;
+}
+
+.greetingTitle {
+    font-size: 46px;
+    font-weight: 800;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 32px;
+    line-height: 1.1;
+}
+
+.greetingBody {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-left: 3px solid #000E3B;
+    padding-left: 28px;
+    margin-bottom: 36px;
+}
+
+.greetingText {
+    font-size: 17px;
+    color: #333;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.signatureName {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000E3B;
+    font-style: italic;
+}
+
+/* ===== FAQ SECTION ===== */
+.faqSection {
+    padding: 7rem 5rem;
+    background: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.faqInner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sectionHeading {
+    font-size: 52px;
+    font-weight: 800;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 50px;
+    line-height: 1;
+}
+
+.faqList {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqItem {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.faqItem:first-child {
+    border-top: 1px solid #d0d0d0;
+}
+
+.faqQuestion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    gap: 24px;
+}
+
+.faqQuestion:hover .faqQuestionText {
+    color: #0025A1;
+}
+
+.faqQuestionText {
+    font-size: 19px;
+    font-weight: 600;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    flex: 1;
+    transition: color 0.2s;
+}
+
+.faqToggle {
+    flex-shrink: 0;
+    font-size: 26px;
+    font-weight: 300;
+    color: #000E3B;
+    line-height: 1;
+    width: 28px;
+    text-align: center;
+    transition: transform 0.25s;
+}
+
+.faqToggle.open {
+    transform: rotate(45deg);
+}
+
+.faqAnswer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+
+.faqAnswer.open {
+    max-height: 500px;
+}
+
+.faqAnswerText {
+    padding: 0 60px 24px 0;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* ===== FORM SECTION ===== */
+.formSection {
+    padding: 7rem 5rem;
+    background: #fff;
+}
+
+.formInner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.formLeft h2 {
+    font-size: 52px;
+    font-weight: 800;
+    color: #000E3B;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 20px;
+    line-height: 1.1;
+}
+
+.formLeft p {
+    font-size: 17px;
+    color: #555;
+    line-height: 1.7;
+    margin: 0 0 36px;
+}
+
+.formContacts {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.formContactItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    color: #333;
+}
+
+.formContactItem svg {
+    flex-shrink: 0;
+    color: #000E3B;
+}
+
+.formRight {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.formRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.formLabel {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000E3B;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.formRequired {
+    color: #c00;
+    margin-left: 2px;
+}
+
+.formInput,
+.formSelect,
+.formTextarea {
+    padding: 14px 16px;
+    border: 1px solid #000E3B;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #111;
+    background: #fff;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.formInput:focus,
+.formSelect:focus,
+.formTextarea:focus {
+    border-color: #0025A1;
+    border-width: 2px;
+}
+
+.formTextarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.formSelect {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23000E3B' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    padding-right: 36px;
+}
+
+.submitBtn {
+    padding: 16px 40px;
+    background: #000E3B;
+    color: #fff;
+    border: 2px solid #000E3B;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    align-self: flex-start;
+}
+
+.submitBtn:hover {
+    background: #fff;
+    color: #000E3B;
+}
+
+.submitBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.successMessage {
+    padding: 18px 20px;
+    border: 1px solid #000E3B;
+    border-left: 4px solid #000E3B;
+    border-radius: 4px;
+    background: #f0f4ff;
+}
+
+.successText {
+    font-size: 15px;
+    color: #000E3B;
+    font-weight: 600;
+    margin: 0;
+}
+
+.errorMessage {
+    padding: 14px 16px;
+    border: 1px solid #c00;
+    border-radius: 4px;
+    background: #fff5f5;
+    color: #c00;
+    font-size: 14px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1100px) {
+    .profileSection,
+    .faqSection,
+    .formSection {
+        padding: 5rem 3rem;
+    }
+
+    .formInner {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+}
+
+@media (max-width: 800px) {
+    .headContentHashtag h1 {
+        font-size: 56px;
+    }
+
+    .profileSection,
+    .faqSection,
+    .formSection {
+        padding: 4rem 2rem;
+    }
+
+    .profileLayout {
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .profileLeft {
+        align-items: center;
+        width: 100%;
+    }
+
+    .profilePhoto {
+        width: 220px;
+        height: 280px;
+    }
+
+    .profileMeta {
+        width: 220px;
+        text-align: center;
+    }
+
+    .greetingTitle {
+        font-size: 34px;
+    }
+
+    .sectionHeading {
+        font-size: 36px;
+    }
+
+    .formRow {
+        grid-template-columns: 1fr;
+    }
+
+    .formLeft h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 500px) {
+    .headContentHashtag h1 {
+        font-size: 40px;
+    }
+
+    .greetingTitle {
+        font-size: 28px;
+    }
+
+    .greetingBody {
+        padding-left: 18px;
+    }
+
+    .faqQuestionText {
+        font-size: 16px;
+    }
+}

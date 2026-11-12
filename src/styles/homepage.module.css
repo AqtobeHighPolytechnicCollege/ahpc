@@ -87,6 +87,131 @@
     animation-delay: -0.5s;
 }
 
+/* ======== DIRECTOR BLOG BANNER ======== */
+.directorBlogBanner {
+    padding: 5rem;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.directorBlogCard {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: #000E3B;
+    padding: 52px 60px;
+}
+
+.directorBlogPhoto {
+    width: 160px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 4px;
+    flex-shrink: 0;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.directorBlogContent {
+    flex: 1;
+    color: #fff;
+}
+
+.directorBlogTag {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.directorBlogTitle {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 8px;
+    line-height: 1.1;
+}
+
+.directorBlogName {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0 0 20px;
+}
+
+.directorBlogDesc {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin: 0 0 28px;
+    max-width: 540px;
+}
+
+.directorBlogBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    color: #fff;
+    padding: 12px 28px;
+    border: 1px solid rgba(255,255,255,0.5);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.directorBlogBtn:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .directorBlogBanner {
+        padding: 4rem 3rem;
+    }
+
+    .directorBlogCard {
+        padding: 44px 44px;
+        gap: 36px;
+    }
+
+    .directorBlogTitle {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 700px) {
+    .directorBlogBanner {
+        padding: 3rem 1.5rem;
+    }
+
+    .directorBlogCard {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 28px;
+        gap: 28px;
+    }
+
+    .directorBlogDesc {
+        max-width: 100%;
+    }
+
+    .directorBlogTitle {
+        font-size: 28px;
+    }
+
+    .directorBlogName {
+        font-size: 17px;
+    }
+}
+
 .mosaicSquare:nth-child(3n) {
     animation-delay: -1s;
 }

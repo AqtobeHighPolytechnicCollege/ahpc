@@ -11,6 +11,28 @@
   "academicDegree": "Academic degree, academic title",
 
   "team": {
+    "0": {
+      "name": "Zhetkergenkyzy Nurgul",
+      "position": "Director",
+      "education": "Higher education",
+      "graduationYear": [
+        "Aktobe University named after S. Baishev, 2002",
+        "Kazakh University of Economics, Finance and International Trade, 2013"
+      ],
+      "specialty": [
+        "\"Accounting and Audit\"",
+        "\"Accounting and Audit\""
+      ],
+      "qualification": [
+        "Economist-accountant with higher professional education",
+        "Master of Economic Sciences"
+      ],
+      "degree": "Master of Economic Sciences",
+      "achievements": [
+        "Winner of the republican competition \"Best Teacher – 2014\", 2014",
+        "Badge \"Honorary Worker of Education of the Republic of Kazakhstan\", 2016"
+      ]
+    },
     "1": {
       "name": "Uteuliev Yerzhan Baktybayevich",
       "position": "Deputy Director for Academic Affairs",

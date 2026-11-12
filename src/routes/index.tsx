@@ -1,6 +1,7 @@
 // src/routes/index.tsx
 import { createFileRoute } from '@tanstack/react-router';
 import { useTranslation } from 'react-i18next';
+import { Link } from '@tanstack/react-router';
 import Navbar from '../components/Navbar/Navbar.tsx';
 import styles from '../styles/homepage.module.css';
 import InfoCards from '@/components/MainPage/InfoCards/InfoCards.tsx';
@@ -104,6 +105,29 @@ function HomePage() {
             <InfoCardsWithDeck />
 
 
+
+            {/* Блог директора */}
+            <div className={styles.directorBlogBanner}>
+                <div className={styles.directorBlogCard}>
+                    <img
+                        className={styles.directorBlogPhoto}
+                        src="/img/collegeManagement/Zhetkergenkyzy-Nurgul.png"
+                        alt={t('directorBlogTitle')}
+                    />
+                    <div className={styles.directorBlogContent}>
+                        <span className={styles.directorBlogTag}>{t('directorBlogTag')}</span>
+                        <h2 className={styles.directorBlogTitle}>{t('directorBlogTitle')}</h2>
+                        <p className={styles.directorBlogName}>Жеткергенқызы Нұргүл</p>
+                        <p className={styles.directorBlogDesc}>{t('directorBlogDesc')}</p>
+                        <Link to="/directorBlog" className={styles.directorBlogBtn}>
+                            {t('directorBlogBtn')}
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 12H19M13 6L19 12L13 18" stroke="#000E3B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                            </svg>
+                        </Link>
+                    </div>
+                </div>
+            </div>
 
             {/* Новости */}
             <News />

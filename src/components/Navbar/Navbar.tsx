@@ -162,6 +162,7 @@ export default function Header() {
 
                         </div>
                         <ul onClick={toggleMenu}>
+                            <li><Link to="/directorBlog">{t('directorBlog')}</Link></li>
                             <li><Link to="/CollegeManagement">{t('collegeManagement')}</Link></li>
                             <li><Link to="/companyReviews">{t('companyReviews')}</Link></li>
                             <li><Link to="/Symbols">{t('symbols')}</Link></li>

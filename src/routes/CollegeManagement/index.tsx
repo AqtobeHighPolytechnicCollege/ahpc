@@ -10,6 +10,7 @@ type Person = {
 }
 
 const teamData: Person[] = [
+    { id: 0, photoSrc: '/img/collegeManagement/Zhetkergenkyzy_Nurgul.png' },
     { id: 1, photoSrc: '/img/collegeManagement/Erzhan-Utitliev.png' },
     { id: 2, photoSrc: '/img/collegeManagement/Muhtarov-Abzal.png' },
     { id: 3, photoSrc: '/img/collegeManagement/Kuralai_Muratovna.png' },
@@ -144,7 +145,7 @@ const PersonModal: FC<PersonModalProps> = ({ person, onClose }) => {
                             </div>
                         )}
 
-                        {personId === '0' && (
+                        {/* {personId === '0' && (
                             <>
                                 <div className={styles.appointmentOrders}>
                             <a
@@ -165,7 +166,7 @@ const PersonModal: FC<PersonModalProps> = ({ person, onClose }) => {
                                 </a>
                                 </div>
                             </>
-                        )}
+                        )} */}
                     </div>
                 </div>
             </div>

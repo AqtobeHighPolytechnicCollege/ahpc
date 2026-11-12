@@ -13,7 +13,10 @@
       "Bash(gh repo *)",
       "WebFetch(domain:github.com)",
       "Bash(npm install *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\" -Force)",
+      "Bash(Select-Object Name)",
+      "Bash(npm run *)"
     ]
   }
 }

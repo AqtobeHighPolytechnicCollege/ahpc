@@ -38,6 +38,7 @@ import ruOlimiada from '../locales/ru/olimpiada.json'
 import ruVacancies from '../locales/ru/vacancies.json'
 import ruPublicServices from '../locales/ru/publicServices.json'
 import ruStudentServiceCenter from '../locales/ru/studentServiceCenter.json'
+import ruDirectorBlog from '../locales/ru/directorBlog.json'
 import kzHome from '../locales/kz/home.json'
 import kzNews from '../locales/kz/news.json'
 import kzReviews from '../locales/kz/reviews.json'
@@ -75,6 +76,7 @@ import kzOlimiada from '../locales/kz/olimpiada.json'
 import kzVacancies from '../locales/kz/vacancies.json'
 import kzPublicServices from '../locales/kz/publicServices.json'
 import kzStudentServiceCenter from '../locales/kz/studentServiceCenter.json'
+import kzDirectorBlog from '../locales/kz/directorBlog.json'
 import enHome from '../locales/en/home.json'
 import enNews from '../locales/en/news.json'
 import enReviews from '../locales/en/reviews.json'
@@ -112,6 +114,7 @@ import enOlimiada from '../locales/en/olimpiada.json'
 import enVacancies from '../locales/en/vacancies.json'
 import enPublicServices from '../locales/en/publicServices.json'
 import enStudentServiceCenter from '../locales/en/studentServiceCenter.json'
+import enDirectorBlog from '../locales/en/directorBlog.json'
 
 i18n
     .use(initReactI18next)
@@ -154,7 +157,8 @@ i18n
                 olimpiada: ruOlimiada,
                 vacancies: ruVacancies,
                 publicServices: ruPublicServices,
-                studentServiceCenter: ruStudentServiceCenter
+                studentServiceCenter: ruStudentServiceCenter,
+                directorBlog: ruDirectorBlog
             },
             'kk': {
                 home: kzHome,
@@ -193,7 +197,8 @@ i18n
                 olimpiada: kzOlimiada,
                 vacancies: kzVacancies,
                 publicServices: kzPublicServices,
-                studentServiceCenter: kzStudentServiceCenter
+                studentServiceCenter: kzStudentServiceCenter,
+                directorBlog: kzDirectorBlog
             },
             en: {
                 home: enHome,
@@ -232,7 +237,8 @@ i18n
                 olimpiada: enOlimiada,
                 vacancies: enVacancies,
                 publicServices: enPublicServices,
-                studentServiceCenter: enStudentServiceCenter
+                studentServiceCenter: enStudentServiceCenter,
+                directorBlog: enDirectorBlog
             }
         },
         lng: 'ru',
@@ -240,7 +246,7 @@ i18n
         ns: ['home', 'about', 'reviews', 'partners', 'footer', 'departments', 'collegeManagement', 'sybmols','contacts','companyReviews','charter',
             'collegeHistory', 'counteringCorruption','graduateReviews','media','orders','admissionRules', 'dormitory','specials',
         'schedule','examInfo', 'scholarship','studentLive','correspondence','license','worldSkills','employemnt','dualEducation',
-        'practice', 'ourGraduates','alumniAssoctiation', 'navbar','documents','olimpiada','vacancies','publicServices','studentServiceCenter'],
+        'practice', 'ourGraduates','alumniAssoctiation', 'navbar','documents','olimpiada','vacancies','publicServices','studentServiceCenter','directorBlog'],
 
         defaultNS: 'home',
         interpolation: {

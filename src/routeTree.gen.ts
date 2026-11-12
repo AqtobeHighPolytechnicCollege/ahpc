@@ -29,6 +29,7 @@ import { Route as ExamInfoIndexRouteImport } from './routes/examInfo/index'
 import { Route as EmploymentIndexRouteImport } from './routes/employment/index'
 import { Route as DualEducationIndexRouteImport } from './routes/dualEducation/index'
 import { Route as DocumentsIndexRouteImport } from './routes/documents/index'
+import { Route as DirectorBlogIndexRouteImport } from './routes/directorBlog/index'
 import { Route as CounteringCorruptionIndexRouteImport } from './routes/counteringCorruption/index'
 import { Route as CorrespondenceIndexRouteImport } from './routes/correspondence/index'
 import { Route as CompanyReviewsIndexRouteImport } from './routes/companyReviews/index'
@@ -146,6 +147,11 @@ const DocumentsIndexRoute = DocumentsIndexRouteImport.update({
   path: '/documents/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DirectorBlogIndexRoute = DirectorBlogIndexRouteImport.update({
+  id: '/directorBlog/',
+  path: '/directorBlog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CounteringCorruptionIndexRoute =
   CounteringCorruptionIndexRouteImport.update({
     id: '/counteringCorruption/',
@@ -241,6 +247,7 @@ export interface FileRoutesByFullPath {
   '/companyReviews': typeof CompanyReviewsIndexRoute
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
+  '/directorBlog': typeof DirectorBlogIndexRoute
   '/documents': typeof DocumentsIndexRoute
   '/dualEducation': typeof DualEducationIndexRoute
   '/employment': typeof EmploymentIndexRoute
@@ -278,6 +285,7 @@ export interface FileRoutesByTo {
   '/companyReviews': typeof CompanyReviewsIndexRoute
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
+  '/directorBlog': typeof DirectorBlogIndexRoute
   '/documents': typeof DocumentsIndexRoute
   '/dualEducation': typeof DualEducationIndexRoute
   '/employment': typeof EmploymentIndexRoute
@@ -316,6 +324,7 @@ export interface FileRoutesById {
   '/companyReviews/': typeof CompanyReviewsIndexRoute
   '/correspondence/': typeof CorrespondenceIndexRoute
   '/counteringCorruption/': typeof CounteringCorruptionIndexRoute
+  '/directorBlog/': typeof DirectorBlogIndexRoute
   '/documents/': typeof DocumentsIndexRoute
   '/dualEducation/': typeof DualEducationIndexRoute
   '/employment/': typeof EmploymentIndexRoute
@@ -355,6 +364,7 @@ export interface FileRouteTypes {
     | '/companyReviews'
     | '/correspondence'
     | '/counteringCorruption'
+    | '/directorBlog'
     | '/documents'
     | '/dualEducation'
     | '/employment'
@@ -392,6 +402,7 @@ export interface FileRouteTypes {
     | '/companyReviews'
     | '/correspondence'
     | '/counteringCorruption'
+    | '/directorBlog'
     | '/documents'
     | '/dualEducation'
     | '/employment'
@@ -429,6 +440,7 @@ export interface FileRouteTypes {
     | '/companyReviews/'
     | '/correspondence/'
     | '/counteringCorruption/'
+    | '/directorBlog/'
     | '/documents/'
     | '/dualEducation/'
     | '/employment/'
@@ -467,6 +479,7 @@ export interface RootRouteChildren {
   CompanyReviewsIndexRoute: typeof CompanyReviewsIndexRoute
   CorrespondenceIndexRoute: typeof CorrespondenceIndexRoute
   CounteringCorruptionIndexRoute: typeof CounteringCorruptionIndexRoute
+  DirectorBlogIndexRoute: typeof DirectorBlogIndexRoute
   DocumentsIndexRoute: typeof DocumentsIndexRoute
   DualEducationIndexRoute: typeof DualEducationIndexRoute
   EmploymentIndexRoute: typeof EmploymentIndexRoute
@@ -630,6 +643,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DocumentsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/directorBlog/': {
+      id: '/directorBlog/'
+      path: '/directorBlog'
+      fullPath: '/directorBlog'
+      preLoaderRoute: typeof DirectorBlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/counteringCorruption/': {
       id: '/counteringCorruption/'
       path: '/counteringCorruption'
@@ -755,6 +775,7 @@ const rootRouteChildren: RootRouteChildren = {
   CompanyReviewsIndexRoute: CompanyReviewsIndexRoute,
   CorrespondenceIndexRoute: CorrespondenceIndexRoute,
   CounteringCorruptionIndexRoute: CounteringCorruptionIndexRoute,
+  DirectorBlogIndexRoute: DirectorBlogIndexRoute,
   DocumentsIndexRoute: DocumentsIndexRoute,
   DualEducationIndexRoute: DualEducationIndexRoute,
   EmploymentIndexRoute: EmploymentIndexRoute,
