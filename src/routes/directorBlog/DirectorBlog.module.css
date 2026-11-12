@@ -396,6 +396,93 @@
     font-size: 14px;
 }
 
+/* ===== ANSWERS SECTION ===== */
+.answersSection {
+    padding: 7rem 5rem;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+}
+
+.answersInner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.answersList {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.answerCard {
+    border: 1px solid #e0e0e0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.answerQuestion {
+    padding: 28px 32px;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answerReply {
+    padding: 28px 32px;
+    background: #f8f9ff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answerQLabel {
+    font-size: 11px;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.answerALabel {
+    font-size: 11px;
+    font-weight: 700;
+    color: #0025A1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.answerCategory {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000E3B;
+    background: #e8ecf8;
+    padding: 3px 10px;
+    align-self: flex-start;
+}
+
+.answerQText {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.answerAText {
+    font-size: 15px;
+    color: #222;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.answerAuthor {
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+    margin-top: auto;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1100px) {
     .profileSection,
@@ -407,6 +494,17 @@
     .formInner {
         grid-template-columns: 1fr;
         gap: 48px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .answerCard {
+        grid-template-columns: 1fr;
+    }
+
+    .answerQuestion {
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
     }
 }
 

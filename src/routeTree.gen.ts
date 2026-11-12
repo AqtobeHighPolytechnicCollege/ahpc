@@ -30,6 +30,7 @@ import { Route as EmploymentIndexRouteImport } from './routes/employment/index'
 import { Route as DualEducationIndexRouteImport } from './routes/dualEducation/index'
 import { Route as DocumentsIndexRouteImport } from './routes/documents/index'
 import { Route as DirectorBlogIndexRouteImport } from './routes/directorBlog/index'
+import { Route as DirectorAdminIndexRouteImport } from './routes/directorAdmin/index'
 import { Route as CounteringCorruptionIndexRouteImport } from './routes/counteringCorruption/index'
 import { Route as CorrespondenceIndexRouteImport } from './routes/correspondence/index'
 import { Route as CompanyReviewsIndexRouteImport } from './routes/companyReviews/index'
@@ -44,6 +45,7 @@ import { Route as DormitoryIndexRouteImport } from './routes/Dormitory/index'
 import { Route as ContactsIndexRouteImport } from './routes/Contacts/index'
 import { Route as CollegeManagementIndexRouteImport } from './routes/CollegeManagement/index'
 import { Route as NewsNewsIdRouteImport } from './routes/news/$newsId'
+import { Route as DirectorAdminLoginRouteImport } from './routes/directorAdmin/login'
 import { Route as NotFoundPageNotFoundPageRouteImport } from './routes/NotFoundPage/NotFoundPage'
 
 const IndexRoute = IndexRouteImport.update({
@@ -152,6 +154,11 @@ const DirectorBlogIndexRoute = DirectorBlogIndexRouteImport.update({
   path: '/directorBlog/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DirectorAdminIndexRoute = DirectorAdminIndexRouteImport.update({
+  id: '/directorAdmin/',
+  path: '/directorAdmin/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CounteringCorruptionIndexRoute =
   CounteringCorruptionIndexRouteImport.update({
     id: '/counteringCorruption/',
@@ -223,6 +230,11 @@ const NewsNewsIdRoute = NewsNewsIdRouteImport.update({
   path: '/news/$newsId',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DirectorAdminLoginRoute = DirectorAdminLoginRouteImport.update({
+  id: '/directorAdmin/login',
+  path: '/directorAdmin/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const NotFoundPageNotFoundPageRoute =
   NotFoundPageNotFoundPageRouteImport.update({
     id: '/NotFoundPage/NotFoundPage',
@@ -233,6 +245,7 @@ const NotFoundPageNotFoundPageRoute =
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/NotFoundPage/NotFoundPage': typeof NotFoundPageNotFoundPageRoute
+  '/directorAdmin/login': typeof DirectorAdminLoginRoute
   '/news/$newsId': typeof NewsNewsIdRoute
   '/CollegeManagement': typeof CollegeManagementIndexRoute
   '/Contacts': typeof ContactsIndexRoute
@@ -247,6 +260,7 @@ export interface FileRoutesByFullPath {
   '/companyReviews': typeof CompanyReviewsIndexRoute
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
+  '/directorAdmin': typeof DirectorAdminIndexRoute
   '/directorBlog': typeof DirectorBlogIndexRoute
   '/documents': typeof DocumentsIndexRoute
   '/dualEducation': typeof DualEducationIndexRoute
@@ -271,6 +285,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/NotFoundPage/NotFoundPage': typeof NotFoundPageNotFoundPageRoute
+  '/directorAdmin/login': typeof DirectorAdminLoginRoute
   '/news/$newsId': typeof NewsNewsIdRoute
   '/CollegeManagement': typeof CollegeManagementIndexRoute
   '/Contacts': typeof ContactsIndexRoute
@@ -285,6 +300,7 @@ export interface FileRoutesByTo {
   '/companyReviews': typeof CompanyReviewsIndexRoute
   '/correspondence': typeof CorrespondenceIndexRoute
   '/counteringCorruption': typeof CounteringCorruptionIndexRoute
+  '/directorAdmin': typeof DirectorAdminIndexRoute
   '/directorBlog': typeof DirectorBlogIndexRoute
   '/documents': typeof DocumentsIndexRoute
   '/dualEducation': typeof DualEducationIndexRoute
@@ -310,6 +326,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/NotFoundPage/NotFoundPage': typeof NotFoundPageNotFoundPageRoute
+  '/directorAdmin/login': typeof DirectorAdminLoginRoute
   '/news/$newsId': typeof NewsNewsIdRoute
   '/CollegeManagement/': typeof CollegeManagementIndexRoute
   '/Contacts/': typeof ContactsIndexRoute
@@ -324,6 +341,7 @@ export interface FileRoutesById {
   '/companyReviews/': typeof CompanyReviewsIndexRoute
   '/correspondence/': typeof CorrespondenceIndexRoute
   '/counteringCorruption/': typeof CounteringCorruptionIndexRoute
+  '/directorAdmin/': typeof DirectorAdminIndexRoute
   '/directorBlog/': typeof DirectorBlogIndexRoute
   '/documents/': typeof DocumentsIndexRoute
   '/dualEducation/': typeof DualEducationIndexRoute
@@ -350,6 +368,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/NotFoundPage/NotFoundPage'
+    | '/directorAdmin/login'
     | '/news/$newsId'
     | '/CollegeManagement'
     | '/Contacts'
@@ -364,6 +383,7 @@ export interface FileRouteTypes {
     | '/companyReviews'
     | '/correspondence'
     | '/counteringCorruption'
+    | '/directorAdmin'
     | '/directorBlog'
     | '/documents'
     | '/dualEducation'
@@ -388,6 +408,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/NotFoundPage/NotFoundPage'
+    | '/directorAdmin/login'
     | '/news/$newsId'
     | '/CollegeManagement'
     | '/Contacts'
@@ -402,6 +423,7 @@ export interface FileRouteTypes {
     | '/companyReviews'
     | '/correspondence'
     | '/counteringCorruption'
+    | '/directorAdmin'
     | '/directorBlog'
     | '/documents'
     | '/dualEducation'
@@ -426,6 +448,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/NotFoundPage/NotFoundPage'
+    | '/directorAdmin/login'
     | '/news/$newsId'
     | '/CollegeManagement/'
     | '/Contacts/'
@@ -440,6 +463,7 @@ export interface FileRouteTypes {
     | '/companyReviews/'
     | '/correspondence/'
     | '/counteringCorruption/'
+    | '/directorAdmin/'
     | '/directorBlog/'
     | '/documents/'
     | '/dualEducation/'
@@ -465,6 +489,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   NotFoundPageNotFoundPageRoute: typeof NotFoundPageNotFoundPageRoute
+  DirectorAdminLoginRoute: typeof DirectorAdminLoginRoute
   NewsNewsIdRoute: typeof NewsNewsIdRoute
   CollegeManagementIndexRoute: typeof CollegeManagementIndexRoute
   ContactsIndexRoute: typeof ContactsIndexRoute
@@ -479,6 +504,7 @@ export interface RootRouteChildren {
   CompanyReviewsIndexRoute: typeof CompanyReviewsIndexRoute
   CorrespondenceIndexRoute: typeof CorrespondenceIndexRoute
   CounteringCorruptionIndexRoute: typeof CounteringCorruptionIndexRoute
+  DirectorAdminIndexRoute: typeof DirectorAdminIndexRoute
   DirectorBlogIndexRoute: typeof DirectorBlogIndexRoute
   DocumentsIndexRoute: typeof DocumentsIndexRoute
   DualEducationIndexRoute: typeof DualEducationIndexRoute
@@ -650,6 +676,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DirectorBlogIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/directorAdmin/': {
+      id: '/directorAdmin/'
+      path: '/directorAdmin'
+      fullPath: '/directorAdmin'
+      preLoaderRoute: typeof DirectorAdminIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/counteringCorruption/': {
       id: '/counteringCorruption/'
       path: '/counteringCorruption'
@@ -748,6 +781,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NewsNewsIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/directorAdmin/login': {
+      id: '/directorAdmin/login'
+      path: '/directorAdmin/login'
+      fullPath: '/directorAdmin/login'
+      preLoaderRoute: typeof DirectorAdminLoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/NotFoundPage/NotFoundPage': {
       id: '/NotFoundPage/NotFoundPage'
       path: '/NotFoundPage/NotFoundPage'
@@ -761,6 +801,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   NotFoundPageNotFoundPageRoute: NotFoundPageNotFoundPageRoute,
+  DirectorAdminLoginRoute: DirectorAdminLoginRoute,
   NewsNewsIdRoute: NewsNewsIdRoute,
   CollegeManagementIndexRoute: CollegeManagementIndexRoute,
   ContactsIndexRoute: ContactsIndexRoute,
@@ -775,6 +816,7 @@ const rootRouteChildren: RootRouteChildren = {
   CompanyReviewsIndexRoute: CompanyReviewsIndexRoute,
   CorrespondenceIndexRoute: CorrespondenceIndexRoute,
   CounteringCorruptionIndexRoute: CounteringCorruptionIndexRoute,
+  DirectorAdminIndexRoute: DirectorAdminIndexRoute,
   DirectorBlogIndexRoute: DirectorBlogIndexRoute,
   DocumentsIndexRoute: DocumentsIndexRoute,
   DualEducationIndexRoute: DualEducationIndexRoute,

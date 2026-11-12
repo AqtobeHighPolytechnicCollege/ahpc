@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import type { FC } from 'react'
+import { submitAppeal } from '@/lib/api/strapi'
 import styles from './DirectorBlog.module.css'
 
 export const Route = createFileRoute('/directorBlog/')({
@@ -38,29 +39,51 @@ function DirectorBlogPage() {
     const { t } = useTranslation('directorBlog')
 
     const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        phone: '',
-        category: '',
-        message: '',
+        name: '', email: '', phone: '', category: '', message: '',
     })
+    const [submitting, setSubmitting] = useState(false)
     const [submitted, setSubmitted] = useState(false)
-    const [error, setError] = useState(false)
+    const [submitError, setSubmitError] = useState('')
+    const [fieldError, setFieldError] = useState(false)
+
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }))
-        setError(false)
+        setFieldError(false)
+        setSubmitError('')
     }
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const validateEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)
+
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
+        setSubmitError('')
+
         if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
-            setError(true)
+            setFieldError(true)
             return
         }
-        setSubmitted(true)
-        setError(false)
-        setFormData({ name: '', email: '', phone: '', category: '', message: '' })
+        if (!validateEmail(formData.email)) {
+            setSubmitError(t('formInvalidEmail'))
+            return
+        }
+
+        setSubmitting(true)
+        try {
+            await submitAppeal({
+                senderName: formData.name.trim(),
+                email: formData.email.trim(),
+                phone: formData.phone.trim() || undefined,
+                category: formData.category || undefined,
+                message: formData.message.trim(),
+            })
+            setSubmitted(true)
+            setFormData({ name: '', email: '', phone: '', category: '', message: '' })
+        } catch {
+            setSubmitError(t('formSendError'))
+        } finally {
+            setSubmitting(false)
+        }
     }
 
     return (
@@ -136,7 +159,7 @@ function DirectorBlogPage() {
                         </div>
                     </div>
 
-                    <form className={styles.formRight} onSubmit={handleSubmit}>
+                    <form className={styles.formRight} onSubmit={handleSubmit} noValidate>
                         <div className={styles.formRow}>
                             <div className={styles.formGroup}>
                                 <label className={styles.formLabel}>
@@ -149,6 +172,7 @@ function DirectorBlogPage() {
                                     value={formData.name}
                                     onChange={handleChange}
                                     placeholder={t('formNamePlaceholder')}
+                                    maxLength={200}
                                 />
                             </div>
                             <div className={styles.formGroup}>
@@ -162,6 +186,7 @@ function DirectorBlogPage() {
                                     value={formData.email}
                                     onChange={handleChange}
                                     placeholder={t('formEmailPlaceholder')}
+                                    maxLength={200}
                                 />
                             </div>
                         </div>
@@ -176,6 +201,7 @@ function DirectorBlogPage() {
                                     value={formData.phone}
                                     onChange={handleChange}
                                     placeholder={t('formPhonePlaceholder')}
+                                    maxLength={50}
                                 />
                             </div>
                             <div className={styles.formGroup}>
@@ -187,12 +213,12 @@ function DirectorBlogPage() {
                                     onChange={handleChange}
                                 >
                                     <option value="">{t('formCategoryPlaceholder')}</option>
-                                    <option value="admission">{t('categoryAdmission')}</option>
-                                    <option value="study">{t('categoryStudyProcess')}</option>
-                                    <option value="dormitory">{t('categoryDormitory')}</option>
-                                    <option value="scholarship">{t('categoryScholarship')}</option>
-                                    <option value="employment">{t('categoryEmployment')}</option>
-                                    <option value="other">{t('categoryOther')}</option>
+                                    <option value="Поступление">{t('categoryAdmission')}</option>
+                                    <option value="Учебный процесс">{t('categoryStudyProcess')}</option>
+                                    <option value="Общежитие">{t('categoryDormitory')}</option>
+                                    <option value="Стипендии">{t('categoryScholarship')}</option>
+                                    <option value="Трудоустройство">{t('categoryEmployment')}</option>
+                                    <option value="Другое">{t('categoryOther')}</option>
                                 </select>
                             </div>
                         </div>
@@ -207,13 +233,15 @@ function DirectorBlogPage() {
                                 value={formData.message}
                                 onChange={handleChange}
                                 placeholder={t('formMessagePlaceholder')}
+                                maxLength={2000}
                             />
                         </div>
 
-                        {error && <p className={styles.errorMessage}>{t('formError')}</p>}
+                        {fieldError && <p className={styles.errorMessage}>{t('formError')}</p>}
+                        {submitError && <p className={styles.errorMessage}>{submitError}</p>}
 
-                        <button className={styles.submitBtn} type="submit" disabled={submitted}>
-                            {t('formSubmit')}
+                        <button className={styles.submitBtn} type="submit" disabled={submitting || submitted}>
+                            {submitting ? t('formSubmitting') : t('formSubmit')}
                         </button>
 
                         {submitted && (

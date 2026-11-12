@@ -16,7 +16,8 @@
       "Bash(npx tsc *)",
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\" -Force)",
       "Bash(Select-Object Name)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(xargs grep -l \"send-reply\\\\|sendReply\\\\|АҚТӨБЕ\\\\|ЖПК\")"
     ]
   }
 }

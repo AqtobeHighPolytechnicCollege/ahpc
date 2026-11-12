@@ -46,5 +46,11 @@
   "categoryOther": "Басқа",
 
   "requiredField": "Міндетті өріс",
-  "directorBlogLink": "Директор блогы"
+  "directorBlogLink": "Директор блогы",
+  "formSubmitting": "Жіберілуде...",
+  "formInvalidEmail": "Дұрыс email мекенжайын енгізіңіз.",
+  "formSendError": "Жіберу кезінде қате. Кейінірек қайталаңыз.",
+  "answersTitle": "Директордың жауаптары",
+  "questionLabel": "Сұрақ",
+  "answerLabel": "Директордың жауабы"
 }

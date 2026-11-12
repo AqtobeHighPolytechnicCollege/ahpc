@@ -46,5 +46,11 @@
   "categoryOther": "Other",
 
   "requiredField": "Required field",
-  "directorBlogLink": "Director's Blog"
+  "directorBlogLink": "Director's Blog",
+  "formSubmitting": "Sending...",
+  "formInvalidEmail": "Please enter a valid email address.",
+  "formSendError": "Failed to send. Please try again later.",
+  "answersTitle": "Director's Answers",
+  "questionLabel": "Question",
+  "answerLabel": "Director's Answer"
 }

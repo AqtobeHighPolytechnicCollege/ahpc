@@ -46,5 +46,11 @@
   "categoryOther": "Другое",
 
   "requiredField": "Обязательное поле",
-  "directorBlogLink": "Блог директора"
+  "directorBlogLink": "Блог директора",
+  "formSubmitting": "Отправка...",
+  "formInvalidEmail": "Введите корректный email адрес.",
+  "formSendError": "Ошибка при отправке. Попробуйте позже.",
+  "answersTitle": "Ответы директора",
+  "questionLabel": "Вопрос",
+  "answerLabel": "Ответ директора"
 }
