@@ -111,7 +111,7 @@ function HomePage() {
                 <div className={styles.directorBlogCard}>
                     <img
                         className={styles.directorBlogPhoto}
-                        src="/img/collegeManagement/Zhetkergenkyzy-Nurgul.png"
+                        src="/img/collegeManagement/Zhetkergenkyzy_Nurgul.png"
                         alt={t('directorBlogTitle')}
                     />
                     <div className={styles.directorBlogContent}>
