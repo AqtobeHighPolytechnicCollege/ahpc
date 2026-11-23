@@ -10,6 +10,7 @@ import './lib/i18n/i18n.ts'
 
 import './styles.css'
 import '@sk1llahh/react-bvi/dist/style.css'
+import './bvi-overrides.css'
 import reportWebVitals from './reportWebVitals.ts'
 
 // Create a new router instance

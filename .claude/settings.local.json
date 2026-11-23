@@ -17,7 +17,24 @@
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\" -Force)",
       "Bash(Select-Object Name)",
       "Bash(npm run *)",
-      "Bash(xargs grep -l \"send-reply\\\\|sendReply\\\\|АҚТӨБЕ\\\\|ЖПК\")"
+      "Bash(xargs grep -l \"send-reply\\\\|sendReply\\\\|АҚТӨБЕ\\\\|ЖПК\")",
+      "Bash(xargs grep -l \"BviProvider\\\\|BviButton\\\\|useBvi\")",
+      "Bash(python *)",
+      "Bash(grep -n \"background-image.*url\\\\|^\\\\..*{\" \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\src\\\\routes\\\\directorBlog\\\\DirectorBlog.module.css\")",
+      "Bash(grep -n \"^\\\\..*{\" \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\src\\\\routes\\\\TeachingStaff\\\\TeachingStaff.module.css\")",
+      "Bash(npx vite *)",
+      "Bash(Get-ChildItem \"C:\\\\Users\\\\KIRILL\\\\Desktop\\\\ahpc\\\\dist\\\\assets\\\\*.css\")",
+      "Bash(Select-Object -First 3 Name, Length)",
+      "Bash(Format-Table)",
+      "Bash(awk '{print $1}')",
+      "Bash(node -e \"require\\('puppeteer'\\)\")",
+      "Bash(node -e \"require\\('playwright'\\)\")",
+      "Bash(npm list *)",
+      "Bash(node bvi-test.mjs)",
+      "Bash(node -e \"const p = require\\('puppeteer'\\); console.log\\(p.default.version || 'ok'\\)\")",
+      "Bash(node -e \"import\\('puppeteer'\\).then\\(m => console.log\\(Object.keys\\(m.default\\)\\)\\)\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3001)"
     ]
   }
 }

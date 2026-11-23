@@ -1,0 +1,238 @@
+/*
+ * Overrides for @sk1llahh/react-bvi accessibility panel.
+ * Loaded AFTER the BVI CSS to fix known visual bugs.
+ *
+ * HOW BVI WORKS (what we're fighting):
+ *   .bvi-body[data-bvi-theme=white] *  { color:#000!important; background-color:#fff!important }
+ *   .bvi-body[data-bvi-theme]           { fill:#xxx!important }  (pseudo-class selectors)
+ * BVI never touches: background-image, -webkit-text-fill-color, border-image, background-clip
+ */
+
+
+/* =============================================================
+   FIX 1 — gradient-clip text: все элементы с
+   -webkit-text-fill-color:transparent + background-clip:text
+   становятся невидимыми в BVI (BVI не переопределяет эти свойства).
+   Затрагивает: .highlight (Partners), .statNumber (Partners),
+   .cardIcon (InfoCardsWithDeck), заголовки студенческой жизни,
+   подписи предметов (ExamInfo), проценты (Employment), .tab (Nav).
+   Решение: принудительно переключаем на currentColor — текст
+   видим в цвете, который BVI уже назначил через color:xxx!important
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] * {
+    -webkit-text-fill-color: currentColor !important;
+}
+
+
+/* =============================================================
+   FIX 2 — .tab в полноэкранном меню: outline-текст (white stroke +
+   transparent fill). -webkit-text-fill-color уже сброшен выше,
+   но stroke даёт лишний белый контур — убираем.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] .tab {
+    -webkit-text-stroke-width: 0 !important;
+}
+
+
+/* =============================================================
+   FIX 3 — SVG stroke-only иконки (fill="none") не должны
+   заполняться. BVI форсирует fill через псевдо-классы :first-child,
+   :last-child, :only-child и т.д. (специфичность 0,3,2).
+   Наш селектор имеет ту же специфичность, но идёт позже → победа.
+   Затрагивает: иконки Контактов, стрелки Reviews, CollegeHistory.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [fill="none"] {
+    fill: none !important;
+}
+
+
+/* =============================================================
+   FIX 4 — полноэкранное меню навбара: тёмный градиент
+   background:linear-gradient(135deg,#020B28,#020B28)
+   попадает в background-image и не переопределяется BVI.
+   BVI при этом форсирует color:#000 на всех детях → чёрный текст
+   на тёмно-синем фоне = полностью нечитаемо.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] .fullscreen-menu {
+    background-image: none !important;
+}
+
+
+/* =============================================================
+   FIX 5 — mosaic-квадраты (transitions между секциями главной).
+   Используют background:linear-gradient(...) → gradient остаётся
+   в background-image, создавая тёмные пятна поверх белого фона BVI.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="mosaicSquare"] {
+    background-image: none !important;
+}
+
+
+/* =============================================================
+   FIX 6 — border-image URL в секции Anniversary Stats.
+   BVI форсирует border-color, но border-image имеет приоритет
+   над border-color и остаётся нетронутым. Убираем его в BVI.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] * {
+    border-image: none !important;
+}
+
+
+/* =============================================================
+   FIX 7 — фоновые фотографии на страницах: .headContent (общий
+   баннер практически всех страниц, bg_layout.jpg), .anniversarySection
+   (главная), .backGround (CollegeHistory — тёмный оверлей ::before
+   тоже убирается ниже через BVI background-color форс).
+   Все эти классы хешируются CSS-модулями, но оригинальное имя
+   сохраняется в хеше → [class*="..."] совпадает корректно.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="headContent"],
+html body .bvi-body[data-bvi-theme] [class*="anniversarySection"],
+html body .bvi-body[data-bvi-theme] [class*="backGround"] {
+    background-image: none !important;
+}
+
+
+/* =============================================================
+   FIX 8 — Секция отзывов: точки карусели (.dot, .dotActive)
+   имеют фиксированные белые/серые фоны. В белом BVI теме оба цвета
+   форсируются в белый → точки невидимы.
+   Даём им border чтобы оставались различимы.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] * [class*="dot"],
+html body .bvi-body[data-bvi-theme] * [class*="Dot"] {
+    outline: 2px solid currentColor !important;
+    outline-offset: 1px !important;
+}
+
+
+/* =============================================================
+   FIX 9 — Временная линия (CollegeHistory): вертикальная линия
+   (.timelineLine::before) и точки (.timelineDot) — белые элементы
+   на белом BVI фоне становятся невидимыми.
+   BVI уже делает ::before background-color: transparent, поэтому
+   форсируем border чтобы показать структуру.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] * [class*="timelineDot"],
+html body .bvi-body[data-bvi-theme] * [class*="timelineLine"] {
+    outline: 2px solid currentColor !important;
+}
+
+
+/* =============================================================
+   FIX 10 — Partners: затемнённый gradient-оверлей (.cardOverlay)
+   появляется при наведении, background-image не переопределяется BVI
+   → тёмный градиент поверх белого фона + чёрный текст (BVI).
+   Убираем gradient — фон станет solid BVI-цветом.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="cardOverlay"] {
+    background-image: none !important;
+}
+
+
+/* =============================================================
+   FIX 11 — Partners: gradient-разделитель статистики (.statDivider).
+   background: linear-gradient(to bottom, ...) → остаётся как
+   background-image, создавая невидимую или некорректно окрашенную
+   линию в BVI-теме. Убираем.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="statDivider"] {
+    background-image: none !important;
+}
+
+
+/* =============================================================
+   FIX 12 — Contacts: цветные gradient-полосы на ::before карточек
+   (phoneCard, emailCard, scheduleCard, localeCard, socialMediaCard).
+   BVI не затрагивает background-image → цветные акцент-полосы
+   остаются поверх принудительного BVI-фона, нарушая цветовую схему.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="phoneCard"]::before,
+html body .bvi-body[data-bvi-theme] [class*="emailCard"]::before,
+html body .bvi-body[data-bvi-theme] [class*="scheduleCard"]::before,
+html body .bvi-body[data-bvi-theme] [class*="localeCard"]::before,
+html body .bvi-body[data-bvi-theme] [class*="socialMediaCard"]::before {
+    background-image: none !important;
+}
+
+
+/* =============================================================
+   FIX 13 — InfoCardsWithDeck: первая карта в стопке имеет
+   background: linear-gradient(135deg, #FFFFFF 5%, #e1e1ff 100%).
+   gradient-слой остаётся при BVI → лёгкий фиолетовый тинт
+   поверх BVI-фона. Убираем.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="infoCard"] {
+    background-image: none !important;
+}
+
+
+/* =============================================================
+   FIX 14 — Тёмные секции с background-color, которые BVI
+   не переопределяет.
+   BVI форсирует background-color только через псевдоклассы
+   (:first-child, :last-child, :only-child и т.д.). Элементы,
+   не попадающие под эти селекторы, сохраняют свой тёмный фон
+   (#000E3B, #001e4d) при принудительном чёрном тексте от BVI
+   → чёрный текст на тёмном фоне = нечитаемо.
+   Решение: transparent → показываем белый/чёрный фон .bvi-body.
+   Затрагивает: Reviews, Anniversary, Slogan, News, News-карточки
+   с тёмным фоном, footer, InfoCard-стопку, блок CollegeManagement,
+   секции StudentServiceCenter, ExamInfo, admissionRules,
+   correspondence, counteringCorruption и DirectorBlog.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="reviewsSection"],
+html body .bvi-body[data-bvi-theme] [class*="anniversarySection"],
+html body .bvi-body[data-bvi-theme] [class*="sloganSection"],
+html body .bvi-body[data-bvi-theme] [class*="newsSection"],
+html body .bvi-body[data-bvi-theme] [class*="footer"],
+html body .bvi-body[data-bvi-theme] [class*="cardDeck"] {
+    background-color: transparent !important;
+}
+
+
+/* =============================================================
+   FIX 14b — InfoCardsWithDeck: стопка из 3 абсолютно
+   позиционированных .infoCard с одинаковым контентом.
+   В обычном режиме фронтальная карточка закрывает задние.
+   В BVI режиме задние карточки становятся видимыми при прозрачных
+   фонах → 3 текста накладываются. Решение: скрываем задние
+   карточки (декоративные), нормализуем позиционирование.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="cardStack"] [class*="infoCard"]:not(:first-child) {
+    display: none !important;
+}
+html body .bvi-body[data-bvi-theme] [class*="cardStack"] [class*="infoCard"]:first-child {
+    position: relative !important;
+}
+html body .bvi-body[data-bvi-theme] [class*="cardStack"] {
+    height: auto !important;
+}
+
+
+/* =============================================================
+   FIX 15 — Тёмные карточки и блоки на внутренних страницах.
+   vacancyCard, graduateWork__Present__Block, examinfo__Text__Link,
+   heroIcon, cardIcon (counteringCorruption), tableQuestion__RowsAnswer
+   используют background:#000E3B напрямую. BVI форсирует color:#000
+   через * → чёрный текст на тёмном фоне.
+   Решение: transparent для блоков-контейнеров. Кнопки (.submitBtn,
+   .btnPrimary, .button, .infoBlock__Docs__Portal) получают border
+   вместо залитого фона, чтобы оставаться различимыми.
+   ============================================================= */
+html body .bvi-body[data-bvi-theme] [class*="vacancyCard"],
+html body .bvi-body[data-bvi-theme] [class*="graduateWork__Present"],
+html body .bvi-body[data-bvi-theme] [class*="tableQuestion__Rows"],
+html body .bvi-body[data-bvi-theme] [class*="heroIcon"],
+html body .bvi-body[data-bvi-theme] [class*="cardIcon"],
+html body .bvi-body[data-bvi-theme] [class*="projectBullet"] {
+    background-color: transparent !important;
+}
+
+html body .bvi-body[data-bvi-theme] [class*="submitBtn"],
+html body .bvi-body[data-bvi-theme] [class*="btnPrimary"],
+html body .bvi-body[data-bvi-theme] [class*="infoBlock__Docs__Portal"],
+html body .bvi-body[data-bvi-theme] [class*="requisitesInfo__SMM"] {
+    background-color: transparent !important;
+    outline: 2px solid currentColor !important;
+}

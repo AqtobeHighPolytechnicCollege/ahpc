@@ -102,6 +102,30 @@
         "role": "«Химстрой – Ақтөбе» ЖШС директоры"
       }
     }
+  },
+  "bvi": {
+    "button": "Нашар көретіндерге арналған режим",
+    "color": "Түс схемасы",
+    "image": "Суреттер",
+    "add": "Үлкейту",
+    "setting": "Параметрлер",
+    "line-height": "Жол аралығы",
+    "letter-spacing": "Әріп аралығы",
+    "font-family": "Қаріп",
+    "ff-arial": "Arial",
+    "ff-times": "Times New Roman",
+    "elements": "Элементтер",
+    "on": "Қосу",
+    "off": "Өшіру",
+    "default_settings": "Әдепкі",
+    "close_panel": "Жабу",
+    "font-size": "Қаріп өлшемі",
+    "l-h-big": "Үлкен",
+    "l-h-default": "Әдепкі",
+    "l-h-middle": "Орташа",
+    "l-s-1": "1px",
+    "l-s-15": "1.5px",
+    "l-s-2": "2px"
   }
-  }
+}
   

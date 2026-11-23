@@ -102,6 +102,30 @@
         "role": "Director of LLP \"Khimstroy - Aktobe\""
       }
     }
+  },
+  "bvi": {
+    "button": "Visually impaired mode",
+    "color": "Color scheme",
+    "image": "Images",
+    "add": "Increase",
+    "setting": "Settings",
+    "line-height": "Line spacing",
+    "letter-spacing": "Letter spacing",
+    "font-family": "Font",
+    "ff-arial": "Arial",
+    "ff-times": "Times New Roman",
+    "elements": "Elements",
+    "on": "On",
+    "off": "Off",
+    "default_settings": "Default",
+    "close_panel": "Close",
+    "font-size": "Font size",
+    "l-h-big": "Large",
+    "l-h-default": "Normal",
+    "l-h-middle": "Medium",
+    "l-s-1": "1px",
+    "l-s-15": "1.5px",
+    "l-s-2": "2px"
   }
-  }
+}
   

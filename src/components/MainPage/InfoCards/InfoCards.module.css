@@ -108,42 +108,66 @@
    MEDIUM DEVICES — max-width: 991px (планшеты)
    ============================= */
 @media (max-width: 991px) {
-
     .itemSubtitle {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .cardsItem {
-        min-width: 200px;
-        max-width: 100px;
+        flex: 1 1 120px;
+        min-width: 100px;
+        max-width: 220px;
+    }
+
+    .itemTitle h2 {
+        font-size: 36px;
     }
 }
 
 /* =============================
-   SMALL DEVICES — max-width: 575px (смартфоны горизонтально)
+   SMALL DEVICES — max-width: 575px (смартфоны)
    ============================= */
 @media (max-width: 575px) {
-
-    .itemTitle {
-        font-size: 36px;
-    }
-
-    .itemSubtitle {
-        font-size: 16px;
+    .infoCards {
+        gap: 8px;
+        margin-top: 20px;
+        padding: 0 10px;
     }
 
     .cardsItem {
-        min-width: 130px;
-        max-width: 50px;
+        flex: 1 1 80px;
+        min-width: 80px;
+        max-width: 140px;
     }
 
+    .itemTitle h2 {
+        font-size: 26px;
+    }
+
+    .itemSubtitle {
+        font-size: 13px;
+    }
 }
 
 /* =============================
    VERY SMALL DEVICES — max-width: 375px
    ============================= */
 @media (max-width: 375px) {
+    .infoCards {
+        gap: 4px;
+    }
 
+    .cardsItem {
+        flex: 1 1 70px;
+        min-width: 70px;
+        max-width: 110px;
+    }
 
+    .itemTitle h2 {
+        font-size: 22px;
+    }
+
+    .itemSubtitle {
+        font-size: 11px;
+    }
 }
 
